@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Bun
+bun.lockb
+
+# Drizzle migrations output (keep the folder, ignore generated sql if needed)
+# academy-api/src/db/migrations/*.sql  # uncomment to ignore generated migrations
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.tsbuildinfo
