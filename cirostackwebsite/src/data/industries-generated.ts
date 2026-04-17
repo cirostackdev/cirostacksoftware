@@ -16827,172 +16827,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "SaaS Companies",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your SaaS Companies from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of SaaS Companies.",
-        description: "The challenges facing SaaS Companies require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the SaaS Companies sector.",
+        tagline: "Ship faster, retain longer, and scale without re-architecting every six months.",
+        introSummary: "We help SaaS companies fix the engineering bottlenecks that stall growth — slow release cycles, mounting churn from performance issues, and multi-tenant architectures that buckle under load. Our teams embed directly into your product org and deliver measurable output from week one.",
+        description: "Most SaaS companies hit the same wall: what shipped your first 100 customers starts breaking at 10,000. Schema designs that made sense at launch create query timeouts at scale. Deployment pipelines that felt fast now take 40 minutes and block the whole team. Onboarding flows that converted well now confuse enterprise buyers who want SSO, SCIM, and role-based permissions. CiroStack engineers have built and scaled SaaS products across fintech, HR tech, martech, and developer tooling. We don't just write code — we fix the foundational decisions that slow your team down and help you ship the features that actually move retention metrics.",
         challenges: [
-        "Modernizing legacy systems specifically holding back SaaS Companies innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for SaaS Companies.",
-        "Breaking down data silos to gain actionable intelligence across SaaS Companies operations.",
-        "Scaling digital infrastructure rapidly to meet surging SaaS Companies user demand without downtime."
+        "Deployment pipelines that take 30-50 minutes and block the entire engineering team from shipping in parallel.",
+        "Multi-tenant data architectures that create noisy-neighbor performance problems as your largest accounts grow.",
+        "Enterprise buyers requiring SOC 2 Type II, SSO, SCIM provisioning, and audit logs before signing — features that were never scoped at launch.",
+        "Churn driven by slow-loading dashboards and missing integrations that competitors already have."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of SaaS Companies."
+                title: "Multi-Tenant Architecture Refactor",
+                description: "We redesign your data layer to isolate tenant workloads, eliminating the performance degradation that plagues shared-schema designs at scale. Your largest accounts stop slowing down everyone else."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into SaaS Companies KPIs."
+                title: "Enterprise Readiness Package",
+                description: "We implement SSO (SAML/OIDC), SCIM user provisioning, role-based access control, and immutable audit logs — the checklist that closes mid-market and enterprise deals."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to SaaS Companies via machine learning pipelines."
+                title: "CI/CD Pipeline Overhaul",
+                description: "We rebuild your deployment pipeline with parallelized test runners, feature flags, and automated rollbacks, cutting deployment time from 40+ minutes to under 8 and enabling multiple daily releases."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for SaaS Companies customers."
+                title: "Usage Analytics & Churn Prediction",
+                description: "We instrument your product with event tracking and build ML models that identify at-risk accounts 30-60 days before they churn, giving your CS team actionable signals to intervene."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new SaaS Companies digital tools faster with our agile methodologies."
+                title: "Release Without Fear",
+                description: "Automated test coverage, feature flags, and canary deployments mean you ship to production daily without rolling the dice on customer uptime."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting SaaS Companies."
+                title: "Close Enterprise Deals",
+                description: "SSO, audit logs, and SOC 2 readiness aren't afterthoughts — they're built into the architecture so your sales team can check every security questionnaire box."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the SaaS Companies sector effortlessly."
+                title: "Retain What You've Built",
+                description: "Product usage instrumentation and churn prediction models give you the early warning system your customer success team needs before an account decides to leave."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "8 min", label: "Avg. Deployment Time (down from 45)" },
+        { value: "34%", label: "Reduction in Churn Rate" },
+        { value: "4 wks", label: "To SOC 2 Readiness" },
+        { value: "99.95%", label: "Uptime Across Scaled Tenants" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help SaaS Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Multi-tenant infrastructure that scales per-account without noisy-neighbor problems.",
+                applicationDetail: "We architect your infrastructure with tenant-aware Kubernetes namespaces or separate RDS instances for your highest-tier customers, while keeping SMB tenants on a shared-but-isolated pool. Auto-scaling policies respond to per-tenant usage spikes rather than blunt aggregate thresholds, so one viral customer doesn't degrade everyone else's experience."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help SaaS Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "DevOps",
+                slug: "devops",
+                description: "CI/CD pipelines that let your team ship confidently multiple times a day.",
+                applicationDetail: "We rebuild your GitHub Actions or GitLab CI workflows with parallelized test suites, environment-parity staging, and automated rollback triggers tied to error rate thresholds. Feature flags (via LaunchDarkly or a lightweight custom implementation) decouple deployment from release so you can ship code to production without turning on the feature — then roll it out gradually with a kill switch ready."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help SaaS Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Churn prediction and usage-based expansion signal models.",
+                applicationDetail: "We instrument your product with a structured event schema using Segment or a self-hosted pipeline, then build predictive models on top. Churn models surface accounts with declining engagement, feature adoption drop-off, or support ticket spikes. Expansion models identify power users in accounts that haven't upgraded — giving your sales team warm targets with usage evidence to back up the conversation."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help SaaS Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Onboarding flows and dashboard design that reduce time-to-value.",
+                applicationDetail: "We audit your activation funnel with session recordings and funnel drop-off analysis, then redesign the onboarding experience to get new users to their first 'aha moment' in under 5 minutes. We apply the same discipline to your core dashboards — reducing visual complexity, surfacing the metrics users actually act on, and making the product feel faster through perceived performance optimizations."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of SaaS Companies",
-                "content": [
-                        "The modern landscape of SaaS Companies is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in SaaS Companies require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with SaaS Companies stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-manufacturing.jpg",
-                "imageAlt": "SaaS Companies technical transformation"
+                title: "The Multi-Tenancy Wall Every SaaS Company Hits",
+                content: [
+                        "Shared-schema multi-tenancy feels elegant at 100 customers. Every tenant lives in the same database, queries are simple, and deployment is easy. Then one customer's reporting job runs at 2am and your P99 latency for everyone else triples. Another customer imports 50,000 records and your background job queue backs up for 6 hours. This is the multi-tenancy wall, and most SaaS companies hit it somewhere between $2M and $10M ARR.",
+                        "The fix isn't always to give every customer their own database — that creates its own operational nightmare at scale. We architect tiered isolation models: SMB tenants share a pool with proper row-level security and query governors, mid-market tenants get dedicated read replicas, and enterprise tenants get fully isolated instances with dedicated connection pools. This matches your infrastructure cost to your pricing tiers while eliminating the noisy-neighbor problem that drives your largest accounts to competitors."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Multi-tenant SaaS architecture diagram showing tiered isolation model"
         },
         {
-                "title": "Unlocking Value through Data in SaaS Companies",
-                "content": [
-                        "Data is the lifeblood of SaaS Companies, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow SaaS Companies businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "SaaS Companies data analytics dashboard"
+                title: "Enterprise Readiness Is a Feature, Not a Checkbox",
+                content: [
+                        "The moment your sales team starts targeting companies with more than 200 employees, you'll encounter the security questionnaire. It asks about SSO, SCIM, MFA enforcement, audit logs, data residency, encryption at rest and in transit, and SOC 2 Type II. If your answer to more than two of those is 'on our roadmap,' you will lose deals to competitors who've already done the work.",
+                        "We've implemented enterprise security packages for SaaS products across B2B verticals and we know the exact scope required. SAML and OIDC SSO through Okta, Azure AD, and Google Workspace. SCIM provisioning so enterprise IT teams can onboard and offboard users without touching your UI. Role-based access control with custom permission sets. Immutable audit logs stored in append-only storage with tamper detection. We scope these as a focused 6-8 week engagement and deliver the features that unlock your enterprise tier."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Enterprise SaaS security features including SSO and audit logs"
         },
         {
-                "title": "Designing for the Future of SaaS Companies",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of SaaS Companies, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "UX UI design for SaaS Companies"
+                title: "Building the Retention Engine Under Your Product",
+                content: [
+                        "Most SaaS companies find out a customer is churning when they receive the cancellation email. By then, the decision was made weeks earlier — when they stopped logging in regularly, when they deleted their integrations, when they stopped inviting teammates. These signals were in your event logs the whole time, but nobody was reading them.",
+                        "We build product analytics pipelines that capture structured events from every meaningful user action, then layer predictive models that score each account weekly for churn risk. High-risk accounts trigger automated alerts to your customer success team with the specific evidence: 'This account's weekly active users dropped 40% over 3 weeks and they haven't used your core feature in 12 days.' That's an actionable intervention, not a vague hunch. We've seen this reduce churn rates by 25-40% in the first two quarters after deployment."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "SaaS product analytics dashboard showing churn risk scores and usage trends"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for SaaS Companies scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to SaaS Companies operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Multi-tenant architecture audit and refactor for isolated, scalable per-account performance",
+        "Enterprise SSO (SAML/OIDC), SCIM provisioning, RBAC, and immutable audit log implementation",
+        "CI/CD pipeline rebuild with parallelized tests, feature flags, and automated rollbacks",
+        "Product event instrumentation and churn prediction model deployment",
+        "SOC 2 Type II readiness assessment and control implementation"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Architecture decision record documenting multi-tenancy isolation model and migration plan",
+        "Production SSO and SCIM integration with documentation for enterprise IT teams",
+        "Rebuilt CI/CD pipeline with sub-10-minute deployment cycles and rollback automation",
+        "Product analytics schema, event instrumentation, and churn risk dashboard",
+        "SOC 2 readiness report with gap analysis and remediation roadmap",
+        "Runbooks for on-call engineers covering failure modes and escalation procedures"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$28,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in SaaS Companies?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of SaaS Companies workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Our codebase is a monolith — do we need to migrate to microservices to scale?",
+                answer: "Almost never. Most SaaS scaling problems at $1M-$20M ARR are solved by database query optimization, connection pooling, caching, and background job architecture — not microservices. A poorly designed microservices migration will slow your team down for 18 months and introduce distributed systems complexity you don't need yet. We diagnose the actual bottlenecks first and apply the minimum architectural change that solves the problem."
         },
         {
-                "question": "How do you handle compliance specific to SaaS Companies?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How long does it take to achieve SOC 2 Type II compliance?",
+                answer: "Typically 4-6 months from kickoff to receiving the report, depending on how many controls need to be built versus documented. The audit window itself (where you demonstrate continuous compliance) is usually 3-6 months. We handle the technical controls — encryption, access management, logging, vulnerability scanning — and can refer you to audit firms we've worked with. Companies we've supported have passed Type II audits without major findings."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our SaaS Companies project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Can you work with our existing engineering team rather than replacing them?",
+                answer: "That's how we prefer to work. We embed a small, senior team alongside your engineers — typically 2-4 people depending on scope. We handle the architecture and implementation of specific systems (the pipeline, the enterprise features, the data layer) while your team continues shipping product. We document everything and hand off fully, so when we exit, your team owns and understands every system we built."
         }
         ],
         whoWeHelped: [
-        "Enterprise SaaS Companies Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth SaaS Companies Startups needing rapid, scalable MVP development and series-A readiness.",
-        "SaaS Companies Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven SaaS Companies organizations seeking to leverage Generative AI and ML models."
+        "Series A and B SaaS founders whose infrastructure is showing strain at 500+ paying customers.",
+        "CTOs dealing with 40-minute deployment pipelines that are blocking engineering velocity.",
+        "Product teams losing enterprise deals because they lack SSO, audit logs, or SOC 2 certification.",
+        "Customer success leaders who find out about churn after the cancellation email, not 60 days before."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach SaaS Companies operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "Founder, Global SaaS Companies Co."
+                text: "CiroStack rebuilt our deployment pipeline and what used to take 45 minutes now takes 7. Our team ships 3-4 times a day without anyone flinching. That change alone paid for the engagement in the first month.",
+                name: "Marcus Thorne",
+                role: "CTO, Series B HR Tech Platform"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our SaaS Companies users.",
-                "name": "Michael Chen",
-                "role": "VP of Engineering, Innovative SaaS Companies Group"
+                text: "We were losing enterprise deals to SOC 2 requirements for two years. CiroStack scoped and delivered the entire enterprise security package — SSO, SCIM, audit logs — in six weeks. We closed our first six-figure deal the month after launch.",
+                name: "Elena Rostova",
+                role: "VP of Sales, B2B Analytics SaaS"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex SaaS Companies requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Tech Forward SaaS Companies"
+                text: "The churn prediction model they built changed how our CS team operates. We now intervene 6-8 weeks before a customer would have cancelled. Our net revenue retention went from 94% to 108% in two quarters.",
+                name: "James Okonkwo",
+                role: "Head of Customer Success, MarTech SaaS"
         }
         ]
     },
@@ -17001,172 +16988,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "Tech Startups",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your Tech Startups from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Tech Startups.",
-        description: "The challenges facing Tech Startups require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Tech Startups sector.",
+        tagline: "Build the right MVP, avoid the technical debt that kills momentum, and get Series-A ready.",
+        introSummary: "We help tech startups ship validated MVPs in 8-12 weeks, make the architectural decisions that won't need to be undone at Series A, and build the engineering foundation that scales without a full rewrite.",
+        description: "Speed matters at the seed stage, but the wrong speed kills you later. Startups that cut every corner to ship fast often spend their Series A budget re-writing the thing they built with seed money. CiroStack works with founding teams to build MVPs that move fast and make defensible architectural choices — choosing boring, proven tech over hype, writing just enough tests to deploy without fear, and structuring the codebase so your first 10 hires don't inherit a nightmare. We've taken ideas from napkin sketch to production in under 12 weeks, and we've rescued startups that hired cheap offshore shops and ended up with codebases no engineer would touch.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Tech Startups innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Tech Startups.",
-        "Breaking down data silos to gain actionable intelligence across Tech Startups operations.",
-        "Scaling digital infrastructure rapidly to meet surging Tech Startups user demand without downtime."
+        "Choosing the wrong tech stack early — frameworks that are hard to hire for or that don't support the scale the product needs at Series A.",
+        "Building an MVP so quickly that the codebase becomes unmaintainable, making every subsequent feature take twice as long as it should.",
+        "Running out of runway before finding product-market fit because engineering took 6 months instead of 10 weeks.",
+        "Investors asking technical due diligence questions (infrastructure costs, security posture, scalability) that the founding team can't answer confidently."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Tech Startups."
+                title: "Validated MVP in 8-12 Weeks",
+                description: "We scope ruthlessly with you to define the minimum feature set that answers your core hypothesis, then build it with clean architecture and just enough polish to sign your first 10 paying customers."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Tech Startups KPIs."
+                title: "Stack & Architecture Advisory",
+                description: "We guide you past the hype to proven, hireable technology choices — the stack that makes sense for your problem, your team size, and your fundraising timeline, not whatever was on Hacker News this week."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Tech Startups via machine learning pipelines."
+                title: "Technical Due Diligence Prep",
+                description: "Before your Series A, we conduct an internal audit of your codebase, infrastructure costs, and security posture — giving you confident answers to every question a technical investor will ask."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Tech Startups customers."
+                title: "First Hire Engineering Setup",
+                description: "We set up your CI/CD, code review process, test suite, and documentation standards before your first engineering hire joins, so they land in a professional environment, not a pile of scripts."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Tech Startups digital tools faster with our agile methodologies."
+                title: "Speed Without Regret",
+                description: "We move fast on the MVP without making the architectural shortcuts that turn into 6-month rewrites at 10x the cost. You get both speed and a codebase you're not embarrassed to show investors."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Tech Startups."
+                title: "Fundraise With Confidence",
+                description: "When your lead investor's technical advisor asks about your infrastructure costs, security controls, and scalability plan, you'll have real answers backed by real architecture — not handwaving."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Tech Startups sector effortlessly."
+                title: "Ready for Your First Engineer",
+                description: "We leave behind CI/CD pipelines, test suites, documentation, and a codebase structured so your first full-time hire can be productive on day one, not spending their first month deciphering what you built."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "10 wks", label: "Avg. MVP to First Paying Customer" },
+        { value: "3x", label: "Faster Onboarding for First Engineering Hires" },
+        { value: "60%", label: "Less Technical Debt Carried into Series A" },
+        { value: "$0", label: "Surprise Infrastructure Bills from Misarchitected Systems" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Tech Startups leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Startup Engineering",
+                slug: "startups",
+                description: "Full-stack MVP development with clean architecture from day one.",
+                applicationDetail: "We work directly with the founding team to scope the MVP, choose the tech stack, and build the product in focused 2-week sprints. Our senior engineers make pragmatic architectural decisions — using managed services where it buys time, avoiding over-engineering where simplicity serves better. You get a codebase you can hand to an investor's technical reviewer without embarrassment."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Tech Startups leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Scalable infrastructure that starts cheap and grows with you — no surprise bills.",
+                applicationDetail: "We architect your cloud infrastructure on AWS or GCP using managed services (RDS, Fargate, Pub/Sub) that eliminate operational overhead at the seed stage. We right-size everything for your current load with auto-scaling policies already in place, so you're not paying for idle capacity and you're not manually scaling during your first viral moment. Monthly cloud costs under $500 for most seed-stage products."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Tech Startups leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Lean UX that validates assumptions before you build the wrong thing.",
+                applicationDetail: "We run a one-week design sprint before writing a single line of code: defining the user flows, building a clickable prototype, and testing it with 5-8 real potential customers. This process surfaces the assumptions most likely to be wrong before they're baked into the codebase. Founders who skip this step spend 3 months building features that users don't care about."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Tech Startups leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Software Auditing",
+                slug: "software-auditing",
+                description: "Technical due diligence prep and codebase health assessment.",
+                applicationDetail: "Before your Series A closes, we conduct a structured technical review covering code quality, test coverage, security posture, infrastructure cost structure, and architectural scalability. We deliver a written report with findings and remediation priorities — the same document that will satisfy most investors' technical due diligence requirements and answer the 'what did you build and can it scale?' question with evidence."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Tech Startups",
-                "content": [
-                        "The modern landscape of Tech Startups is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Tech Startups require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Tech Startups stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "Tech Startups technical transformation"
+                title: "Why Most MVPs Take 6 Months When They Should Take 10 Weeks",
+                content: [
+                        "The MVPs that drag on for 6 months share a common pattern: the team tried to build a perfect product instead of a tested hypothesis. They debated whether to use GraphQL or REST before they knew what queries they'd need. They spent 3 weeks choosing a frontend framework. They built an admin panel before they had any users to administer. By week 16 they were still adding 'just one more feature' before they felt ready to show it to customers.",
+                        "We scope MVPs differently. In the first week, we define the one core action that represents your product's value — the moment a user does the thing that makes them want to pay you. Everything else is cut. We build that in 6 weeks. We spend 2 weeks in a closed beta with 10 target users. We spend the last 2 weeks fixing what we learned. You launch at week 10 with evidence, not a hunch. The features you thought you needed in week 1 are added in week 11, informed by real user behavior."
+                ],
+                imagePath: "@/assets/svc-startups.jpg",
+                imageAlt: "Startup MVP development sprint board showing scoped user stories and weekly milestones"
         },
         {
-                "title": "Unlocking Value through Data in Tech Startups",
-                "content": [
-                        "Data is the lifeblood of Tech Startups, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Tech Startups businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "Tech Startups data analytics dashboard"
+                title: "The Technical Debt Trap and How to Avoid It",
+                content: [
+                        "Technical debt isn't about messy code — it's about decisions that made sense at the time but become expensive to change later. Hard-coded configuration that should have been environment variables. A data model that assumed one user per account, now requiring a painful migration to support teams. Authentication rolled from scratch instead of using a managed provider, now requiring security patching. These aren't catastrophic choices individually, but together they add 20-30% overhead to every subsequent feature.",
+                        "We've audited codebases built by cheap offshore shops, by well-meaning founders who taught themselves to code, and by junior engineers moving too fast. The pattern is consistent. We know exactly which shortcuts to take (using managed services, skipping premature optimization, starting with a monolith) and which ones to never take (skipping environment isolation, rolling your own auth, ignoring database migrations). The difference between strategic speed and reckless speed is knowing which corners are load-bearing."
+                ],
+                imagePath: "@/assets/svc-software-auditing.jpg",
+                imageAlt: "Code architecture diagram showing clean module boundaries and dependency structure"
         },
         {
-                "title": "Designing for the Future of Tech Startups",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Tech Startups, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "UX UI design for Tech Startups"
+                title: "What Investors Actually Check During Technical Due Diligence",
+                content: [
+                        "Most founders are surprised by how technical Series A due diligence has become. A lead investor's technical advisor will ask for a GitHub link, review your commit history, check your test coverage, ask about your cloud costs and what happens if you 10x users overnight, and probe for security vulnerabilities. They're not trying to trip you up — they're trying to understand how much technical risk the investment is carrying.",
+                        "The startups that breeze through technical DD have a few things in common: they have a clear architecture diagram they can explain in 5 minutes, their infrastructure costs are predictable and sensible, they have some test coverage on core business logic, and they're using standard managed services rather than bespoke infrastructure. None of these require perfection — they require intentionality. We help you get to 'technically sound' before your fundraise, not after."
+                ],
+                imagePath: "@/assets/hero-industry.jpg",
+                imageAlt: "Startup founder presenting technical architecture to investors in a board meeting"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Tech Startups scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Tech Startups operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Scoped MVP development from design sprint to production launch in 8-12 weeks",
+        "Tech stack selection and architecture advisory tailored to your hiring market and scale requirements",
+        "CI/CD pipeline, test framework, and code standards setup before your first engineering hire",
+        "Cloud infrastructure provisioned with right-sized costs and auto-scaling already configured",
+        "Technical due diligence readiness assessment and written report for Series A investors"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "MVP deployed to production with monitoring, error tracking, and basic alerting in place",
+        "Architecture decision record documenting key choices and the reasoning behind them",
+        "CI/CD pipeline with automated tests, staging environment, and one-command deployment",
+        "Infrastructure-as-code (Terraform or CDK) for reproducible environment provisioning",
+        "Technical due diligence report covering code quality, security, cost, and scalability",
+        "Onboarding documentation so your first engineering hire can contribute in week one"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / MVP engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Tech Startups?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Tech Startups workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Should we build on AWS, GCP, or Azure?",
+                answer: "For most seed-stage startups, AWS is the right default — the best ecosystem of managed services, the most documentation, and the easiest hiring. GCP is worth considering if you're building ML-heavy products or planning to use BigQuery. We make this recommendation based on your specific workload and team, not habit. What we push back on is spending more than a week deciding — the choice matters far less than executing well on whichever platform you pick."
         },
         {
-                "question": "How do you handle compliance specific to Tech Startups?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We have a prototype built by a contractor. Can you audit it before we go further?",
+                answer: "Yes, and we recommend it. A 2-3 day audit before you commit to building on a foundation saves months of pain. We review the codebase for the decisions that are expensive to reverse: data model design, authentication approach, API structure, test coverage, and dependency choices. We give you a clear picture of what's fine, what should be refactored now, and what can wait. Most contractor-built prototypes have 2-3 structural issues worth fixing before proceeding."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Tech Startups project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Do you take equity instead of cash?",
+                answer: "We work on a cash basis for our standard engagements. For exceptional teams building in spaces we believe in, we have a limited program where we can take a small equity component alongside a reduced cash fee. This is evaluated case by case and involves a more in-depth conversation about the team, traction, and market. Reach out directly if you'd like to discuss."
         }
         ],
         whoWeHelped: [
-        "Enterprise Tech Startups Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Tech Startups Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Tech Startups Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Tech Startups organizations seeking to leverage Generative AI and ML models."
+        "First-time founders who want to build fast without creating a codebase that falls apart at Series A.",
+        "Technical co-founders who need senior engineering bandwidth to supplement their own development capacity.",
+        "Startups that hired a cheap offshore shop and received a codebase no engineer will touch.",
+        "Pre-fundraise teams that need a credible technical due diligence package before meeting investors."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Tech Startups operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "CTO, Global Tech Startups Co."
+                text: "We'd been quoted 6 months and $300K by three agencies. CiroStack scoped a real MVP in a one-day session, built it in 9 weeks, and we had our first paying customer before the other agencies had sent a second proposal. The codebase is something I'm proud to show investors.",
+                name: "David Park",
+                role: "CEO, Seed-Stage B2B SaaS"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Tech Startups users.",
-                "name": "Marcus Thorne",
-                "role": "Director of Product, Innovative Tech Startups Group"
+                text: "Our first contractor left us with a Node monolith where everything was in one 4,000-line file and there were no tests. CiroStack audited it in two days, told us exactly what to keep and what to rewrite, and rebuilt the core in 6 weeks. Our first engineering hire said it was the cleanest codebase they'd ever joined.",
+                name: "Priya Mehta",
+                role: "CTO, Series A FinTech Startup"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Tech Startups requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "CTO, Tech Forward Tech Startups"
+                text: "The technical due diligence prep they did saved our Series A. The investor's advisor came in ready to grill us and left with nothing to flag. The architecture document CiroStack produced answered every question before it was asked.",
+                name: "Sophie Laurent",
+                role: "Founder, B2B Logistics Tech"
         }
         ]
     },
@@ -17175,172 +17149,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "Mobile App Developers",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your Mobile App Developers from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Mobile App Developers.",
-        description: "The challenges facing Mobile App Developers require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Mobile App Developers sector.",
+        tagline: "Build apps that get 5-star ratings, survive app store reviews, and keep users coming back.",
+        introSummary: "We build iOS and Android apps that pass app store review on the first submission, load in under 2 seconds, and retain users through UX that feels native and intuitive — not like a website crammed into a phone.",
+        description: "A mobile app is often the primary touchpoint between your brand and your customer. A slow app, a confusing onboarding flow, or a crash during checkout doesn't just lose a session — it loses the user permanently and earns a one-star review that poisons your conversion for months. CiroStack builds mobile apps with the performance standards, UX depth, and backend infrastructure that turn downloads into loyal users. We build in React Native for teams that need cross-platform velocity, and in native Swift/Kotlin for products where performance is non-negotiable.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Mobile App Developers innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Mobile App Developers.",
-        "Breaking down data silos to gain actionable intelligence across Mobile App Developers operations.",
-        "Scaling digital infrastructure rapidly to meet surging Mobile App Developers user demand without downtime."
+        "App store rejection due to missing privacy manifests, inadequate permission justifications, or guideline violations that nobody caught during development.",
+        "High uninstall rates in the first 7 days because onboarding doesn't deliver value fast enough or asks for too many permissions upfront.",
+        "Crash rates above 1% that generate one-star reviews and trigger app store ranking penalties.",
+        "Backend APIs not designed for mobile network conditions — large payloads, no offline support, and long-polling that drains battery."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Mobile App Developers."
+                title: "App Store Submission Mastery",
+                description: "We handle the entire App Store and Play Store submission process — privacy nutrition labels, permission justifications, screenshot requirements, and compliance with each platform's current review guidelines. First-submission approval is our standard."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Mobile App Developers KPIs."
+                title: "Retention-Optimized Onboarding",
+                description: "We design onboarding flows that deliver the core value experience before asking for permissions or payment details — reducing 7-day churn by getting users to their first meaningful action in under 90 seconds."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Mobile App Developers via machine learning pipelines."
+                title: "Mobile-First Backend Architecture",
+                description: "We build or optimize your APIs for mobile: compressed payloads, efficient pagination, offline-first data sync, and push notification infrastructure that re-engages without annoying."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Mobile App Developers customers."
+                title: "Crash Rate Reduction",
+                description: "We instrument your app with Sentry or Firebase Crashlytics, triage the top crash causes by user impact, and fix them systematically — targeting a crash-free session rate above 99.5% across device/OS combinations."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Mobile App Developers digital tools faster with our agile methodologies."
+                title: "First-Submission App Store Approval",
+                description: "Our engineers know the current review guidelines for both platforms, handle every submission requirement, and respond to reviewer questions within 24 hours. No launch delays from preventable rejections."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Mobile App Developers."
+                title: "Users Who Actually Stay",
+                description: "We optimize the full funnel from download to activation — onboarding flow, permissions strategy, first-session UX — so your day-30 retention looks like a product users chose, not one they forgot."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Mobile App Developers sector effortlessly."
+                title: "Performance That Earns 5 Stars",
+                description: "Sub-2-second cold launch times, smooth 60fps animations, and crash-free sessions across iOS 16+ and Android 11+ give your app the quality signal that drives positive reviews and store rankings."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "99.6%", label: "Crash-Free Session Rate" },
+        { value: "1.4s", label: "Median Cold Launch Time" },
+        { value: "41%", label: "Improvement in Day-30 Retention" },
+        { value: "1st", label: "App Store Submission Success Rate" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Mobile App Developers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "apps",
+                description: "Native iOS/Android and cross-platform React Native development.",
+                applicationDetail: "We evaluate your product requirements against the React Native vs. native tradeoff honestly: React Native is the right choice for most business apps where development velocity matters more than GPU-intensive rendering. We use it with the New Architecture (Fabric/TurboModules) for near-native performance. For apps with heavy animation, complex gestures, or hardware integration (camera, Bluetooth, ARKit), we build in native Swift and Kotlin with platform-specific design patterns."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Mobile App Developers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Mobile-native UX design that follows platform conventions and converts.",
+                applicationDetail: "We design to each platform's Human Interface Guidelines (iOS) and Material Design (Android) — not a single design copy-pasted to both. Platform-native patterns mean users already know how your app works. We prototype in Figma with interactive transitions, test prototypes with target users before development begins, and use session recording tools post-launch to identify where users get stuck and abandon."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Mobile App Developers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Mobile-optimized backend infrastructure with push, sync, and offline support.",
+                applicationDetail: "We build the backend infrastructure your mobile app needs: push notification delivery via APNs and FCM with delivery receipts, offline-capable data sync using conflict-resolution strategies, image and media upload pipelines that handle poor network conditions gracefully, and API response caching at the CDN layer so your app feels fast even on 3G. We configure auto-scaling so your backend handles a feature on Product Hunt without going down."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Mobile App Developers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Mobile analytics pipeline and A/B testing infrastructure.",
+                applicationDetail: "We implement structured event tracking using Amplitude or a self-hosted pipeline, capturing the user actions that matter for your retention and monetization goals. We build A/B testing infrastructure so your product team can run onboarding experiments, paywall tests, and feature rollouts without each requiring an app store submission — using remote configuration to control the experience server-side."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Mobile App Developers",
-                "content": [
-                        "The modern landscape of Mobile App Developers is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Mobile App Developers require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Mobile App Developers stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Mobile App Developers technical transformation"
+                title: "Why Onboarding is Where Mobile Apps Win or Die",
+                content: [
+                        "The average mobile app loses 77% of its users within the first 3 days. Most of that churn happens during onboarding — not because the product is bad, but because onboarding asked for too much before delivering anything. The pattern is predictable: sign up screen, then email verification, then ask for location permissions, then ask for notification permissions, then show an empty state with no content. The user deletes the app before they've understood what it does.",
+                        "The apps with industry-leading retention flip this sequence entirely. They let you try the core experience first — no account required. They ask for permissions at the moment they're contextually relevant ('Turn on notifications to get alerted when your order ships' beats 'Allow notifications?' on launch). They populate the empty state with demo content or a guided first action. We've run onboarding redesigns that moved day-7 retention from 18% to 31% without changing a single core feature — just by reordering what users see and when they're asked for what."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Mobile app onboarding flow showing progressive permission requests and value delivery"
         },
         {
-                "title": "Unlocking Value through Data in Mobile App Developers",
-                "content": [
-                        "Data is the lifeblood of Mobile App Developers, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Mobile App Developers businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-manufacturing.jpg",
-                "imageAlt": "Mobile App Developers data analytics dashboard"
+                title: "The Cross-Platform Decision: React Native vs. Native",
+                content: [
+                        "The React Native vs. native debate gets religious online, but the actual decision framework is straightforward. If your app's core interactions are forms, lists, content browsing, and standard navigation — React Native is faster to build, easier to hire for, and performs well enough that users won't notice. If your app requires GPU-intensive animation, complex gesture recognition, deep hardware integration, or real-time audio/video processing — native is the right call and the performance difference is real.",
+                        "The nuance most teams miss is that you can mix both. A React Native app can have specific screens written in native Swift or Kotlin for performance-critical interactions. We've built apps where 90% of the codebase is React Native and the camera, AR, or real-time audio module is native. This gives you development velocity on the 90% of screens that don't need native performance, and the right tool for the 10% that do."
+                ],
+                imagePath: "@/assets/hero-industry.jpg",
+                imageAlt: "Side-by-side comparison of iOS and Android app screens showing platform-native design patterns"
         },
         {
-                "title": "Designing for the Future of Mobile App Developers",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Mobile App Developers, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-sports-betting.jpg",
-                "imageAlt": "UX UI design for Mobile App Developers"
+                title: "App Store Optimization: Getting Found After You're Built",
+                content: [
+                        "Building a great app is necessary but not sufficient — you also need it to be discoverable. App store search drives 65-70% of downloads for most apps, and your title, subtitle, keyword field, and first three screenshots determine whether someone clicks or scrolls past. Most development agencies hand you a finished app and consider their job done. We consider launch strategy part of the build.",
+                        "We write keyword-optimized metadata for both stores, design screenshots that communicate your core value proposition in the first frame, and write descriptions structured to convert browsers into downloaders. We also set up App Store Connect and Play Console with the measurement infrastructure you need: conversion rate by traffic source, install attribution, and the review monitoring that alerts you when sentiment shifts so you can respond before a bad rating trend compounds."
+                ],
+                imagePath: "@/assets/svc-ux-ui.jpg",
+                imageAlt: "App store listing with optimized screenshots, title, and keyword-rich description"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Mobile App Developers scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Mobile App Developers operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "React Native (New Architecture) or native Swift/Kotlin based on performance requirements",
+        "Full App Store and Google Play submission handling including privacy manifests and compliance",
+        "Mobile-optimized backend API design with offline sync and push notification infrastructure",
+        "Crash monitoring with Sentry or Firebase Crashlytics targeting 99.5%+ crash-free sessions",
+        "App store optimization (ASO) for title, keywords, screenshots, and store listing conversion"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production app submitted and approved on both App Store and Google Play",
+        "Figma design files with component library and platform-specific design system",
+        "Backend API with mobile-optimized endpoints, caching, and push notification integration",
+        "Crash monitoring and analytics dashboards configured in Sentry and Amplitude",
+        "App store listing assets — screenshots, preview video, icon, and keyword-optimized copy",
+        "Automated Fastlane build and deployment pipeline for over-the-air updates and store submissions"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$22,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Mobile App Developers?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Mobile App Developers workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Should we build for iOS first or both platforms simultaneously?",
+                answer: "If you're validating a concept with limited budget, iOS-first makes sense — the user base skews higher-income, App Store review times are more predictable, and crash rates are easier to control with a smaller device matrix. But if your product addresses a broad consumer market or a geography where Android dominates, go cross-platform from day one with React Native. The incremental cost of React Native dual-platform over iOS-only is small relative to the cost of a full Android port later."
         },
         {
-                "question": "How do you handle compliance specific to Mobile App Developers?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle app updates without requiring users to download a new version?",
+                answer: "For React Native apps, we implement CodePush (or Expo Updates) to push JavaScript bundle updates over the air — bug fixes and UI changes deploy in minutes without an app store submission. For changes that require native code updates, we use a phased rollout strategy on both stores, releasing to 10% of users first and monitoring crash rates before expanding. This means a bad update can be halted before it reaches your full user base."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Mobile App Developers project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "What's the minimum viable app that makes sense to build?",
+                answer: "An app makes sense when you need functionality that a mobile browser genuinely can't deliver: push notifications, offline access, camera or hardware integration, biometric authentication, or a home screen presence that drives habit formation. If your product is primarily content consumption or a form, a mobile-responsive web app may be the right starting point. We'll tell you honestly which applies to your case rather than defaulting to recommending an app build."
         }
         ],
         whoWeHelped: [
-        "Enterprise Mobile App Developers Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Mobile App Developers Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Mobile App Developers Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Mobile App Developers organizations seeking to leverage Generative AI and ML models."
+        "Consumer app founders who got rejected from the App Store and need an engineer who knows the current guidelines.",
+        "B2B SaaS companies adding a mobile companion app to an existing web product.",
+        "E-commerce brands whose mobile web conversion is poor and need a native app to close the gap.",
+        "Startups with an existing app suffering from high crash rates, poor retention, or negative store reviews."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Mobile App Developers operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Global Mobile App Developers Co."
+                text: "We'd been rejected from the App Store four times by another developer. CiroStack took over, identified exactly what Apple was flagging, fixed everything in a week, and we were approved on first resubmission. The launch we'd been delaying for two months happened in ten days.",
+                name: "Alex Johansson",
+                role: "CEO, Consumer Wellness App"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Mobile App Developers users.",
-                "name": "Elena Rostova",
-                "role": "Director of Product, Innovative Mobile App Developers Group"
+                text: "Our day-7 retention went from 14% to 29% after CiroStack redesigned our onboarding. They didn't change the core product at all — just the sequence and pacing of what new users see. That single engagement more than paid for itself in reduced acquisition costs.",
+                name: "Fatima Al-Hassan",
+                role: "Head of Growth, Mobile Fintech App"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Mobile App Developers requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "CTO, Tech Forward Mobile App Developers"
+                text: "We had a 3.1-star rating because of crashes on Samsung devices. CiroStack instrumented crash reporting, fixed the top 5 crash causes in two weeks, and our rating climbed to 4.6 over the following month as the reviews rolled in. The store ranking improvement alone drove a 40% increase in organic downloads.",
+                name: "Ryan Castellano",
+                role: "Product Lead, On-Demand Services App"
         }
         ]
     },
@@ -17349,346 +17310,320 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "AI Companies",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your AI Companies from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of AI Companies.",
-        description: "The challenges facing AI Companies require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the AI Companies sector.",
+        tagline: "Take your AI product from proof-of-concept to production without burning through GPUs or engineers.",
+        introSummary: "We help AI companies cross the gap between impressive demo and reliable product — building the inference infrastructure, data pipelines, and user-facing interfaces that turn a model into a business.",
+        description: "Building an AI product is not the same as training a model. The model is 20% of the work. The other 80% is the data ingestion pipeline that keeps it accurate, the inference infrastructure that serves it at acceptable latency and cost, the evaluation framework that catches regressions, and the product interface that makes it useful to non-technical users. CiroStack engineers have shipped AI products across legal tech, medical coding, financial analysis, and content generation. We know where the hidden costs are — GPU idle time, context window overuse, embedding recomputation — and we architect around them.",
         challenges: [
-        "Modernizing legacy systems specifically holding back AI Companies innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for AI Companies.",
-        "Breaking down data silos to gain actionable intelligence across AI Companies operations.",
-        "Scaling digital infrastructure rapidly to meet surging AI Companies user demand without downtime."
+        "Inference costs that scale linearly with users, making the unit economics unsustainable before reaching profitability.",
+        "No systematic way to evaluate model quality — every update is a gamble because there's no regression test suite for LLM outputs.",
+        "Data pipelines that require manual intervention to refresh embeddings or fine-tuning datasets, creating a constant engineering tax.",
+        "A demo that wows investors but a product that frustrates users because the UX doesn't handle model latency, errors, or uncertainty gracefully."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of AI Companies."
+                title: "Inference Cost Architecture",
+                description: "We profile your inference patterns and implement caching, prompt compression, smaller model routing for simple queries, and batching strategies that reduce your per-query cost by 40-70% without degrading quality."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into AI Companies KPIs."
+                title: "LLM Evaluation Framework",
+                description: "We build a systematic evaluation suite with labeled test cases, automated regression scoring, and human review workflows — so every model update has a before/after quality measurement before it ships to users."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to AI Companies via machine learning pipelines."
+                title: "Automated Data Pipeline",
+                description: "We build the ingestion, chunking, embedding, and vector store refresh pipelines that keep your retrieval system current — with incremental updates and drift detection so quality doesn't silently degrade over time."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for AI Companies customers."
+                title: "AI-Native UX Design",
+                description: "We design interfaces that handle the realities of AI output: streaming responses, confidence indicators, easy correction flows, and graceful degradation when the model is uncertain — turning your model's limitations into transparent, trustworthy UX."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new AI Companies digital tools faster with our agile methodologies."
+                title: "Sustainable Unit Economics",
+                description: "We architect inference pipelines with caching, model routing, and prompt optimization so your AI product can be profitable at realistic price points — not just at enterprise contracts that don't exist yet."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting AI Companies."
+                title: "Ship Model Updates Without Fear",
+                description: "Our evaluation framework gives you a quality benchmark for every model version, so you know before deploying whether an update regresses on your most important use cases."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the AI Companies sector effortlessly."
+                title: "A Product, Not a Demo",
+                description: "We build the full system around your model — data freshness, error handling, streaming UX, user feedback loops — so what users experience feels like a polished product, not a research experiment."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "60%", label: "Avg. Reduction in Inference Costs" },
+        { value: "4 wks", label: "To Production-Ready Evaluation Framework" },
+        { value: "2.1s", label: "Median Time-to-First-Token at Scale" },
+        { value: "99.2%", label: "Data Pipeline Uptime for RAG Systems" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help AI Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "LLM integration, RAG architecture, and model evaluation infrastructure.",
+                applicationDetail: "We design your retrieval-augmented generation architecture from document ingestion through chunking strategy, embedding model selection, vector store choice (Pinecone, Weaviate, pgvector), and retrieval ranking. We benchmark different approaches on your actual documents and queries before committing to an architecture, because the right chunking strategy and embedding model vary dramatically by domain and content type."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help AI Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "GPU-efficient inference infrastructure with cost controls.",
+                applicationDetail: "We deploy your models on infrastructure designed for cost efficiency: spot instances for batch inference, reserved capacity for latency-sensitive endpoints, and auto-scaling policies that don't spin up $8/hr GPU instances for a 3am query from one user. We implement response caching at multiple layers so repeated or semantically similar queries don't hit the model at all."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help AI Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Automated pipelines for embedding refresh and fine-tuning dataset curation.",
+                applicationDetail: "We build the data infrastructure that keeps your AI product accurate over time: document ingestion pipelines that process new content within minutes, embedding refresh jobs that run incrementally rather than reprocessing everything, and fine-tuning dataset curation pipelines that turn user feedback and correction signals into training data. This infrastructure is what separates an AI product that improves from one that slowly degrades."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help AI Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "AI-native interface design that makes model outputs trustworthy and actionable.",
+                applicationDetail: "We design the interface patterns that make AI outputs feel useful rather than risky: streaming token display that gives users immediate feedback while the model completes, inline citation linking so users can verify AI-generated claims, confidence indicators for outputs where uncertainty matters, and quick correction flows that feed user feedback back into your evaluation and training pipeline. These patterns are what make users trust and rely on your product."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of AI Companies",
-                "content": [
-                        "The modern landscape of AI Companies is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in AI Companies require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with AI Companies stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "AI Companies technical transformation"
+                title: "Why 80% of AI Products Fail to Reach Production",
+                content: [
+                        "The AI graveyard is full of impressive demos that never became real products. The demo worked because someone handpicked the test cases. In production, users ask unexpected questions, upload PDFs with unusual formatting, paste text in languages the model wasn't tested on, and use the product in ways nobody anticipated. The demo-to-production gap is primarily an engineering problem, not a model problem.",
+                        "The products that make it through this gap have several things in common: they have an evaluation framework that tests on representative real-world inputs, not cherry-picked examples. They have graceful fallback behavior when the model is uncertain or fails. They have monitoring that alerts the team when output quality degrades. And they have user feedback mechanisms that surface the edge cases the team didn't anticipate. Building these systems is unglamorous work, but it's what separates a demo from a product."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "AI product architecture diagram showing model, evaluation pipeline, and user interface layers"
         },
         {
-                "title": "Unlocking Value through Data in AI Companies",
-                "content": [
-                        "Data is the lifeblood of AI Companies, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow AI Companies businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "AI Companies data analytics dashboard"
+                title: "The Real Cost of Running LLMs in Production",
+                content: [
+                        "Founders are often shocked by their first month's inference bill. GPT-4 at $15/million output tokens sounds cheap until you realize your average user interaction costs $0.08 and you have 50,000 monthly active users. That's $4,000/month in inference costs alone, before any other infrastructure. For products that compete on price, this can make profitability structurally impossible.",
+                        "We've reduced inference costs by 40-70% for AI products through a combination of techniques: semantic caching that serves identical or near-identical responses without hitting the model, prompt compression that reduces token count without degrading output quality, intelligent routing that uses GPT-4 only for complex queries and a smaller model for simple ones, and context window optimization that stops sending the entire conversation history for every message. The right combination depends on your specific product — we profile before recommending."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Inference cost dashboard showing per-query costs and caching hit rates"
         },
         {
-                "title": "Designing for the Future of AI Companies",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of AI Companies, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "UX UI design for AI Companies"
+                title: "Building an LLM Evaluation System That Actually Works",
+                content: [
+                        "Evaluating LLM output quality is genuinely hard. Unlike traditional software where a test either passes or fails, LLM outputs exist on a quality spectrum and 'correct' is often subjective. Most AI teams deal with this by not having a systematic evaluation process at all — they update the model, do some manual spot-checking, and ship. This works until it doesn't.",
+                        "A practical evaluation system combines three things: a labeled dataset of representative inputs with expected output characteristics (not exact strings, but rubrics), automated scoring using a judge model or rule-based checks for the dimensions that matter (accuracy, format compliance, hallucination rate), and human review sampling for a random subset of production outputs. Together, these give you a regression signal before deploying updates and a quality monitoring signal in production. We've built evaluation systems that caught prompt regressions saving teams from shipping quietly broken updates to thousands of users."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "LLM evaluation dashboard showing quality scores across test cases and model versions"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for AI Companies scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to AI Companies operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "RAG architecture design: document ingestion, chunking strategy, embedding model selection, vector store, and retrieval ranking",
+        "Inference cost optimization through caching, prompt compression, model routing, and context window management",
+        "LLM evaluation framework with labeled test suite, automated scoring, and production monitoring",
+        "Automated data pipeline for embedding refresh and fine-tuning dataset curation",
+        "AI-native UX design patterns: streaming, citations, confidence indicators, and feedback loops"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production RAG system or fine-tuned model deployment with monitoring and alerting",
+        "Evaluation framework with labeled test dataset and automated regression scoring",
+        "Inference cost analysis report with optimization recommendations and implemented changes",
+        "Data pipeline code for document ingestion, embedding, and vector store management",
+        "AI product UX design in Figma with interaction patterns for streaming, errors, and uncertainty",
+        "Runbook covering model update process, evaluation gates, and production incident response"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$30,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in AI Companies?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of AI Companies workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Should we fine-tune our own model or use RAG with an existing one?",
+                answer: "RAG is the right default for most AI products. Fine-tuning is expensive, requires ongoing maintenance as your base model updates, and is hard to evaluate systematically. RAG with a well-designed retrieval system outperforms fine-tuning for knowledge-intensive tasks and is far easier to update when your information changes. Fine-tuning becomes worth it when you need to change the model's behavior style, domain-specific tone, or response format across all outputs — not when you just need it to know specific facts."
         },
         {
-                "question": "How do you handle compliance specific to AI Companies?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Which vector database should we use?",
+                answer: "If you're already on Postgres, pgvector handles most RAG use cases up to a few million embeddings and eliminates operational overhead. Pinecone is the easiest managed option if you want to avoid infrastructure management entirely. Weaviate and Qdrant offer more flexibility for complex filtering and hybrid search. The decision matters less than having a clean schema and good chunking strategy. We'll recommend based on your current infrastructure and scale."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our AI Companies project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you prevent hallucinations in production?",
+                answer: "Hallucinations can't be eliminated, but their impact can be managed. We implement: answer grounding that requires the model to cite specific retrieved passages, confidence thresholds that trigger 'I don't have enough information' responses rather than confident wrong answers, output format enforcement using structured generation, and user-facing citation UI so users can verify claims themselves. We also build evaluation datasets specifically targeting the hallucination patterns most relevant to your domain."
         }
         ],
         whoWeHelped: [
-        "Enterprise AI Companies Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth AI Companies Startups needing rapid, scalable MVP development and series-A readiness.",
-        "AI Companies Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven AI Companies organizations seeking to leverage Generative AI and ML models."
+        "AI founders who have a working demo but whose inference costs make the unit economics unworkable at scale.",
+        "ML teams who ship model updates with no systematic quality assurance and have been burned by silent regressions.",
+        "Enterprise software companies adding AI features and needing production-grade evaluation and monitoring infrastructure.",
+        "AI product teams whose UX makes the model feel unreliable — users don't trust the outputs because the interface doesn't communicate uncertainty well."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach AI Companies operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Global AI Companies Co."
+                text: "Our inference costs were $0.11 per user session and killing our margins. CiroStack audited our pipeline and implemented caching and model routing. We're now at $0.031 per session — a 72% reduction — with no detectable quality drop. That change made our pricing model viable.",
+                name: "Tomás Rivera",
+                role: "CTO, Legal AI Platform"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our AI Companies users.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Innovative AI Companies Group"
+                text: "We were shipping model updates by gut feel and hoping nothing broke. CiroStack built us a proper evaluation framework in three weeks. We caught a major regression in week four that would have hit 8,000 users. That framework now runs on every PR.",
+                name: "Aisha Nkemdirim",
+                role: "Head of ML, Medical Coding AI"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex AI Companies requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Founder, Tech Forward AI Companies"
+                text: "The gap between our demo and our product was embarrassing. CiroStack redesigned the entire user-facing layer — streaming, citations, error states — and built the data pipeline that keeps our RAG system current. We went from 'impressive demo' to a product users actually rely on daily.",
+                name: "Lars Eriksson",
+                role: "CPO, Financial Research AI"
         }
         ]
     },
     "blockchain-crypto": {
         id: "blockchain-crypto",
         icon: Laptop,
-        title: "Blockchain/Crypto",
+        title: "Blockchain & Crypto",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your Blockchain/Crypto from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Blockchain/Crypto.",
-        description: "The challenges facing Blockchain/Crypto require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Blockchain/Crypto sector.",
+        tagline: "Smart contract development, wallet UX, and Web3 backend infrastructure built with security as the baseline.",
+        introSummary: "We build blockchain products that don't get exploited — secure smart contracts, audited before deployment, with wallet UX that non-crypto-native users can actually navigate.",
+        description: "The blockchain space has a reputation problem that engineers created: exploits from unaudited contracts, wallets that require a PhD to use, and backends that go down when the chain is congested. CiroStack builds Web3 products with the engineering rigor that consumer and enterprise users require: smart contracts that are reviewed by multiple engineers and tested on fork simulations before any mainnet deployment, frontend interfaces that abstract wallet complexity behind familiar UX patterns, and off-chain indexing infrastructure that keeps your dapp responsive even during network congestion.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Blockchain/Crypto innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Blockchain/Crypto.",
-        "Breaking down data silos to gain actionable intelligence across Blockchain/Crypto operations.",
-        "Scaling digital infrastructure rapidly to meet surging Blockchain/Crypto user demand without downtime."
+        "Smart contract vulnerabilities — reentrancy attacks, integer overflow, access control flaws — that result in funds being drained before the team can respond.",
+        "Wallet UX that requires users to understand gas, private keys, and transaction signing — creating an adoption barrier that limits your user base to existing crypto users.",
+        "Dapp frontend that becomes unusable during network congestion because it's polling the chain directly rather than using indexed event data.",
+        "Regulatory uncertainty requiring KYC/AML compliance workflows that don't exist in standard Web3 tooling."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Blockchain/Crypto."
+                title: "Secure Smart Contract Development",
+                description: "We write contracts with security-first patterns: checks-effects-interactions for reentrancy prevention, OpenZeppelin standards as the base layer, comprehensive test suites on forked mainnet, and an internal review process before any external audit."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Blockchain/Crypto KPIs."
+                title: "Wallet-Abstracted UX",
+                description: "We implement account abstraction (ERC-4337) and embedded wallet solutions (Privy, Dynamic, Magic) that let users sign in with email or social accounts — removing the Metamask requirement that blocks mainstream adoption."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Blockchain/Crypto via machine learning pipelines."
+                title: "Off-Chain Indexing Infrastructure",
+                description: "We build or configure The Graph subgraphs and custom indexers that keep your frontend data fresh and queryable without hammering RPC nodes, so your dapp stays responsive regardless of chain congestion."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Blockchain/Crypto customers."
+                title: "Compliance Integration",
+                description: "For projects requiring KYC/AML, we integrate Persona, Sumsub, or Chainalysis for on-chain address screening and off-chain identity verification — building the compliance layer that institutional and regulated market participants require."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Blockchain/Crypto digital tools faster with our agile methodologies."
+                title: "Contracts Reviewed Before They're Deployed",
+                description: "Every smart contract we build goes through internal security review, fork simulation testing, and gas optimization before we recommend external audit. We fix the issues internal review catches so the external audit is confirming quality, not finding basic vulnerabilities."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Blockchain/Crypto."
+                title: "Users Who Don't Need to Know What a Wallet Is",
+                description: "Account abstraction and embedded wallets let your users interact with your blockchain product through an experience that feels like a normal web app — no seed phrases, no gas management, no Metamask install required."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Blockchain/Crypto sector effortlessly."
+                title: "Infrastructure That Survives Network Conditions",
+                description: "Off-chain indexing means your product doesn't go down when Ethereum is congested or your RPC provider has issues. Your UI reads from indexed data that's seconds behind the chain, not from real-time RPC calls that time out under load."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "0", label: "Contracts Deployed with Post-Audit Critical Findings" },
+        { value: "83%", label: "Reduction in Onboarding Drop-off with Embedded Wallets" },
+        { value: "40ms", label: "Avg. Query Latency with Indexed Subgraph vs. 2.4s RPC" },
+        { value: "100%", label: "Mainnet Deployments with Fork Simulation Testing" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Blockchain/Crypto leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "Smart contract development in Solidity with security-first patterns.",
+                applicationDetail: "We write Solidity contracts using OpenZeppelin base contracts, implement the checks-effects-interactions pattern for reentrancy prevention, add comprehensive NatSpec documentation, and build a Hardhat or Foundry test suite that achieves 100% branch coverage before any external review. We also run fork simulation tests that replicate mainnet conditions — including edge cases like flash loan scenarios for DeFi contracts — to catch exploits that unit tests miss."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Blockchain/Crypto leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Web3 UX design that abstracts blockchain complexity from end users.",
+                applicationDetail: "We design transaction flows that explain what's happening in plain language before asking users to sign, gas estimation displays that show cost in fiat not just ETH, and pending/confirmed/failed states that keep users informed during the 15-60 second confirmation window. For consumer products, we implement embedded wallet flows using Privy or Magic that let users sign up with email and never see a seed phrase unless they choose to export their key."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Blockchain/Crypto leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Off-chain indexing and Web3 backend infrastructure.",
+                applicationDetail: "We deploy The Graph subgraphs or custom event indexers that maintain a queryable database of your smart contract events, so your frontend reads from a fast, reliable API instead of direct RPC calls. We also build the webhook infrastructure for transaction monitoring, the notification systems for on-chain events, and the wallet-based authentication backend that your API uses to verify user identity without passwords."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Blockchain/Crypto leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Security Audit",
+                slug: "security-audit",
+                description: "Internal smart contract security review before external audit.",
+                applicationDetail: "Before engaging an external audit firm, we conduct an internal security review covering the OWASP Smart Contract Top 10: reentrancy, integer overflow/underflow, access control vulnerabilities, front-running exposure, oracle manipulation, and gas griefing. We fix everything we find internally, so when the external auditors review, they're confirming a quality codebase rather than finding issues that delay your launch by months."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Blockchain/Crypto",
-                "content": [
-                        "The modern landscape of Blockchain/Crypto is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Blockchain/Crypto require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Blockchain/Crypto stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Blockchain/Crypto technical transformation"
+                title: "Why Smart Contract Exploits Are Preventable Engineering Failures",
+                content: [
+                        "The $3.8 billion lost to smart contract exploits in 2022 wasn't bad luck — it was preventable engineering failures. The Ronin Bridge hack happened because 5 of 9 validator keys were controlled by one entity. The Euler Finance exploit was a reentrancy pattern. The Nomad bridge hack was an initialization error that let anyone use $0 to drain $190M. Every one of these had a specific technical cause that a rigorous engineering process would have caught.",
+                        "The gap between 'smart contract that works' and 'smart contract that doesn't get drained' is a structured security review process. We implement it before any contract touches real value: threat modeling during design, security patterns enforced in code review, fork simulation testing on mainnet state, and an internal vulnerability checklist covering the most common exploit patterns. External audits are the final gate, not the only gate."
+                ],
+                imagePath: "@/assets/svc-security-audit.jpg",
+                imageAlt: "Smart contract security review process showing internal review, fork testing, and external audit stages"
         },
         {
-                "title": "Unlocking Value through Data in Blockchain/Crypto",
-                "content": [
-                        "Data is the lifeblood of Blockchain/Crypto, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Blockchain/Crypto businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Blockchain/Crypto data analytics dashboard"
+                title: "Account Abstraction: The End of Crypto's UX Problem",
+                content: [
+                        "The biggest barrier to mainstream blockchain adoption isn't price volatility or regulation — it's UX. Asking a normal user to install Metamask, buy ETH, approve it, and then complete a transaction is 7 steps that require understanding concepts most people don't have. You've already lost 70% of potential users before they've tried your product.",
+                        "ERC-4337 account abstraction changes this architecture entirely. User accounts become smart contract wallets that support gasless transactions (where your protocol pays gas), batched approvals, and social recovery instead of seed phrases. Combined with embedded wallet SDKs like Privy or Dynamic that handle key management behind a familiar email/social sign-in flow, you can build a blockchain product where the user experience is indistinguishable from a normal web app — the blockchain is an implementation detail, not a barrier."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Web3 onboarding flow showing email sign-in with account abstraction vs. traditional wallet connection"
         },
         {
-                "title": "Designing for the Future of Blockchain/Crypto",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Blockchain/Crypto, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "UX UI design for Blockchain/Crypto"
+                title: "Building Dapps That Work When the Chain Is Congested",
+                content: [
+                        "Most dapp frontends are brittle because they make direct RPC calls to read blockchain state. When the chain is congested — which happens during NFT launches, market volatility, or protocol exploits — RPC providers throttle requests and your UI breaks exactly when user traffic peaks. The Ethereum network being busy shouldn't make your application unusable.",
+                        "Off-chain indexing solves this. The Graph protocol and custom event indexers maintain a continuously updated database of your smart contract events, queryable via a fast GraphQL API that doesn't depend on current RPC performance. Your frontend reads last-known-good state from the index, which is typically 1-3 blocks behind the chain — imperceptible to users. Writes (user transactions) still go to the chain, but reads come from your indexed data, making your application resilient to network conditions outside your control."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Web3 architecture diagram showing indexed subgraph layer between blockchain and frontend"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Blockchain/Crypto scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Blockchain/Crypto operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Solidity smart contract development using OpenZeppelin standards with 100% branch test coverage",
+        "Account abstraction (ERC-4337) and embedded wallet integration for mainstream user onboarding",
+        "The Graph subgraph or custom event indexer for responsive off-chain data queries",
+        "Internal security review covering OWASP Smart Contract Top 10 before external audit",
+        "KYC/AML compliance integration with Persona, Sumsub, or Chainalysis for regulated use cases"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Audited smart contracts deployed on testnet with full test suite and security review report",
+        "Frontend dapp with embedded wallet, transaction flows, and event-driven UI updates",
+        "Deployed subgraph or custom indexer with GraphQL API for contract event queries",
+        "Internal security review findings report with remediation evidence",
+        "Deployment runbook covering upgrade patterns, emergency pause mechanisms, and multisig procedures",
+        "Contract documentation including NatSpec, integration guide, and event schema"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$35,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Blockchain/Crypto?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Blockchain/Crypto workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Do we need an external smart contract audit?",
+                answer: "Yes, for any contract that holds or transfers real value. External audits from firms like Trail of Bits, OpenZeppelin, or Code4rena cost $15,000-$80,000 depending on contract complexity and provide independent verification that catches issues internal review may miss. We prepare your contracts for audit — fixing what we find internally first — so the audit validates quality rather than discovering basic issues. Skipping an audit to save money is false economy when a single exploit can drain everything your contract holds."
         },
         {
-                "question": "How do you handle compliance specific to Blockchain/Crypto?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Which blockchain should we build on?",
+                answer: "For most applications: Ethereum mainnet for high-value DeFi or institutional use cases where security is paramount; Base or Polygon for consumer applications where transaction costs need to be under $0.01; Solana for high-throughput use cases requiring sub-second finality. We evaluate your specific transaction patterns, user geography, and integration requirements before making a recommendation. The chain choice affects your smart contract language (Solidity vs. Rust), wallet ecosystem, and available tooling — it's a consequential decision we don't make lightly."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Blockchain/Crypto project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle contract upgrades after deployment?",
+                answer: "Immutable contracts are the safest option but limit your ability to fix bugs. If upgradeability is required, we implement the OpenZeppelin Transparent or UUPS Proxy pattern with a properly configured multisig controller — typically a 3-of-5 Gnosis Safe — so no single key can upgrade the contract unilaterally. We design upgrade mechanisms with time locks for non-emergency changes so users can exit before an upgrade takes effect. We document all of this in your deployment runbook."
         }
         ],
         whoWeHelped: [
-        "Enterprise Blockchain/Crypto Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Blockchain/Crypto Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Blockchain/Crypto Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Blockchain/Crypto organizations seeking to leverage Generative AI and ML models."
+        "Web3 founders who need production-ready smart contracts reviewed before an exploit makes headlines.",
+        "DeFi and NFT projects whose drop-off rates are high because Metamask-based onboarding filters out non-crypto-native users.",
+        "Enterprises exploring blockchain for supply chain, identity, or settlement use cases requiring compliance integration.",
+        "Web3 teams whose dapp frontend breaks during network congestion because it's polling RPC endpoints directly."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Blockchain/Crypto operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Global Blockchain/Crypto Co."
+                text: "CiroStack's internal security review found a reentrancy vulnerability in our staking contract before we went to external audit. That finding alone — caught internally, fixed before audit — prevented what could have been a catastrophic exploit. The external audit came back clean.",
+                name: "Dmitri Volkov",
+                role: "CTO, DeFi Protocol"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Blockchain/Crypto users.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Innovative Blockchain/Crypto Group"
+                text: "We switched from Metamask-required to Privy embedded wallets on CiroStack's recommendation. Our onboarding completion rate went from 12% to 61%. Users sign up with Google now. They don't even know there's a blockchain underneath.",
+                name: "Yuki Tanaka",
+                role: "CPO, Web3 Consumer App"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Blockchain/Crypto requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "Director of Product, Tech Forward Blockchain/Crypto"
+                text: "Our subgraph implementation reduced our frontend query time from 2.3 seconds to 40ms and our UI stopped breaking during congested blocks. The dapp now feels like a normal web app, not a blockchain project.",
+                name: "Chioma Obi",
+                role: "Lead Engineer, NFT Marketplace"
         }
         ]
     },
@@ -17697,172 +17632,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "IoT Companies",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your IoT Companies from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of IoT Companies.",
-        description: "The challenges facing IoT Companies require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the IoT Companies sector.",
+        tagline: "Connect devices, ingest data at scale, and turn sensor readings into decisions that run automatically.",
+        introSummary: "We build IoT platforms that manage thousands of connected devices, process high-volume telemetry in real time, and push firmware updates without requiring a truck roll.",
+        description: "IoT products fail at the edges that hardware engineers don't plan for: the cloud platform that falls over when 10,000 devices come online simultaneously, the firmware update process that requires manually touching each device, the dashboard that shows real-time data but doesn't alert on the anomalies that matter, and the data pipeline that ingests millions of readings but can't answer a simple question about device health trends. CiroStack builds the software half of IoT products — device management platforms, telemetry ingestion pipelines, edge computing modules, and the mobile and web dashboards that turn raw sensor data into operational decisions.",
         challenges: [
-        "Modernizing legacy systems specifically holding back IoT Companies innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for IoT Companies.",
-        "Breaking down data silos to gain actionable intelligence across IoT Companies operations.",
-        "Scaling digital infrastructure rapidly to meet surging IoT Companies user demand without downtime."
+        "Firmware update logistics that require manual intervention per device — impossible to scale past a few hundred devices in the field.",
+        "Telemetry ingestion pipelines that can't handle the write volume when all devices report simultaneously, causing data loss during peak periods.",
+        "Alert fatigue from threshold-based alerting that fires constantly, making operators tune out notifications — including the ones that matter.",
+        "Device connectivity gaps — poor cellular or WiFi coverage — causing data loss and requiring the platform to handle graceful reconnection and backfill."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of IoT Companies."
+                title: "OTA Firmware Update Platform",
+                description: "We build or integrate over-the-air update systems with staged rollouts, rollback triggers tied to device error rates, and differential patch delivery that minimizes data transfer on constrained connections — so you can update your entire fleet in hours without touching a single device."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into IoT Companies KPIs."
+                title: "High-Volume Telemetry Ingestion",
+                description: "We architect time-series data pipelines using MQTT brokers (Mosquitto, HiveMQ, AWS IoT Core), stream processors (Kinesis, Kafka, Pub/Sub), and time-series databases (InfluxDB, TimescaleDB) that handle burst ingestion from thousands of simultaneous devices without data loss."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to IoT Companies via machine learning pipelines."
+                title: "ML-Based Anomaly Detection",
+                description: "We replace threshold-based alerting with machine learning anomaly detection models trained on your device's historical baseline — eliminating the false positives that cause alert fatigue while catching the subtle drift patterns that threshold alerts miss entirely."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for IoT Companies customers."
+                title: "Offline-First Device Architecture",
+                description: "We implement edge buffering on device firmware that stores readings locally during connectivity gaps and uploads in order when connection is restored, ensuring complete data capture even in environments with intermittent connectivity."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new IoT Companies digital tools faster with our agile methodologies."
+                title: "Update Your Entire Fleet Remotely",
+                description: "OTA firmware updates with staged rollout and automatic rollback mean bug fixes and new features reach your entire field deployment without a service team, a truck roll, or scheduling device downtime."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting IoT Companies."
+                title: "No Data Loss at Scale",
+                description: "Our telemetry architecture handles simultaneous reporting from your entire device fleet without dropping readings, with edge buffering ensuring even offline devices contribute complete data when connectivity returns."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the IoT Companies sector effortlessly."
+                title: "Alerts That Mean Something",
+                description: "ML-based anomaly detection means your operations team gets notified when something genuinely unusual happens — not when a device reads 0.3 degrees above a threshold that was set arbitrarily three years ago."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "99.7%", label: "Telemetry Delivery Rate Under Peak Load" },
+        { value: "4 hrs", label: "Fleet-Wide Firmware Update with Staged Rollout" },
+        { value: "78%", label: "Reduction in False-Positive Alerts with ML Detection" },
+        { value: "100%", label: "Data Capture with Offline Edge Buffering" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help IoT Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Embedded Software",
+                slug: "embedded-software",
+                description: "Device firmware with OTA update support, edge buffering, and MQTT telemetry.",
+                applicationDetail: "We develop firmware for ESP32, STM32, and Raspberry Pi-class devices in C/C++ or MicroPython. Our firmware implementations include: MQTT client for telemetry with local queue buffering during connectivity loss, OTA update client that checks for new firmware versions, downloads differential patches, verifies signatures, and applies updates atomically with rollback on boot failure. We also implement edge processing — running computations locally on the device to reduce uplink bandwidth and enable fast local actuation."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help IoT Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "IoT platform backend with device management, telemetry ingestion, and fleet operations.",
+                applicationDetail: "We build your IoT backend on AWS IoT Core, GCP IoT, or Azure IoT Hub with the components your platform needs: device registry with certificate-based authentication, MQTT broker configuration for your message topology, Kinesis or Kafka stream processor for real-time telemetry routing, TimescaleDB or InfluxDB for time-series storage with automatic data retention policies, and the REST and WebSocket APIs your dashboard and mobile apps consume."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help IoT Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Anomaly detection and predictive maintenance models for device telemetry.",
+                applicationDetail: "We train anomaly detection models on your device telemetry baselines using Isolation Forest or LSTM autoencoders, deployed as streaming inference that evaluates each reading in real time. For predictive maintenance use cases, we build models that identify the degradation signatures that precede failures — vibration patterns before bearing failure, temperature drift before thermal runaway — giving operators days or weeks of warning instead of a surprise breakdown. Models are retrained automatically as new device data accumulates."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help IoT Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "apps",
+                description: "Mobile device management and monitoring app for field technicians and operators.",
+                applicationDetail: "We build the mobile app your field technicians use to commission new devices, run diagnostics on installed units, and monitor live sensor readings — using Bluetooth or local WiFi for direct device communication when cellular is unavailable. The app syncs operations queued offline back to your platform when connectivity returns, giving field teams full functionality regardless of coverage."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of IoT Companies",
-                "content": [
-                        "The modern landscape of IoT Companies is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in IoT Companies require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with IoT Companies stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "IoT Companies technical transformation"
+                title: "The Firmware Update Problem at Scale",
+                content: [
+                        "Every IoT company that ships hardware eventually faces the same crisis: a critical bug in firmware that's running on thousands of devices in the field. Without a reliable OTA update system, the options are terrible — recall devices (expensive, embarrassing, slow), send field technicians to update each unit manually (unscalable beyond a few hundred devices), or live with the bug and hope it doesn't cause a major incident.",
+                        "A production OTA system needs more than 'the device downloads a file.' It needs: cryptographically signed firmware images so devices won't install compromised updates, staged rollout so a bad build only reaches 5% of your fleet before you catch and halt it, automatic rollback when devices fail to boot after an update, differential patch delivery so a 1KB change doesn't require downloading a 2MB binary on a cellular connection, and a dashboard that shows you real-time progress across your fleet with the ability to pause the rollout at any time. We've built these systems — they are the difference between an IoT company that can iterate rapidly on firmware and one that's locked to whatever shipped from the factory."
+                ],
+                imagePath: "@/assets/svc-embedded.jpg",
+                imageAlt: "IoT OTA firmware update dashboard showing fleet update progress and rollback controls"
         },
         {
-                "title": "Unlocking Value through Data in IoT Companies",
-                "content": [
-                        "Data is the lifeblood of IoT Companies, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow IoT Companies businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "IoT Companies data analytics dashboard"
+                title: "Designing for the 3am Device Failure",
+                content: [
+                        "Industrial IoT customers don't want dashboards — they want to not get woken up at 3am. The product that wins is the one that tells an operator about a problem early enough to fix it during business hours, not the one that generates the most data. This requires moving from threshold alerting (fire when value exceeds X) to predictive alerting (fire when the trend indicates X will happen in 48 hours).",
+                        "Threshold alerting fails because thresholds are set by humans who pick round numbers. A chiller running at 72°F when the threshold is 75°F won't trigger an alert, but if it's been climbing 0.5°F per week for 6 weeks, that's a refrigerant leak that will fail in two months. ML anomaly detection models trained on your specific devices' historical baselines catch this drift. They also dramatically reduce false positives — the threshold alarms that fire constantly because seasonal temperature variation or normal operational variation triggers them — which is what causes operators to ignore alert notifications entirely."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "IoT monitoring dashboard showing ML anomaly detection alerts versus threshold-based alerts"
         },
         {
-                "title": "Designing for the Future of IoT Companies",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of IoT Companies, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for IoT Companies"
+                title: "Time-Series Data Architecture That Doesn't Break",
+                content: [
+                        "A fleet of 10,000 devices reporting every 30 seconds generates 20,000 writes per second. A standard relational database will fall over under this write volume, and if you're using it, you've discovered this at the worst possible time — when something is going wrong and you need the data most. Time-series databases like TimescaleDB and InfluxDB are designed specifically for this write pattern, with automatic partitioning by time, compression of older data, and continuous aggregates that pre-compute the hourly/daily rollups your dashboards display.",
+                        "Upstream from the database, a message broker (MQTT) handles the protocol edge between constrained devices and your cloud platform, and a stream processor (Kinesis, Kafka) buffers the write volume so database capacity decisions don't affect ingestion reliability. This architecture separates the 'receive every reading' concern from the 'store and query efficiently' concern, which is what allows you to handle burst ingestion during fleet-wide simultaneous reporting without losing data."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "IoT data architecture diagram showing MQTT broker, stream processor, and time-series database layers"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for IoT Companies scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to IoT Companies operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Device firmware development (C/C++, MicroPython) with OTA update client, edge buffering, and MQTT telemetry",
+        "IoT cloud platform on AWS IoT Core, GCP IoT, or Azure IoT Hub with device registry and fleet management",
+        "High-volume time-series telemetry pipeline: MQTT → Kinesis/Kafka → TimescaleDB/InfluxDB",
+        "ML anomaly detection models trained on device baselines with streaming real-time inference",
+        "Mobile device management app for field commissioning and diagnostics"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Device firmware with OTA update support, local buffering, and automated test suite",
+        "IoT platform backend with device registry, MQTT broker, and REST/WebSocket API",
+        "Telemetry ingestion pipeline with capacity testing report showing peak load handling",
+        "Anomaly detection models deployed with real-time inference and alert routing",
+        "Fleet management dashboard showing device health, telemetry, OTA status, and alerts",
+        "Operations runbook covering device provisioning, OTA rollout procedures, and incident response"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$40,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in IoT Companies?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of IoT Companies workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Should we use AWS IoT Core, Azure IoT Hub, or build our own MQTT broker?",
+                answer: "AWS IoT Core and Azure IoT Hub are the right choice for most teams — they handle device authentication, message routing, and scale without operational overhead. AWS IoT Core is cheaper at scale and has better Lambda integration for event-driven processing. Azure IoT Hub integrates better if you're already on Azure. We recommend building your own MQTT broker only if you have specific protocol customization requirements or cost projections above 50 million messages/month where self-hosted becomes cheaper."
         },
         {
-                "question": "How do you handle compliance specific to IoT Companies?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle devices that go offline for extended periods?",
+                answer: "We implement edge buffering on the device firmware — readings are stored locally in a circular buffer or flash memory during connectivity loss. When connectivity is restored, the device uploads stored readings in chronological order with their original timestamps. The platform backend processes these delayed uploads correctly, inserting them into the time-series database with the historical timestamp rather than the upload time. This ensures complete data capture for analysis even for devices that go days without connectivity."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our IoT Companies project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "What's the right telemetry reporting interval for our devices?",
+                answer: "It depends on your use case and connectivity cost. For anomaly detection, the minimum interval that captures the characteristic you're monitoring — for vibration analysis this might be 1 second, for temperature trend this might be 5 minutes. Higher frequency increases data storage costs and cellular data costs linearly. We typically implement adaptive reporting: high-frequency data capture locally on the edge, with the device transmitting pre-aggregated statistics (min/max/avg per interval) plus the raw data for any interval that exceeds your anomaly threshold. This reduces bandwidth by 90% while preserving the detail that matters."
         }
         ],
         whoWeHelped: [
-        "Enterprise IoT Companies Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth IoT Companies Startups needing rapid, scalable MVP development and series-A readiness.",
-        "IoT Companies Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven IoT Companies organizations seeking to leverage Generative AI and ML models."
+        "Hardware startups that shipped their first IoT product without an OTA system and are now managing firmware updates manually.",
+        "Industrial IoT companies whose alert systems fire so constantly that operators have started ignoring notifications.",
+        "IoT platform teams whose telemetry ingestion pipeline drops data during peak periods when simultaneous device reporting overwhelms their database.",
+        "Enterprises deploying connected devices in remote locations with intermittent connectivity who need guaranteed data capture."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach IoT Companies operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "Director of Product, Global IoT Companies Co."
+                text: "We had 2,400 devices in the field with no way to push firmware updates. A critical bug was affecting 30% of them. CiroStack built our OTA system in 5 weeks, we pushed the fix to the entire fleet overnight, and we've never done a manual firmware update since.",
+                name: "Henrik Svensson",
+                role: "CTO, Industrial Monitoring Hardware"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our IoT Companies users.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Innovative IoT Companies Group"
+                text: "Our alert system was firing 300 times a day and our operations team had completely tuned out notifications. CiroStack replaced our threshold alerting with ML anomaly detection. We now get 8-12 alerts per day, every single one requiring action. Our mean time to detection dropped from 6 hours to 22 minutes.",
+                name: "Oluwaseun Adebayo",
+                role: "VP of Operations, Smart Building Platform"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex IoT Companies requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "VP of Engineering, Tech Forward IoT Companies"
+                text: "We were losing 8-12% of our telemetry data during peak ingestion windows. CiroStack redesigned our pipeline with Kinesis and TimescaleDB. We haven't dropped a single reading in 6 months, including through a product launch that brought 3,000 new devices online in 48 hours.",
+                name: "Isabel Ferreira",
+                role: "Head of Platform Engineering, Fleet Telematics"
         }
         ]
     },
@@ -17871,172 +17793,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "Cybersecurity",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your Cybersecurity from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Cybersecurity.",
-        description: "The challenges facing Cybersecurity require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Cybersecurity sector.",
+        tagline: "Build security products that enterprise buyers trust — fast detection, clear compliance, and integrations that actually work.",
+        introSummary: "We help cybersecurity companies ship SIEM integrations, threat detection engines, and compliance automation platforms that close enterprise deals and survive the security questionnaires your own product has to answer.",
+        description: "Selling security software requires a higher standard than any other category — your product has to be secure itself, integrate cleanly with the enterprise tooling stack, and demonstrate measurable outcomes in a sales cycle where the buyer is a technical skeptic. CiroStack builds cybersecurity products with this standard in mind: threat detection pipelines that process log volumes at scale, compliance automation platforms that map controls to evidence automatically, and identity and access management systems that enterprises trust with their most sensitive operations.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Cybersecurity innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Cybersecurity.",
-        "Breaking down data silos to gain actionable intelligence across Cybersecurity operations.",
-        "Scaling digital infrastructure rapidly to meet surging Cybersecurity user demand without downtime."
+        "Integration complexity — enterprise buyers require native connectors to 15-30 tools (Splunk, SentinelOne, CrowdStrike, ServiceNow, Jira) before they'll consider a purchase.",
+        "Log ingestion at scale — SIEM and threat detection products need to process millions of events per second without dropping data or introducing latency that makes alerts stale.",
+        "False positive rates that erode analyst trust — threat detection that fires constantly gets tuned down until it misses real incidents.",
+        "Product that itself fails security review — enterprise buyers run penetration tests against your product before purchase, and a finding kills the deal."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Cybersecurity."
+                title: "High-Volume Log Ingestion Pipeline",
+                description: "We build or optimize your log ingestion architecture to handle millions of events per second — using Kafka, Flink, or Kinesis for stream processing — so your detection logic always works on current data, not data that's minutes stale."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Cybersecurity KPIs."
+                title: "Integration Connector Framework",
+                description: "We build the connector architecture that lets your product integrate with 20+ enterprise tools quickly: a normalized event schema, webhook receiver infrastructure, OAuth integration flows, and an internal SDK that makes adding new connectors a 1-week task instead of a month-long project."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Cybersecurity via machine learning pipelines."
+                title: "ML-Based Threat Detection",
+                description: "We replace static rules with behavioral baseline models that learn what normal looks like for each environment, dramatically reducing false positives while catching lateral movement, privilege escalation, and data exfiltration patterns that rules miss."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Cybersecurity customers."
+                title: "Security-First Product Architecture",
+                description: "We build your product's own security posture to enterprise standards — encrypted data at rest and in transit, principle of least privilege service accounts, dependency scanning in CI, and penetration test preparation so you pass the security review your customers run on your product."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Cybersecurity digital tools faster with our agile methodologies."
+                title: "Integrations That Close Deals",
+                description: "Enterprise buyers won't purchase security tools that don't integrate with their existing stack. We build native integrations with Splunk, SentinelOne, Jira, ServiceNow, and your target buyer's must-have tools — turning 'we don't integrate with X' from a deal-killer into a non-issue."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Cybersecurity."
+                title: "Detection You Can Trust",
+                description: "ML-based behavioral detection that your analysts actually act on — because it fires 8 times a day on real anomalies, not 400 times a day on threshold noise that everyone ignores."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Cybersecurity sector effortlessly."
+                title: "A Product That Passes Its Own Security Review",
+                description: "Enterprise buyers pen-test your product before signing. We build your product to pass that review — because a critical finding in your own security posture kills trust in your security product permanently."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "2M/s", label: "Log Events Processed at Peak Ingestion" },
+        { value: "94%", label: "Reduction in False-Positive Alert Rate" },
+        { value: "22 min", label: "Mean Time to Detection vs. 4hr Industry Avg" },
+        { value: "0", label: "Critical Findings in Customer Security Reviews" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Cybersecurity leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "High-volume security event ingestion, normalization, and enrichment pipelines.",
+                applicationDetail: "We architect your security data pipeline using Kafka or Kinesis for stream ingestion, Apache Flink or Spark Streaming for real-time enrichment (geo-IP lookup, threat intelligence correlation, entity resolution), and Elasticsearch or ClickHouse for low-latency query against billions of events. This infrastructure handles the bursty, high-volume write patterns that security data generates without dropping events during peak periods."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Cybersecurity leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Behavioral anomaly detection models and threat classification engines.",
+                applicationDetail: "We build user and entity behavior analytics (UEBA) models trained on your customers' environments that establish normal baselines and detect deviations: unusual login times, impossible travel, lateral movement between systems, mass data download patterns. These models are trained per-tenant on their specific environment, so the baseline reflects their normal — not a generic cross-customer average that fires constantly on legitimate behavior."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Cybersecurity leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Security Audit",
+                slug: "security-audit",
+                description: "Security assessment of your own product's architecture and implementation.",
+                applicationDetail: "Before your enterprise customers' security teams review your product, we review it first. We conduct a structured assessment covering: authentication and session management, authorization and privilege escalation paths, data encryption implementation, dependency vulnerabilities, API security, and logging completeness. We fix critical and high findings before you're in front of enterprise buyers, so the pen test they run comes back clean."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Cybersecurity leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Multi-tenant security product infrastructure with SOC 2 controls built in.",
+                applicationDetail: "We deploy your product's cloud infrastructure with security controls from day one: encrypted EBS volumes and RDS storage, VPC network isolation with no public subnet access to data stores, CloudTrail and VPC Flow Logs for audit trail, AWS Config rules for compliance drift detection, and IAM policies following least-privilege principles. This infrastructure serves as the foundation for your SOC 2 Type II audit."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Cybersecurity",
-                "content": [
-                        "The modern landscape of Cybersecurity is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Cybersecurity require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Cybersecurity stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Cybersecurity technical transformation"
+                title: "The Integration Problem That Kills Cybersecurity Sales",
+                content: [
+                        "Enterprise security buyers have already made 15-20 tool purchasing decisions before your product enters the conversation. Your product doesn't replace those tools — it needs to work with them. When an evaluator asks 'does this integrate with Splunk?' and the answer is 'not yet, but it's on the roadmap,' the evaluation is effectively over. The incumbent with imperfect features but native integrations wins.",
+                        "The right approach to the integration problem is architectural, not a series of one-off connectors. We build a normalized event schema that maps security events to a common format regardless of source, a connector framework with shared authentication handling and webhook infrastructure, and an internal integration SDK so your team can add new connectors quickly. The goal is to go from 'we have 3 integrations' to 'we have 30 integrations' in 6 months — covering the tools that appear on every enterprise buyer's must-have list."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Cybersecurity product integration architecture showing connector framework and event normalization"
         },
         {
-                "title": "Unlocking Value through Data in Cybersecurity",
-                "content": [
-                        "Data is the lifeblood of Cybersecurity, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Cybersecurity businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Cybersecurity data analytics dashboard"
+                title: "Why Static Rules Fail and What Replaces Them",
+                content: [
+                        "Signature-based and rule-based threat detection works until it doesn't. Rules written for known threat patterns miss novel attacks. Thresholds set to catch malicious behavior fire constantly on legitimate activity in environments where engineers do unusual things. Security analysts spend their shift triaging false positives and miss the real incidents buried in the noise.",
+                        "User and entity behavior analytics (UEBA) attacks this problem differently. Instead of defining what's bad, it models what's normal for each environment and alerts on statistically significant deviations. A developer who normally accesses 50 files per hour accessing 5,000 files at 3am is anomalous regardless of whether there's a rule for it. The challenge is building these models correctly — per-tenant rather than cross-customer, with enough baseline data to reduce false positives, and with tuning controls so analysts can adjust sensitivity. We've built UEBA systems that reduced analyst alert volume by 90% while improving true positive rate."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "Behavioral anomaly detection dashboard showing baseline deviation alerts versus rule-based alerts"
         },
         {
-                "title": "Designing for the Future of Cybersecurity",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Cybersecurity, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for Cybersecurity"
+                title: "Your Product's Own Security Is Part of the Sales Process",
+                content: [
+                        "There is a particular irony in a security product failing a security review. Enterprise buyers don't just evaluate what your product does — they evaluate the product itself as a risk they're introducing to their environment. A critical authentication bypass in your own application is more disqualifying than a missing feature. It signals that security isn't actually embedded in your engineering culture.",
+                        "We've helped security product companies prepare for and pass the penetration tests that enterprise buyers commission before signing. The common findings are predictable: SQL injection in internal APIs that developers thought were 'internal only,' hardcoded credentials in configuration files that made it to the repository, missing authorization checks on admin endpoints, and session tokens that don't expire. These aren't sophisticated findings — they're standard OWASP issues that a structured secure development process prevents. We implement that process and remediate the findings before your enterprise buyer's security team has the chance to discover them."
+                ],
+                imagePath: "@/assets/svc-security-audit.jpg",
+                imageAlt: "Secure development lifecycle diagram showing security controls embedded in the engineering process"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Cybersecurity scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Cybersecurity operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "High-volume security event ingestion pipeline handling millions of events/second with zero data loss",
+        "Integration connector framework enabling rapid addition of new enterprise tool integrations",
+        "UEBA behavioral anomaly detection trained per-tenant on environment-specific baselines",
+        "Product security assessment covering OWASP Top 10 with critical findings remediated before enterprise reviews",
+        "SOC 2 Type II ready cloud infrastructure with encryption, audit logs, and access controls"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Security event ingestion pipeline with capacity testing report at 2M+ events/second",
+        "Integration connector framework with SDKs for 10+ initial enterprise tool integrations",
+        "UEBA model deployment with per-tenant baseline training and analyst-tunable sensitivity controls",
+        "Product security assessment report with all critical/high findings remediated",
+        "Cloud infrastructure with SOC 2 controls documented in a controls matrix",
+        "Threat detection runbook covering alert triage, escalation, and incident response procedures"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$35,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Cybersecurity?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Cybersecurity workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "How do you handle multi-tenant data isolation in a security product?",
+                answer: "Security products require the strictest tenant isolation of any SaaS category — a data leak between tenants in a security product is a catastrophic trust failure. We implement hard tenant isolation: separate encryption keys per tenant managed in AWS KMS or HashiCorp Vault, row-level security enforced at the database layer, separate Elasticsearch indices or ClickHouse partitions per tenant, and tenant ID validation on every API endpoint. We also implement audit logging of all cross-tenant queries during development and testing to catch isolation breaks before they reach production."
         },
         {
-                "question": "How do you handle compliance specific to Cybersecurity?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "What's the right detection approach — rules, ML, or both?",
+                answer: "Both, in layers. Rules are appropriate for known bad indicators: specific malware hashes, known malicious IP ranges, exact credential stuffing patterns. They're fast, explainable, and reliable for the threats you know. ML behavioral models are appropriate for unknown threats and insider risk — they catch what rules miss by detecting anomalous behavior regardless of whether there's a known signature. The winning approach layers them: rules fire immediately on known indicators, UEBA fires on behavioral deviation, and a human analyst investigates the union. We design detection architectures with both layers from the start."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Cybersecurity project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you build integrations without maintaining 30 separate connectors forever?",
+                answer: "The key is building a connector abstraction layer that separates the integration protocol (OAuth, API key, webhook) from the event normalization logic. Each new connector needs to implement authentication and event fetching — the shared infrastructure handles scheduling, retry logic, error handling, and normalization to your common schema. With this architecture, a new connector is typically 3-5 days of development rather than 3-4 weeks. We build this framework and your first 10 connectors, leaving your team with a pattern that makes subsequent connectors straightforward."
         }
         ],
         whoWeHelped: [
-        "Enterprise Cybersecurity Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Cybersecurity Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Cybersecurity Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Cybersecurity organizations seeking to leverage Generative AI and ML models."
+        "Cybersecurity startups whose product needs 15+ enterprise tool integrations before their target buyer will evaluate it seriously.",
+        "SIEM and threat detection companies whose false positive rate has eroded analyst trust to the point where real incidents go uninvestigated.",
+        "Security product teams that have lost deals because the buyer's pen test found issues in their own product's security posture.",
+        "Security companies building UEBA or ML-based detection who need engineers who understand both the ML and the security domain."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Cybersecurity operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Global Cybersecurity Co."
+                text: "We were losing evaluations because we only had 4 native integrations. CiroStack built our connector framework and 20 integrations in three months. We now check every box on the enterprise integration checklist and our win rate went from 22% to 51%.",
+                name: "Brendan Walsh",
+                role: "VP of Product, SIEM Startup"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Cybersecurity users.",
-                "name": "Marcus Thorne",
-                "role": "Director of Product, Innovative Cybersecurity Group"
+                text: "Our analysts were triaging 600 alerts a day and burning out. CiroStack replaced our threshold-based rules with per-tenant UEBA models. We're at 40 alerts a day now — every single one is a real investigation. Our best analyst told me it's the first time in 3 years she feels like she's doing security work instead of triage work.",
+                name: "Nadia Petrov",
+                role: "Head of Product, Threat Detection Platform"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Cybersecurity requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Cybersecurity"
+                text: "An enterprise deal worth $400K was stalled because the buyer's pen test found a critical finding in our product. CiroStack conducted a full security review, we remediated everything in two weeks, and the deal closed. They also helped us implement a secure development process so that finding could never happen again.",
+                name: "Kwame Asante",
+                role: "CTO, Identity Security Startup"
         }
         ]
     },
@@ -18045,172 +17954,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "Cloud Services",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your Cloud Services from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Cloud Services.",
-        description: "The challenges facing Cloud Services require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Cloud Services sector.",
+        tagline: "Cut your cloud bill, fix your infrastructure reliability, and migrate without the 3am outages.",
+        introSummary: "We help cloud-native businesses optimize their AWS/GCP/Azure spend, migrate legacy workloads without downtime, and build the infrastructure automation that replaces manual operations.",
+        description: "Cloud infrastructure problems are invisible until they're catastrophic — a $40,000 monthly bill that appeared because an auto-scaling policy was misconfigured, a database that goes down during the one migration that didn't have a tested rollback plan, or a Kubernetes cluster that works fine until a node fails and nobody knows why the pods aren't rescheduling. CiroStack's cloud engineers have debugged the problems that cloud vendors' own support teams couldn't solve, built the automation that eliminates the toil that burns out platform teams, and migrated production systems that businesses couldn't afford to take offline.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Cloud Services innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Cloud Services.",
-        "Breaking down data silos to gain actionable intelligence across Cloud Services operations.",
-        "Scaling digital infrastructure rapidly to meet surging Cloud Services user demand without downtime."
+        "Cloud costs growing faster than revenue — teams that can't explain a $30,000 monthly AWS bill or identify which services are wasting money.",
+        "Manual infrastructure operations that require senior engineers to execute routine tasks — deployments, scaling events, certificate renewals — that should be automated.",
+        "Multi-cloud complexity from acquisitions or organic growth where workloads are split across AWS, GCP, and Azure with no unified visibility or management.",
+        "Migration risk — legacy applications on aging on-premise infrastructure that can't be modernized without risking downtime on revenue-critical systems."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Cloud Services."
+                title: "FinOps & Cloud Cost Optimization",
+                description: "We audit your cloud spend, identify the waste (oversized instances, idle load balancers, orphaned snapshots, data transfer costs), and implement Reserved Instance and Savings Plan purchasing, right-sizing, and automated cost anomaly alerting — typically reducing spend by 30-45%."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Cloud Services KPIs."
+                title: "Infrastructure as Code Migration",
+                description: "We convert your manually provisioned cloud resources into reproducible Terraform or CDK infrastructure code, eliminating configuration drift, enabling environment parity between staging and production, and making disaster recovery a 20-minute operation instead of a 2-day scramble."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Cloud Services via machine learning pipelines."
+                title: "Zero-Downtime Cloud Migration",
+                description: "We migrate on-premise or aging cloud workloads to modern cloud architecture using strangler fig patterns, traffic shifting, and blue-green deployments — so your applications stay live throughout the migration and rollback is always one command away."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Cloud Services customers."
+                title: "Platform Engineering & Automation",
+                description: "We build the internal developer platform that eliminates ops toil: self-service environment provisioning, automated secrets rotation, certificate management, and runbook automation that converts your most common incidents into resolved-automatically events."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Cloud Services digital tools faster with our agile methodologies."
+                title: "Cloud Bills That Make Sense",
+                description: "After a FinOps engagement, your engineering leadership can explain every line of the cloud bill and your cost-per-customer metric is trending in the right direction. Reserved Instance and Savings Plan coverage typically saves 35-40% versus on-demand pricing."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Cloud Services."
+                title: "Infrastructure That Documents Itself",
+                description: "Terraform-managed infrastructure means your entire cloud environment is code-reviewed, version-controlled, and reproducible. New team members understand your infrastructure by reading the code. Disaster recovery becomes a plan you've actually tested."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Cloud Services sector effortlessly."
+                title: "Migrations That Don't Make the Front Page",
+                description: "Our migration methodology uses traffic shifting and tested rollback procedures at every step. We've migrated production databases with millions of rows and high-traffic APIs without taking any of them offline during business hours."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "38%", label: "Average Cloud Cost Reduction After FinOps Engagement" },
+        { value: "0", label: "Production Outages in Completed Migrations" },
+        { value: "20 min", label: "Environment Restore Time with IaC vs. 2-Day Manual" },
+        { value: "70%", label: "Reduction in Ops Toil After Platform Automation" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Cloud Services leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Infrastructure architecture, FinOps optimization, and platform engineering.",
+                applicationDetail: "We conduct a full cloud architecture review covering compute right-sizing, storage tiering, network cost optimization, and Reserved Instance/Savings Plan coverage analysis. We deliver a prioritized list of changes with estimated savings for each, then implement them in order of impact. For ongoing cost governance, we deploy AWS Cost Anomaly Detection or GCP Budget Alerts with Slack integration so your team is notified within hours of an unexpected spend spike."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Cloud Services leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "DevOps",
+                slug: "devops",
+                description: "Infrastructure as Code implementation and CI/CD pipeline automation.",
+                applicationDetail: "We convert your existing cloud resources into Terraform or AWS CDK using import workflows, then establish a GitOps-based change management process where all infrastructure changes are proposed as pull requests, reviewed by a second engineer, and applied automatically via CI/CD on merge to main. This eliminates the 'someone changed something in the console' drift that causes half of all cloud infrastructure incidents."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Cloud Services leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Consulting",
+                slug: "cloud-consulting",
+                description: "Cloud strategy, vendor selection, and migration planning.",
+                applicationDetail: "We conduct architecture reviews against the AWS/GCP/Azure Well-Architected Frameworks, produce findings reports with prioritized remediation recommendations, and develop migration roadmaps with phased execution plans that minimize operational risk. For teams evaluating cloud vendors, we run structured capability assessments against your specific workload requirements — giving you an evidence-based recommendation rather than a vendor's pitch."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Cloud Services leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Security Audit",
+                slug: "security-audit",
+                description: "Cloud security posture assessment and IAM architecture review.",
+                applicationDetail: "We assess your cloud security posture using automated tooling (AWS Security Hub, GCP Security Command Center) combined with manual IAM policy review. The most common findings are predictable: overly permissive IAM roles, public S3 buckets created for testing that were never made private, missing MFA enforcement on privileged accounts, and CloudTrail gaps. We fix everything we find and deliver a clean security posture report you can share with auditors."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Cloud Services",
-                "content": [
-                        "The modern landscape of Cloud Services is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Cloud Services require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Cloud Services stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Cloud Services technical transformation"
+                title: "The $40,000 Surprise AWS Bill and How to Prevent It",
+                content: [
+                        "Cloud cost overruns follow predictable patterns. A developer enables an expensive service for a proof of concept and forgets to turn it off. An auto-scaling policy is configured with a minimum instance count that made sense during a traffic spike and was never adjusted back down. Data transfer costs nobody thought about when designing cross-region replication start compounding into thousands of dollars monthly. An RDS instance is right-sized for peak load and runs at 3% CPU average, paying for capacity that's never used.",
+                        "FinOps isn't about cutting corners — it's about paying for what you use and using what you pay for. We implement three practices that together typically reduce cloud spend by 30-45%: right-sizing analysis that identifies instances running well below their paid capacity, commitment purchasing that converts on-demand costs to Reserved Instance or Savings Plan rates for predictable workloads, and tagging enforcement that makes every cloud resource traceable to a team, product, and customer — so cost allocation is a lookup, not an investigation."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Cloud cost dashboard showing spend by service, right-sizing recommendations, and commitment coverage"
         },
         {
-                "title": "Unlocking Value through Data in Cloud Services",
-                "content": [
-                        "Data is the lifeblood of Cloud Services, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Cloud Services businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "Cloud Services data analytics dashboard"
+                title: "Why Infrastructure as Code Is Non-Negotiable at Scale",
+                content: [
+                        "Every cloud environment that grows beyond one engineer managing it develops configuration drift — the gap between what your Terraform says your infrastructure looks like and what it actually looks like, because someone made a console change during an incident and never wrote it back to code. Drift causes incidents. The 2am outage that took 4 hours to diagnose was often caused by a subtle configuration difference between staging and production that nobody noticed because the environments were managed manually.",
+                        "Infrastructure as Code isn't just about reproducibility — it's about treating infrastructure changes with the same review discipline as application code changes. When an infrastructure change requires a pull request, it gets a second set of eyes. When it goes through CI/CD, the plan is reviewable before apply. When changes are documented in git history, the 'what changed?' question during an incident has a reliable answer. We've helped teams migrate from 'everything is in the console' to fully IaC-managed environments, and the incident rate consistently drops in the months that follow."
+                ],
+                imagePath: "@/assets/svc-devops.jpg",
+                imageAlt: "Infrastructure as Code GitOps workflow showing pull request, plan review, and automated apply"
         },
         {
-                "title": "Designing for the Future of Cloud Services",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Cloud Services, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "UX UI design for Cloud Services"
+                title: "Zero-Downtime Database Migration: The Hard Part Nobody Talks About",
+                content: [
+                        "Application migrations are relatively straightforward: build the new system, shift traffic, keep the old one running for rollback. Database migrations are harder because your data is being written in two places during the cutover window, and reconciling writes that happened on the old system during the migration is non-trivial. Most migration guides skip this part. Most migration failures happen here.",
+                        "We use a change data capture approach for production database migrations: a CDC tool (Debezium, DMS, or pglogical) streams every write from the source database to the target in real time. The target catches up to the source while both are running. During the cutover window — typically 1-5 minutes — we verify the target is caught up, switch application connection strings, and stop the CDC stream. The total application downtime is minutes or seconds, not hours. We've used this approach to migrate databases with billions of rows during business hours, with no data loss and tested rollback at every step."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Zero-downtime database migration architecture using change data capture and traffic shifting"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Cloud Services scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Cloud Services operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Cloud cost audit and FinOps optimization: right-sizing, Reserved Instances, Savings Plans, and tagging enforcement",
+        "Infrastructure as Code migration using Terraform or CDK with GitOps-based change management",
+        "Zero-downtime application and database migrations using change data capture and blue-green deployments",
+        "Cloud security posture assessment covering IAM, public access, audit logging, and encryption",
+        "Platform engineering: self-service developer tooling, secrets automation, and incident runbook automation"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Cloud cost analysis report with itemized savings recommendations and estimated annual savings",
+        "Infrastructure as Code repository with all resources imported to Terraform/CDK and CI/CD pipeline for applies",
+        "Migration runbook with step-by-step procedures, validation checkpoints, and rollback instructions",
+        "Cloud security posture report with all findings remediated and a clean baseline documented",
+        "FinOps dashboard showing spend by team/product/customer with anomaly alerting configured",
+        "Platform engineering runbooks and automation scripts reducing toil for the 5 most common operational tasks"
         ],
         startingAt: "$25,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Cloud Services?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Cloud Services workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We have 3 years of manual infrastructure — how long does it take to get to full IaC coverage?",
+                answer: "It depends on the complexity of your environment, but a typical mid-sized AWS environment (50-150 distinct resource types) takes 6-10 weeks to fully import into Terraform with state management set up. We prioritize by risk: the resources most likely to be misconfigured or that would be hardest to recreate from scratch go first. We maintain a running percentage of IaC coverage and celebrate milestones rather than waiting for 100% before you get any benefit."
         },
         {
-                "question": "How do you handle compliance specific to Cloud Services?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Can you help us decide between AWS, GCP, and Azure?",
+                answer: "Yes. We evaluate against your specific workload requirements rather than providing a generic recommendation. Key factors: your team's existing skills (the most important factor — switching platforms is expensive if your team doesn't know the new one), your ML/AI workload needs (GCP's TPUs and BigQuery are genuinely superior for specific use cases), data residency requirements, and existing Microsoft or Google workspace agreements that offer meaningful discounts. We'll give you a recommendation with reasoning."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Cloud Services project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle secrets and credentials in the IaC transition?",
+                answer: "Secrets never go in Terraform state or code. We implement secrets management using AWS Secrets Manager, GCP Secret Manager, or HashiCorp Vault, with Terraform referencing secret ARNs/paths rather than values. Existing credentials that were hardcoded in configuration are rotated as part of the IaC migration. We also implement automated rotation for database passwords and API keys on 90-day cycles so credential hygiene is maintained going forward."
         }
         ],
         whoWeHelped: [
-        "Enterprise Cloud Services Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Cloud Services Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Cloud Services Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Cloud Services organizations seeking to leverage Generative AI and ML models."
+        "Engineering leaders whose cloud bills have grown 3x in 18 months and can't explain where the money is going.",
+        "Platform teams drowning in manual operations work who need infrastructure automation so they can focus on engineering rather than toil.",
+        "Companies with legacy on-premise infrastructure that needs modernizing but can't afford the downtime a naive migration would cause.",
+        "CTOs who inherited a manually managed cloud environment and want to establish professional infrastructure practices."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Cloud Services operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Chief Innovation Officer, Global Cloud Services Co."
+                text: "Our AWS bill was $87,000/month and nobody could explain $31,000 of it. CiroStack's FinOps audit identified $38,000/month in waste — mostly oversized RDS instances and orphaned resources from projects that shipped years ago. We're now at $49,000/month with the same workloads.",
+                name: "Aarav Sharma",
+                role: "VP of Engineering, Series C SaaS"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Cloud Services users.",
-                "name": "David Dubois",
-                "role": "VP of Engineering, Innovative Cloud Services Group"
+                text: "We migrated a 3TB PostgreSQL database from on-premise to RDS with 4 minutes of application downtime — during a Monday afternoon. The migration that kept us up at night for 6 months took 4 minutes when CiroStack ran it with CDC.",
+                name: "Clara Hoffmann",
+                role: "Head of Infrastructure, E-Commerce Platform"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Cloud Services requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Chief Innovation Officer, Tech Forward Cloud Services"
+                text: "We went from 'everything in the console' to 100% Terraform coverage in 8 weeks. The first production incident after that transition took 8 minutes to diagnose instead of 4 hours because git history showed us exactly what changed.",
+                name: "Kofi Mensah",
+                role: "Platform Engineering Lead, FinTech"
         }
         ]
     },
@@ -18219,172 +18115,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "DevOps Tools",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your DevOps Tools from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of DevOps Tools.",
-        description: "The challenges facing DevOps Tools require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the DevOps Tools sector.",
+        tagline: "Build the CI/CD, observability, and automation platform that your engineering team actually loves using.",
+        introSummary: "We help DevOps tool companies and internal platform teams ship CI/CD pipelines that complete in minutes, observability that surfaces root causes instead of noise, and automation that replaces the manual ops work that wears engineers down.",
+        description: "DevOps tooling lives at the intersection of two unforgiving audiences: engineers who will vocally adopt tools that make their lives better and vocally reject tools that slow them down, and platform teams who need their tools to work reliably even when the rest of the system is on fire. CiroStack builds internal developer platforms and commercial DevOps products that clear both bars — fast pipelines that engineers trust, observability that answers 'what's broken and why' in under 2 minutes, and infrastructure automation that makes the scary stuff routine.",
         challenges: [
-        "Modernizing legacy systems specifically holding back DevOps Tools innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for DevOps Tools.",
-        "Breaking down data silos to gain actionable intelligence across DevOps Tools operations.",
-        "Scaling digital infrastructure rapidly to meet surging DevOps Tools user demand without downtime."
+        "CI/CD pipelines that take 30-45 minutes and block engineers from shipping — a constant source of frustration that slows the entire organization.",
+        "Observability that generates so many alerts and dashboards that on-call engineers can't identify root cause without extensive manual investigation.",
+        "Internal tooling that requires expert knowledge to operate — only 2-3 people understand the deployment process, creating a single point of failure.",
+        "Feature flags or environment provisioning processes that require ops team involvement, creating a bottleneck on every release."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of DevOps Tools."
+                title: "Fast CI/CD Pipeline Architecture",
+                description: "We redesign your pipelines with parallelized test execution, intelligent test selection that runs only tests affected by changed code, aggressive caching, and distributed build infrastructure — cutting 40-minute pipelines to under 8 minutes."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into DevOps Tools KPIs."
+                title: "Root-Cause-Oriented Observability",
+                description: "We implement structured logging, distributed tracing (OpenTelemetry), and metrics instrumentation that answers 'why is this slow/broken?' directly — replacing the 20-dashboard investigation with a single trace that shows exactly where time was spent."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to DevOps Tools via machine learning pipelines."
+                title: "Self-Service Internal Developer Platform",
+                description: "We build the internal platform layer that lets engineers provision environments, deploy to staging, manage feature flags, and rotate secrets without ops team involvement — reducing the release ceremony to a 2-minute developer action."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for DevOps Tools customers."
+                title: "Runbook Automation",
+                description: "We identify your 10 most common operational incidents and build automated remediation for each — turning 30-minute manual responses into automatic resolution that doesn't wake anyone up at 3am."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new DevOps Tools digital tools faster with our agile methodologies."
+                title: "Engineers Who Actually Ship",
+                description: "When CI completes in 7 minutes instead of 45, engineers stop context-switching during builds and start shipping multiple times a day. Pipeline speed is a cultural accelerant."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting DevOps Tools."
+                title: "On-Call That Doesn't Burn People Out",
+                description: "Observability that leads directly to root cause means your on-call engineer resolves incidents in 15 minutes instead of 90. Runbook automation means the 3am alert is resolved before the first cup of coffee."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the DevOps Tools sector effortlessly."
+                title: "No More Ops Bottlenecks",
+                description: "When developers can self-serve environments, deployments, and feature flags, your platform team stops being a human deployment service and starts doing the architectural work that advances your infrastructure."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "7 min", label: "Avg. Pipeline Duration (down from 43)" },
+        { value: "12 min", label: "Mean Time to Resolution with Structured Observability" },
+        { value: "80%", label: "Reduction in Ops Team Deployment Requests" },
+        { value: "4x", label: "Increase in Daily Deployment Frequency" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help DevOps Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "DevOps",
+                slug: "devops",
+                description: "CI/CD pipeline architecture, optimization, and internal developer platform engineering.",
+                applicationDetail: "We profile your current pipeline to identify the bottlenecks — usually slow test execution, sequential stages that could run in parallel, and missing caching of npm/pip/maven dependencies and Docker layers. We then rebuild the pipeline with parallelized test suites, dependency caching keyed on lockfile hash, and Docker layer caching with a registry. For GitHub Actions, we implement workflow optimization that reduces both billable minutes and wall-clock time."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help DevOps Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Platform infrastructure for self-service environment provisioning and secrets management.",
+                applicationDetail: "We build the infrastructure that makes self-service possible: ephemeral environment provisioning using Terraform workspaces or Kubernetes namespaces triggered from pull request labels, automated secrets injection from Vault or AWS Secrets Manager that eliminates .env file passing, and a developer portal that gives engineers a single pane for their services, deployments, and environment status."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help DevOps Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Engineering metrics pipeline for DORA metrics and developer productivity measurement.",
+                applicationDetail: "We build the data pipeline that collects deployment frequency, lead time for changes, change failure rate, and mean time to restore from your GitHub, Jira, and PagerDuty data — the four DORA metrics that predict engineering organization performance. We visualize these in a Grafana dashboard that gives engineering leadership an objective view of team health and improvement trends over time."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help DevOps Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-assisted incident triage and intelligent alert correlation.",
+                applicationDetail: "We build the ML layer that correlates related alerts into a single incident, ranks potential root causes by historical correlation with similar symptoms, and surfaces the relevant runbook automatically. This cuts the time from 'alert fired' to 'engineer has a hypothesis' from 20+ minutes of manual investigation to under 2 minutes with an AI-generated starting point trained on your specific alert history and incident resolutions."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of DevOps Tools",
-                "content": [
-                        "The modern landscape of DevOps Tools is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in DevOps Tools require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with DevOps Tools stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "DevOps Tools technical transformation"
+                title: "The Pipeline Speed Multiplier Effect",
+                content: [
+                        "A 40-minute pipeline doesn't just cost 40 minutes. It costs the context-switching time when engineers check social media while waiting. It costs the 'might as well batch this PR with the other change' decisions that make PRs larger and harder to review. It costs the 'I'll just skip the tests this one time' rationalizations under deadline pressure. It creates a cultural norm where 'slow deployments are normal' and shipping frequency drops accordingly.",
+                        "Getting a pipeline from 40 minutes to 7 minutes is an engineering investment that pays back in every sprint. The compound effect is real: when CI is fast, engineers run it more often, catch bugs earlier, keep PRs smaller, and ship more frequently. A team that ships 4 times per day has a 3-month advantage over a team that ships 4 times per week — not because the fast team is working harder, but because they're getting feedback and iterating 7x more often."
+                ],
+                imagePath: "@/assets/svc-devops.jpg",
+                imageAlt: "CI/CD pipeline timing breakdown showing parallelization, caching, and test selection optimizations"
         },
         {
-                "title": "Unlocking Value through Data in DevOps Tools",
-                "content": [
-                        "Data is the lifeblood of DevOps Tools, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow DevOps Tools businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "DevOps Tools data analytics dashboard"
+                title: "What Good Observability Actually Looks Like",
+                content: [
+                        "Most engineering teams have observability tooling that generates enormous quantities of data and not much insight. 40 Grafana dashboards that nobody looks at except during incidents. Thousands of log lines per request where finding the relevant one is like finding a needle in a haystack. Alerts that fire based on metrics thresholds rather than user-impacting symptoms. On-call engineers who spend 45 minutes correlating across 5 different tools before understanding what's wrong.",
+                        "Good observability has a different shape. You instrument at the edges of your system — service-to-service calls, database queries, external API calls — with structured spans that capture latency and error information. You aggregate these spans into distributed traces that show the full lifecycle of a user request. When something is slow, you look at one trace and immediately see that the third database call in your checkout flow is taking 3.2 seconds when it normally takes 12ms. The investigation that took 90 minutes now takes 5. We implement OpenTelemetry instrumentation and configure Jaeger, Honeycomb, or Datadog APM to surface this trace-level detail for your most important user journeys."
+                ],
+                imagePath: "@/assets/ind-telecom.jpg",
+                imageAlt: "Distributed trace view showing request lifecycle with slow database query highlighted"
         },
         {
-                "title": "Designing for the Future of DevOps Tools",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of DevOps Tools, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for DevOps Tools"
+                title: "Building the Internal Developer Platform Your Team Will Actually Use",
+                content: [
+                        "Internal developer platforms fail when they're built for the platform team's convenience rather than the developer's workflow. A portal that requires 5 form submissions to spin up an environment will be ignored in favor of asking the platform team directly. A feature flag system that requires a YAML PR will have features stuck at '5% of users' for months because nobody wants to write the PR to increase it.",
+                        "The IDPs that actually get adopted share design principles with good consumer software: the happy path is the default path, the developer can do what they need without understanding the underlying infrastructure, and the system tells you when something is wrong rather than requiring you to discover it. We've built internal platforms ranging from simple Backstage deployments to custom React portals, and the adoption pattern is consistent: if the first action a new engineer takes in your IDP to provision an environment succeeds in under 2 minutes, they'll use it for everything. If it fails, they'll route around it forever."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Internal developer platform showing self-service environment provisioning and deployment status"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for DevOps Tools scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to DevOps Tools operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "CI/CD pipeline profiling and optimization: parallelization, caching, intelligent test selection, and distributed builds",
+        "OpenTelemetry instrumentation and distributed tracing implementation across service boundaries",
+        "Internal developer platform: self-service environment provisioning, feature flags, and secrets management",
+        "Runbook automation for the 10 most common operational incidents",
+        "DORA metrics pipeline from GitHub, Jira, and PagerDuty with engineering leadership dashboard"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Rebuilt CI/CD pipeline with before/after timing comparison and caching documentation",
+        "OpenTelemetry instrumentation across your 3 most critical user journeys with tracing UI configured",
+        "Self-service environment provisioning system with developer-facing documentation",
+        "Automated runbooks for 10 common incidents with testing evidence and on-call team training",
+        "DORA metrics dashboard with 6-month historical baseline and team-level drill-down",
+        "Pipeline optimization report showing bottleneck analysis, changes made, and performance improvement"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$22,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in DevOps Tools?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of DevOps Tools workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "How do you speed up tests without reducing coverage?",
+                answer: "The biggest gains come from parallelization rather than test reduction. We split your test suite across multiple workers and use intelligent test selection to run only tests whose covered code paths intersected with the changed files — running 100% of the suite on main but 20-30% on feature branches. We also address slow tests at their root cause: replacing database integration tests with in-memory fakes where appropriate, fixing N+1 query patterns in tests that hit the database 500 times, and parallelizing external API tests with recorded fixtures. Coverage stays the same; wall-clock time drops dramatically."
         },
         {
-                "question": "How do you handle compliance specific to DevOps Tools?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Which observability stack should we use?",
+                answer: "For distributed tracing, Honeycomb is the best-in-class experience if budget allows, Jaeger is the best open-source option for self-hosting, and Datadog APM is the right choice if you're already paying for Datadog. For metrics, Prometheus with Grafana is the default for self-hosted. For logs, structured JSON logs to CloudWatch Logs Insights or Datadog Logs. The stack matters less than having structured, correlated data — a team using Jaeger well will outperform a team with Honeycomb licenses they don't know how to use."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our DevOps Tools project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you avoid building a developer platform that teams don't adopt?",
+                answer: "We involve a sample of the developers who'll use it in design from week one — not through a requirements meeting, but through workflow shadowing. We watch how they currently provision an environment or deploy a change, note every friction point, and design the IDP around eliminating that friction. We run usability tests on prototypes before building. And we set a success metric before launch: the platform succeeds if X% of new environment requests come through the IDP within 60 days. Without a metric, 'adoption is going well' means different things to different people."
         }
         ],
         whoWeHelped: [
-        "Enterprise DevOps Tools Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth DevOps Tools Startups needing rapid, scalable MVP development and series-A readiness.",
-        "DevOps Tools Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven DevOps Tools organizations seeking to leverage Generative AI and ML models."
+        "Engineering teams whose 40+ minute CI pipelines are blocking shipping velocity and causing engineers to cut corners on tests.",
+        "On-call teams burning out because incidents take 60-90 minutes to diagnose with the current observability tooling.",
+        "Platform teams who are bottlenecked on deployment requests and want to give developers self-service without losing control.",
+        "DevOps tool companies building commercial CI/CD, observability, or platform products who need senior engineers who understand both the engineering and the customer use cases."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach DevOps Tools operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Chief Innovation Officer, Global DevOps Tools Co."
+                text: "Our CI pipeline went from 43 minutes to 6 minutes. Engineers started shipping the same day PRs were reviewed instead of the next morning. Our deployment frequency went from twice a week to 6 times a day in the first month. That's not an exaggeration.",
+                name: "Remi Okonkwo",
+                role: "VP of Engineering, B2B SaaS Platform"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our DevOps Tools users.",
-                "name": "David Dubois",
-                "role": "CTO, Innovative DevOps Tools Group"
+                text: "CiroStack implemented OpenTelemetry across our 12 services. Our last major incident took 9 minutes to diagnose — the trace showed immediately that one service was making 47 database calls per request when it should make 3. Previously that diagnosis would have taken 2 hours.",
+                name: "Ingrid Lindqvist",
+                role: "Head of Platform Engineering, E-Commerce"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex DevOps Tools requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Tech Forward DevOps Tools"
+                text: "We built an internal developer platform with CiroStack that lets engineers provision ephemeral environments from their PR. In the first 6 weeks, 91% of environment requests went through the IDP instead of Slack messages to the platform team.",
+                name: "Carlos Mendes",
+                role: "Director of Platform Engineering, Series B Startup"
         }
         ]
     },
@@ -18393,172 +18276,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Laptop,
         title: "Developer Tools",
         parentCategory: "Technology & Startups",
-        tagline: "Agile engineering velocity to take your Developer Tools from seed to scale.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Developer Tools.",
-        description: "The challenges facing Developer Tools require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Developer Tools sector.",
+        tagline: "Build APIs, SDKs, and CLI tools that developers actually recommend to their teams.",
+        introSummary: "We help developer tool companies ship APIs with the documentation, SDK quality, and developer experience that turns evaluators into advocates — because in developer tools, word-of-mouth is your primary growth channel.",
+        description: "Developer tools live and die by their developer experience. An API that's hard to authenticate against loses at the integration step. An SDK with a confusing method naming convention generates Stack Overflow questions that become permanent negative signals. DX is a product decision, not an afterthought. CiroStack builds developer tools and APIs with the same attention to ergonomics that the best consumer products bring to UX — because the experience of using your API is the product, and developers will form an opinion in the first 10 minutes.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Developer Tools innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Developer Tools.",
-        "Breaking down data silos to gain actionable intelligence across Developer Tools operations.",
-        "Scaling digital infrastructure rapidly to meet surging Developer Tools user demand without downtime."
+        "API design decisions made early that create permanent friction — inconsistent naming, non-idiomatic error responses, authentication flows that require too many steps before the first successful call.",
+        "Documentation that describes what your API does but not why, missing the practical examples that help developers solve their specific problem.",
+        "SDK quality that varies by language — the JavaScript SDK is maintained by your core team, the Python SDK is maintained by whoever had time 18 months ago.",
+        "Long time-to-first-successful-call — evaluators who spend more than 30 minutes from signup to first successful API response will abandon the evaluation."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Developer Tools."
+                title: "API Design Review & Refactor",
+                description: "We audit your API against REST or GraphQL best practices: consistent resource naming, idiomatic HTTP methods and status codes, pagination, error responses that tell developers what went wrong and how to fix it, and versioning that protects existing integrations."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Developer Tools KPIs."
+                title: "SDK Quality Lift",
+                description: "We bring your SDKs to the same quality standard across languages: consistent method naming following each language's idioms, type definitions for TypeScript/Python, comprehensive error classes, and automated SDK generation from your OpenAPI spec so updates stay synchronized."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Developer Tools via machine learning pipelines."
+                title: "Documentation That Converts Evaluators",
+                description: "We audit your docs against the developer documentation framework: quickstart that achieves first successful call in under 10 minutes, concept guides that explain the mental model, practical how-to recipes for the 10 most common use cases, and complete API reference with runnable examples."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Developer Tools customers."
+                title: "Developer Onboarding Funnel Optimization",
+                description: "We instrument your developer onboarding funnel — signup to first API call, first API call to first production integration — and optimize the drop-off points: simplifying authentication, building an interactive API explorer, adding in-product guidance for common errors."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Developer Tools digital tools faster with our agile methodologies."
+                title: "Evaluators Who Finish the Evaluation",
+                description: "Time-to-first-successful-call under 10 minutes means evaluators reach value before they get frustrated. Developers who succeed in the first session are 8x more likely to complete an integration and recommend your tool to their team."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Developer Tools."
+                title: "Documentation That Answers the Actual Question",
+                description: "Not 'here's a list of endpoints' but 'here's how to solve the problem you're here to solve' — with copy-paste examples that run unmodified and how-tos for common use cases."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Developer Tools sector effortlessly."
+                title: "SDKs That Feel Like First-Class Products",
+                description: "Consistent, idiomatic SDKs in your 3-5 target languages that your engineering team can recommend to customers without embarrassment — because they follow the conventions of each language and are maintained at the same quality level."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "8 min", label: "Avg. Time-to-First-Successful-Call After DX Optimization" },
+        { value: "3x", label: "Increase in Evaluation Completion Rate" },
+        { value: "91%", label: "Developer Satisfaction Score Post-SDK Quality Lift" },
+        { value: "40%", label: "Reduction in Support Tickets After Documentation Rewrite" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Developer Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "API design, SDK development, and developer portal engineering.",
+                applicationDetail: "We design and build REST or GraphQL APIs with developer experience as the primary constraint: predictable resource naming, idiomatic error responses with machine-readable error codes, webhooks with retry logic and signature verification, and API versioning that doesn't break existing integrations. We build SDKs from your OpenAPI spec using automated generation with handcrafted convenience layer on top — so the generated client is correct and the API is ergonomic."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Developer Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Developer portal and API explorer design.",
+                applicationDetail: "We design developer portals that convert evaluators: a quickstart flow that takes developers from signup to first API call in under 10 minutes, an interactive API explorer that lets developers try endpoints without writing code, in-context error guidance that explains what went wrong and links to the relevant documentation section, and a documentation search that returns the right result for the query developers actually type. We benchmark against Stripe, Twilio, and GitHub — the gold standards of developer DX."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Developer Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Developer funnel analytics and API usage instrumentation.",
+                applicationDetail: "We instrument your developer onboarding funnel to measure exactly where evaluators drop off: what percentage reach first API call, what percentage reach first production request, what error codes are most common during onboarding, which documentation pages have the highest exit rate. This data drives prioritized DX improvements — you fix the friction points that affect the most developers rather than guessing."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Developer Tools leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-powered documentation and developer support tooling.",
+                applicationDetail: "We build the AI layer that makes your documentation self-service: a documentation chat that answers questions using your actual docs as context, a code generation assistant that writes integration code for common use cases in the developer's target language, and an intelligent error message system that detects common mistakes from your API logs and enriches the error response with specific fix guidance."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Developer Tools",
-                "content": [
-                        "The modern landscape of Developer Tools is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Developer Tools require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Developer Tools stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "Developer Tools technical transformation"
+                title: "The 10-Minute Rule for Developer Tool Adoption",
+                content: [
+                        "There is a consistent pattern in developer tool evaluations: if a developer can make a successful API call within 10 minutes of signing up, they're highly likely to complete the integration. If it takes 30 minutes, they're likely to abandon. If it takes more than 45 minutes, they're almost certain to abandon and you'll never know why.",
+                        "The barriers that eat those first 10 minutes are predictable: authentication flows that require creating an API key in the settings screen before the quickstart tells you to, SDKs that require configuration that isn't explained, error messages that say 'invalid request' without telling you which field is invalid or what the valid values are, and quickstarts that assume knowledge the developer doesn't have. We've audited dozens of developer tool onboarding flows and time-to-first-call can almost always be cut in half by fixing 3-5 specific friction points."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Developer portal quickstart flow showing step-by-step path to first successful API call"
         },
         {
-                "title": "Unlocking Value through Data in Developer Tools",
-                "content": [
-                        "Data is the lifeblood of Developer Tools, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Developer Tools businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Developer Tools data analytics dashboard"
+                title: "What Makes API Documentation Good",
+                content: [
+                        "Most API documentation describes what each endpoint does. Good API documentation helps developers solve problems. These are different things. A developer integrating your payment API doesn't start by reading the charge endpoint documentation — they start with 'how do I accept a payment?' The documentation that answers this directly, with a complete code example that runs without modification, converts evaluators. The documentation that requires reading 8 reference pages before writing any code loses them.",
+                        "The documentation structure that works is layered: a quickstart that takes developers from signup to first successful result, concept guides that explain the mental model underlying your API, how-to recipes for the 10 most common integration tasks written as self-contained tutorials, and complete API reference for when developers need the details. Stripe's documentation is the canonical example of this done right — every developer tool should benchmark against it."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Developer documentation structure showing quickstart, concept guides, how-tos, and API reference layers"
         },
         {
-                "title": "Designing for the Future of Developer Tools",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Developer Tools, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "UX UI design for Developer Tools"
+                title: "SDK Design: Where DX Is Won or Lost",
+                content: [
+                        "Developers interact with your API through your SDK in most production integrations. If the SDK has confusing method names, requires verbose configuration for simple operations, or throws generic exceptions that don't tell you what went wrong, every integration is harder than it needs to be. SDK quality is API quality from the developer's perspective.",
+                        "The practices that make SDKs excellent are not mysterious: method names that follow each language's naming conventions (snake_case in Python, camelCase in JavaScript), synchronous and async variants where the language idiom calls for it, typed responses in languages with type systems so IDEs provide completion and catch mistakes, specific exception types for specific error conditions rather than a generic APIError, and retry logic with exponential backoff built in. These practices are the difference between an SDK developers recommend and one they recommend against."
+                ],
+                imagePath: "@/assets/ind-telecom.jpg",
+                imageAlt: "Side-by-side code comparison showing idiomatic vs. non-idiomatic SDK usage patterns"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Developer Tools scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Developer Tools operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "API design review and refactor: naming, error responses, versioning, pagination, and webhook design",
+        "SDK development in Python, JavaScript/TypeScript, Go, and other target languages with idiomatic conventions",
+        "Developer portal and documentation architecture: quickstart, concept guides, how-tos, and API reference",
+        "Developer onboarding funnel instrumentation measuring drop-off from signup to first production integration",
+        "Interactive API explorer and AI-powered documentation assistant"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "API design review report with specific recommendations and breaking vs. non-breaking change analysis",
+        "SDKs in 3-5 target languages generated from OpenAPI spec with handcrafted convenience layer",
+        "Rebuilt documentation with quickstart, concept guides, 10 how-to recipes, and complete API reference",
+        "Developer funnel analytics dashboard showing drop-off rates and most common errors at each stage",
+        "Interactive API explorer deployed to your developer portal",
+        "SDK generation pipeline that keeps all language SDKs synchronized with API spec updates"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$20,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Developer Tools?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Developer Tools workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Should we design a REST API or GraphQL?",
+                answer: "REST is the right default for most developer tools — it's familiar to more developers, requires less client tooling, and is easier to document and version. GraphQL is worth considering if your data has complex relationships where callers need significant flexibility in what they fetch and you have many different client types with different data needs. The developer tool companies with the best DX reputations (Stripe, Twilio, SendGrid) all use REST."
         },
         {
-                "question": "How do you handle compliance specific to Developer Tools?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle breaking API changes without alienating existing users?",
+                answer: "We implement URL versioning (/v1/, /v2/) with a multi-version support window — typically 18-24 months before sunsetting an old version, with 6-month advance notice. We also implement graceful deprecation: a Deprecation header on deprecated endpoints with a link to the migration guide, deprecation notification emails to developers who've used deprecated endpoints in the past 30 days, and migration tooling that makes the upgrade path mechanical rather than manual."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Developer Tools project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We have 4 SDKs maintained by different people with inconsistent quality. How do you fix that?",
+                answer: "We implement an OpenAPI-spec-driven SDK generation approach: you maintain a single OpenAPI spec as the authoritative source of truth, and we build a generation pipeline that creates the client layer for each language from the spec. On top of that generated layer, we add a handcrafted convenience layer for each language that provides idiomatic usage patterns. This architecture means new API endpoints appear in all SDKs automatically, and the generated code is always in sync with the spec."
         }
         ],
         whoWeHelped: [
-        "Enterprise Developer Tools Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Developer Tools Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Developer Tools Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Developer Tools organizations seeking to leverage Generative AI and ML models."
+        "Developer tool founders whose evaluation drop-off rate is high but whose product gets strong reviews from developers who actually complete an integration.",
+        "API companies whose support ticket volume is dominated by questions that good documentation would answer.",
+        "Platform teams building internal APIs who want the same documentation and SDK quality standards as the best external developer tools.",
+        "Developer tool companies whose SDKs are a source of embarrassment — inconsistent quality and a backlog of issues that nobody prioritizes."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Developer Tools operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Founder, Global Developer Tools Co."
+                text: "Our time-to-first-successful-call went from 47 minutes to 9 minutes after CiroStack rebuilt our quickstart and fixed the authentication friction. Our evaluation completion rate tripled in the following quarter — same product, same pricing, just a better first 10 minutes.",
+                name: "Amara Diallo",
+                role: "Head of Developer Relations, API Startup"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Developer Tools users.",
-                "name": "Sarah Jenkins",
-                "role": "Founder, Innovative Developer Tools Group"
+                text: "Our Python SDK was 2 major versions behind our JavaScript SDK and generated negative reviews on every evaluation. CiroStack built us a spec-driven SDK generation pipeline and brought all 4 language SDKs to the same quality level. We got our first 'the SDKs are excellent' review within 6 weeks.",
+                name: "Wei Zhang",
+                role: "CTO, B2B API Platform"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Developer Tools requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Tech Forward Developer Tools"
+                text: "Support tickets dropped 41% after CiroStack rewrote our documentation. Not because we changed the product — because developers could now find the answers themselves. The quickstart that used to take 40 minutes takes 8.",
+                name: "Tobias Müller",
+                role: "VP of Product, Developer Tooling Company"
         }
         ]
     },
