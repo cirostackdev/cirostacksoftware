@@ -1,0 +1,286 @@
+@import "tailwindcss";
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/space-grotesk/400.css';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+
+@theme {
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+
+  /* Brand colours — CiroStack red */
+  --color-brand: #E82121;
+  --color-brand-dark: #C41B1B;
+  --color-brand-light: #F04040;
+
+  /* AI / Prompt Lab purple */
+  --color-ai: #7C3AED;
+  --color-ai-dark: #6D28D9;
+  --color-ai-light: #A78BFA;
+
+  /* Semantic */
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-info: #4FA3FF;
+
+  /* Light mode surfaces — warm cream palette (matches cirostackwebsite) */
+  --color-bg: #FFFAF5;
+  --color-surface: #FFFDFA;
+  --color-surface-2: #F0E6D3;
+  --color-border: #DDD1C0;
+  --color-border-2: #CFC0AA;
+  --color-text: #2A2420;
+  --color-text-muted: #756B62;
+  --color-text-subtle: #9E9189;
+
+  /* Dark mode surfaces (applied via .dark class on <html>) */
+
+  /* Code editor */
+  --color-code-bg: #0D1117;
+  --color-code-line: #161B22;
+}
+
+/* Dark mode CSS variables */
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+  --color-bg: #171312;
+  --color-surface: #1D1916;
+  --color-surface-2: #262019;
+  --color-border: #352F2A;
+  --color-border-2: #433C36;
+  --color-text: #EAE4DC;
+  --color-text-muted: #A89B8A;
+  --color-text-subtle: #6B5D50;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.625;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+  }
+
+  h1 { font-size: 2.25rem; line-height: 1.1; }
+  h2 { font-size: 1.875rem; }
+  h3 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.015em; line-height: 1.375; }
+  h4 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.5; }
+  h5 { font-size: 1.125rem; font-weight: 600; line-height: 1.5; }
+  h6 { font-size: 1rem; font-weight: 600; line-height: 1.5; }
+
+  p { line-height: 1.625; }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* Responsive heading scale — outside @layer to avoid Tailwind v4 nesting issues */
+@media (min-width: 768px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+  h3 { font-size: 1.875rem; }
+  h4 { font-size: 1.5rem; }
+}
+
+@media (min-width: 1024px) {
+  h1 { font-size: 3.75rem; }
+  h2 { font-size: 3rem; }
+  h3 { font-size: 2.25rem; }
+  h4 { font-size: 1.875rem; }
+}
+
+/* Utility classes */
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .bg-brand {
+    background-color: var(--color-brand);
+  }
+
+  .text-brand {
+    color: var(--color-brand);
+  }
+
+  .border-brand {
+    border-color: var(--color-brand);
+  }
+
+  /* Surface backgrounds that respond to dark mode */
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+
+  .bg-surface-2 {
+    background-color: var(--color-surface-2);
+  }
+
+  .bg-page {
+    background-color: var(--color-bg);
+  }
+
+  .border-default {
+    border-color: var(--color-border);
+  }
+
+  .text-default {
+    color: var(--color-text);
+  }
+
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+
+  .text-subtle {
+    color: var(--color-text-subtle);
+  }
+
+  /* Gradient text for hero headings */
+  .text-gradient {
+    background: linear-gradient(135deg, #E82121 0%, #4F86F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Brand gradient */
+  .gradient-brand {
+    background: linear-gradient(135deg, #E82121 0%, #7C3AED 100%);
+  }
+
+  /* Glow effects */
+  .glow-border {
+    box-shadow: 0 0 20px -5px rgba(232, 33, 33, 0.3);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 30px rgba(232, 33, 33, 0.5);
+  }
+
+  /* AI glow effect */
+  .glow-ai {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+  }
+
+  /* Code background */
+  .bg-code {
+    background-color: var(--color-code-bg);
+  }
+
+  /* Section vertical padding — matches website .section-padding */
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  /* Badge / eyebrow label — matches website px-3 py-1 text-xs tracking-wider uppercase */
+  .badge-label {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 9999px;
+    background-color: rgba(232, 33, 33, 0.1);
+    color: var(--color-brand);
+    border: 1px solid rgba(232, 33, 33, 0.2);
+  }
+
+  /* Smooth transitions */
+  .transition-default {
+    transition: all 0.15s ease;
+  }
+
+  .hover-lift {
+    transition: all 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);
+  }
+
+  .surface-glass {
+    background-color: color-mix(in srgb, var(--color-surface) 60%, transparent);
+    backdrop-filter: blur(20px);
+    border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
+  }
+}
+
+/* Scrollbar (dark mode) */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: var(--color-surface-2); }
+  ::-webkit-scrollbar-thumb { background: var(--color-border-2); border-radius: 4px; }
+}
+
+.dark ::-webkit-scrollbar { width: 8px; height: 8px; }
+.dark ::-webkit-scrollbar-track { background: var(--color-surface-2); }
+.dark ::-webkit-scrollbar-thumb { background: var(--color-border-2); border-radius: 4px; }
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s ease-in-out infinite;
+}
+
+/* Responsive section padding — outside @layer to avoid Tailwind v4 nesting issues */
+@media (min-width: 768px) {
+  .section-padding { padding-top: 7rem; padding-bottom: 7rem; }
+}
+
+@media (min-width: 1024px) {
+  .section-padding { padding-top: 8rem; padding-bottom: 8rem; }
+}

@@ -1,0 +1,1 @@
+read the nova_figma_screen_list.html to understand the needed screens/pages
