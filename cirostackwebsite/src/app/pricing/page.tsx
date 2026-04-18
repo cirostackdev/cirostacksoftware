@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     "Fixed-price packages for websites, mobile apps, AI automation, and custom software. No hourly billing. No surprise invoices. Know your cost before we start.",
   alternates: { canonical: "https://cirostack.com/pricing" },
   openGraph: {
+    images: [{ url: "https://cirostack.com/images/pages/hero-pricing.jpg", width: 1200, height: 630, alt: "CiroStack" }],
     url: "https://cirostack.com/pricing",
     title: "Pricing | CiroStack",
     description:

@@ -21,7 +21,7 @@ import { WhatsAppPopup } from "@/components/WhatsAppPopup";
 import { FacebookPixel } from "@/components/FacebookPixel";
 
 const SITE_URL = "https://cirostack.com";
-const OG_IMAGE = `${SITE_URL}/images/og-default.jpg`;
+const OG_IMAGE = `${SITE_URL}/images/pages/hero-bg.jpg`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
