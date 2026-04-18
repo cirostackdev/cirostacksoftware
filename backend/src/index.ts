@@ -30,13 +30,14 @@ async function bootstrap() {
   const { gamificationRouter } = await import('@/modules/gamification/gamification.router.js');
   const { liveSessionsRouter } = await import('@/modules/live-sessions/live-sessions.router.js');
   const { adminRouter } = await import('@/modules/admin/admin.router.js');
+  const { metaRouter } = await import('@/modules/meta/meta.router.js');
 
   const app = express();
 
   app.use(helmet());
   const corsOrigins = process.env.CORS_ORIGIN
     ? process.env.CORS_ORIGIN.split(',').map((s) => s.trim())
-    : ['http://localhost:3000', 'https://academy.cirostack.com', 'https://cirostackacademy.up.railway.app'];
+    : ['http://localhost:3000', 'https://cirostack.com', 'https://academy.cirostack.com', 'https://cirostackacademy.up.railway.app'];
   app.use(
     cors({
       origin: corsOrigins,
@@ -122,6 +123,9 @@ async function bootstrap() {
   // Admin (analytics, users, talent pipeline, instructor analytics)
   v1.use('/admin', adminRouter);
   v1.use('/instructor/analytics', adminRouter);
+
+  // Meta Conversions API (pixel server-side events)
+  v1.use('/meta', metaRouter);
 
   app.use('/v1', v1);
   app.use(errorHandler);

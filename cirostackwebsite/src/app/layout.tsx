@@ -13,16 +13,18 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
 });
+import { Suspense } from "react";
 import { Providers } from "./providers";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { WhatsAppPopup } from "@/components/WhatsAppPopup";
+import { FacebookPixel } from "@/components/FacebookPixel";
 
 export const metadata: Metadata = {
   title: "CiroStack",
   description:
     "CiroStack is a software development agency that builds websites, web & mobile applications, and AI automation solutions for growing businesses.",
-  metadataBase: new URL("https://cirostack.lovable.app"),
+  metadataBase: new URL("https://cirostack.com"),
   verification: {
     google: "fTAqT8iLRxD944c1bCW9uZjxKCV7jV4bwR754Praqz8",
   },
@@ -61,7 +63,21 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${spaceGrotesk.variable} ${inter.variable}`}
     >
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXTP0DF4VH" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PXTP0DF4VH');`,
+          }}
+        />
+      </head>
       <body>
+        <Suspense fallback={null}>
+          <FacebookPixel />
+        </Suspense>
         <Providers>
           <div className="min-h-screen flex flex-col bg-background">
             <Navbar />

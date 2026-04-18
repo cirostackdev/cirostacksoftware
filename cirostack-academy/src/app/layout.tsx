@@ -13,8 +13,10 @@ const spaceGrotesk = Space_Grotesk({
   variable: '--font-display',
   display: 'swap',
 });
+import { Suspense } from 'react';
 import ThemeProvider from '@/lib/providers/ThemeProvider';
 import ToastContainer from '@/components/ui/ToastContainer';
+import { FacebookPixel } from '@/components/FacebookPixel';
 
 export const metadata: Metadata = {
   title: { default: 'CiroStack Academy', template: '%s | CiroStack Academy' },
@@ -42,8 +44,20 @@ export default function RootLayout({
             __html: `(function(){try{var t=localStorage.getItem('academy-theme');if(t){t=JSON.parse(t).state?.theme}if(t==='dark'||((!t||t==='system')&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark')}}catch(e){}})()`,
           }}
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RGMFJ5851" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9RGMFJ5851');`,
+          }}
+        />
       </head>
       <body className="font-sans antialiased min-h-screen bg-[var(--color-bg)] text-[var(--color-text)]">
+        <Suspense fallback={null}>
+          <FacebookPixel />
+        </Suspense>
         <ThemeProvider>
           {children}
           <ToastContainer />
