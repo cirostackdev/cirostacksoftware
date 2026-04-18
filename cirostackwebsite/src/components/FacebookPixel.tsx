@@ -12,15 +12,13 @@ export function FacebookPixel() {
   useEffect(() => {
     if (typeof window === "undefined" || window.fbq) return;
 
-    // fbq shim (matches Meta's official snippet)
-    const n: any = (window.fbq = function (...args: unknown[]) {
-      n.callMethod ? n.callMethod(...args) : n.queue.push(args);
-    });
-    if (!window._fbq) window._fbq = n;
-    n.push = n;
-    n.loaded = true;
-    n.version = "2.0";
-    n.queue = [] as unknown[];
+    // fbq queue shim (matches Meta's official snippet)
+    const queue: unknown[][] = [];
+    const fbq = (...args: unknown[]) => {
+      queue.push(args);
+    };
+    window.fbq = fbq;
+    if (!window._fbq) window._fbq = fbq;
 
     // Load the SDK script
     const script = document.createElement("script");
@@ -40,7 +38,6 @@ export function FacebookPixel() {
     }
   }, [pathname, searchParams]);
 
-  // noscript fallback image
   return (
     <noscript>
       <img

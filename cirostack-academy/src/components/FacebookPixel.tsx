@@ -12,20 +12,13 @@ export function FacebookPixel() {
   useEffect(() => {
     if (typeof window === "undefined" || window.fbq) return;
 
-    // fbq shim (matches Meta's official snippet)
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const n = (window.fbq = function (...args: unknown[]) {
-      if ((n as Record<string, unknown>).callMethod) {
-        (n as { callMethod: (...a: unknown[]) => void }).callMethod(...args);
-      } else {
-        (n as { queue: unknown[][] }).queue.push(args);
-      }
-    }) as Record<string, unknown>;
-    if (!window._fbq) window._fbq = n as typeof window._fbq;
-    n.push = n;
-    n.loaded = true;
-    n.version = "2.0";
-    n.queue = [] as unknown[];
+    // fbq queue shim (matches Meta's official snippet)
+    const queue: unknown[][] = [];
+    const fbq = (...args: unknown[]) => {
+      queue.push(args);
+    };
+    window.fbq = fbq;
+    if (!window._fbq) window._fbq = fbq;
 
     // Load the SDK script
     const script = document.createElement("script");
@@ -45,7 +38,6 @@ export function FacebookPixel() {
     }
   }, [pathname, searchParams]);
 
-  // noscript fallback image
   return (
     <noscript>
       <img
