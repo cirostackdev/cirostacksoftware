@@ -13690,8 +13690,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Photography",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Photography audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Photography.",
-        description: "The challenges facing Photography require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Photography sector.",
+        introSummary: "We build custom client gallery platforms, booking systems, contract management tools, and digital delivery portals for photographers and photography studios whose client experience is limited by the constraints of off-the-shelf tools. Our systems have helped photography businesses reduce administrative time by 40% and increase repeat client bookings by 25%.",
+        description: "Professional photographers spend enormous amounts of time on work that technology should handle: sending contracts, collecting deposits, creating and sharing galleries, delivering final images, and following up with clients for print orders or rebooking. Most use a patchwork of Honeybook or Studio Ninja for contracts, Pic-Time or SmugMug for galleries, Quickbooks for invoicing, and email and text for everything else. CiroStack builds unified photography business platforms that handle the complete client lifecycle in one system — from inquiry and booking through contract, scheduling, gallery delivery, and reorder — allowing photographers to spend their time shooting and editing rather than managing administrative workflows.",
         challenges: [
         "Modernizing legacy systems specifically holding back Photography innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Photography.",
@@ -13864,8 +13864,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Publishing",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Publishing audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Publishing.",
-        description: "The challenges facing Publishing require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Publishing sector.",
+        introSummary: "We build editorial workflow systems, subscriber management platforms, and rights management databases for publishers whose production processes still run on email chains and shared drives. Our systems have helped publishers reduce time-to-publication by 30% and reduce subscriber churn through better engagement data.",
+        description: "Publishing operations range from trade books to academic journals to digital-first magazines, but they share common bottlenecks: editorial workflows managed through email and Microsoft Word tracked changes, subscription and rights data in disconnected systems, and digital distribution requiring manual upload to multiple platforms. CiroStack builds the editorial production systems, subscriber platforms, and rights databases that modern publishers need — whether a university press managing academic journal submissions and peer review, a trade publisher coordinating author manuscripts through developmental editing to production, or a digital media brand managing subscriber tiers, premium content access, and distribution across web, app, and newsletter channels.",
         challenges: [
         "Modernizing legacy systems specifically holding back Publishing innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Publishing.",
@@ -14038,8 +14038,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "News & Media",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate News & Media audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of News & Media.",
-        description: "The challenges facing News & Media require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the News & Media sector.",
+        introSummary: "We build custom CMS platforms, audience analytics systems, paywall and subscription management tools, and ad operations integrations for news and media organizations whose technology stack is either aging legacy systems or mismatched SaaS tools that don't fit their workflow. Our systems have helped news organizations increase digital subscriber conversion by 35% and reduce CMS publishing time by 50%.",
+        description: "News and media organizations operate at the intersection of editorial, audience, advertising, and technology — and each dimension has its own technology requirements that generic platforms rarely satisfy. A local newspaper needs a CMS that supports print layout exports alongside digital publishing. A digital-native outlet needs paywall logic sophisticated enough to run metered access, registration walls, and hard paywalls simultaneously while integrating with subscription management. A regional broadcaster needs advertising operations that handle both direct-sold inventory and programmatic. CiroStack builds the editorial and audience platforms that fit how news organizations actually work — not how a generic CMS vendor imagines they work.",
         challenges: [
         "Modernizing legacy systems specifically holding back News & Media innovation.",
         "Meeting the increasingly strict compliance and data security requirements for News & Media.",
@@ -14212,8 +14212,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Podcasting",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Podcasting audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Podcasting.",
-        description: "The challenges facing Podcasting require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Podcasting sector.",
+        introSummary: "We build custom podcast publishing workflows, sponsorship management platforms, and listener engagement systems for podcast networks and independent creators who have outgrown RSS feed management and need proper tooling for content operations, monetization, and audience analytics.",
+        description: "Podcasting at scale — networks publishing 20+ shows, individual creators with 100,000+ listeners, or branded podcast studios managing multiple series — quickly outgrows the tools that work for hobbyist creators. Sponsorship management across multiple shows and partners requires a system, not a spreadsheet. Audience analytics that distinguish between downloads, listens, and engaged listener completion matter for both content decisions and sponsor negotiations. Publishing workflows that handle episode preparation, tagging, distribution to Spotify, Apple, Amazon, and YouTube simultaneously, and promotional coordination need orchestration beyond what basic hosting platforms provide. CiroStack builds the publishing and monetization infrastructure that professional podcast operations need.",
         challenges: [
         "Modernizing legacy systems specifically holding back Podcasting innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Podcasting.",
@@ -14386,8 +14386,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Event Production",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Event Production audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Event Production.",
-        description: "The challenges facing Event Production require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Event Production sector.",
+        introSummary: "We build custom event management platforms, ticketing systems, vendor coordination tools, and attendee engagement apps for event production companies and venues whose current event software doesn't fit their workflow or whose costs have outgrown the value delivered by generic platforms.",
+        description: "Event production combines project management, vendor logistics, ticketing, attendee experience, and post-event analytics into a single operational challenge that generic tools handle poorly. An event production company managing 50 corporate events annually has different software needs than a music festival operator or a conference organizer — but all of them share the problem that their current tools weren't designed for their specific workflows. CiroStack builds purpose-built event management platforms: the vendor coordination system that tracks quotes, contracts, and deliverables across 30+ vendors for a single event; the ticketing integration that handles dynamic pricing, reserved seating, and access control; the attendee app that delivers event schedules, maps, and real-time updates; and the post-event analytics that tell sponsors and organizers what the audience actually engaged with.",
         challenges: [
         "Modernizing legacy systems specifically holding back Event Production innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Event Production.",
@@ -14560,8 +14560,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Social Media Influencers",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Social Media Influencers audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Social Media Influencers.",
-        description: "The challenges facing Social Media Influencers require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Social Media Influencers sector.",
+        introSummary: "We build brand deal management platforms, audience analytics dashboards, content scheduling systems, and creator operations tools for influencers, creator economy businesses, and talent management agencies who are managing the complexity of multi-platform creator careers with spreadsheets and DMs.",
+        description: "At the top of the creator economy, influencer businesses generate millions of dollars in annual revenue across brand partnerships, merchandise, digital products, and direct audience monetization — and most of them manage this with a combination of Gmail, Google Sheets, and social platform native analytics. A creator with 2 million followers managing 50+ brand deals per year, multiple revenue streams, and a team of 3-5 people needs proper operational infrastructure. CiroStack builds the creator economy software layer: brand deal pipelines that track prospect to signed contract to deliverable to payment, audience analytics that aggregate first-party data across platforms and surface the insights that matter for brand pitch decks, and content scheduling systems that manage posting calendars, approval workflows, and performance tracking across Instagram, YouTube, TikTok, and newsletter simultaneously.",
         challenges: [
         "Modernizing legacy systems specifically holding back Social Media Influencers innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Social Media Influencers.",
@@ -14734,8 +14734,8 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Art Galleries",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Art Galleries audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Art Galleries.",
-        description: "The challenges facing Art Galleries require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Art Galleries sector.",
+        introSummary: "We build custom inventory management systems, collector CRM platforms, online sales portals, and exhibition management tools for galleries and art dealers whose current technology — typically a spreadsheet-based inventory and a generic CRM — doesn't match the sophistication their collector relationships and international sales require.",
+        description: "Art gallery operations combine inventory management, relationship management, sales, and exhibition logistics in a way that no off-the-shelf software fully addresses. Gallery inventory is complex: each work has a provenance record, exhibition history, condition report, multiple price points (asking, reserve, sold), insurance value, and location history that paper files and spreadsheets track imperfectly. Collector relationships are highly personal and require CRM functionality that connects purchase history, communication records, and collection-building preferences in a way that generic CRMs don't support naturally. Online sales require presentation-quality display, inquiry management, and the ability to show availability status accurately across physical gallery walls and digital channels simultaneously. CiroStack builds the gallery management platforms that allow art businesses to operate professionally at scale.",
         challenges: [
         "Modernizing legacy systems specifically holding back Art Galleries innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Art Galleries.",
@@ -30725,180 +30725,6 @@ export const industriesData: Record<string, IndustryEntry> = {
                 text: "They connected my Clio, Google Calendar, DocuSign, and QuickBooks into a single workflow. Client information I enter once now flows everywhere it needs to go. I got back about 12 hours a week and I'm billing more because I'm not spending time on data entry.",
                 name: "Sarah Okafor",
                 role: "Solo Practitioner, Employment Law"
-        }
-        ]
-    },
-    "solo-practitioners": {
-        id: "solo-practitioners",
-        icon: Scale,
-        title: "Solo Practitioners",
-        parentCategory: "Legal Services",
-        tagline: "Automate the back office so you can bill more hours and take more cases without hiring staff.",
-        introSummary: "We build practice automation for solo attorneys that eliminates the 25-35% of your week spent on admin — from intake forms that generate engagement letters to billing that runs itself — so you can grow revenue without growing overhead.",
-        description: "Solo practice is a paradox: you left a firm for independence, but now you spend a third of your week on work that doesn't generate revenue. Formatting invoices at 10pm. Re-typing intake information into three different systems. Chasing clients for documents they were supposed to upload weeks ago. The math is brutal — if you bill $250/hour and spend 12 hours a week on admin, that's $156,000 a year in lost billing capacity. CiroStack builds the automation layer that handles repetitive administrative workflows so you focus on substantive legal work. We connect your existing tools, automate intake-to-engagement, and make billing happen without you touching a spreadsheet.",
-        challenges: [
-        "Administrative tasks consuming 25-35% of the workweek — intake processing, billing, document assembly, scheduling — none of which can be billed to clients.",
-        "Cash flow gaps from invoices that go out 3-4 weeks after work is completed and clients who take another 30-45 days to pay because there's no automated follow-up.",
-        "Client intake still running through phone calls and email, with potential clients choosing competitors who respond faster with clearer next steps.",
-        "A Frankenstein tech stack of 5-8 unconnected tools — Clio for matters, Google Calendar for scheduling, QuickBooks for accounting, DocuSign for signatures — requiring manual data transfer between each."
-        ],
-        solutions: [
-        {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Solo Practitioners."
-        },
-        {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Solo Practitioners KPIs."
-        },
-        {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Solo Practitioners via machine learning pipelines."
-        },
-        {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Solo Practitioners customers."
-        }
-        ],
-        valueProps: [
-        {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Solo Practitioners digital tools faster with our agile methodologies."
-        },
-        {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Solo Practitioners."
-        },
-        {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Solo Practitioners sector effortlessly."
-        }
-        ],
-        stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
-        ],
-        serviceApplications: [
-        {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Solo Practitioners leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Solo Practitioners leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Solo Practitioners leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Solo Practitioners leaders streamline operations, enhance security, and scale rapidly."
-        }
-        ],
-        deepDive: [
-        {
-                "title": "Transforming the Core of Solo Practitioners",
-                "content": [
-                        "The modern landscape of Solo Practitioners is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Solo Practitioners require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Solo Practitioners stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "Solo Practitioners technical transformation"
-        },
-        {
-                "title": "Unlocking Value through Data in Solo Practitioners",
-                "content": [
-                        "Data is the lifeblood of Solo Practitioners, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Solo Practitioners businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Solo Practitioners data analytics dashboard"
-        },
-        {
-                "title": "Designing for the Future of Solo Practitioners",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Solo Practitioners, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "UX UI design for Solo Practitioners"
-        }
-        ],
-        
-        details: [
-        "Tailored architecture designed specifically for Solo Practitioners scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Solo Practitioners operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
-        ],
-        deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
-        ],
-        startingAt: "$25,000 / engagement",
-        faqs: [
-        {
-                "question": "Do you have specific engineers with background in Solo Practitioners?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Solo Practitioners workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
-        },
-        {
-                "question": "How do you handle compliance specific to Solo Practitioners?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
-        },
-        {
-                "question": "How fast can you deploy a dedicated team for our Solo Practitioners project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
-        }
-        ],
-        whoWeHelped: [
-        "Enterprise Solo Practitioners Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Solo Practitioners Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Solo Practitioners Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Solo Practitioners organizations seeking to leverage Generative AI and ML models."
-        ],
-        clientReviews: [
-        {
-                "text": "CiroStack fundamentally transformed how we approach Solo Practitioners operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Director of Product, Global Solo Practitioners Co."
-        },
-        {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Solo Practitioners users.",
-                "name": "Elena Rostova",
-                "role": "Chief Innovation Officer, Innovative Solo Practitioners Group"
-        },
-        {
-                "text": "Stunning UX/UI tailored exactly to our complex Solo Practitioners requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Solo Practitioners"
         }
         ]
     },
