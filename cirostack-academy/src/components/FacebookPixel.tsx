@@ -13,10 +13,15 @@ export function FacebookPixel() {
     if (typeof window === "undefined" || window.fbq) return;
 
     // fbq shim (matches Meta's official snippet)
-    const n: any = (window.fbq = function (...args: unknown[]) {
-      n.callMethod ? n.callMethod(...args) : n.queue.push(args);
-    });
-    if (!window._fbq) window._fbq = n;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const n = (window.fbq = function (...args: unknown[]) {
+      if ((n as Record<string, unknown>).callMethod) {
+        (n as { callMethod: (...a: unknown[]) => void }).callMethod(...args);
+      } else {
+        (n as { queue: unknown[][] }).queue.push(args);
+      }
+    }) as Record<string, unknown>;
+    if (!window._fbq) window._fbq = n as typeof window._fbq;
     n.push = n;
     n.loaded = true;
     n.version = "2.0";
