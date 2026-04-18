@@ -18,16 +18,56 @@ import ThemeProvider from '@/lib/providers/ThemeProvider';
 import ToastContainer from '@/components/ui/ToastContainer';
 import { FacebookPixel } from '@/components/FacebookPixel';
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://academy.cirostack.com';
+const OG_IMAGE = `${SITE_URL}/og-default.jpg`;
+
 export const metadata: Metadata = {
-  title: { default: 'CiroStack Academy', template: '%s | CiroStack Academy' },
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'CiroStack Academy — Learn to Build with AI',
+    template: '%s | CiroStack Academy',
+  },
   description:
-    'Learn to build with AI. Real-world dev skills, AI-assisted coding techniques, and a path into the tech industry.',
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || 'https://academy.cirostack.com'
-  ),
+    'CiroStack Academy teaches real-world software development skills — AI-assisted coding, full-stack development, and the technical foundation to land a developer job or build your own product.',
+  keywords: [
+    'learn software development',
+    'AI coding course',
+    'full-stack development course',
+    'learn to code Nigeria',
+    'coding bootcamp online',
+    'CiroStack Academy',
+    'web development course',
+    'React course',
+    'Next.js course',
+  ],
+  authors: [{ name: 'CiroStack', url: 'https://cirostack.com' }],
+  creator: 'CiroStack',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+  },
   openGraph: {
     siteName: 'CiroStack Academy',
     type: 'website',
+    locale: 'en_US',
+    url: SITE_URL,
+    title: 'CiroStack Academy — Learn to Build with AI',
+    description:
+      'Real-world dev skills, AI-assisted coding techniques, and a structured path into the tech industry. Learn at your own pace.',
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'CiroStack Academy — Learn to Build with AI' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@CiroStack',
+    creator: '@CiroStack',
+    title: 'CiroStack Academy — Learn to Build with AI',
+    description:
+      'Real-world dev skills, AI-assisted coding, and a path into tech. Learn at your own pace.',
+    images: [OG_IMAGE],
+  },
+  alternates: {
+    canonical: SITE_URL,
   },
 };
 

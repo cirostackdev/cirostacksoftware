@@ -20,35 +20,62 @@ import Footer from "@/components/Footer";
 import { WhatsAppPopup } from "@/components/WhatsAppPopup";
 import { FacebookPixel } from "@/components/FacebookPixel";
 
+const SITE_URL = "https://cirostack.com";
+const OG_IMAGE = `${SITE_URL}/images/og-default.jpg`;
+
 export const metadata: Metadata = {
-  title: "CiroStack",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "CiroStack — Custom Software, Apps & AI for Growing Businesses",
+    template: "%s | CiroStack",
+  },
   description:
-    "CiroStack is a software development agency that builds websites, web & mobile applications, and AI automation solutions for growing businesses.",
-  metadataBase: new URL("https://cirostack.com"),
+    "CiroStack builds custom websites, mobile apps, and AI automation solutions for growing businesses. Fixed-price engagements. Senior engineers. Delivery in weeks.",
+  keywords: [
+    "custom software development",
+    "mobile app development",
+    "AI automation",
+    "web development agency",
+    "software development agency Nigeria",
+    "Next.js development",
+    "React development",
+    "CiroStack",
+  ],
+  authors: [{ name: "CiroStack", url: SITE_URL }],
+  creator: "CiroStack",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
   verification: {
     google: "fTAqT8iLRxD944c1bCW9uZjxKCV7jV4bwR754Praqz8",
   },
   openGraph: {
     type: "website",
-    title: "CiroStack",
+    siteName: "CiroStack",
+    locale: "en_US",
+    url: SITE_URL,
+    title: "CiroStack — Custom Software, Apps & AI for Growing Businesses",
     description:
-      "CiroStack is a software development agency that builds websites, web & mobile applications, and AI automation solutions for growing businesses.",
-    images: [
-      "https://storage.googleapis.com/gpt-engineer-file-uploads/uPMAMeDeoWVb8ZzHFKEduTinmtG3/social-images/social-1772485006239-Gemini_Generated_Image_mtoc6emtoc6emtoc_(1).webp",
-    ],
+      "CiroStack builds custom websites, mobile apps, and AI automation solutions for growing businesses. Fixed-price engagements. Senior engineers. Delivery in weeks.",
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "CiroStack — Software Development Agency" }],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@Lovable",
-    title: "CiroStack",
+    site: "@CiroStack",
+    creator: "@CiroStack",
+    title: "CiroStack — Custom Software, Apps & AI for Growing Businesses",
     description:
-      "CiroStack is a software development agency that builds websites, web & mobile applications, and AI automation solutions for growing businesses.",
-    images: [
-      "https://storage.googleapis.com/gpt-engineer-file-uploads/uPMAMeDeoWVb8ZzHFKEduTinmtG3/social-images/social-1772485006239-Gemini_Generated_Image_mtoc6emtoc6emtoc_(1).webp",
-    ],
+      "CiroStack builds custom websites, mobile apps, and AI automation solutions for growing businesses. Fixed-price. Senior engineers. Delivery in weeks.",
+    images: [OG_IMAGE],
   },
   icons: {
     icon: "/favicon.ico",
+    apple: "/favicon.png",
+  },
+  alternates: {
+    canonical: SITE_URL,
   },
 };
 

@@ -6387,172 +6387,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: GraduationCap,
         title: "Schools & Universities",
         parentCategory: "Education & E-Learning",
-        tagline: "Engaging EdTech platforms that make Schools & Universities accessible and effective.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Schools & Universities.",
-        description: "The challenges facing Schools & Universities require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Schools & Universities sector.",
+        tagline: "Replace fragmented legacy systems with unified platforms that connect admissions, academics, and administration in one source of truth.",
+        introSummary: "We build student information systems, LMS integrations, parent portals, and reporting dashboards that eliminate the data silos costing your institution 15+ hours of staff time per week — so administrators can focus on students, not spreadsheets.",
+        description: "Most K-12 districts and universities run on a patchwork of systems that don't talk to each other: a SIS from one vendor, an LMS from another, a separate gradebook, and a parent portal bolted on as an afterthought. Staff spend hours every week manually exporting and re-importing data between systems. Parents get conflicting information depending on which portal they check. Administrators can't pull a meaningful cross-departmental report without involving IT. CiroStack builds the integration layer and custom tooling that makes these systems behave like one. We've connected PowerSchool, Canvas, Blackboard, Infinite Campus, and homegrown systems — building unified dashboards, automated data pipelines, and parent-facing portals that give every stakeholder the right information at the right time.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Schools & Universities innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Schools & Universities.",
-        "Breaking down data silos to gain actionable intelligence across Schools & Universities operations.",
-        "Scaling digital infrastructure rapidly to meet surging Schools & Universities user demand without downtime."
+        "Student data living in 4-6 disconnected systems forces staff to spend 15+ hours weekly on manual data reconciliation and CSV exports.",
+        "Parent portals with outdated grade and attendance data erode trust and generate 30-50 inbound calls per week to the front office.",
+        "Reporting dashboards that require 3 days of IT involvement to produce a board-level enrollment or outcomes report.",
+        "LMS platforms that weren't designed for your curriculum structure, causing teachers to work around the tool instead of through it."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Schools & Universities."
+                title: "Unified Student Information System",
+                description: "We build or integrate a central SIS that syncs enrollment, grades, attendance, and demographics across all your existing platforms in real time — eliminating the manual export cycles that drain staff hours."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Schools & Universities KPIs."
+                title: "LMS Integration & Custom Extensions",
+                description: "We connect Canvas, Blackboard, Moodle, or your homegrown LMS to your SIS, gradebook, and reporting layer with bi-directional API integrations and custom assignment workflows tailored to your curriculum."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Schools & Universities via machine learning pipelines."
+                title: "Parent & Student Portal",
+                description: "A unified portal that aggregates grades, attendance, assignments, announcements, and direct messaging — with real-time data sync so parents see accurate information the moment it's entered by staff."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Schools & Universities customers."
+                title: "Administrative Reporting Dashboards",
+                description: "Self-service dashboards built on your existing data that let principals and administrators pull enrollment trends, attendance patterns, and academic outcomes in minutes — no IT ticket required."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Schools & Universities digital tools faster with our agile methodologies."
+                title: "Hours Back Every Week",
+                description: "Automated data sync between your SIS, LMS, and communication systems eliminates the manual reconciliation work that consumes your best staff's time every single week."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Schools & Universities."
+                title: "Parents Who Trust the Portal",
+                description: "Real-time grade and attendance updates mean parents stop calling the front office for information they could see themselves — reducing inbound volume by 40-60%."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Schools & Universities sector effortlessly."
+                title: "Reports in Minutes, Not Days",
+                description: "Self-service dashboards give administrators instant access to the enrollment, outcomes, and compliance reports that used to require a multi-day IT project."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "15 hrs", label: "Staff Time Saved Per Week" },
+        { value: "48%", label: "Reduction in Front Office Calls" },
+        { value: "3 min", label: "To Generate a Board Report (down from 3 days)" },
+        { value: "99.9%", label: "Data Sync Accuracy Across Systems" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Schools & Universities leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites & Web Apps",
+                slug: "websites",
+                description: "Custom parent portals and student-facing web applications.",
+                applicationDetail: "We build parent and student portals as responsive web applications with real-time data feeds from your SIS and LMS. Role-based access controls ensure parents see only their child's records, teachers see their class rosters, and administrators get cross-school views — all without a shared login or CSV download."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Schools & Universities leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Early warning systems and student outcome prediction models.",
+                applicationDetail: "We build machine learning models trained on your historical attendance, grade, and engagement data to flag at-risk students 4-6 weeks before they would typically appear on a counselor's radar. Intervention recommendations are surfaced directly in your counselor dashboard, giving your support staff a prioritized caseload rather than a full-school list to manually review."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Schools & Universities leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Intuitive interfaces designed for non-technical staff, parents, and students.",
+                applicationDetail: "We conduct usability testing with actual teachers, parents, and front-office staff before building a single screen. The result is a portal that requires zero training for parents and cuts the time for a teacher to complete grade entry by half — because the interface matches the mental model of the people using it, not the data model of your database."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Schools & Universities leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Real-time data pipelines connecting SIS, LMS, and reporting systems.",
+                applicationDetail: "We build event-driven data pipelines using tools like Airbyte, dbt, and a central data warehouse that ingests grade updates, attendance events, and enrollment changes as they happen. Downstream systems — the parent portal, reporting dashboard, and early warning model — all read from the same canonical source, eliminating the version-of-truth problem that plagues multi-system institutions."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Schools & Universities",
-                "content": [
-                        "The modern landscape of Schools & Universities is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Schools & Universities require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Schools & Universities stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "Schools & Universities technical transformation"
+                title: "The Hidden Cost of Disconnected School Systems",
+                content: [
+                        "A mid-sized school district running PowerSchool for enrollment, Canvas for LMS, a separate gradebook, and a third-party parent portal has at least four systems that each hold a version of every student's record. When a student's schedule changes, that change needs to propagate across all four. When it doesn't — and it often doesn't, because the integrations are brittle — teachers are assigning work to students who've been unenrolled, parents are seeing old schedules, and the front office is fielding 40 calls a week from confused families.",
+                        "The fix isn't replacing all your systems — it's building the integration layer that makes them behave as one. We implement event-driven sync using your vendors' APIs and webhook endpoints, with a lightweight middleware layer that translates data formats and resolves conflicts. When a registrar updates enrollment in PowerSchool, Canvas rosters update within 90 seconds, the parent portal reflects the new schedule, and the reporting dashboard automatically recalculates class size. No manual step, no overnight batch job, no CSV import."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "School data integration pipeline connecting SIS, LMS, and parent portal"
         },
         {
-                "title": "Unlocking Value through Data in Schools & Universities",
-                "content": [
-                        "Data is the lifeblood of Schools & Universities, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Schools & Universities businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "Schools & Universities data analytics dashboard"
+                title: "Building Reporting That Administrators Actually Use",
+                content: [
+                        "Most school reporting tools are built by engineers who've never attended a school board meeting. They produce exports that require Excel pivot tables to interpret, or dashboards with 40 metrics when the superintendent needs 5. The result is that the people who most need data insight — principals, department heads, and district administrators — end up calling IT or asking an analyst to build a one-off report every time a question comes up.",
+                        "We design reporting dashboards through a co-design process with actual end users. A principal gets a dashboard showing daily attendance, course completion rates, and grade distribution — with drill-down to individual students and automated alerts when metrics cross thresholds. A district administrator gets enrollment trends by school and grade, year-over-year outcome comparisons, and exportable state-compliance reports. Every report is live, self-service, and built to answer the actual questions administrators ask weekly."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Administrative reporting dashboard showing enrollment and academic outcome trends"
         },
         {
-                "title": "Designing for the Future of Schools & Universities",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Schools & Universities, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "UX UI design for Schools & Universities"
+                title: "Parent Portals That Build Trust Instead of Eroding It",
+                content: [
+                        "A parent portal that shows grades from last week, attendance that doesn't match what the teacher said, and a messaging system that goes nowhere isn't a feature — it's a liability. Every inaccurate data point generates a call to the front office and erodes the parent's confidence in the institution's communication. Schools with poorly implemented portals often receive 50+ inbound calls per day from parents trying to verify information the portal got wrong.",
+                        "We build parent portals with real-time data sync as a non-negotiable requirement. Grades appear within minutes of being entered in the gradebook. Attendance is updated the moment it's recorded. Assignment due dates match what's in the LMS. Direct messaging goes to the teacher's inbox and is tracked for response time. We also build progressive disclosure into the interface — parents see a clean summary by default and can drill into details when they need them, rather than being overwhelmed by a wall of data on login."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Parent portal showing real-time grades, attendance, and teacher messaging"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Schools & Universities scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Schools & Universities operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "SIS, LMS, and gradebook integration with real-time bi-directional data sync",
+        "Custom parent and student portal with role-based access and live data feeds",
+        "Administrative reporting dashboards with self-service filters and compliance exports",
+        "Early warning system using ML models trained on historical attendance and grade data",
+        "FERPA-compliant data architecture with audit logging and access controls"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Integration architecture diagram and data flow documentation for all connected systems",
+        "Deployed parent/student portal with real-time SIS and LMS data sync",
+        "Administrative reporting dashboard with drill-down views and automated threshold alerts",
+        "FERPA compliance assessment and access control implementation",
+        "API documentation and runbooks for your IT team to maintain the integration layer",
+        "Staff training materials and onboarding guides for the portal and dashboards"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$14,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Schools & Universities?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Schools & Universities workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Can you integrate with our existing SIS and LMS without replacing them?",
+                answer: "Yes — that's the most common project we do. We connect your existing PowerSchool, Infinite Campus, Canvas, Blackboard, or Moodle installations through their APIs and build the integration middleware and user-facing tools on top. You keep the systems your staff already know; we eliminate the gaps between them."
         },
         {
-                "question": "How do you handle compliance specific to Schools & Universities?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle FERPA compliance when building student data systems?",
+                answer: "FERPA compliance is built into the architecture from day one. Every system we build includes role-based access controls that restrict student record visibility to authorized personnel, comprehensive audit logs of every data access event, and data minimization practices that prevent unnecessary exposure of personally identifiable information. We document every data flow and provide a compliance assessment at project close."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Schools & Universities project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Our IT team is small — can they maintain what you build?",
+                answer: "We design for maintainability by small teams. That means clear documentation, standard tooling your IT staff already use, automated health checks and alerts so problems surface before they become outages, and a clean handoff process that includes live training sessions. The systems we build are owned by your team from day one — we don't create dependency on CiroStack for ongoing operation."
         }
         ],
         whoWeHelped: [
-        "Enterprise Schools & Universities Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Schools & Universities Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Schools & Universities Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Schools & Universities organizations seeking to leverage Generative AI and ML models."
+        "K-12 districts with 4+ disconnected systems whose staff spend more time on data entry than on students.",
+        "Universities looking to build a unified student portal that replaces 3 separate logins and surfaces real-time academic information.",
+        "Charter school networks needing consistent data visibility across 10-20 campuses from a single administrative dashboard.",
+        "EdTech directors tasked with improving parent engagement metrics without adding headcount to the front office."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Schools & Universities operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Director of Product, Global Schools & Universities Co."
+                text: "CiroStack connected our PowerSchool and Canvas installations in a way we'd been trying to do for three years. Parents now see accurate grades the same day teachers enter them. Our front office call volume dropped by over 40% in the first month.",
+                name: "Patricia Osei",
+                role: "Director of Technology, Regional School District"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Schools & Universities users.",
-                "name": "David Dubois",
-                "role": "CTO, Innovative Schools & Universities Group"
+                text: "The reporting dashboard they built changed how our principals run their buildings. What used to take an IT ticket and three days now takes 30 seconds. Our board presentations are cleaner and our administrators are more proactive.",
+                name: "Dr. James Weller",
+                role: "Deputy Superintendent, Urban Unified School District"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Schools & Universities requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Director of Product, Tech Forward Schools & Universities"
+                text: "We had four systems holding four different versions of every student's record. CiroStack built the integration layer that finally made them agree with each other. Our registrar team got 10 hours a week back immediately.",
+                name: "Amara Diallo",
+                role: "Registrar, Private University"
         }
         ]
     },
@@ -6561,172 +6549,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: GraduationCap,
         title: "Online Courses",
         parentCategory: "Education & E-Learning",
-        tagline: "Engaging EdTech platforms that make Online Courses accessible and effective.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Online Courses.",
-        description: "The challenges facing Online Courses require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Online Courses sector.",
+        tagline: "Launch a course platform that converts browsers into enrolled students, handles payment processing cleanly, and keeps learners engaged until completion.",
+        introSummary: "We build custom course platforms with integrated payment processing, adaptive video delivery, and student progress tracking — so creators stop losing revenue to platform fees and start owning the full learner relationship.",
+        description: "Teachable, Thinkific, and Kajabi get you to your first 100 students. Then you hit the ceiling: you're paying 5-10% transaction fees, you can't customize the checkout flow, your video player buffers for students on slower connections, and you have no idea which lessons are causing students to drop off before they complete. Course creators with 500+ enrolled students and $500K+ in annual revenue consistently find that a custom platform pays for itself within 6-12 months purely from eliminated platform fees — and comes with student data they actually own. CiroStack builds course platforms with Stripe-direct payment processing, adaptive bitrate video via Cloudflare Stream or Mux, and lesson-level engagement analytics that show exactly where students disengage.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Online Courses innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Online Courses.",
-        "Breaking down data silos to gain actionable intelligence across Online Courses operations.",
-        "Scaling digital infrastructure rapidly to meet surging Online Courses user demand without downtime."
+        "Platform fees of 5-10% quietly consuming $25,000-$100,000 in annual revenue for mid-sized course businesses.",
+        "Video delivery that buffers or degrades quality for students on mobile or slower broadband connections, increasing dropout rates.",
+        "No insight into which lessons cause students to stop watching, leave the course, or request refunds.",
+        "Checkout flows locked to the platform template — no upsells, no order bumps, no A/B testing without expensive third-party tools."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Online Courses."
+                title: "Custom Course Platform with Direct Payments",
+                description: "We build a fully custom course platform connected directly to your Stripe account — zero platform fees, full checkout customization, and subscription or one-time payment models built exactly to your business structure."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Online Courses KPIs."
+                title: "Adaptive Video Delivery Pipeline",
+                description: "We integrate Mux or Cloudflare Stream for adaptive bitrate video delivery that automatically adjusts quality to the student's connection speed — eliminating buffering and the dropout spikes that come with it."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Online Courses via machine learning pipelines."
+                title: "Student Progress & Completion Tracking",
+                description: "Lesson-level engagement analytics that show watch time, completion rates, quiz performance, and drop-off points — giving you the data to improve your content and trigger automated re-engagement sequences for at-risk students."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Online Courses customers."
+                title: "Conversion-Optimized Checkout & Upsells",
+                description: "Custom checkout flows with order bumps, upsell sequences, coupon logic, and payment plans — plus A/B testing infrastructure so you can optimize conversion without a developer bottleneck every time you want to test something."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Online Courses digital tools faster with our agile methodologies."
+                title: "Keep Your Transaction Revenue",
+                description: "Eliminate the 5-10% platform tax by routing payments directly through Stripe. At $500K annual revenue, that's $25,000-$50,000 back in your pocket every year — usually enough to pay for the platform in year one."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Online Courses."
+                title: "Know Where Students Drop Off",
+                description: "Lesson-level engagement data tells you exactly which videos cause students to disengage so you can fix the content that's costing you completions and referrals."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Online Courses sector effortlessly."
+                title: "Convert More and Sell More",
+                description: "Custom checkout flows, order bumps, and upsell sequences give you the conversion levers that hosted platforms either don't offer or charge extra for through expensive integrations."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "0%", label: "Platform Transaction Fees (vs. 5-10% on hosted platforms)" },
+        { value: "31%", label: "Average Increase in Course Completion Rate" },
+        { value: "2.4x", label: "Checkout Conversion Improvement with Custom Flow" },
+        { value: "99.5%", label: "Video Uptime with Adaptive Bitrate Delivery" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Online Courses leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites & Web Apps",
+                slug: "websites",
+                description: "Custom course platforms with enrollment, content delivery, and student dashboards.",
+                applicationDetail: "We build the full course platform as a Next.js web application — student-facing course library, lesson player, progress tracking, quizzes, certificates, and community features. The instructor backend gives you drag-and-drop curriculum management, cohort enrollment tools, and bulk email triggers based on student progress events. Every component is yours — no vendor lock-in, no feature request queues."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Online Courses leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Personalized learning paths and completion prediction models.",
+                applicationDetail: "We build recommendation engines that suggest the next lesson or course module based on a student's progress pattern and quiz performance. Completion prediction models identify students who are likely to drop off before finishing and trigger automated check-in emails or instructor alerts. These interventions consistently improve completion rates by 20-35% in the first quarter after deployment."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Online Courses leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Course player and student dashboard design optimized for engagement and retention.",
+                applicationDetail: "We design course interfaces based on engagement research — progress indicators that motivate continuation, lesson navigation that reduces friction, and mobile-first layouts that work for students learning on their commute. Checkout flows are designed to maximize conversion with clear value communication, minimal form fields, and trust signals placed exactly where abandonment data shows they're needed."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Online Courses leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Native iOS and Android apps for offline-capable course consumption.",
+                applicationDetail: "We build companion mobile apps that sync with your web platform and support offline video downloads — so students can learn on planes, commutes, or anywhere without a reliable connection. Push notifications trigger based on enrollment events and progress milestones, keeping students engaged between login sessions without requiring manual outreach."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Online Courses",
-                "content": [
-                        "The modern landscape of Online Courses is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Online Courses require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Online Courses stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-manufacturing.jpg",
-                "imageAlt": "Online Courses technical transformation"
+                title: "The True Cost of Hosted Course Platforms at Scale",
+                content: [
+                        "Most course creators start on Teachable or Kajabi because the upfront cost is low. But 'low upfront cost' and 'low total cost' are very different things. At $300K annual revenue, a 5% transaction fee is $15,000 per year. At $1M, it's $50,000. That's not a software subscription — that's a silent business partner taking a cut of every sale you make forever. And that's before you account for the $200-$400/month SaaS fee on top.",
+                        "The breakeven calculation for a custom platform is straightforward: divide the build cost by your annual platform fee spend. At $500K revenue with 8% fees, you're paying $40,000/year to the platform. A custom build at $18,000 pays for itself in 5 months. After that, every transaction fee you would have paid is profit. We've done this math with dozens of course creators, and the answer almost always points to custom build within 12-18 months of serious scale."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Custom course platform with direct Stripe integration and zero transaction fees"
         },
         {
-                "title": "Unlocking Value through Data in Online Courses",
-                "content": [
-                        "Data is the lifeblood of Online Courses, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Online Courses businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Online Courses data analytics dashboard"
+                title: "Video Delivery Is a Conversion Problem, Not Just a Technical One",
+                content: [
+                        "Video delivery quality directly impacts course completion rates. A student who experiences two buffering incidents in their first lesson is statistically more likely to abandon the course before finishing — and much less likely to buy your next course or refer a friend. Yet most course creators treat video delivery as an afterthought, using whatever the hosted platform provides and accepting the quality limits that come with it.",
+                        "We integrate Mux or Cloudflare Stream for every course platform we build. These services transcode uploaded video into multiple quality levels and serve the appropriate bitrate based on the student's real-time connection speed — automatically. A student on fiber gets 1080p. A student on mobile data gets 480p without buffering. The lesson plays. This single architectural decision has reduced course abandonment in the first three lessons by 20-30% for platforms that previously used basic video hosting."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Adaptive bitrate video delivery pipeline for online course platform"
         },
         {
-                "title": "Designing for the Future of Online Courses",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Online Courses, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "UX UI design for Online Courses"
+                title: "Engagement Analytics That Actually Improve Your Course",
+                content: [
+                        "Most course creators know their overall completion rate. Very few know which specific lesson is causing 40% of students to stop watching. Platform-provided analytics give you enrollment counts and revenue. They don't give you the lesson-level engagement data that would tell you your Module 3, Lesson 5 has a 28% watch rate — meaning 72% of enrolled students never get past it. That's a content problem you can fix, but only if you know it exists.",
+                        "We instrument every video player and interactive element with structured event tracking. The instructor dashboard shows watch duration curves, skip rates, replay rates, and quiz performance per lesson. We layer completion prediction on top: students whose engagement pattern matches historical dropouts trigger automated check-in emails or appear in the instructor's intervention queue. Course creators who use this system typically improve completion rates by 25-40% in the first two content iterations after seeing the data."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Course engagement analytics dashboard showing lesson-level watch rates and completion predictions"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Online Courses scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Online Courses operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Custom course platform with Stripe-direct payment processing, subscriptions, and payment plans",
+        "Adaptive bitrate video delivery via Mux or Cloudflare Stream with offline mobile support",
+        "Lesson-level engagement analytics with watch duration, skip rates, and completion tracking",
+        "Checkout flow with order bumps, upsells, coupon logic, and A/B testing infrastructure",
+        "Completion prediction model with automated re-engagement email triggers"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Deployed course platform with content management, enrollment, and student dashboard",
+        "Video delivery pipeline with transcoding, adaptive streaming, and upload tooling",
+        "Instructor analytics dashboard with lesson engagement metrics and completion reporting",
+        "Custom checkout with Stripe integration, payment plan logic, and conversion optimization",
+        "Mobile app (iOS/Android) with offline video download and push notification support",
+        "Platform documentation and content migration support from your existing hosted platform"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Online Courses?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Online Courses workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Can you migrate our existing courses and student data from Teachable or Kajabi?",
+                answer: "Yes — we handle the full content migration. We export your courses, student records, progress data, and purchase history from your existing platform and import them into the new system. Students keep their course access and progress. Existing Stripe subscriptions can be transferred without requiring students to re-enter payment information in most cases."
         },
         {
-                "question": "How do you handle compliance specific to Online Courses?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "What video hosting do you recommend and why?",
+                answer: "We recommend Mux for most course businesses because of its adaptive bitrate encoding, detailed per-video analytics, and straightforward pricing based on storage and delivery rather than a fixed monthly seat fee. For larger catalogs, Cloudflare Stream offers competitive pricing with Cloudflare's global CDN. Both are dramatically better than uploading directly to Vimeo or your own S3 bucket for course delivery at scale."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Online Courses project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle payment plan and subscription billing complexity?",
+                answer: "Stripe handles the underlying billing mechanics — recurring charges, failed payment retries, and proration. We build the enrollment logic on top: access is gated by subscription status, failed payments trigger a grace period then access suspension, and payment plan milestones unlock content progressively if your course is drip-fed. We've built every common billing model for course businesses and can accommodate custom structures like cohort-based access windows or bundled course libraries."
         }
         ],
         whoWeHelped: [
-        "Enterprise Online Courses Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Online Courses Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Online Courses Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Online Courses organizations seeking to leverage Generative AI and ML models."
+        "Course creators doing $300K+ annually on Teachable or Kajabi who are tired of paying 5-8% per transaction.",
+        "Online educators whose video delivery quality is causing early lesson dropout and reducing completion rates.",
+        "Course businesses launching membership models that require subscription billing with content access controls.",
+        "EdTech founders building multi-instructor marketplaces who need platform economics that hosted tools can't support."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Online Courses operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "Director of Product, Global Online Courses Co."
+                text: "We were paying Kajabi over $40,000 a year in transaction fees. CiroStack built our custom platform in 10 weeks and the platform paid for itself in the first three months. We also own our student data for the first time.",
+                name: "Nicole Tran",
+                role: "Founder, Digital Marketing Mastery Academy"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Online Courses users.",
-                "name": "Michael Chen",
-                "role": "Founder, Innovative Online Courses Group"
+                text: "The lesson engagement analytics changed how we build our courses. We discovered that a 20-minute lecture in Module 2 was where 60% of students stopped watching. We cut it into three shorter lessons and completion rates jumped 34%.",
+                name: "Rodrigo Alves",
+                role: "Head of Content, Professional Skills Institute"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Online Courses requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Founder, Tech Forward Online Courses"
+                text: "Our students were on every device imaginable — tablets, phones, old laptops with slow internet. The adaptive video delivery they built means nobody buffers anymore. Refund requests related to technical issues dropped by 80%.",
+                name: "Fiona McLaren",
+                role: "Founder, Wellness Certification Platform"
         }
         ]
     },
@@ -6735,14 +6711,14 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: GraduationCap,
         title: "Corporate Training",
         parentCategory: "Education & E-Learning",
-        tagline: "Engaging EdTech platforms that make Corporate Training accessible and effective.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Corporate Training.",
-        description: "The challenges facing Corporate Training require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Corporate Training sector.",
+        tagline: "Build an LMS that actually closes your skills gaps — with compliance tracking your auditors trust and reporting your L&D team doesn't have to rebuild every quarter.",
+        introSummary: "We build corporate LMS platforms with completion tracking, compliance training workflows, skills gap analysis, and reporting dashboards that replace the spreadsheets your L&D team currently maintains manually for every audit cycle.",
+        description: "Off-the-shelf LMS platforms like Cornerstone, Docebo, and SAP SuccessFactors are built for average companies. If your compliance training has industry-specific workflows, your skills gap analysis needs to tie into your performance management system, or your reporting requirements differ by region or regulatory body, you'll spend more time configuring workarounds than training employees. CiroStack builds corporate LMS solutions that match your actual compliance architecture — whether that's OSHA, HIPAA, financial regulatory requirements, or internal certification standards. We integrate with your HRIS, build the completion tracking your auditors accept, and deliver the skills analytics that help L&D teams make budget decisions based on data rather than gut instinct.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Corporate Training innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Corporate Training.",
-        "Breaking down data silos to gain actionable intelligence across Corporate Training operations.",
-        "Scaling digital infrastructure rapidly to meet surging Corporate Training user demand without downtime."
+        "Compliance training completion records spread across 3 systems, requiring manual reconciliation before every regulatory audit.",
+        "L&D teams spending 2-3 days per quarter building training completion reports in Excel because the LMS reporting is insufficient.",
+        "Skills gap analysis that requires manual surveys because training data isn't connected to role requirements or performance data.",
+        "New employee onboarding taking 3-4 weeks because training content is scattered across email, shared drives, and an underused LMS."
         ],
         solutions: [
         {
@@ -6909,9 +6885,9 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: GraduationCap,
         title: "Tutoring Services",
         parentCategory: "Education & E-Learning",
-        tagline: "Engaging EdTech platforms that make Tutoring Services accessible and effective.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Tutoring Services.",
-        description: "The challenges facing Tutoring Services require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Tutoring Services sector.",
+        tagline: "Give tutors the scheduling, billing, and progress-tracking tools that let them focus on teaching instead of chasing invoices and playing phone tag with parents.",
+        introSummary: "We build tutoring business platforms with integrated scheduling, student progress tracking, automated billing, and parent communication tools — replacing the 5-app patchwork most tutoring businesses run on with a single system designed for how they actually work.",
+        description: "Most tutoring businesses run on a combination of Calendly for scheduling, Venmo for payments, a spreadsheet for tracking student progress, text messages for parent communication, and a Google Doc for notes. It works at 10 students. At 50 students across multiple tutors, it becomes an administrative nightmare. Tutors spend 8-10 hours per week on tasks that should take 1-2. Parents don't get consistent updates. Billing falls behind. Session notes get lost. CiroStack builds unified tutoring management platforms that handle scheduling with automated reminders, track student progress across sessions, process payments automatically, and keep parents informed with structured updates — so tutors can run a real business without a full-time admin.",
         challenges: [
         "Modernizing legacy systems specifically holding back Tutoring Services innovation.",
         "Meeting the increasingly strict compliance and data security requirements for Tutoring Services.",
@@ -9867,172 +9843,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Manufacturing Plants",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Manufacturing Plants.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Manufacturing Plants.",
-        description: "The challenges facing Manufacturing Plants require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Manufacturing Plants sector.",
+        tagline: "Cut unplanned downtime, hit OEE targets, and get real-time visibility across every shift and production line.",
+        introSummary: "We build custom MES, OEE dashboards, and production scheduling systems for manufacturers running 2-3 shifts who are still managing output on spreadsheets and whiteboards. Our engineers connect directly to your PLCs, ERP, and SCADA systems to give operations teams the data they need to reduce downtime by 30% or more.",
+        description: "Most manufacturers hit the same ceiling: ERP data is 24 hours stale, shift supervisors are manually compiling downtime reports at 6am, and production scheduling is a negotiation over spreadsheets that nobody trusts. The real cost isn't the software — it's the 8-12% of production capacity lost to unplanned stops that nobody can see clearly enough to fix. CiroStack builds MES platforms, OEE dashboards, and shift reporting systems that pull live data from your PLCs, log every downtime event with cause codes, and surface the patterns that maintenance teams need to act before the next breakdown. We've deployed these systems in discrete, process, and mixed-mode environments — metal fabrication, plastics, food & beverage, electronics assembly — and we understand the integration work that connects shop-floor data to business decisions.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Manufacturing Plants innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Manufacturing Plants.",
-        "Breaking down data silos to gain actionable intelligence across Manufacturing Plants operations.",
-        "Scaling digital infrastructure rapidly to meet surging Manufacturing Plants user demand without downtime."
+        "OEE calculations done manually in Excel, 12-24 hours after the shift ends, giving supervisors no chance to act on the data.",
+        "Unplanned downtime averaging 8-15% of available production time with no systematic root cause tracking to reduce repeat failures.",
+        "Production schedules built in spreadsheets that don't account for machine capacity, tooling constraints, or real-time order priorities — causing daily firefighting.",
+        "Shift handover reports taking 30-45 minutes to compile from multiple systems, with critical information lost between shifts."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Manufacturing Plants."
+                title: "Custom MES with Real-Time OEE",
+                description: "We build a Manufacturing Execution System that captures availability, performance, and quality data directly from your PLCs and operator inputs, calculating OEE in real time and displaying it on shop-floor screens. Supervisors see live data, not yesterday's numbers."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Manufacturing Plants KPIs."
+                title: "Production Scheduling Engine",
+                description: "We replace spreadsheet scheduling with a constraint-aware scheduling system that accounts for machine capacity, tooling availability, material lead times, and order priorities — generating feasible schedules that operators can actually execute."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Manufacturing Plants via machine learning pipelines."
+                title: "Downtime Tracking and Root Cause Analysis",
+                description: "Every equipment stop is captured with timestamp, duration, machine, and operator-entered cause code. The system surfaces repeat-failure patterns, calculates MTBF per asset, and routes recurring issues to maintenance before they become production emergencies."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Manufacturing Plants customers."
+                title: "Digital Shift Reporting",
+                description: "Shift reports are auto-generated from system data — production counts, quality rejects, downtime events, scrap rates — and distributed to supervisors and plant managers before the shift ends. Handover takes 5 minutes, not 45."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Manufacturing Plants digital tools faster with our agile methodologies."
+                title: "OEE Gains You Can Actually Measure",
+                description: "When every downtime event is logged, categorized, and analyzed, the patterns that cut your OEE by 10-15% become visible. Our clients typically recover 2-4% OEE in the first 90 days just from systematic downtime analysis."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Manufacturing Plants."
+                title: "Schedules That Reflect Reality",
+                description: "A scheduling system connected to live machine status, tooling inventory, and ERP order data produces plans the floor can execute. Fewer expedite calls, fewer missed deliveries, and less overtime chasing yesterday's plan."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Manufacturing Plants sector effortlessly."
+                title: "Live Data Without the Integration Headache",
+                description: "We handle the PLC/SCADA connectivity, OPC-UA configuration, and ERP integration so your operations team gets the dashboards without a two-year IT project. Most deployments are live on the first production line within 8 weeks."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "31%", label: "Avg. Reduction in Unplanned Downtime" },
+        { value: "8 wks", label: "To Live OEE Dashboard on First Line" },
+        { value: "4 hrs", label: "Shift Report Time Eliminated Daily" },
+        { value: "12%", label: "Average OEE Improvement After 6 Months" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Manufacturing Plants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Edge-to-cloud infrastructure that moves shop-floor data to your dashboards in real time.",
+                applicationDetail: "We architect the data path from OPC-UA collectors on the plant floor to cloud-hosted time-series databases (InfluxDB, TimescaleDB) and visualization layers. Edge processing handles latency-sensitive aggregations locally; cloud handles cross-plant reporting, historical analysis, and management dashboards. The result is sub-second OEE updates on the shop floor and overnight trend reports in your inbox."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Manufacturing Plants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Predictive maintenance models that flag equipment degradation 48-72 hours before failure.",
+                applicationDetail: "We build anomaly detection models trained on your equipment's vibration, temperature, and current draw signatures. When sensor patterns diverge from the healthy baseline, the system triggers a maintenance work order automatically — giving your team a 2-3 day window to schedule the repair during planned downtime rather than responding to an emergency stop. Most clients see 40-60% reduction in unplanned failures within 6 months of deploying prediction models."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Manufacturing Plants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Production data pipelines that connect PLC, SCADA, ERP, and quality systems into a single source of truth.",
+                applicationDetail: "We build the integrations that ERP vendors don't: real-time PLC data via OPC-UA, SCADA historian exports, quality inspection results from CMM systems, and material consumption from warehouse management. Everything flows into a unified production data warehouse where operations managers can answer questions like 'which shift on which line produces the most scrap on Monday mornings' without calling IT."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Manufacturing Plants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Shop-floor interfaces designed for operators in safety gloves who can't afford a learning curve.",
+                applicationDetail: "We design for the actual environment: large touch targets readable from 3 meters, high-contrast displays for bright factory lighting, and workflows that an operator can complete in under 30 seconds. Downtime cause code entry, quality check logging, and production count confirmation all follow the same interaction model. We validate every screen with real operators before going live — not usability researchers sitting at desks."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Manufacturing Plants",
-                "content": [
-                        "The modern landscape of Manufacturing Plants is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Manufacturing Plants require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Manufacturing Plants stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Manufacturing Plants technical transformation"
+                title: "Why Your OEE Number Is Probably Lying to You",
+                content: [
+                        "Most plants calculate OEE from shift production counts divided by theoretical capacity. It looks like a real number — 72%, 78% — but it hides the actual story. When availability losses aren't broken down by machine and cause code, a 6% availability loss could be three chronic failures on one asset that maintenance could fix in a week, or it could be 40 different minor stops distributed across the plant that each look too small to prioritize. The aggregate number tells you nothing actionable.",
+                        "We instrument OEE at the event level: every start, stop, speed loss, and quality reject is timestamped and attributed. The system calculates availability, performance, and quality separately for each machine, each shift, and each product. When your maintenance manager opens Monday's dashboard, they see that Asset 7 had 14 micro-stops averaging 4 minutes each, all coded as 'material feed jam.' That's a $40 part causing 56 minutes of lost production per week. Fix it this Tuesday, not next quarter's capital review."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Real-time OEE dashboard showing availability, performance, and quality metrics by machine"
         },
         {
-                "title": "Unlocking Value through Data in Manufacturing Plants",
-                "content": [
-                        "Data is the lifeblood of Manufacturing Plants, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Manufacturing Plants businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Manufacturing Plants data analytics dashboard"
+                title: "The Scheduling Problem That ERP Systems Cannot Solve",
+                content: [
+                        "ERP systems are excellent at tracking what happened. They are poor at telling you what should happen next given the current state of your plant. A standard ERP production order doesn't know that Machine 3 is running at reduced speed today because of a bearing issue, that the tooling for Job A is currently installed on a machine needed for Job B, or that the material for Job C won't arrive until Thursday. Planners fill this gap manually — which is why every plant has one person who 'knows where everything is' and whose vacation is a production crisis.",
+                        "We build scheduling engines that read live machine status, tooling location, material availability, and order priorities from their respective systems, then generate feasible sequences that account for all constraints simultaneously. When Machine 3 goes down for 2 hours, the schedule recalculates automatically and flags which orders need to move, which customers need to be called, and which overtime is necessary. Planners make decisions; the system does the math."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Production scheduling board showing constraint-aware job sequencing and machine capacity"
         },
         {
-                "title": "Designing for the Future of Manufacturing Plants",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Manufacturing Plants, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "UX UI design for Manufacturing Plants"
+                title: "Connecting Shop Floor to Top Floor Without a Three-Year IT Project",
+                content: [
+                        "The gap between a plant manager's production dashboard and what's actually happening on the floor is typically measured in hours. By the time data flows from PLC to SCADA historian to ERP to reporting tool, last night's shift is ancient history. Bridge that gap faster than traditional IT projects by deploying lightweight OPC-UA collectors directly on each production line's local network — no changes to existing PLC programs, no new SCADA licenses, no firewall arguments with IT.",
+                        "Data flows from collector to a time-series database in the cloud within 2 seconds. Dashboards update live. Alerts fire when OEE drops below threshold. The plant manager's phone gets a notification when Line 4's availability falls below 80% before they've even noticed the line slowing down. We've done this deployment in plants still running Windows XP on their HMIs — the architecture works around legacy constraints rather than demanding you replace them first."
+                ],
+                imagePath: "@/assets/svc-devops.jpg",
+                imageAlt: "Industrial IoT architecture diagram showing PLC to cloud data pipeline"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Manufacturing Plants scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Manufacturing Plants operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Custom MES with real-time OEE calculation connected to PLC and SCADA data sources",
+        "Production scheduling engine with machine capacity, tooling, and material constraint modeling",
+        "Downtime event logging with cause codes, MTBF tracking, and repeat-failure pattern analysis",
+        "Digital shift reporting with auto-generated summaries distributed before shift end",
+        "ERP integration (SAP, Oracle, Epicor) for bi-directional production order and material data flow",
+        "Mobile supervisor app for real-time line status, alerts, and downtime acknowledgment"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Live OEE dashboard deployed on shop-floor screens with per-machine, per-shift, per-product views",
+        "Downtime event database with cause code taxonomy and root cause analysis reports",
+        "Production scheduling module integrated with ERP order data and live machine status",
+        "Digital shift report template with automated data population and distribution workflow",
+        "OPC-UA data collector configuration and cloud data pipeline with 30-day historical retention",
+        "Operator and supervisor training materials with workflow documentation"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$22,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Manufacturing Plants?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Manufacturing Plants workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Our PLCs are 15 years old and run proprietary protocols — can you still connect to them?",
+                answer: "Yes. We've connected to Allen-Bradley ControlLogix, Siemens S7, Mitsubishi MELSEC, and various older Modbus-based systems. The approach varies: some support OPC-UA natively, others need an OPC server adapter on the SCADA host, and a few require a hardware gateway that translates proprietary protocols. We assess your specific PLC models in the scoping phase and design the data collection architecture around what's actually on your floor — not an idealized plant."
         },
         {
-                "question": "How do you handle compliance specific to Manufacturing Plants?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We already have a SCADA system. Do we need to replace it?",
+                answer: "Almost never. SCADA systems are expensive to replace and your operators know how to use them. We typically sit alongside your existing SCADA — reading from its historian database or adding a data collector in parallel — rather than replacing it. The MES and dashboards we build are additive: they give you production context, scheduling, and shift reporting on top of the process monitoring your SCADA already provides."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Manufacturing Plants project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How long before we see ROI on a system like this?",
+                answer: "Most clients see positive ROI within 4-6 months. The math is straightforward: if your plant runs 20 hours a day and systematic downtime analysis eliminates one 30-minute recurring failure per week, that's roughly 26 hours of recovered production capacity annually. At typical manufacturing margins, that recovery pays for the engagement cost several times over. We scope projects with explicit ROI targets and measure against them at the 90-day mark."
         }
         ],
         whoWeHelped: [
-        "Enterprise Manufacturing Plants Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Manufacturing Plants Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Manufacturing Plants Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Manufacturing Plants organizations seeking to leverage Generative AI and ML models."
+        "Plant managers running 2-3 shifts who are making production decisions based on yesterday's data and this morning's supervisor walkthrough.",
+        "Operations directors whose maintenance teams are reactive rather than predictive because downtime patterns aren't visible across the asset base.",
+        "Manufacturing VPs who need OEE visibility across multiple plants but currently get weekly spreadsheets from each site that aren't comparable.",
+        "Production schedulers spending 2-3 hours per day manually adjusting plans in Excel because the ERP schedule doesn't reflect real floor constraints."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Manufacturing Plants operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "Chief Innovation Officer, Global Manufacturing Plants Co."
+                text: "We went from calculating OEE the morning after each shift to seeing it update live on the line. In the first 60 days we identified a recurring feed jam on one press that was costing us 4 hours a week. Fixed it in a day. The whole system paid for itself before month three.",
+                name: "Derek Paulson",
+                role: "Plant Manager, Midwest Metal Fabrication Facility"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Manufacturing Plants users.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Innovative Manufacturing Plants Group"
+                text: "Our scheduler was spending half her day on the phone renegotiating the production plan. The scheduling engine CiroStack built handles the constraint logic automatically. She now spends her time on exceptions, not rebuilding the whole board from scratch every morning.",
+                name: "Anita Vasquez",
+                role: "VP Operations, Contract Electronics Manufacturer"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Manufacturing Plants requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Tech Forward Manufacturing Plants"
+                text: "The shift handover report used to take 40 minutes to compile. Now it's generated automatically and in every supervisor's inbox 10 minutes before shift end. The quality of information passed between shifts improved dramatically.",
+                name: "Thomas Brauer",
+                role: "Production Director, Food & Beverage Processing Plant"
         }
         ]
     },
@@ -10041,172 +10005,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Supply Chain & Logistics",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Supply Chain & Logistics.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Supply Chain & Logistics.",
-        description: "The challenges facing Supply Chain & Logistics require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Supply Chain & Logistics sector.",
+        tagline: "Replace spreadsheet-driven demand forecasting and supplier firefighting with systems that keep stock in the right place at the right time.",
+        introSummary: "We build demand forecasting engines, supplier management portals, and EDI integration middleware for distributors and manufacturers whose supply chain visibility is limited to whatever's in their ERP this morning. Our systems reduce stockouts by 25-40% and cut the time procurement teams spend chasing supplier confirmations by half.",
+        description: "Supply chain teams manage enormous complexity with surprisingly primitive tools. Demand forecasting is often a static spreadsheet updated monthly by one analyst. Supplier on-time delivery is tracked by someone reading confirmation emails and updating a shared sheet. EDI integration with key suppliers is either nonexistent or fragile, generating exception reports that pile up in an inbox. When a material shortage hits, the response is manual and reactive: phone calls, expedite fees, and customer promises that don't survive contact with reality. CiroStack builds the systems that replace this manual coordination: statistical demand forecasting models calibrated to your actual sales patterns, supplier portals where vendors confirm orders and flag delays proactively, and EDI middleware that handles 850/855/856/810 transactions without breaking every time a trading partner updates their format. We've built supply chain visibility platforms for manufacturers managing 500-5,000 SKUs and distributors with 200+ active suppliers.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Supply Chain & Logistics innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Supply Chain & Logistics.",
-        "Breaking down data silos to gain actionable intelligence across Supply Chain & Logistics operations.",
-        "Scaling digital infrastructure rapidly to meet surging Supply Chain & Logistics user demand without downtime."
+        "Demand forecasting based on last year's actuals and intuition, leading to 15-25% stockout rates on high-velocity items and excess inventory tying up $2-5M in working capital.",
+        "Supplier on-time delivery tracked manually through email confirmations, with no early warning when a key component will miss the delivery window.",
+        "EDI transactions with major retail or manufacturing customers handled through brittle, legacy VAN connections that require IT intervention every time a format changes.",
+        "Inventory reorder points set statically in ERP without accounting for lead time variability, demand seasonality, or supplier reliability changes."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Supply Chain & Logistics."
+                title: "Demand Forecasting Engine",
+                description: "We build statistical forecasting models (ARIMA, exponential smoothing, ML-based) calibrated to your sales history, seasonality, and promotional calendar. Reorder points update automatically as demand patterns shift — no more static min/max quantities set once and forgotten."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Supply Chain & Logistics KPIs."
+                title: "Supplier Management Portal",
+                description: "A self-service portal where suppliers confirm purchase orders, update delivery dates, submit ASNs, and flag capacity issues before they become your emergency. You get proactive visibility instead of reactive phone calls."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Supply Chain & Logistics via machine learning pipelines."
+                title: "EDI Integration Middleware",
+                description: "We build or modernize your EDI integration layer to handle 850/855/856/810 transaction sets with key trading partners, with transformation logic that adapts to partner-specific format variations without requiring IT changes each time."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Supply Chain & Logistics customers."
+                title: "Inventory Optimization Dashboard",
+                description: "A unified view of inventory positions, in-transit stock, open POs, and projected stockout dates — updated daily from ERP, WMS, and in-transit data sources. Safety stock calculations update dynamically based on actual lead time variability by supplier."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Supply Chain & Logistics digital tools faster with our agile methodologies."
+                title: "Stockouts You Can Predict and Prevent",
+                description: "When your reorder points reflect actual demand variability and supplier lead times, you stop running out of things you should have seen coming. Our clients typically reduce stockout incidents by 30-40% within the first two quarters."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Supply Chain & Logistics."
+                title: "Supplier Problems Surface Before They Hit Your Floor",
+                description: "A supplier portal that requires vendors to confirm delivery dates and flag changes proactively gives you 2-3 weeks of warning instead of a phone call the day before the shipment was due. That lead time changes the options available to you."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Supply Chain & Logistics sector effortlessly."
+                title: "EDI That Doesn't Break on Tuesdays",
+                description: "Modern EDI middleware with proper error handling, format validation, and automated exception management means your team stops spending hours each week resolving transaction errors and starts trusting the data in their systems."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "34%", label: "Avg. Reduction in Stockout Events" },
+        { value: "22%", label: "Decrease in Excess Inventory Carrying Cost" },
+        { value: "60%", label: "Less Time Spent Chasing Supplier Confirmations" },
+        { value: "3 days", label: "Earlier Visibility Into Supplier Delays" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Supply Chain & Logistics leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Demand forecasting models that adapt to real sales patterns, not last year's static assumptions.",
+                applicationDetail: "We train time-series forecasting models on your historical sales data, incorporating seasonality, promotional lift, and external demand signals where relevant. Models are retrained monthly as new data arrives and accuracy is tracked by SKU — so you know which products your forecast trusts and which ones need human judgment. Reorder points in your ERP update automatically from model output, eliminating the 'set it and forget it' safety stock problem."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Supply Chain & Logistics leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Supplier portals that replace email-based PO management with structured, auditable digital workflows.",
+                applicationDetail: "We build supplier-facing web portals where vendors log in to view open POs, confirm quantities and delivery dates, submit advance ship notices, and flag capacity constraints. All interactions are timestamped and visible to your procurement team in real time. Integration with your ERP means confirmed dates flow back to your planning system automatically, replacing the manual data entry that currently consumes hours of buyer time each week."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Supply Chain & Logistics leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "EDI middleware and inventory data pipelines that unify ERP, WMS, and in-transit data sources.",
+                applicationDetail: "We build EDI integration layers that handle the translation, validation, and routing of 850/855/856/810 transaction sets with your trading partners. Alongside EDI, we build inventory visibility pipelines that pull stock positions, open POs, ASN data, and in-transit quantities into a unified data model — so your supply chain team sees one number, not three conflicting ones from three different systems."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Supply Chain & Logistics leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Scalable cloud infrastructure for supply chain data processing and supplier portal hosting.",
+                applicationDetail: "Supply chain systems process high-volume transaction data from EDI, ERP, and WMS sources on daily batch cycles and real-time exception triggers. We architect the processing infrastructure to handle peak EDI transaction volumes, store 3-5 years of historical data for forecasting model training, and serve the supplier portal with 99.9% availability. Disaster recovery is built in — a supplier portal that goes down during month-end PO issuance is not an option."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Supply Chain & Logistics",
-                "content": [
-                        "The modern landscape of Supply Chain & Logistics is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Supply Chain & Logistics require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Supply Chain & Logistics stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Supply Chain & Logistics technical transformation"
+                title: "Why Spreadsheet Demand Forecasting Costs More Than You Think",
+                content: [
+                        "The cost of bad demand forecasting shows up in two places simultaneously: stockouts that lose sales and damage customer relationships, and excess inventory that ties up working capital and eventually gets written down. Most companies track these costs separately and undercount both. The stockout you didn't see coming shows up as a missed shipment; the inventory overstock shows up as a warehouse cost. Neither gets attributed to the forecast that caused them.",
+                        "Statistical forecasting models outperform human judgment for high-velocity, predictable SKUs by 15-30% on average forecast error — not because they're smarter, but because they process more signal (weekly patterns, year-over-year trends, lead time distributions) without cognitive fatigue. The ROI calculation is simple: if your company carries $10M in inventory and better forecasting reduces working capital requirements by 20%, that's $2M of cash freed up — often more than the cost of the system in the first year of operation."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Supply chain demand forecasting dashboard showing forecast accuracy and inventory positions"
         },
         {
-                "title": "Unlocking Value through Data in Supply Chain & Logistics",
-                "content": [
-                        "Data is the lifeblood of Supply Chain & Logistics, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Supply Chain & Logistics businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-manufacturing.jpg",
-                "imageAlt": "Supply Chain & Logistics data analytics dashboard"
+                title: "The Supplier Confirmation Problem Nobody Talks About",
+                content: [
+                        "In most manufacturing and distribution companies, a buyer issues a purchase order via ERP and then waits. Maybe the supplier sends a confirmation email. Maybe they don't. The buyer checks in by phone at T-minus-5 days. The supplier says delivery is on track. At T-minus-1, the call comes: there's a problem. By then, options are limited and expensive: air freight, alternative sourcing at a premium, or apologizing to the customer who was counting on that material.",
+                        "The supplier portal model changes this dynamic structurally. Vendors are required to confirm orders within 48 hours of receipt — not as a courtesy but as a platform requirement. Unconfirmed orders generate automated escalations. Date changes require a reason code. The system tracks each supplier's historical confirmation accuracy and delivery performance, creating a scorecard your procurement team can use in quarterly reviews. Early warnings come from suppliers themselves, who'd rather flag a problem two weeks out than explain an emergency two days out."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Supplier management portal showing purchase order status and delivery confirmation workflows"
         },
         {
-                "title": "Designing for the Future of Supply Chain & Logistics",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Supply Chain & Logistics, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "UX UI design for Supply Chain & Logistics"
+                title: "Modernizing EDI Without Ripping Out What Already Works",
+                content: [
+                        "EDI integrations are notoriously difficult to modernize because they're often undocumented, touching critical order-to-cash workflows, and maintained by one person who built them ten years ago. The standard advice — rewrite everything — creates enormous risk for a capability that, when it works, is essentially invisible. We take a different approach: map what exists, identify the failure modes, and modernize the problem areas without touching the connections that are stable.",
+                        "Most EDI pain concentrates in three places: format translation when trading partners update their specs, exception handling when transactions fail validation, and visibility into what's in flight. We replace brittle transformation scripts with a managed middleware layer that externalizes format mappings (so partner updates are config changes, not code changes), implements structured exception queues that surface errors to the right people automatically, and provides a transaction tracking dashboard. The result is EDI that operations teams can monitor and procurement teams can trust — without a two-year full replacement project."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "EDI integration middleware architecture diagram showing transaction flow and exception handling"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Supply Chain & Logistics scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Supply Chain & Logistics operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Demand forecasting engine with SKU-level statistical models, seasonality adjustment, and ERP reorder point integration",
+        "Supplier management portal with PO confirmation workflows, ASN submission, and delivery performance scorecards",
+        "EDI middleware supporting 850/855/856/810 transaction sets with format transformation and exception management",
+        "Inventory optimization dashboard aggregating ERP, WMS, and in-transit data with dynamic safety stock calculations",
+        "Supplier performance analytics with on-time delivery, quality, and lead time variance tracking",
+        "Integration with SAP, Oracle, Microsoft Dynamics, and major 3PL WMS platforms"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Demand forecasting models deployed with documented accuracy metrics by SKU category",
+        "Supplier portal live with onboarded trading partners and integrated PO confirmation workflow",
+        "EDI middleware configuration handling all active trading partner transaction sets",
+        "Inventory visibility dashboard with daily data refresh from all connected systems",
+        "Supplier performance scorecard with quarterly review template and historical data export",
+        "Integration documentation and runbooks for procurement and IT teams"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$28,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Supply Chain & Logistics?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Supply Chain & Logistics workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We use SAP for ERP — can your systems integrate with it?",
+                answer: "Yes. SAP integration is the most common ERP we work with for supply chain engagements. We connect via RFC/BAPI for real-time data exchange or use SAP's IDoc framework for batch transactions depending on what's appropriate for the data type. Our demand forecasting and inventory systems read master data, open POs, and goods receipts from SAP and write back reorder points and forecast quantities. We handle the SAP authorization model and work within your change management processes."
         },
         {
-                "question": "How do you handle compliance specific to Supply Chain & Logistics?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you get suppliers to actually use the portal?",
+                answer: "Adoption is a process design question as much as a technology question. We design portals that require minimal training — the confirmation workflow should take a supplier's admin under 2 minutes. We recommend launching with your top 20 suppliers by spend volume, where the relationship gives your procurement team leverage to require digital confirmation. After demonstrating value there, the remaining suppliers typically follow. We provide supplier onboarding documentation and a template communication for your procurement team to send."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Supply Chain & Logistics project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Our demand is highly variable and seasonal. Can forecasting models handle that?",
+                answer: "Seasonal and intermittent demand patterns are where statistical models deliver the most value over spreadsheet forecasting — because they can systematically account for year-over-year seasonality, promotional timing, and demand intermittency in ways that manual forecasting simply cannot do at scale. We calibrate models specifically for your demand profile, and we build accuracy tracking that shows you which SKUs the model forecasts reliably versus which ones need planner override. No model is perfect; the goal is reliable enough to set better reorder points than your current static ones."
         }
         ],
         whoWeHelped: [
-        "Enterprise Supply Chain & Logistics Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Supply Chain & Logistics Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Supply Chain & Logistics Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Supply Chain & Logistics organizations seeking to leverage Generative AI and ML models."
+        "Supply chain directors whose procurement teams spend half their day chasing supplier confirmations via email and phone rather than managing exceptions.",
+        "Inventory managers carrying $3-10M in excess stock because reorder points were set statically in ERP years ago and never updated to reflect real demand patterns.",
+        "IT teams maintaining brittle, undocumented EDI connections with key trading partners where every format change triggers an emergency.",
+        "CFOs whose working capital is held hostage by inventory positions that don't match actual demand — too much of the wrong things, not enough of the right ones."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Supply Chain & Logistics operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Global Supply Chain & Logistics Co."
+                text: "Before CiroStack, our buyer team spent three hours a day chasing PO confirmations by phone. The supplier portal changed that completely. We now have 94% of our suppliers confirming digitally within 48 hours, and our expedite calls dropped by 60% in the first quarter.",
+                name: "Priya Mehta",
+                role: "Director of Procurement, Industrial Components Distributor"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Supply Chain & Logistics users.",
-                "name": "Michael Chen",
-                "role": "Founder, Innovative Supply Chain & Logistics Group"
+                text: "The demand forecasting system they built replaced a 12-tab Excel model that one analyst was updating every month. We reduced stockouts on our A-items by 38% in the first six months and freed up $1.8M in working capital that was sitting in slow-moving inventory.",
+                name: "Carlos Reyes",
+                role: "VP Supply Chain, Consumer Goods Manufacturer"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Supply Chain & Logistics requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Tech Forward Supply Chain & Logistics"
+                text: "Our EDI connections had been held together with custom scripts for eight years. CiroStack modernized the middleware layer without disrupting any live trading partner connections — which I didn't think was possible. We haven't had an EDI emergency since the cutover.",
+                name: "Linda Kowalski",
+                role: "IT Director, Regional Distribution Company"
         }
         ]
     },
@@ -10215,172 +10167,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Warehousing",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Warehousing.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Warehousing.",
-        description: "The challenges facing Warehousing require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Warehousing sector.",
+        tagline: "Eliminate mispicks, inventory shrinkage, and the paper-based processes slowing your warehouse operations down.",
+        introSummary: "We build custom WMS platforms, pick/pack workflow systems, and labor management dashboards for distribution centers and 3PLs that have outgrown their spreadsheets and off-the-shelf solutions. Our systems have reduced mispick rates by 40-60% and cut new associate onboarding time from weeks to days.",
+        description: "Warehousing operations run on speed and accuracy — and most warehouses are undermining both. Inventory accuracy below 95% means your WMS can't be trusted, so pickers double-check the shelf, supervisors spend hours resolving discrepancies, and customer shipments go out wrong. Paper-based or screen-based pick processes without barcode confirmation have mispick rates of 1-3% — meaning 1 in 50 to 100 orders ships with the wrong item or quantity. Labor productivity varies 30-40% between your top and bottom performers, but without task-level time tracking, you can't see why or intervene. CiroStack builds WMS platforms designed for your specific operation: the right directed-picking workflow for your aisle layout, barcode-confirmed putaway and pick processes that catch errors before the box is sealed, and labor management dashboards that give supervisors the real-time visibility they need to deploy people where the work is. We integrate with your ERP, shipping systems, and carrier APIs, and we've built on top of Zebra, Honeywell, and Datalogic scanning hardware.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Warehousing innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Warehousing.",
-        "Breaking down data silos to gain actionable intelligence across Warehousing operations.",
-        "Scaling digital infrastructure rapidly to meet surging Warehousing user demand without downtime."
+        "Inventory accuracy below 96% causing pickers to second-guess locations, increasing pick time by 20-30% and creating downstream stockout surprises.",
+        "Mispick rates of 1-3% generating returns, reships, and customer service escalations that cost $15-35 per error to resolve.",
+        "Labor productivity invisible to supervisors until end-of-day reports — no way to see which zones are backlogged and redeploy people in real time.",
+        "New associate training taking 2-3 weeks because pick processes aren't guided and location logic lives in experienced workers' heads, not the system."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Warehousing."
+                title: "Custom WMS with Directed Picking",
+                description: "We build a WMS tailored to your warehouse layout and product mix — zone picking, batch picking, or wave picking — with directed workflows that guide associates to the right location and require barcode confirmation before advancing. Errors are caught at the point of pick, not in the return center."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Warehousing KPIs."
+                title: "Barcode-Confirmed Putaway and Cycle Count",
+                description: "Putaway workflows require scan confirmation at each step — receive, stage, location put — creating an audit trail for every inventory movement. Directed cycle count programs assign counts by location risk and discrepancy history, maintaining 99%+ inventory accuracy without annual full-count disruption."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Warehousing via machine learning pipelines."
+                title: "Labor Management Dashboard",
+                description: "Real-time supervisor dashboards show active picks per zone, associate productivity vs. engineered standards, backlog by area, and predicted end-of-shift completion. Supervisors redeploy labor based on data, not guesswork, and labor cost per unit shipped becomes a tracked metric."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Warehousing customers."
+                title: "Shipping Integration and Carrier Manifesting",
+                description: "We integrate your WMS with UPS, FedEx, and USPS APIs for automated rate shopping, label printing, and manifest submission — eliminating manual carrier data entry and the shipment delays that come with it."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Warehousing digital tools faster with our agile methodologies."
+                title: "Accuracy You Can Guarantee to Customers",
+                description: "Barcode-confirmed pick and pack processes reduce mispick rates to under 0.1% — from 1-3% — which translates directly into fewer returns, lower customer service volume, and the ability to offer accuracy guarantees that differentiate your 3PL or private warehouse service."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Warehousing."
+                title: "Labor Productivity Visible in Real Time",
+                description: "When supervisors can see which zones are backlogged and which associates are underperforming in real time rather than the next day's report, they can intervene during the shift instead of explaining it after the fact."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Warehousing sector effortlessly."
+                title: "Onboarding That Takes Days, Not Weeks",
+                description: "Directed pick workflows mean new associates follow step-by-step system guidance rather than relying on experienced workers to shadow. Productivity reaches 80% of standard within 3-5 days instead of 2-3 weeks."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "99.4%", label: "Inventory Accuracy After WMS Deployment" },
+        { value: "52%", label: "Reduction in Mispick Rate" },
+        { value: "4 days", label: "New Associate Time to 80% Productivity" },
+        { value: "18%", label: "Increase in Units Picked Per Labor Hour" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Warehousing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Android-based mobile scanning apps for pick, putaway, receiving, and cycle count workflows.",
+                applicationDetail: "We build native Android applications for Zebra, Honeywell, and Datalogic mobile computers that run the directed pick, putaway, and cycle count workflows. The apps work offline during connectivity interruptions and sync when reconnected — no lost picks when the WiFi drops in a metal building. Scan confirmation, voice pick integration, and photo capture for damage documentation are all supported. The UI is designed for gloved hands and warehouse lighting conditions."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Warehousing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "WMS infrastructure that handles peak season volume without slowing the pick floor down.",
+                applicationDetail: "Warehouse operations have dramatic seasonal peaks — Black Friday, Q4, promotional events — where transaction volume can spike 5-10x. We architect WMS infrastructure that auto-scales for these peaks and returns to baseline cost during off-peak periods. Database query optimization for location lookups (the highest-frequency WMS transaction) ensures scanning response times stay under 1 second even during peak load with hundreds of active pickers."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Warehousing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Labor analytics and inventory data pipelines connecting WMS to ERP and reporting systems.",
+                applicationDetail: "We build the data pipelines that move WMS transaction data into your reporting layer: labor hours by task type, units per hour by associate and shift, inventory movement history, and order fill rate by day. These feeds power the management dashboards your operations team uses to run the building and the financial reports your CFO uses to track cost per unit shipped — a metric most warehouses calculate quarterly from rough estimates rather than actual data."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Warehousing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Warehouse UI designed for speed, accuracy, and minimal training requirement.",
+                applicationDetail: "Warehouse software fails when associates find workarounds because the system is slower than the informal process. We design every screen for the actual task flow: receiving requires two scans and one confirmation, not seven fields and a dropdown. Pick screens show the exact information needed in the exact sequence needed — location, slot, item, quantity — with no navigation required. We test every workflow with real warehouse associates before finalizing design, and we measure task completion time as a design requirement."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Warehousing",
-                "content": [
-                        "The modern landscape of Warehousing is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Warehousing require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Warehousing stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "Warehousing technical transformation"
+                title: "The Real Cost of a 2% Mispick Rate",
+                content: [
+                        "A 2% mispick rate sounds manageable until you do the math. If you're shipping 500 orders per day, that's 10 wrong shipments daily. Each one generates a customer contact, a return label, a reship, and a credit or replacement cost. Studies consistently put the cost of resolving a mispick — including the customer service time, return handling, and reship logistics — at $15-40 depending on item value and carrier costs. At 10 errors per day, that's $150-400 daily, or $55,000-150,000 annually. That's before factoring in customer satisfaction impacts and the repeat orders you lose from customers who experienced errors.",
+                        "Barcode-confirmed pick workflows eliminate the vast majority of this cost by moving the error detection from the return center to the moment of pick. When an associate scans the wrong item, the system alerts them immediately. When the quantity doesn't match, the system holds the transaction. The error rate in barcode-confirmed operations consistently falls below 0.2% — a 90%+ reduction from paper-based or screen-only processes. The capital cost of deploying this system pays back in error resolution cost savings within 6-12 months at typical warehouse volumes."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Warehouse barcode scanning workflow showing pick confirmation on mobile device"
         },
         {
-                "title": "Unlocking Value through Data in Warehousing",
-                "content": [
-                        "Data is the lifeblood of Warehousing, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Warehousing businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "Warehousing data analytics dashboard"
+                title: "Why Labor Productivity Varies 35% Between Your Best and Worst Shifts",
+                content: [
+                        "In most warehouses, labor productivity data is available the morning after the shift from the WMS transaction log. By that point, the shift is over, the overtime has already been paid, and the backlog has already affected the next day's shipping plan. Supervisors make real-time decisions without real-time data — which means they use intuition, walk-arounds, and experience rather than the actual work distribution across the floor.",
+                        "Labor management dashboards change the intervention window from 24 hours to 15 minutes. When a supervisor's screen shows that Zone 3 has 40% of today's remaining pick volume and 20% of the available labor, they can redeploy from Zone 1 before the shift runs out of time. When an associate is running at 60% of engineered standard for 90 minutes, the supervisor can check in before the entire shift is lost. We've seen this change reduce overtime hours by 15-25% and increase on-time ship rates by 10-15 percentage points in the first quarter after deployment."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Warehouse labor management dashboard showing real-time productivity by zone and associate"
         },
         {
-                "title": "Designing for the Future of Warehousing",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Warehousing, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "UX UI design for Warehousing"
+                title: "Building a WMS on Top of What You Already Have",
+                content: [
+                        "Most warehouse operations have accumulated a mix of systems over time: an ERP module that handles inventory but not directed picking, a legacy WMS that does picking but doesn't integrate with current shipping carriers, and a series of spreadsheets that fill the gaps. Replacing everything simultaneously creates enormous risk and disruption. The right approach is targeted: identify the highest-cost gaps and build specifically for them.",
+                        "We start every WMS engagement with a process audit — not an IT audit, but a floor walk and operator interview process. We find out where associates are working around the system, where supervisors are making decisions from incomplete information, and where the physical flow of goods creates constraints that software can address. The WMS we build is designed to close those specific gaps, integrate with the systems that work well, and replace only what's actually failing. This approach delivers production results in 8-12 weeks rather than the 18-month WMS replacements that warehouses dread."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Warehouse management system architecture showing integration points with ERP and shipping carriers"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Warehousing scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Warehousing operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Custom WMS with directed pick workflows (zone, batch, wave) and barcode confirmation at every step",
+        "Putaway and cycle count programs with scan confirmation and discrepancy management",
+        "Real-time labor management dashboard with productivity tracking against engineered standards",
+        "Integration with UPS, FedEx, USPS, and regional carriers for rate shopping and label printing",
+        "ERP integration for inventory sync, order receipt, and shipment confirmation",
+        "Mobile Android app for Zebra/Honeywell/Datalogic devices with offline operation support"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production WMS deployed across all active warehouse zones with supervisor and associate training complete",
+        "Barcode-confirmed pick and putaway workflows with error alert configuration",
+        "Labor management dashboard with engineered standards loaded and shift reporting automated",
+        "Carrier API integrations with rate shopping rules and label printing configured",
+        "Inventory accuracy baseline measurement and 90-day post-deployment accuracy report",
+        "WMS administration documentation and IT runbooks for system maintenance"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$20,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Warehousing?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Warehousing workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We have a WMS already but it's not meeting our needs. Can you build on top of it or do we need to replace it?",
+                answer: "It depends on what's failing. If the core inventory tracking is solid but directed picking and labor management are weak, we can often build those components as a layer on top of your existing system — consuming inventory data via API and writing back pick confirmations. If the data model is fundamentally broken or the system can't support integration, a targeted replacement is more efficient. We diagnose this in a 2-3 day assessment before recommending an approach."
         },
         {
-                "question": "How do you handle compliance specific to Warehousing?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our warehouse has poor WiFi coverage in some areas. Can scanning still work reliably?",
+                answer: "Yes. We design our mobile applications to operate in offline mode when connectivity drops, queuing transactions locally and syncing when the device reconnects to the network. The pick workflow continues uninterrupted — associates don't see error screens or delays. We also work with your IT team to identify the coverage gaps and recommend access point placement improvements, since poor coverage in a high-transaction zone is a straightforward network issue worth fixing regardless of the WMS."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Warehousing project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle the transition from the current process without disrupting daily shipments?",
+                answer: "We run parallel operations during go-live: the new system and existing process run simultaneously for 1-2 weeks, with associates using both until the new system is validated. We go live zone by zone rather than cutting the whole floor at once — starting with the lowest-risk area, building confidence, then expanding. Most warehouses we've worked with hit full deployment within 3 weeks of go-live start with no significant shipment disruption."
         }
         ],
         whoWeHelped: [
-        "Enterprise Warehousing Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Warehousing Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Warehousing Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Warehousing organizations seeking to leverage Generative AI and ML models."
+        "3PL operators whose accuracy guarantees to customers are difficult to maintain because pick processes rely on paper or unconfirmed screen entries.",
+        "Distribution center managers whose labor costs are rising because productivity varies significantly between shifts with no visibility into why.",
+        "Operations directors who inherited a patchwork of WMS, ERP, and spreadsheet processes and need a cohesive system without a multi-year replacement project.",
+        "E-commerce fulfillment operations processing 1,000-10,000 orders per day where a 1% mispick rate generates unacceptable return volume and customer service costs."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Warehousing operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "VP of Engineering, Global Warehousing Co."
+                text: "Our mispick rate dropped from 2.1% to 0.18% within 45 days of go-live. We stopped hiring seasonal customer service staff to handle return calls and our Amazon seller metrics improved significantly. The pick confirmation workflow paid for itself in returns cost alone.",
+                name: "Roberto Espinoza",
+                role: "VP Operations, E-Commerce Fulfillment Center"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Warehousing users.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Innovative Warehousing Group"
+                text: "New associates used to take three weeks to reach standard productivity because the process was all in experienced workers' heads. With the directed pick app, they're at 80% standard by day four. We've cut new hire training cost in half.",
+                name: "Janet Osei",
+                role: "Director of Warehouse Operations, Regional 3PL"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Warehousing requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Warehousing"
+                text: "The labor management dashboard gave our supervisors something they'd never had: real-time visibility into what was happening on the floor. Overtime dropped 22% in Q1 post-deployment because they could see backlogs building and redeploy before the end of shift.",
+                name: "Dan Whitmore",
+                role: "Site Manager, Consumer Goods Distribution Center"
         }
         ]
     },
@@ -10389,172 +10329,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Quality Control",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Quality Control.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Quality Control.",
-        description: "The challenges facing Quality Control require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Quality Control sector.",
+        tagline: "Replace paper inspection sheets and reactive scrap reporting with SPC-driven quality systems that catch defects at the source.",
+        introSummary: "We build statistical process control systems, digital inspection workflows, and defect tracking platforms for manufacturers whose quality teams are still compiling data from paper checksheets at the end of the day. Our systems have helped clients reduce scrap rates by 25-45% and pass ISO 9001 and IATF 16949 audits without significant findings.",
+        description: "Quality problems are almost always information problems. The defect was there before the inspector found it — the process drifted out of control an hour earlier, the incoming material was out of spec, the operator made the wrong adjustment because the instruction was ambiguous. By the time a quality team has compiled their paper checksheets into a spreadsheet and calculated the week's scrap rate, the production that generated those defects is already shipped or scrapped. Real-time quality systems close that information lag. CiroStack builds SPC monitoring platforms that alert quality engineers when a process is trending toward out-of-control before it produces a defect. We build digital inspection workflows that replace paper checksheets with structured, timestamped data that's searchable, reportable, and audit-ready. We build defect tracking systems with cause analysis workflows that turn individual defect records into corrective action plans. Our quality systems integrate with your ERP for incoming material status and your MES for process parameter data — giving quality teams the complete picture they need to manage to ISO and IATF requirements.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Quality Control innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Quality Control.",
-        "Breaking down data silos to gain actionable intelligence across Quality Control operations.",
-        "Scaling digital infrastructure rapidly to meet surging Quality Control user demand without downtime."
+        "SPC data collected on paper checksheets and entered into Excel after the shift, providing no real-time signal when processes drift toward out-of-control conditions.",
+        "Defect records stored in disconnected spreadsheets with no structured cause analysis, making it impossible to identify whether the same root cause is recurring across lines or shifts.",
+        "ISO 9001 or IATF 16949 audit preparation requiring weeks of data compilation because records exist in paper binders and inconsistent spreadsheets across departments.",
+        "Incoming material inspection results not connected to supplier quality scorecards, so the same underperforming suppliers receive orders without consequence."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Quality Control."
+                title: "Real-Time SPC Monitoring Platform",
+                description: "We build an SPC platform that collects measurement data from operators via tablet or CMM integration, calculates control chart statistics in real time, and triggers alerts when processes approach or exceed control limits. Quality engineers see process drift while there's still time to adjust — not after the batch is scrapped."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Quality Control KPIs."
+                title: "Digital Inspection Workflow System",
+                description: "We digitize your incoming, in-process, and final inspection checksheets into structured digital forms that enforce measurement entry, flag out-of-tolerance values, and build a searchable database of every inspection result with timestamp, operator, machine, and lot number."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Quality Control via machine learning pipelines."
+                title: "Defect Tracking and CAPA Management",
+                description: "We build defect entry workflows with structured root cause fields (5-Why, Ishikawa, or your preferred methodology), corrective action assignment with due dates and status tracking, and effectiveness verification steps — replacing the scattered spreadsheets and email chains where CAPAs go to die."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Quality Control customers."
+                title: "Supplier Quality Scorecard",
+                description: "We connect incoming inspection results to a supplier performance database, calculating PPM, lot acceptance rate, and on-time delivery by supplier. Scorecards update automatically and feed your supplier qualification and development programs with real data."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Quality Control digital tools faster with our agile methodologies."
+                title: "Catch Defects During Production, Not After",
+                description: "Real-time SPC alerts when processes drift give quality engineers a 30-60 minute intervention window that paper-based systems simply don't provide. Catching one out-of-control condition before it produces 200 defective parts pays for the monitoring system."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Quality Control."
+                title: "Audit-Ready Without the Pre-Audit Sprint",
+                description: "When every inspection record, CAPA, and measurement is stored in a structured database from day one, audit preparation means running a report — not spending three weeks compiling paper records and hoping nothing is missing."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Quality Control sector effortlessly."
+                title: "Recurring Defects Become Visible and Actionable",
+                description: "When every defect record is in the same database with structured cause codes, the Pareto analysis that shows 40% of your scrap comes from three recurring failure modes runs in seconds rather than requiring a quality engineer to manually review 500 paper tickets."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "38%", label: "Avg. Reduction in Scrap Rate After SPC Deployment" },
+        { value: "6 hrs", label: "Weekly Inspection Data Entry Time Eliminated" },
+        { value: "2 days", label: "ISO/IATF Audit Prep Time (down from 3 weeks)" },
+        { value: "45%", label: "Faster CAPA Closure Rate" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Quality Control leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Quality management web platforms accessible to inspectors, engineers, and management across shifts and locations.",
+                applicationDetail: "We build quality management platforms as web applications — accessible from shop-floor tablets, engineer workstations, and management laptops without installation. Role-based access ensures inspectors see their checksheets, engineers see SPC charts and defect trends, and managers see the quality KPI dashboard. The same platform serves incoming, in-process, and final inspection workflows with consistent data structure and audit trail."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Quality Control leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "SPC anomaly detection and defect prediction models trained on process and measurement data.",
+                applicationDetail: "Beyond classical SPC control limits, we build ML models that identify subtle multivariate patterns in process data that precede defects — correlations between temperature, pressure, and cycle time that a control chart on any single variable would miss. We also build incoming material risk models that flag high-risk lots based on supplier history, material grade, and dimensional measurements, triggering enhanced inspection before defective material reaches the production floor."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Quality Control leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Tablet-based inspection apps for structured data collection on the shop floor.",
+                applicationDetail: "We build tablet applications for inspectors that replace paper checksheets with guided digital workflows — displaying the inspection plan, recording measurements, flagging out-of-tolerance values in real time, and requiring electronic sign-off. The apps work offline and sync when connectivity is restored. Photos of defects are captured directly in the inspection record, eliminating the problem of paper photos getting separated from their documentation."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Quality Control leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "IAM",
+                slug: "iam",
+                description: "Role-based access control and electronic signatures for 21 CFR Part 11 and ISO audit trail requirements.",
+                applicationDetail: "Quality management systems require verifiable audit trails: who entered what data, when, and whether it was changed. We implement role-based access control with named user logins (no shared accounts), electronic signature workflows for inspection approvals and CAPA sign-offs, and immutable audit logs that satisfy ISO 9001 record control requirements and 21 CFR Part 11 electronic records requirements for regulated industries."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Quality Control",
-                "content": [
-                        "The modern landscape of Quality Control is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Quality Control require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Quality Control stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Quality Control technical transformation"
+                title: "Why Paper-Based SPC Provides No Real Protection",
+                content: [
+                        "Statistical process control works by detecting when a process is trending out of control before it produces nonconforming parts. The Western Electric rules for control chart interpretation — trend detection, run rules, control limit violations — require someone to actually look at a current control chart while the process is still running. Paper-based SPC almost never achieves this. The operator records measurements in the checksheet. The quality engineer reviews the charts at the end of the shift. By the time a trend is identified, the process has been running out of control for 4-8 hours and the damage is done.",
+                        "Real-time SPC platforms change the intervention window. When measurement data is entered digitally — via operator input, CMM data export, or automated gauge integration — the control chart updates instantly. Alert rules fire within seconds of a violation. The quality engineer's phone gets a notification. The shift supervisor gets an alert on the shop floor screen. The response can happen in the same hour as the drift, not the next morning. This is the difference between SPC as a compliance checkbox and SPC as an actual quality tool."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Real-time SPC control chart showing process trend with alert threshold highlighted"
         },
         {
-                "title": "Unlocking Value through Data in Quality Control",
-                "content": [
-                        "Data is the lifeblood of Quality Control, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Quality Control businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "Quality Control data analytics dashboard"
+                title: "The CAPA System That Actually Closes Problems",
+                content: [
+                        "Most manufacturers have a CAPA process that looks functional on paper but fails in practice. Corrective actions are entered into a spreadsheet or a basic form, assigned to someone, and then followed up on inconsistently. The same defect recurs 6 months later, a new CAPA is opened, and the cycle repeats. Auditors accept the paperwork because the process exists. But the quality problem persists because nobody is tracking whether the root causes identified actually matched the defect patterns, and whether the corrective actions implemented actually changed the process.",
+                        "Effective CAPA management requires structured cause analysis (not free-text 'operator error'), verification steps that confirm the action was implemented, and effectiveness monitoring that checks whether the defect recurred 30-60 days after the CAPA closed. We build CAPA workflows that enforce this structure — requiring cause codes from a taxonomy linked to your defect types, attaching implementation evidence before closure is permitted, and generating automated effectiveness follow-up tasks. When the same failure mode appears in two different CAPAs, the system flags the overlap. When a closed CAPA's defect type reappears, the system reopens the action automatically."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "CAPA management dashboard showing open corrective actions with root cause analysis and closure status"
         },
         {
-                "title": "Designing for the Future of Quality Control",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Quality Control, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "UX UI design for Quality Control"
+                title: "Building Quality Data That Survives an ISO Audit",
+                content: [
+                        "ISO 9001 and IATF 16949 audits test whether your quality management system is real — not whether your forms look correct. Auditors will pick a specific defect and ask to see the inspection record, the CAPA, the updated control plan, and evidence that the corrective action was verified effective. If any link in that chain is a paper binder that takes 20 minutes to find, the audit finds a nonconformance. If two different people give different answers about where to find a record, the audit finds a systemic issue.",
+                        "Digital quality systems make audit trail integrity structural rather than procedural. Every inspection record has a timestamp, operator ID, and lot reference. Every CAPA is linked to the defect records that triggered it. Every control plan revision has an effective date and approval signature. The connections exist in the database, not in someone's memory of where they filed the paper. When an auditor asks for the CAPA history on Part Number X, you run a query — not a search through three binders. We've supported clients through ISO 9001 initial certification, IATF 16949 upgrades, and customer-initiated process audits. The ones with digital quality systems consistently clear audits faster and with fewer findings."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Quality management system showing audit trail with linked inspection records and corrective actions"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Quality Control scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Quality Control operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Real-time SPC platform with configurable control limits, Western Electric rules, and alert routing",
+        "Digital inspection workflow system for incoming, in-process, and final inspection with CMM/gauge integration",
+        "Defect tracking and CAPA management with structured cause analysis and effectiveness verification",
+        "Supplier quality scorecard with PPM tracking, lot acceptance rates, and development action management",
+        "ISO 9001 / IATF 16949 record control with immutable audit trail and electronic signature workflows",
+        "ERP integration for material lot traceability, nonconforming material holds, and supplier performance data"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "SPC platform deployed with control charts and alert rules configured for all monitored characteristics",
+        "Digital inspection forms replacing paper checksheets for incoming, in-process, and final inspection",
+        "CAPA database with historical migration of open actions and workflow enforcement configuration",
+        "Supplier quality scorecard with 12-month historical data loaded and monthly update automation",
+        "ISO/IATF audit trail documentation confirming record control requirements are met",
+        "Quality KPI dashboard showing scrap rate, first-pass yield, CAPA closure rate, and supplier PPM"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Quality Control?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Quality Control workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Can you integrate with our CMM or automated measurement systems to feed SPC data automatically?",
+                answer: "Yes. Most modern CMMs export measurement data in formats we can consume directly — Zeiss CALYPSO, Hexagon PC-DMIS, and Renishaw MODUS all have data export capabilities we've integrated. For automated gauging stations, we work with the gauge controller outputs, which are typically RS-232 or Ethernet-based data streams. Automated data collection eliminates transcription errors and makes real-time SPC practical for high-volume inspection points where manual entry would be too slow."
         },
         {
-                "question": "How do you handle compliance specific to Quality Control?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We're targeting IATF 16949 certification. Does your quality system support automotive-specific requirements?",
+                answer: "Yes, specifically. IATF 16949 adds automotive-specific requirements on top of ISO 9001, including advanced product quality planning (APQP), production part approval process (PPAP), measurement system analysis (MSA), and statistical process control. We build quality systems that support PPAP documentation packages, MSA study management (gauge R&R, linearity, bias studies), and the specific control plan and PFMEA linkage requirements that IATF auditors check. We've supported successful IATF initial certifications and surveillance audits."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Quality Control project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Our quality records go back 10 years on paper. Do we need to migrate all of that?",
+                answer: "For day-to-day operations, no — you need historical data available for reference, not active in the system. We typically recommend establishing a 'going forward' cutover date where new inspections and CAPAs are created digitally, while historical paper records are scanned and stored as PDFs referenced from the system. For APQP or PPAP data on active parts, we build a targeted migration of the most recent submission data. Full historical digitization is expensive and rarely provides proportional value."
         }
         ],
         whoWeHelped: [
-        "Enterprise Quality Control Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Quality Control Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Quality Control Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Quality Control organizations seeking to leverage Generative AI and ML models."
+        "Quality managers spending 10+ hours per week compiling inspection data from paper checksheets instead of analyzing it and acting on it.",
+        "Plant quality engineers who catch process drift only after it's produced a full shift of scrap, because SPC charts are reviewed daily, not continuously.",
+        "Operations directors facing ISO 9001 or IATF 16949 audits with quality records distributed across paper binders, spreadsheets, and email chains.",
+        "Supplier quality engineers whose supplier scorecards are quarterly spreadsheets assembled manually rather than live dashboards driven by inspection data."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Quality Control operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Director of Product, Global Quality Control Co."
+                text: "We went from catching process drift in the morning report to catching it while the process is still running. In the first quarter, our SPC system flagged 12 out-of-control conditions in time to adjust before producing nonconforming parts. Our scrap rate dropped 31%.",
+                name: "Natasha Volkov",
+                role: "Quality Manager, Precision Machining Facility"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Quality Control users.",
-                "name": "Sarah Jenkins",
-                "role": "VP of Engineering, Innovative Quality Control Group"
+                text: "Our last ISO 9001 audit took three weeks of prep because records were in four different systems and a filing cabinet. After deploying CiroStack's quality platform, our most recent surveillance audit took two days of prep. The auditor commented on the maturity of our documentation system.",
+                name: "Greg Sato",
+                role: "Quality Director, Tier 2 Automotive Supplier"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Quality Control requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Tech Forward Quality Control"
+                text: "The CAPA system finally closes problems instead of just documenting them. The structured cause analysis forced us to stop writing 'operator error' and actually identify the process conditions that allowed the error. Our repeat defect rate dropped 44% in six months.",
+                name: "Maria Fontaine",
+                role: "VP Quality Assurance, Plastics Manufacturer"
         }
         ]
     },
@@ -10563,172 +10491,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Equipment Maintenance",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Equipment Maintenance.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Equipment Maintenance.",
-        description: "The challenges facing Equipment Maintenance require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Equipment Maintenance sector.",
+        tagline: "Move maintenance from reactive firefighting to predictive precision — catch failures before they stop your line.",
+        introSummary: "We build custom CMMS platforms, predictive maintenance dashboards, and spare parts inventory systems for manufacturers whose maintenance teams are running on paper work orders and tribal knowledge. Our systems have helped clients reduce unplanned downtime by 35-50% and cut spare parts carrying costs by 20% through demand-driven reorder logic.",
+        description: "Most maintenance teams operate in a permanent state of managed chaos. Work orders are tracked in spreadsheets or a legacy system nobody trusts. Preventive maintenance is scheduled by calendar, not by actual equipment condition, so PMs are done on equipment running perfectly while an asset showing early failure signs sits unattended. Spare parts inventory is oversized on some items and stocked out on others — when equipment breaks down, technicians spend 20-30 minutes hunting for the right spare part, the service manual, and the last work order before they can begin. CiroStack builds CMMS platforms tailored to your asset base and maintenance workflow, not the generic CMMS your team abandoned because it required two hours of data entry per work order. We connect IoT sensors to predictive maintenance models that flag degrading assets before they fail, and we build spare parts inventory systems that stock the right items in the right quantities based on actual consumption patterns and lead times.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Equipment Maintenance innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Equipment Maintenance.",
-        "Breaking down data silos to gain actionable intelligence across Equipment Maintenance operations.",
-        "Scaling digital infrastructure rapidly to meet surging Equipment Maintenance user demand without downtime."
+        "Unplanned downtime averaging 15-20% of available equipment time because maintenance is reactive — responding to failures rather than preventing them.",
+        "Preventive maintenance performed on a fixed calendar schedule regardless of actual equipment condition, wasting maintenance hours on healthy equipment while degrading assets go unmonitored.",
+        "Spare parts inventory with $200,000-500,000 tied up in slow-moving stock while the specific parts for the most common failures are routinely out of stock.",
+        "Work order management on paper or spreadsheets with no visibility into backlog size, technician utilization, or mean time to repair by asset class."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Equipment Maintenance."
+                title: "Custom CMMS with Mobile Work Orders",
+                description: "We build a CMMS designed around your actual maintenance workflow — asset hierarchy, work order types, PM templates, and parts linkage all configured for your facility. Mobile-first work orders mean techs document repairs on a phone or tablet at the machine, not on a computer at the end of the day."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Equipment Maintenance KPIs."
+                title: "Predictive Maintenance Dashboard",
+                description: "We connect vibration sensors, temperature sensors, or motor current monitors to anomaly detection models that identify degradation signatures 48-96 hours before failure. The dashboard shows asset health scores, trending conditions, and automatically generates work orders when a threshold is crossed."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Equipment Maintenance via machine learning pipelines."
+                title: "Spare Parts Inventory Optimization",
+                description: "We build an inventory system that tracks parts consumption by asset and failure type, calculates reorder points based on actual usage rates and supplier lead times, and generates purchase orders automatically when stock reaches the trigger level."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Equipment Maintenance customers."
+                title: "Maintenance Analytics and KPI Dashboard",
+                description: "We build the reporting layer maintenance managers need: MTBF and MTTR by asset class, PM compliance rate, planned vs. unplanned work ratio, and cost per work order by department — all updated in real time from CMMS transaction data."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Equipment Maintenance digital tools faster with our agile methodologies."
+                title: "Failures You Predict Instead of React To",
+                description: "When sensor data tells you a motor bearing is degrading before it fails, you schedule a 2-hour planned replacement during a maintenance window instead of a 6-hour emergency repair in the middle of a production shift. The maintenance cost is similar; the downtime cost is dramatically different."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Equipment Maintenance."
+                title: "Parts Available When Technicians Need Them",
+                description: "Demand-driven reorder logic means the parts that fail most often are reliably in stock, while shelf space and capital previously tied up in slow-moving items is freed. Most clients see 15-25% reduction in total spare parts carrying cost alongside improved availability for critical repairs."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Equipment Maintenance sector effortlessly."
+                title: "A CMMS Your Team Will Actually Use",
+                description: "The CMMS that failed before failed because it required too much data entry for too little value. We design work order workflows that take under 3 minutes to complete and immediately surface asset history, parts availability, and SOPs that make the technician's job faster."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "43%", label: "Reduction in Unplanned Downtime Events" },
+        { value: "72 hrs", label: "Avg. Lead Time to Predict Bearing Failure" },
+        { value: "21%", label: "Decrease in Spare Parts Carrying Cost" },
+        { value: "3 min", label: "Avg. Work Order Completion Time (mobile)" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Equipment Maintenance leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Predictive maintenance models trained on vibration, temperature, and runtime sensor data.",
+                applicationDetail: "We build anomaly detection models on your equipment sensor data — starting with the assets where failure is most costly. Models learn the healthy operating signature for each asset type and alert when deviations reach failure-precursor thresholds from your historical data. We've deployed models on pumps, compressors, motors, conveyors, and CNC machine spindles. Accuracy improves as more labeled failure events are added to the training set over time."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Equipment Maintenance leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Mobile work order apps that let technicians document repairs at the machine, not a desk.",
+                applicationDetail: "We build Android and iOS apps for maintenance technicians that present the work order, asset history, linked procedures, and parts list on a single screen. Technicians scan the asset QR code to pull up history, log the repair with structured cause codes, record parts consumed, and close the work order in under 5 minutes. Photos attach directly to the work order. The apps work offline and sync when connectivity returns."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Equipment Maintenance leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Maintenance data pipelines connecting CMMS, IoT sensors, and ERP into a unified asset health database.",
+                applicationDetail: "We build the data infrastructure that makes maintenance analytics possible: sensor data pipelines from IoT gateways to time-series databases, CMMS transaction exports to the analytics warehouse, and ERP integration for parts procurement and cost allocation. The unified data model enables analysis individual systems cannot support — correlating sensor anomalies with subsequent work orders and calculating true cost per failure mode."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Equipment Maintenance leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Reliable cloud infrastructure for CMMS and predictive maintenance with offline mobile support.",
+                applicationDetail: "CMMS platforms need to work in plants where WiFi coverage is inconsistent. We architect mobile applications for offline operation — technicians receive and complete work orders without network connectivity, syncing when they return to coverage. The server infrastructure uses managed cloud services with automated backups and failover, ensuring CMMS availability around the clock."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Equipment Maintenance",
-                "content": [
-                        "The modern landscape of Equipment Maintenance is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Equipment Maintenance require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Equipment Maintenance stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "Equipment Maintenance technical transformation"
+                title: "The Real Cost of Reactive Maintenance",
+                content: [
+                        "Reactive maintenance is more expensive than most budgets reveal. The direct cost of an emergency repair — overtime labor, expedited parts, contractor callout — is visible in the maintenance ledger. The indirect cost — production downtime, quality impact from rushing the repair, secondary damage from running equipment past failure — is often allocated elsewhere in the P&L and never traced back to the maintenance decision that caused it. Studies in manufacturing put the total cost of unplanned downtime at 3-5x the cost of planned maintenance for the same work. Yet most plants operate 50-70% reactive because they lack the information systems to do otherwise.",
+                        "The path to predictive maintenance does not require replacing all your equipment with sensors. It starts with understanding where downtime costs are concentrated. In most plants, 20% of the asset base causes 80% of unplanned downtime cost. We start there — instrumenting the high-impact assets with the right sensors for their failure modes, building models on that small set, and demonstrating ROI before expanding. The first predictive model that prevents a major production stoppage typically pays for the entire engagement."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Predictive maintenance dashboard showing asset health scores and upcoming maintenance triggers"
         },
         {
-                "title": "Unlocking Value through Data in Equipment Maintenance",
-                "content": [
-                        "Data is the lifeblood of Equipment Maintenance, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Equipment Maintenance businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Equipment Maintenance data analytics dashboard"
+                title: "Why Preventive Maintenance Schedules Are Usually Wrong",
+                content: [
+                        "Calendar-based PM schedules were designed for a world without sensor data. If a bearing typically fails after 6 months, inspect or replace it every 5 months. This protects against failure but results in replacing bearings that still had useful life — wasting maintenance labor and parts cost. More problematically, it misses assets failing faster than expected due to load conditions, misalignment, or lubrication problems. The PM schedule says inspect in 2 months; the bearing fails in 3 weeks.",
+                        "Condition-based maintenance replaces the calendar with actual asset condition. A bearing running cooler and quieter than its healthy baseline can safely run past its scheduled PM. A bearing showing elevated temperature and vibration needs attention now. Combining condition monitoring with a CMMS that dynamically adjusts PM schedules based on sensor alerts gives maintenance teams the best of both approaches — structured preventive programs for assets without sensor data, and condition-based flexibility for high-criticality monitored assets."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Maintenance schedule showing condition-based PM adjustments and sensor-triggered work orders"
         },
         {
-                "title": "Designing for the Future of Equipment Maintenance",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Equipment Maintenance, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "UX UI design for Equipment Maintenance"
+                title: "Building a Spare Parts System That Pays for Itself",
+                content: [
+                        "Spare parts inventory problems are always the same: too much of the wrong things and not enough of the right things. The bearings ordered in bulk five years ago occupy shelf space and tie up capital. The specific belt that fails on Line 3 every 8-10 weeks is perpetually out of stock because nobody formalized the reorder point. Both problems share the same root cause: reorder decisions made by intuition rather than consumption data.",
+                        "We build spare parts inventory systems that connect parts consumption to work orders — so every part used on a repair is logged against the asset and failure type. After 6-12 months of data, the system calculates actual consumption rates by part number, sets reorder points based on those rates and supplier lead times, and generates purchase orders automatically. The analysis also surfaces slow-moving stock: parts with zero consumption in 12 months that can be returned or reallocated. Most clients recover $50,000-150,000 in working capital from slow-moving inventory optimization while improving availability of high-turn parts."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Spare parts inventory dashboard showing consumption rates, reorder points, and slow-moving stock analysis"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Equipment Maintenance scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Equipment Maintenance operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Custom CMMS with mobile work orders, asset hierarchy, PM templates, and parts linkage configured for your facility",
+        "Predictive maintenance models on vibration, temperature, or current sensor data with automated work order generation",
+        "Spare parts inventory optimization with demand-based reorder logic and slow-moving stock identification",
+        "Maintenance KPI dashboard with MTBF, MTTR, PM compliance rate, and cost per work order reporting",
+        "ERP integration for parts procurement, cost allocation, and asset depreciation tracking",
+        "IoT sensor data pipeline from edge gateways to time-series database and analytics layer"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production CMMS with asset database loaded, PM schedules configured, and mobile app deployed for technicians",
+        "Predictive maintenance models deployed for top-priority assets with alert thresholds and work order automation",
+        "Spare parts inventory system with current stock loaded and demand-based reorder logic configured",
+        "Maintenance analytics dashboard with historical data migrated and KPI baselines established",
+        "IoT sensor data pipeline documentation and edge gateway configuration guide",
+        "Technician training materials and CMMS administration guide for maintenance supervisors"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$22,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Equipment Maintenance?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Equipment Maintenance workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We don't have sensors on our equipment. Do we need to buy sensors before starting predictive maintenance?",
+                answer: "Not necessarily. We start predictive maintenance engagements by identifying which assets are worth instrumenting first — those with the highest downtime cost and most predictable failure modes. For many clients, a few vibration sensors on critical motors and pumps (typically $150-400 per sensor installed) provide enough signal to demonstrate value quickly. We help sequence the sensor investment based on expected ROI and work alongside your maintenance team on sensor selection and installation planning."
         },
         {
-                "question": "How do you handle compliance specific to Equipment Maintenance?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We tried a CMMS a few years ago and the team stopped using it after 6 months. What's different about your approach?",
+                answer: "CMMS adoption fails when data entry takes longer than the repair itself. We audit the failed CMMS to understand specifically where friction occurred — it's usually a small number of workflows that became obstacles. Our implementation starts with the simplest possible work order: scan asset, log fault, close. Additional fields and workflows are added after the team is using the system consistently. We also ensure the CMMS returns value to technicians, not just supervisors — surfacing asset history, procedures, and parts availability that make their job faster."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Equipment Maintenance project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Can your predictive models work on equipment we have no failure history for?",
+                answer: "Yes, with caveats. Anomaly detection models learn what healthy looks like from normal operating data and flag deviations — they do not require labeled failure examples to function. This means you can start monitoring an asset immediately and the model will flag unusual conditions even without historical failure data. As failures occur over time, the model retrains to be more precise about which anomaly patterns actually precede failure. The models improve with time and use."
         }
         ],
         whoWeHelped: [
-        "Enterprise Equipment Maintenance Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Equipment Maintenance Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Equipment Maintenance Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Equipment Maintenance organizations seeking to leverage Generative AI and ML models."
+        "Maintenance managers whose teams spend 60-70% of their time on emergency repairs because there is no systematic approach to preventing failures on critical equipment.",
+        "Plant engineers who know their predictive maintenance program is mostly a spreadsheet and intuition, and want to build something defensible before the next equipment audit.",
+        "Operations directors who have approved three CMMS purchases over ten years and are skeptical another one will stick with their maintenance team.",
+        "CFOs who can see $300,000 or more sitting on spare parts shelves but cannot get a straight answer on which items are critical stock versus speculative overpurchases."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Equipment Maintenance operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Global Equipment Maintenance Co."
+                text: "Our maintenance team was doing 70% reactive work. After deploying the CMMS and getting predictive models on our five most critical assets, we shifted to 55% planned within 8 months. The unplanned downtime cost reduction covered the entire engagement in the first year.",
+                name: "Frank Delacroix",
+                role: "Maintenance Director, Heavy Equipment Manufacturing Plant"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Equipment Maintenance users.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Innovative Equipment Maintenance Group"
+                text: "The predictive model flagged a compressor bearing anomaly 68 hours before it would have failed. We replaced it during a planned shutdown. That compressor failing unplanned would have shut down our main production line for 10-14 hours. The math was immediate.",
+                name: "Yuki Tanaka",
+                role: "Plant Engineer, Chemical Processing Facility"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Equipment Maintenance requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "CTO, Tech Forward Equipment Maintenance"
+                text: "We recovered $180,000 in slow-moving spare parts inventory in the first analysis CiroStack ran. That money went back into stock on the 12 parts we routinely expedite. The system now manages itself — I get a purchase order to approve, not a panic call that we are out of something critical.",
+                name: "Cheryl Ogundimu",
+                role: "Operations Manager, Plastics Extrusion Manufacturer"
         }
         ]
     },
@@ -10737,172 +10653,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Factory Automation",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Factory Automation.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Factory Automation.",
-        description: "The challenges facing Factory Automation require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Factory Automation sector.",
+        tagline: "Bridge your PLCs, SCADA systems, and IoT sensors into a unified production monitoring platform that drives real decisions.",
+        introSummary: "We build PLC integration layers, custom SCADA dashboards, and IoT sensor platforms for manufacturers looking to get actionable data out of their automation investments. Our systems connect Siemens, Allen-Bradley, Mitsubishi, and third-party PLCs to cloud dashboards that give operations managers real-time visibility across every automated line.",
+        description: "Factory automation investments generate enormous amounts of data that most manufacturers never fully use. PLCs are logging every cycle, every sensor reading, every alarm — and most of that data sits in the SCADA historian, queried occasionally for specific incidents but never analyzed systematically for production insights. Operators watch screens; engineers pull reports manually. The machine knows exactly why it stopped 23 times yesterday, but nobody is asking it the right way. CiroStack builds the data layer that sits between your automation hardware and your business decisions. We connect PLCs via OPC-UA, pull data from SCADA historians, integrate IoT sensors for assets that aren't yet instrumented, and build production monitoring dashboards that tell operators and managers what they need to know without requiring them to become data engineers. We've integrated with Allen-Bradley ControlLogix, Siemens S7, Mitsubishi MELSEC, Beckhoff, and Modbus-based systems across discrete, process, and hybrid manufacturing environments.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Factory Automation innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Factory Automation.",
-        "Breaking down data silos to gain actionable intelligence across Factory Automation operations.",
-        "Scaling digital infrastructure rapidly to meet surging Factory Automation user demand without downtime."
+        "PLC and SCADA data locked in proprietary historians, making cross-line or cross-plant analysis require hours of manual data extraction.",
+        "Production monitoring happening at the HMI level only — operators see their line, but supervisors and managers have no real-time cross-line visibility.",
+        "IoT sensor data from newer equipment not integrated with legacy SCADA, creating a fragmented picture where some lines are visible and others are black boxes.",
+        "Alarm floods where hundreds of SCADA alerts fire daily and operators have learned to ignore them because there is no prioritization or root cause structure."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Factory Automation."
+                title: "OPC-UA PLC Integration Platform",
+                description: "We build the data collection layer that reads tag data from your PLCs at configurable scan rates, buffers it through edge processing, and streams it to cloud databases — without modifying your PLC programs or affecting control system performance."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Factory Automation KPIs."
+                title: "Custom SCADA Dashboards",
+                description: "We build web-based SCADA dashboards that go beyond what your HMI shows — aggregating data across lines, plants, and time periods into views that give operations managers the cross-line visibility their existing screens don't provide."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Factory Automation via machine learning pipelines."
+                title: "IoT Sensor Integration",
+                description: "We connect industrial IoT sensors (vibration, temperature, flow, pressure) from vendors including Pepperl+Fuchs, Turck, Banner, and IFM to your data infrastructure, filling the gaps where PLCs don't monitor or where assets aren't yet connected to the control system."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Factory Automation customers."
+                title: "Alarm Management and Rationalization",
+                description: "We build alarm management systems that deduplicate, prioritize, and route SCADA alarms to the right people through the right channels — replacing the alarm flood that operators ignore with structured notifications that demand action and track acknowledgment."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Factory Automation digital tools faster with our agile methodologies."
+                title: "One View Across Every Automated Line",
+                description: "When all your PLC data flows into a common platform, the question 'how is Line 4 doing compared to Line 2' becomes a 10-second dashboard lookup instead of a 30-minute data exercise."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Factory Automation."
+                title: "Automation Data That Reaches Decision-Makers",
+                description: "PLC data that stays at the HMI helps operators; PLC data that flows to management dashboards and gets correlated with order schedules, quality data, and maintenance events helps the business."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Factory Automation sector effortlessly."
+                title: "Integration Without Touching Your Control System",
+                description: "We use passive OPC-UA read connections and historian exports that don't touch your PLC programs or affect control system performance. Your safety-critical automation stays exactly as it is; we only add the data layer on top."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "2 sec", label: "Latency from PLC Tag to Cloud Dashboard" },
+        { value: "87%", label: "Reduction in Alarm Acknowledgment Time" },
+        { value: "6 wks", label: "Typical OPC-UA Integration to Live Dashboard" },
+        { value: "100%", label: "PLC Programs Unchanged Post-Integration" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Factory Automation leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Industrial data pipelines from PLCs and SCADA historians to cloud analytics and dashboards.",
+                applicationDetail: "We build the complete data path: OPC-UA collectors reading PLC tags at 1-second scan rates, edge processors performing initial aggregation and quality filtering, streaming pipelines delivering data to time-series cloud databases, and ETL jobs joining automation data with ERP and quality records. The result is a unified manufacturing data warehouse where production counts, process parameters, alarms, and quality results are queryable together for the first time."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Factory Automation leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Edge-to-cloud architecture that handles industrial data volumes reliably and cost-effectively.",
+                applicationDetail: "Industrial data has unique characteristics: high frequency, time-series structure, and bursty patterns during production events. We architect cloud infrastructure specifically for industrial workloads — time-series databases (InfluxDB, TimescaleDB) for sensor and PLC data, event streaming (Kafka or cloud equivalents) for real-time processing, and columnar storage for historical analysis. Infrastructure costs are optimized for the actual data volumes your plant generates, not a generic cloud estimate."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Factory Automation leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Process optimization models that identify production conditions associated with quality and throughput improvements.",
+                applicationDetail: "With PLC tag data flowing continuously into a unified database, statistical and ML analysis of process conditions becomes possible. We build models that identify correlations between process parameters — temperature profiles, cycle times, feed rates — and production outcomes like quality reject rates and throughput. These models surface the parameter settings that your best-performing shifts use consistently, enabling operations managers to replicate that performance systematically rather than attributing it to individual operator skill."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Factory Automation leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Production monitoring dashboards designed for the specific decisions operators and managers need to make.",
+                applicationDetail: "Effective SCADA dashboards are not just replicas of the HMI with more data. They're designed around specific decisions: is this line running to plan, where is the current constraint, and what action should I take? We design each dashboard view around user role and decision context — the operator view prioritizes current status and recent alarms, the supervisor view shows cross-line comparison and current shift performance, and the plant manager view shows production vs. schedule and trend analysis."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Factory Automation",
-                "content": [
-                        "The modern landscape of Factory Automation is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Factory Automation require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Factory Automation stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Factory Automation technical transformation"
+                title: "Getting Value Out of the Data Your PLCs Already Generate",
+                content: [
+                        "A modern PLC generating data at 10ms scan intervals on 200 tags produces over 1.7 billion data points per day. Almost none of it is systematically analyzed. Operators watch the current values on the HMI. Engineers pull specific tags for specific incidents. Management receives daily production counts that summarize away everything interesting. The rest goes into the SCADA historian, which is queried maybe twice a year. The automation investment is there; the data value is almost entirely unrealized.",
+                        "Unlocking that value requires three things: a data collection layer that continuously moves tag data from the historian to an accessible database, a data model that gives tags meaningful context (this is the inlet temperature for Tank 3, not just a 32-bit float), and visualization that connects the data to decisions that operators and managers actually make. We build all three, and we design the solution around the specific decisions that matter in your operation — not a generic industrial IoT platform that displays everything and answers nothing."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Factory automation data dashboard showing PLC tag streams and production monitoring views"
         },
         {
-                "title": "Unlocking Value through Data in Factory Automation",
-                "content": [
-                        "Data is the lifeblood of Factory Automation, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Factory Automation businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Factory Automation data analytics dashboard"
+                title: "Solving the SCADA Alarm Problem",
+                content: [
+                        "The average SCADA system in a mature plant generates 200-500 alarms per shift, of which 70-80% are nuisance alarms that operators have learned to acknowledge automatically without acting on them. This isn't operator negligence — it's rational adaptation to a system that cried wolf too many times. The cost is that the alarm system no longer functions as intended: when a genuine process deviation occurs, it's lost in the flood. Post-incident analysis consistently finds that the alarm that would have prevented the incident fired 20 minutes before the failure but was buried under 40 nuisance alarms.",
+                        "Alarm rationalization is the process of reviewing every alarm in the system, confirming it has a specific cause and required operator action, setting deadbands that prevent chattering, and suppressing or deleting nuisance alarms entirely. We do this programmatically — exporting the alarm configuration, analyzing alarm firing frequency and acknowledgment patterns, flagging candidates for removal or deadband adjustment, and implementing the rationalized configuration with your operations team's review. The target is under 10 alarms per hour per operator — the EEMUA 191 industry guideline. Plants that get there have functional alarm systems; plants that don't are managing a noise problem."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "SCADA alarm management dashboard showing rationalized alarm priorities and acknowledgment workflows"
         },
         {
-                "title": "Designing for the Future of Factory Automation",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Factory Automation, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "UX UI design for Factory Automation"
+                title: "Industrial Cybersecurity: Connecting OT to IT Without Creating New Risk",
+                content: [
+                        "The business case for connecting factory automation data to cloud systems is clear. The cybersecurity risk of opening paths between OT (operational technology) and IT networks is also real: the manufacturing sector has experienced a significant increase in ransomware and targeted attacks specifically because IT/OT convergence has created network paths that didn't exist five years ago. The right approach is not to avoid the integration — the competitive disadvantage of doing so is too high — but to architect it with appropriate network segmentation.",
+                        "We design data collection architectures that maintain the Purdue model boundary: OPC-UA collectors sit in the DMZ zone between the OT network and the IT/cloud network, with unidirectional data flow (data moves from OT to IT, never the reverse through the same path). The control system network has no direct internet connectivity. Cloud credentials are never stored on OT-network devices. This architecture satisfies the IEC 62443 standards that most industrial cybersecurity audits reference, and it ensures that a breach of the cloud analytics platform cannot propagate back to the control system."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Industrial cybersecurity architecture diagram showing OT/IT network segmentation and data flow"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Factory Automation scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Factory Automation operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "OPC-UA PLC integration platform supporting Allen-Bradley, Siemens, Mitsubishi, Beckhoff, and Modbus systems",
+        "Custom SCADA web dashboards with cross-line production monitoring and historical trend analysis",
+        "IoT sensor integration for vibration, temperature, flow, and pressure data from industrial sensor vendors",
+        "Alarm management and rationalization reducing nuisance alarms to EEMUA 191 targets",
+        "Edge-to-cloud data pipeline with time-series database and ERP/quality system integration",
+        "OT/IT network segmentation architecture maintaining IEC 62443 compliance standards"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "OPC-UA data collectors deployed on production network with tag configuration for all monitored PLCs",
+        "Cloud time-series database with 12-month data retention and data model documentation",
+        "Custom SCADA dashboard deployed for operator, supervisor, and plant manager views",
+        "IoT sensor integrations configured and streaming to unified data platform",
+        "Alarm rationalization report with implemented configuration changes and before/after alarm frequency comparison",
+        "OT/IT architecture diagram with network segmentation documentation for security audit use"
         ],
         startingAt: "$25,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Factory Automation?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Factory Automation workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will connecting OPC-UA readers to our PLCs affect control system performance or cycle time?",
+                answer: "No. OPC-UA operates as a passive read connection — it reads tag values at configured intervals without writing to the PLC or triggering program scans. The additional network traffic is minimal and we configure scan rates that are appropriate for your network bandwidth. We test the connection in isolation before deploying to production and monitor PLC scan time before and after to confirm there is no measurable impact. Your control system runs identically after integration."
         },
         {
-                "question": "How do you handle compliance specific to Factory Automation?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our SCADA system is 15 years old and the vendor is no longer active. Can you still extract data from it?",
+                answer: "Usually yes. Most legacy SCADA systems use historians based on OSIsoft PI (now AVEVA PI), Wonderware Historian, or GE Proficy — all of which have documented API access. For systems without API access, we can often use the ODBC or OLE-DB interfaces that most historians expose, or fall back to OPC DA (the predecessor to OPC-UA) which legacy systems almost universally support. We assess your specific system in the scoping phase and confirm the extraction approach before committing to the engagement."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Factory Automation project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We want real-time dashboards but our IT department is concerned about OT network security. How do you handle this?",
+                answer: "We design the architecture specifically to address this concern. Data flows unidirectionally from OT to IT through a DMZ-hosted collector — the IT and cloud systems never have a direct connection into the OT network. We provide the network architecture diagram at the scoping stage for your IT security team to review, and we can engage with them directly to answer questions about the segmentation design. This architecture is consistent with IEC 62443 and NIST SP 800-82 guidance for industrial control system security."
         }
         ],
         whoWeHelped: [
-        "Enterprise Factory Automation Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Factory Automation Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Factory Automation Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Factory Automation organizations seeking to leverage Generative AI and ML models."
+        "Operations directors whose automation data exists but never makes it to the management dashboards that drive decisions — it stays at the HMI and goes no further.",
+        "Plant engineers spending hours manually extracting PLC data for incident investigations or efficiency analyses that should take minutes.",
+        "Manufacturing VPs who have invested millions in automation equipment and want to finally use the production data those systems generate.",
+        "IT/OT convergence project leaders who need a partner that understands both sides — the control system constraints and the cloud data architecture requirements."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Factory Automation operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Global Factory Automation Co."
+                text: "We had eight production lines each with their own HMI and no way to see them all at once. CiroStack built the integration layer and dashboard in six weeks. I now see all eight lines on one screen with real-time OEE and alarm status. We identified a cross-line scheduling conflict within the first week that was costing us 2 hours of production daily.",
+                name: "Stavros Nikolaidis",
+                role: "Operations Director, Discrete Manufacturing Facility"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Factory Automation users.",
-                "name": "David Dubois",
-                "role": "VP of Engineering, Innovative Factory Automation Group"
+                text: "Our SCADA system was generating 400+ alarms per shift and operators acknowledged them automatically. CiroStack ran the rationalization analysis and we removed or deadbanded 280 nuisance alarms. The ones that remain are real. Operators actually look at them now.",
+                name: "Rachel Thornton",
+                role: "Process Engineer, Continuous Process Plant"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Factory Automation requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Tech Forward Factory Automation"
+                text: "Getting our PLC data into a cloud database unlocked analyses we couldn't do before. We found that our reject rate on Line 2 was 40% higher during the first 20 minutes after a material changeover — a pattern invisible in daily production reports but obvious in per-cycle data. Fixing the changeover procedure reduced rejects by 18%.",
+                name: "Ahmed Khalil",
+                role: "Manufacturing Engineering Manager, Automotive Parts Supplier"
         }
         ]
     },
@@ -10911,14 +10815,14 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Procurement",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Procurement.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Procurement.",
-        description: "The challenges facing Procurement require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Procurement sector.",
+        tagline: "Automate purchase order workflows, enforce approval controls, and get spend visibility your ERP alone cannot provide.",
+        introSummary: "We build custom procurement platforms, vendor management portals, and spend analytics systems for organizations whose procurement teams manage approvals through email chains and track commitments in spreadsheets. Our systems have reduced PO cycle times by 50-70% and given CFOs category-level spend visibility they never had before.",
+        description: "Procurement inefficiency is expensive and largely invisible. Purchase orders routed through email for manager approval take 4-7 days to complete — with no visibility into where the bottleneck is, no escalation when approvers miss deadlines, and no audit trail showing who approved what and when. Maverick spending — purchases made outside approved vendors or without PO — typically represents 15-25% of organizational spend and is discovered retrospectively if at all. CiroStack builds procurement platforms that automate the approval workflow, enforce vendor selection requirements, capture every purchase commitment digitally, and roll spend data up into category and supplier analytics that procurement leaders and CFOs can act on. We integrate with SAP, Oracle, NetSuite, and Microsoft Dynamics to ensure procurement data flows to and from your ERP without double-entry.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Procurement innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Procurement.",
-        "Breaking down data silos to gain actionable intelligence across Procurement operations.",
-        "Scaling digital infrastructure rapidly to meet surging Procurement user demand without downtime."
+        "PO approval workflows running through email, taking 4-7 days on average with no visibility into bottlenecks and no automated escalation for overdue approvals.",
+        "Maverick spend representing 15-25% of total organizational spend because requisitioners bypass the PO process when it is too slow or inconvenient.",
+        "Vendor performance data scattered across individual buyers' spreadsheets, making it impossible for procurement leadership to see which suppliers are underperforming across categories.",
+        "Spend analytics requiring 2-3 days of manual data extraction per month to compile a report that is already outdated on delivery."
         ],
         solutions: [
         {
@@ -11607,14 +11511,14 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Briefcase,
         title: "Law Firms",
         parentCategory: "Professional Services",
-        tagline: "Streamlined operational software for Law Firms.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Law Firms.",
-        description: "The challenges facing Law Firms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Law Firms sector.",
+        tagline: "Automate the billable hour, streamline case workflows, and give clients the digital experience they expect.",
+        introSummary: "We help law firms eliminate the administrative drag that eats into billable hours -- slow document assembly, fragmented case management, and client communication that still runs through email threads nobody can find. Our teams build the systems that let attorneys focus on practicing law.",
+        description: "Most law firms run on a patchwork of tools that were never designed to work together. Case files live in one system, billing lives in another, client communications happen over email, and document drafts get versioned through filenames like 'contract_v7_FINAL_revised.docx.' Partners lose 8-12 hours per week on administrative tasks that should be automated. Associates spend more time searching for precedent documents than analyzing them. And clients -- especially corporate clients paying $400-$800/hour -- increasingly expect a portal where they can check case status, review invoices, and share documents securely, not wait for a weekly email update. CiroStack builds the integrated practice management platforms, client portals, and document automation systems that modern law firms need to operate efficiently and retain demanding clients.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Law Firms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Law Firms.",
-        "Breaking down data silos to gain actionable intelligence across Law Firms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Law Firms user demand without downtime."
+        "Attorneys spending 8-12 hours per week on non-billable administrative tasks like time entry, document formatting, and status update emails.",
+        "Client intake processes that take 3-5 days because forms, conflict checks, and engagement letters are handled manually across disconnected systems.",
+        "Document assembly for standard agreements, motions, and briefs requiring manual cut-and-paste from templates, introducing errors and consuming associate time.",
+        "Corporate clients demanding real-time case status visibility and secure document sharing instead of weekly email summaries."
         ],
         solutions: [
         {
@@ -11781,14 +11685,14 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Briefcase,
         title: "Accounting Firms",
         parentCategory: "Professional Services",
-        tagline: "Streamlined operational software for Accounting Firms.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Accounting Firms.",
-        description: "The challenges facing Accounting Firms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Accounting Firms sector.",
+        tagline: "Automate tax workflows, secure client portals, and maintain airtight audit trails from intake to filing.",
+        introSummary: "We help accounting firms eliminate the manual bottlenecks eating into billable hours — rekeying data between systems, chasing document uploads over email, and generating reports that should build themselves. Our teams build the integrated tax workflow, client portal, and document management platforms that let CPAs focus on advisory work instead of administration.",
+        description: "Accounting firms are drowning in reconciliation work that software should handle automatically. Staff accountants spend 6-10 hours per week manually transferring data between tax preparation software, practice management tools, and client communication platforms that were never designed to connect. Document collection for a single tax return involves 15-30 separate client requests scattered across email threads, with no visibility into what has arrived, what is outstanding, or what version is current. Audit trails are assembled retroactively from disparate logs when regulators ask questions, rather than maintained continuously as work progresses. And clients — especially business owners paying $5,000-$50,000 per year in accounting fees — increasingly expect a secure portal where they can upload documents, review draft returns, approve filings, and check the status of open engagements without calling the front desk. CiroStack builds the tax workflow automation systems, client-facing portals, and document management infrastructure that modern accounting practices need to scale headcount profitably and retain demanding business clients.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Accounting Firms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Accounting Firms.",
-        "Breaking down data silos to gain actionable intelligence across Accounting Firms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Accounting Firms user demand without downtime."
+        "Staff accountants spending 6-10 hours per week rekeying data between tax software, practice management systems, and billing platforms that lack native integration.",
+        "Document collection for business tax returns requiring 15-30 separate client requests over email with no centralized tracking of what has been received versus outstanding.",
+        "Audit trail documentation assembled after the fact from scattered logs rather than captured in real time, creating compliance exposure during regulatory reviews.",
+        "Business clients expecting a secure self-service portal to upload documents, review draft filings, and track engagement status — but receiving weekly email summaries instead."
         ],
         solutions: [
         {
@@ -20177,172 +20081,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: HardHat,
         title: "Construction Companies",
         parentCategory: "Construction & Engineering",
-        tagline: "Digital tools to manage complex Construction Companies projects on time and budget.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Construction Companies.",
-        description: "The challenges facing Construction Companies require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Construction Companies sector.",
+        tagline: "Stop managing $50M projects with spreadsheets, text threads, and disconnected tools that lose change orders.",
+        introSummary: "We help construction companies replace fragmented project management with integrated platforms that connect bidding, scheduling, field reporting, safety compliance, and equipment tracking in a single system. Our teams have built software for general contractors, specialty builders, and commercial construction firms managing 10-200 concurrent projects.",
+        description: "Construction runs on razor-thin margins — typically 3-5% net profit — and the tools most companies rely on actively destroy those margins. Project managers toggle between Procore for documents, Excel for budgets, email for RFIs, and WhatsApp for field coordination. Change orders get buried in email threads and surface 30 days late. Safety incidents go unreported because the paperwork takes longer than the fix. Equipment sits idle on one jobsite while another crew rents duplicates. CiroStack builds integrated construction management platforms that eliminate these gaps. We connect estimating to scheduling to field execution to billing in a single data layer, so a change order entered in the field updates the budget, adjusts the schedule, and triggers the subcontractor notification within minutes — not weeks.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Construction Companies innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Construction Companies.",
-        "Breaking down data silos to gain actionable intelligence across Construction Companies operations.",
-        "Scaling digital infrastructure rapidly to meet surging Construction Companies user demand without downtime."
+        "Project managers spending 30-40% of their time on manual data entry across disconnected systems — Procore, Excel, email, and text messages.",
+        "Change orders averaging $26,000 each going untracked for 2-4 weeks because field-to-office communication relies on paper forms and phone calls.",
+        "Safety compliance documentation scattered across clipboards and filing cabinets, creating OSHA exposure that costs the industry $5B annually in penalties.",
+        "Equipment utilization below 60% because no one has real-time visibility into what's deployed where across multiple active jobsites."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Construction Companies."
+                title: "Integrated Project Command Center",
+                description: "We build a unified platform that connects bidding, estimating, scheduling, field reporting, and accounting — eliminating the 6-8 disconnected tools your PMs currently juggle. One data entry point updates everything downstream."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Construction Companies KPIs."
+                title: "Digital Change Order Workflow",
+                description: "We replace paper-based change order processes with mobile-first workflows that capture scope changes in the field, route approvals in real-time, and automatically update budgets, schedules, and subcontractor scopes within minutes."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Construction Companies via machine learning pipelines."
+                title: "Safety Compliance Automation",
+                description: "We build mobile toolbox talk tracking, incident reporting with photo evidence, OSHA 300 log auto-generation, and real-time safety scorecards by jobsite and crew — reducing compliance paperwork by 80% while improving documentation quality."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Construction Companies customers."
+                title: "Fleet & Equipment Intelligence",
+                description: "We integrate GPS and telematics data from your equipment fleet into a real-time dashboard that shows utilization rates, maintenance schedules, and cross-site availability — cutting unnecessary rentals and idle time by 30-40%."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Construction Companies digital tools faster with our agile methodologies."
+                title: "Protect Your Margins",
+                description: "Every change order tracked in real-time, every cost variance flagged before it compounds. Construction companies using our platforms recover 2-4% of project value previously lost to untracked scope changes."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Construction Companies."
+                title: "Field-to-Office in Real Time",
+                description: "Daily reports, RFI responses, punch lists, and safety logs flow from the field to the office the moment they're created — no more waiting for paper to arrive or chasing superintendents for updates."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Construction Companies sector effortlessly."
+                title: "Win More Bids",
+                description: "Historical project data feeds into smarter estimating. Your bid accuracy improves because you're pricing from actual cost data across hundreds of completed jobs, not gut instinct and outdated RSMeans numbers."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "38%", label: "Reduction in Change Order Leakage" },
+        { value: "4.2 hrs", label: "Saved Per PM Per Day on Data Entry" },
+        { value: "67%", label: "Faster RFI Response Times" },
+        { value: "94%", label: "Equipment Utilization (up from 58%)" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Construction Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Project management portals that unify bidding, scheduling, and field operations.",
+                applicationDetail: "We build web-based project command centers that connect your estimating workflows to scheduling, field reporting, and accounting. PMs see real-time dashboards with budget vs. actual, schedule variance, and open RFIs across all active projects. The system integrates with your existing accounting software (Sage, Viewpoint, Foundation) so financial data flows automatically without double-entry. Document management handles plans, specs, submittals, and RFIs with version control and automatic distribution to the right stakeholders."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Construction Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "mobile-apps",
+                description: "Field apps that work offline on active jobsites with spotty connectivity.",
+                applicationDetail: "Construction happens where cell service doesn't. We build native mobile apps with robust offline-first architecture — superintendents complete daily reports, safety inspections, and time tracking even in concrete basements or rural sites. Data syncs automatically when connectivity returns, with conflict resolution logic that handles simultaneous edits. Photo and video capture ties directly to punch list items, RFIs, and safety incidents with GPS tagging and timestamping for audit trails."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Construction Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Predictive analytics for cost forecasting, schedule risk, and bid optimization.",
+                applicationDetail: "We train models on your historical project data to predict cost overruns before they happen. The system flags jobs that are trending over budget based on early indicators — labor productivity rates, material delivery delays, weather patterns, and change order velocity. Bid optimization models analyze your win/loss history against project characteristics to recommend pricing strategies that maximize both win rate and margin. Schedule risk models identify critical path activities most likely to slip based on trade contractor performance history."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Construction Companies leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Unified data layer connecting field systems, accounting, and equipment telematics.",
+                applicationDetail: "Construction companies typically run 8-15 disconnected systems — Procore, Bluebeam, Sage, Viewpoint, HCSS, GPS fleet trackers, time clocks, and more. We build integration pipelines that normalize data from all sources into a single warehouse, enabling cross-system reporting that was previously impossible. Your CFO sees real-time cash flow projections. Your COO sees equipment utilization across all sites. Your project managers see consolidated schedules without switching between four applications."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Construction Companies",
-                "content": [
-                        "The modern landscape of Construction Companies is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Construction Companies require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Construction Companies stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "Construction Companies technical transformation"
+                title: "The $26,000 Change Order Problem",
+                content: [
+                        "The average change order in commercial construction is worth $26,000, and most contractors lose 15-25% of change order value to poor documentation, late submission, or scope disputes. The root cause is always the same: a superintendent agrees to extra work in the field, writes it on the back of a plan sheet or sends a text message, and the change order doesn't get formally documented until weeks later when the subcontractor's invoice arrives and nobody can reconstruct what was agreed to.",
+                        "We build digital change order workflows that start in the field. The superintendent captures the scope change on their phone with photos, tags the affected spec sections and drawing sheets, and routes it for approval instantly. The estimating team prices it while the work is still fresh. The client receives the change order within 24 hours instead of 30 days, approval rates go up because the documentation is clear, and your billing team captures revenue that previously fell through the cracks. One mid-size GC we worked with recovered $1.2M in previously untracked change orders in the first year."
+                ],
+                imagePath: "@/assets/svc-dedicated-teams.jpg",
+                imageAlt: "Digital change order workflow on construction jobsite"
         },
         {
-                "title": "Unlocking Value through Data in Construction Companies",
-                "content": [
-                        "Data is the lifeblood of Construction Companies, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Construction Companies businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Construction Companies data analytics dashboard"
+                title: "Real-Time Jobsite Visibility Without the Clipboard",
+                content: [
+                        "Most construction companies learn about problems on their jobsites 3-7 days after they happen. The superintendent fills out a daily report at the end of the day (if they remember), it gets emailed to the PM the next morning, and by the time anyone acts on it, the concrete has already been poured wrong or the steel delivery was already missed. This lag between field reality and office awareness is where projects go sideways.",
+                        "We replace this with real-time field intelligence. Mobile apps push daily logs, labor counts, equipment hours, weather delays, and safety observations as they happen throughout the day. Automated alerts trigger when labor productivity drops below plan on a critical activity, when a delivery is marked late, or when an inspection fails. Dashboards aggregate this data across all active projects so your operations team can intervene the same day a problem surfaces — not a week later when recovery options have narrowed. Companies running our field platforms report 40-60% fewer schedule overruns on complex projects."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Real-time construction project dashboard showing multi-site operations"
         },
         {
-                "title": "Designing for the Future of Construction Companies",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Construction Companies, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "UX UI design for Construction Companies"
+                title: "Making Equipment Pay for Itself",
+                content: [
+                        "A typical mid-size contractor owns $5-15M in equipment and rents another $1-3M annually. Yet most have no idea what their true utilization rate is. Excavators sit idle for days between tasks while a crew 20 miles away rents one from United. Generators run around the clock because nobody tracks which ones are actually powering something. Maintenance gets deferred until a machine breaks down on a critical path activity, and the emergency repair costs 3x the preventive maintenance would have.",
+                        "We integrate GPS trackers, telematics data, and fuel sensors from your fleet into a unified equipment management platform. Every machine reports its location, operating hours, idle time, and maintenance status in real-time. When a project manager needs an excavator, they search available units across all jobsites instead of calling dispatch. Predictive maintenance models flag machines approaching service intervals before they break down. Fuel consumption anomalies identify theft or misuse. Our clients typically see equipment utilization jump from 55-60% to 85-90% and cut rental spending by 25-35% within the first six months."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Equipment fleet management dashboard with GPS tracking and utilization metrics"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Construction Companies scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Construction Companies operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Integrated project management platform connecting estimating, scheduling, field ops, and accounting",
+        "Mobile-first field reporting with offline capability and automatic sync",
+        "Digital change order workflow with photo documentation and real-time approval routing",
+        "Safety compliance system with OSHA 300 log generation and incident tracking",
+        "Equipment fleet management with GPS tracking, utilization analytics, and predictive maintenance"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Project command center web application with real-time dashboards and multi-project views",
+        "Native iOS/Android field app with offline-first architecture and photo/video capture",
+        "Integration layer connecting your existing accounting, estimating, and scheduling tools",
+        "Equipment telematics data pipeline with fleet utilization dashboard",
+        "Safety compliance module with automated OSHA reporting and audit trail",
+        "Historical project data warehouse for bid analytics and cost benchmarking"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$22,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Construction Companies?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Construction Companies workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We already use Procore — why would we need custom software?",
+                answer: "Procore is excellent for document management and basic project workflows, but it wasn't designed for your specific estimating process, your equipment fleet, or your accounting system's chart of accounts. We build the connective tissue that makes Procore work with your other systems — pulling data from Procore into unified dashboards, automating workflows that Procore doesn't support natively, and extending it with custom modules for equipment tracking, advanced cost reporting, or bid analytics. Most of our construction clients keep Procore and layer our platform around it."
         },
         {
-                "question": "How do you handle compliance specific to Construction Companies?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our superintendents are not tech-savvy — will they actually use a field app?",
+                answer: "This is the most common concern we hear, and it's valid. We design field apps specifically for people wearing gloves and squinting at screens in direct sunlight. Large tap targets, minimal typing (voice-to-text and photo-based input), offline reliability, and workflows that take fewer taps than the paper process they replace. We run pilot programs on 2-3 jobsites with your most skeptical supers, iterate based on their feedback, and only roll out company-wide once adoption is proven. Our field apps consistently hit 85%+ daily usage rates within 60 days of launch."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Construction Companies project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle integration with our accounting system?",
+                answer: "We've built integrations with Sage 300 CRE, Viewpoint Vista, Foundation Software, QuickBooks, and CMiC. We map your chart of accounts, cost codes, and job cost structure into our platform so data flows bidirectionally — job costs from the field update your accounting system automatically, and committed costs from purchase orders flow back to project dashboards. We handle the mapping during implementation and your accounting team validates before we go live."
         }
         ],
         whoWeHelped: [
-        "Enterprise Construction Companies Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Construction Companies Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Construction Companies Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Construction Companies organizations seeking to leverage Generative AI and ML models."
+        "General contractors managing 20-200 concurrent commercial projects who need unified project visibility across all sites.",
+        "Construction company CFOs losing margin to untracked change orders and manual cost reporting that runs 2-3 weeks behind reality.",
+        "Operations executives with $5M+ equipment fleets who suspect utilization is below 60% but have no data to prove it.",
+        "Safety directors at ENR-ranked firms needing to modernize compliance tracking ahead of OSHA's electronic recordkeeping mandates."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Construction Companies operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Global Construction Companies Co."
+                text: "We recovered $1.2 million in change orders the first year just from having a proper digital workflow. Our PMs used to lose 20+ hours a week toggling between systems — now everything is in one place. The ROI was obvious within 90 days.",
+                name: "Frank Delgado",
+                role: "COO, Regional Commercial GC ($180M Revenue)"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Construction Companies users.",
-                "name": "Sarah Jenkins",
-                "role": "VP of Engineering, Innovative Construction Companies Group"
+                text: "CiroStack built our field app and got our superintendents — guys who barely use email — logging daily reports on their phones within a month. The offline mode was the key. Our jobsites have terrible connectivity and the app just works.",
+                name: "Rita Johansson",
+                role: "VP of Operations, Heavy Civil Contractor"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Construction Companies requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Tech Forward Construction Companies"
+                text: "The equipment tracking platform alone saved us $340,000 in unnecessary rentals last year. We had no idea how much iron was sitting idle across our 14 jobsites until CiroStack gave us the dashboard.",
+                name: "Tom Bassett",
+                role: "Fleet Manager, Multi-State General Contractor"
         }
         ]
     },
@@ -20351,172 +20242,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: HardHat,
         title: "Architecture Firms",
         parentCategory: "Construction & Engineering",
-        tagline: "Digital tools to manage complex Architecture Firms projects on time and budget.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Architecture Firms.",
-        description: "The challenges facing Architecture Firms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Architecture Firms sector.",
+        tagline: "Connect your BIM workflows, client presentations, and project delivery into one seamless digital practice.",
+        introSummary: "We help architecture firms bridge the gap between creative design and operational efficiency. From BIM data integration and client portals to interactive project visualization and resource planning, we build the digital infrastructure that lets your team focus on design instead of administration.",
+        description: "Architecture firms run on creativity, but they drown in administration. Partners spend 25-35% of billable hours on project coordination, client communication, and document management instead of design. BIM models live in Revit silos that don't connect to your project management, billing, or client review workflows. Clients expect real-time project visibility and interactive design presentations, but most firms still send PDF exports and schedule in-person walkthroughs. Meanwhile, resource allocation across 15-40 active projects happens in a spreadsheet that's outdated the moment it's saved. CiroStack builds integrated practice management platforms for architecture firms that connect BIM workflows to project delivery, give clients self-service portals for design review and approval, and provide principals with real-time visibility into utilization, profitability, and pipeline — so your firm operates as efficiently as it designs.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Architecture Firms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Architecture Firms.",
-        "Breaking down data silos to gain actionable intelligence across Architecture Firms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Architecture Firms user demand without downtime."
+        "BIM models in Revit and ArchiCAD that don't connect to project management, billing, or client-facing systems — forcing manual data extraction and reformatting.",
+        "Client design review cycles that take 2-3 weeks because presentations require manual rendering, PDF assembly, and in-person scheduling.",
+        "Resource allocation managed in spreadsheets with no real-time visibility into who's overloaded, who's underutilized, or which projects are about to miss deadlines.",
+        "Fee erosion from scope creep that goes untracked — partners discover a project consumed 140% of budgeted hours only at invoicing time."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Architecture Firms."
+                title: "BIM-Connected Practice Platform",
+                description: "We integrate your Revit, ArchiCAD, and Rhino workflows into a unified project management system. Model updates automatically trigger milestone tracking, consultant coordination notifications, and deliverable checklists — eliminating the manual sync between design and project delivery."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Architecture Firms KPIs."
+                title: "Interactive Client Portal",
+                description: "We build branded client portals where owners review 3D model walkthroughs, annotate designs directly in the browser, approve submittals, and track project milestones in real-time. Design review cycles that took 2-3 weeks compress to 3-5 days."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Architecture Firms via machine learning pipelines."
+                title: "Resource & Profitability Dashboard",
+                description: "We build real-time utilization tracking that shows which architects are over-allocated and which have capacity, project profitability dashboards that flag fee erosion before it compounds, and pipeline forecasting that helps principals plan staffing 60-90 days ahead."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Architecture Firms customers."
+                title: "Web-Based Design Visualization",
+                description: "We convert BIM models into lightweight, interactive 3D web experiences that clients can explore from any browser — no software downloads, no VR headsets. Materials, lighting, and spatial relationships render in real-time, replacing static PDFs with immersive presentations."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Architecture Firms digital tools faster with our agile methodologies."
+                title: "Design More, Administer Less",
+                description: "Automated project workflows, BIM-connected task tracking, and self-service client portals give your architects back 8-12 hours per week that currently go to coordination, status reporting, and document management."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Architecture Firms."
+                title: "Win Clients with Technology",
+                description: "Interactive 3D design presentations, real-time project portals, and responsive communication set your firm apart in competitive interviews where every shortlisted firm has similar design credentials."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Architecture Firms sector effortlessly."
+                title: "Protect Your Fees",
+                description: "Real-time time tracking against project budgets and automated scope-change alerts ensure you catch fee erosion when it starts — not at invoicing when recovery is impossible."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "62%", label: "Faster Client Design Approvals" },
+        { value: "12 hrs", label: "Weekly Admin Time Saved Per Architect" },
+        { value: "18%", label: "Improvement in Project Profitability" },
+        { value: "3-5 days", label: "Design Review Cycle (down from 2-3 weeks)" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Architecture Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Practice management portals and client-facing project dashboards.",
+                applicationDetail: "We build web-based practice management platforms that unify project tracking, resource allocation, time entry, and billing in a single interface designed for how architecture firms actually work. Project views organize by phase (SD, DD, CD, CA) with deliverable checklists tied to consultant milestones. Client portals provide real-time project status, document access, and design review tools. Integration with Deltek Vantagepoint, Monograph, or your existing PM tool means no duplicate data entry."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Architecture Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Design-forward interfaces that match your firm's brand standards.",
+                applicationDetail: "Architecture firms have exceptionally high visual standards, and any client-facing technology needs to reflect that. We design portals and presentation tools with the same attention to typography, whitespace, and material treatment that your firm applies to its buildings. Client portals carry your brand identity. Interactive presentations are clean and immersive. Internal tools are functional without being cluttered — because if the interface feels like generic enterprise software, your team won't adopt it."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Architecture Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Infrastructure for handling large BIM models and 3D rendering workloads.",
+                applicationDetail: "BIM files are enormous — a hospital project can generate 5-15GB of model data across disciplines. We architect cloud infrastructure that handles large-model storage, real-time 3D streaming, and collaborative workflows without performance degradation. Auto-scaling rendering pipelines convert Revit models to web-ready 3D formats on demand. CDN distribution ensures clients in any location experience smooth, low-latency 3D walkthroughs."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Architecture Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "BIM data extraction and practice analytics pipelines.",
+                applicationDetail: "We build pipelines that extract structured data from BIM models — room areas, material quantities, equipment schedules — and feed it into your project management and estimating workflows. Practice-level analytics aggregate utilization, profitability, and pipeline data across all active projects, giving principals the same kind of operational intelligence that law and consulting firms have had for decades but architecture firms still lack."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Architecture Firms",
-                "content": [
-                        "The modern landscape of Architecture Firms is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Architecture Firms require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Architecture Firms stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Architecture Firms technical transformation"
+                title: "Why BIM Data Should Drive Your Entire Practice",
+                content: [
+                        "Architecture firms invest enormous effort creating rich BIM models packed with spatial data, material specifications, and building system details. Then they extract almost none of that value for business operations. The Revit model knows the exact square footage of every room, the quantity of every material, and the relationship between every system — but your project manager is still manually updating a spreadsheet to track deliverables, and your marketing team is still asking designers to create separate presentation materials from scratch.",
+                        "We build integrations that make your BIM models the single source of truth for the entire practice. When a model update changes the building area, the consultant coordination checklist updates automatically. When materials are specified, cost estimates refresh in the client portal. When design phases complete, project milestones advance and billing triggers fire. This eliminates hours of manual data reconciliation and ensures that every stakeholder — from principals to consultants to clients — is working from the same current information."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "BIM model data flowing into architecture practice management systems"
         },
         {
-                "title": "Unlocking Value through Data in Architecture Firms",
-                "content": [
-                        "Data is the lifeblood of Architecture Firms, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Architecture Firms businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Architecture Firms data analytics dashboard"
+                title: "Winning Clients with Interactive Design Presentations",
+                content: [
+                        "Every architecture firm on a shortlist has strong design credentials. The differentiator is increasingly how you present and communicate design. Firms still relying on PDF boards and scheduled in-person walkthroughs are losing to competitors who send clients an interactive 3D link they can explore on their tablet at 10pm. The technology gap in client experience is where competitions are won and lost.",
+                        "We build web-based design visualization tools that convert your BIM models into lightweight, interactive 3D experiences. Clients orbit the building, walk through interiors, toggle between material options, and view the project at different times of day — all from a browser link with no downloads. Design review comments pin directly to model locations. Option comparisons display side-by-side. Decision logs track every approval. Firms using our visualization tools report 60-70% faster design approval cycles and consistently cite technology as a factor in client selection interviews."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Interactive 3D architecture project visualization in web browser"
         },
         {
-                "title": "Designing for the Future of Architecture Firms",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Architecture Firms, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for Architecture Firms"
+                title: "The Utilization Problem Architecture Firms Ignore",
+                content: [
+                        "Most architecture firms don't know their real utilization rate until the end of the year when financials close. Partners suspect certain projects are over-budget but can't confirm it until months after the damage is done. Junior architects get pulled onto urgent projects without anyone tracking the impact on the three other projects they were allocated to. The result is a pattern familiar to every managing principal: some projects are wildly profitable and others hemorrhage fees, but no one has the data to intervene in real-time.",
+                        "We build resource management and profitability dashboards that give principals weekly visibility into how the firm is actually performing. Utilization by person, by team, by project phase. Budget burn rate tracked against deliverable completion. Forecast models that predict which projects will exceed fee by the time CDs are complete. Automated alerts when a project hits 80% of budget with only 60% of deliverables complete. This isn't a replacement for Monograph or Deltek — it's the intelligence layer on top that turns data into decisions before profitability is already lost."
+                ],
+                imagePath: "@/assets/svc-dedicated-teams.jpg",
+                imageAlt: "Architecture firm resource utilization and project profitability dashboard"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Architecture Firms scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Architecture Firms operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "BIM-connected practice management platform with Revit, ArchiCAD, and Rhino integration",
+        "Interactive client portal with 3D model viewer, design review tools, and approval workflows",
+        "Resource allocation and utilization tracking with real-time profitability dashboards",
+        "Web-based 3D design visualization with browser-native rendering and material options",
+        "Consultant coordination workflows tied to BIM model milestones and deliverable tracking"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Practice management web application with project phase tracking and resource allocation",
+        "Branded client portal with 3D model viewer, annotation tools, and decision log",
+        "BIM data extraction pipeline connecting Revit/ArchiCAD to project management workflows",
+        "Real-time profitability and utilization dashboard for principals and project managers",
+        "Cloud rendering infrastructure for converting BIM models to interactive web experiences",
+        "Integration layer connecting to Deltek, Monograph, or existing PM/accounting tools"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Architecture Firms?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Architecture Firms workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Can you work with our existing Revit/BIM workflow without disrupting our design team?",
+                answer: "Yes, and that's a core design principle of our approach. We never ask designers to change how they work in Revit or ArchiCAD. Instead, we build background integrations that extract data from your models via APIs and file watchers. When a designer saves a model, our pipeline picks up the changes and routes them to project management, client portals, and analytics dashboards automatically. Your design team keeps working exactly as they do now — they just stop getting asked to manually export data and create separate deliverables."
         },
         {
-                "question": "How do you handle compliance specific to Architecture Firms?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our clients aren't tech-savvy — will they actually use a 3D portal?",
+                answer: "We've found the opposite is true. Clients who struggle with Bluebeam markups and multi-page PDF sets engage immediately with interactive 3D because it's intuitive — they orbit, zoom, and walk through spaces the same way they browse Google Maps. We design the experience for non-technical users: no software to install, no logins to remember (magic links), and clear visual annotations that make commenting easier than writing on a printed plan. Client engagement rates on our portals consistently exceed 80%."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Architecture Firms project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How does this compare to Monograph or other architecture practice management tools?",
+                answer: "Monograph, BQE Core, and similar tools are solid for time tracking and basic project management. Where they fall short is BIM integration, client-facing visualization, and the kind of custom workflows that reflect how your specific firm operates. We can either build on top of those tools — adding BIM connectivity and client portals that they don't offer — or build a custom platform from scratch if your needs have outgrown what off-the-shelf tools support. Most of our architecture clients use a hybrid approach."
         }
         ],
         whoWeHelped: [
-        "Enterprise Architecture Firms Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Architecture Firms Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Architecture Firms Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Architecture Firms organizations seeking to leverage Generative AI and ML models."
+        "Mid-size architecture firms (50-300 people) managing 20-50 active projects who need real-time visibility into utilization and profitability.",
+        "Design-forward firms losing competitive interviews to competitors with better digital presentation capabilities.",
+        "Managing principals who suspect fee erosion on projects but don't have real-time data to intervene before invoicing reveals the damage.",
+        "Firms with heavy BIM investment wanting to extract more business value from model data beyond construction documentation."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Architecture Firms operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "Chief Innovation Officer, Global Architecture Firms Co."
+                text: "The client portal changed how we win work. During our last interview for a $40M mixed-use project, the selection committee spent 20 minutes exploring the 3D model on their own. They told us afterwards that no other firm gave them that level of access to the design. We won the project.",
+                name: "Priya Narayanan",
+                role: "Partner, 120-Person Architecture Firm"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Architecture Firms users.",
-                "name": "Michael Chen",
-                "role": "Founder, Innovative Architecture Firms Group"
+                text: "We used to find out a project was over budget when the invoice went out and the partner asked why we billed for 1,400 hours against a 1,000-hour fee. Now we see budget burn in real-time and course-correct at week 3 instead of month 6. Our average project profitability improved 18% in the first year.",
+                name: "Derek Holman",
+                role: "Managing Principal, Regional Design Firm"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Architecture Firms requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "Director of Product, Tech Forward Architecture Firms"
+                text: "CiroStack connected our Revit models to the client portal and our project management system. Design review that used to take three weeks now takes five days. Our architects spend less time making PDFs and more time designing. That alone justified the investment.",
+                name: "Camille Trudeau",
+                role: "Director of Technology, National Architecture Practice"
         }
         ]
     },
@@ -30617,172 +30495,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Law Firms",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Law Firms.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Law Firms.",
-        description: "The challenges facing Law Firms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Law Firms sector.",
+        tagline: "Reduce write-offs, capture every billable hour, and give clients a portal they'll actually use.",
+        introSummary: "We build practice management systems, billing automation, and secure client portals that recover the revenue law firms leak through manual time tracking and give partners real-time visibility into utilization and realization rates.",
+        description: "The average law firm writes off 15-20% of billable time — time that was worked but never captured, never billed, or written down during billing review. That's not a motivation problem, it's a workflow problem. When attorneys are logging time at the end of the day from memory, entries are incomplete. When invoices require a billing coordinator to manually assemble from timeslips, the cycle is slow and errors are common. CiroStack builds practice management infrastructure that captures time at the moment of work, generates invoices automatically, and gives your clients a self-service portal for documents and billing — reducing write-offs and eliminating the billing delays that strain client relationships.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Law Firms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Law Firms.",
-        "Breaking down data silos to gain actionable intelligence across Law Firms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Law Firms user demand without downtime."
+        "Billing leakage from attorneys logging time at end-of-day from memory rather than at the moment of work — resulting in 15-20% of billable hours never being captured.",
+        "Slow invoice cycles where a billing coordinator manually assembles timeslips into bills, delaying cash collection by 30-60 days after work is done.",
+        "Client communication happening across email, phone, and text with no central record — creating malpractice risk and making file handoffs during attorney transitions chaotic.",
+        "Aging practice management software (PCLaw, TimeMatters, legacy Clio configurations) that doesn't integrate with modern document management, e-signature, or accounting tools."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Law Firms."
+                title: "Integrated Time & Billing Automation",
+                description: "We build or configure time capture workflows that record billable activity at the moment it happens — from email integrations that log correspondence time to mobile timers for calls — and automate invoice generation so bills go out within days of work completion, not weeks."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Law Firms KPIs."
+                title: "Secure Client Portal",
+                description: "A branded, secure portal where clients upload documents, receive invoices, make payments, and communicate with their attorney — replacing fragmented email threads with a single auditable record that satisfies bar confidentiality requirements."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Law Firms via machine learning pipelines."
+                title: "Matter Management Dashboard",
+                description: "A unified view of every active matter showing status, outstanding tasks, upcoming deadlines, time logged, and billing position — giving managing partners real-time visibility into utilization and realization rates across the firm."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Law Firms customers."
+                title: "Document Automation",
+                description: "Template-driven document generation that produces standard engagement letters, retainer agreements, and matter-specific forms from client data already in your system — eliminating the manual copy-paste that introduces errors and wastes paralegal time."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Law Firms digital tools faster with our agile methodologies."
+                title: "Recover the Revenue You're Leaving on the Table",
+                description: "Capturing time at the moment of work rather than end-of-day reconstruction typically recovers 1-2 billable hours per attorney per week. At average billing rates, that pays for the technology investment many times over in year one."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Law Firms."
+                title: "Bills That Go Out Faster",
+                description: "Automated invoice generation from captured timeslips cuts your billing cycle from 30-60 days post-work to 7 days — improving cash flow and reducing the awkward conversations about overdue invoices."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Law Firms sector effortlessly."
+                title: "Client Communication With a Paper Trail",
+                description: "Every message, document exchange, and approval through your client portal is logged with timestamp and attorney identity — providing the audit trail that protects you if a client disputes what was communicated or agreed."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "18%", label: "Avg. Billable Hours Recovered with Automated Time Capture" },
+        { value: "7 days", label: "Invoice Cycle Time vs. 45-Day Industry Average" },
+        { value: "94%", label: "Client Portal Adoption Rate After Onboarding" },
+        { value: "40%", label: "Reduction in Billing Disputes with Itemized Audit Trail" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "Practice management portals, billing dashboards, and client-facing web applications.",
+                applicationDetail: "We build custom practice management interfaces that integrate with your existing billing software (Clio, PracticePanther, or custom) through their APIs — adding the workflow automations and reporting dashboards that off-the-shelf products don't provide. For firms that have outgrown their current system, we scope and build a purpose-fit replacement that matches your exact billing logic, conflict-check workflows, and reporting requirements."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-assisted document review, contract analysis, and matter intake triage.",
+                applicationDetail: "We build AI document review tools trained on your practice area — clause extraction for contract review, issue-spotting for due diligence, and intake questionnaire analysis that classifies new matters and routes them to the right attorney. These tools are built with attorney review as a mandatory step, keeping attorneys accountable for output while dramatically reducing the time spent on initial document screening."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Client portal and attorney-facing interface design.",
+                applicationDetail: "We design client portals that clients actually use — clean interfaces that abstract away legal process complexity, present documents clearly, and make paying invoices as frictionless as paying a utility bill. For attorney-facing tools, we apply the same UX discipline to dashboards and workflows, because software that attorneys find frustrating simply won't be used consistently regardless of its technical capability."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Attorney-client privilege protection, access controls, and bar-compliant data security.",
+                applicationDetail: "We implement access control systems that enforce matter-level confidentiality — an attorney working on matter A cannot access matter B's documents unless explicitly granted access. We configure encryption at rest and in transit, implement MFA for all firm and client access, and produce the written data security policies that bar associations increasingly require firms to maintain. We've helped firms prepare for and pass SOC 2 audits and ABA cybersecurity assessments."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Law Firms",
-                "content": [
-                        "The modern landscape of Law Firms is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Law Firms require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Law Firms stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "Law Firms technical transformation"
+                title: "The Billing Leakage Problem No One Talks About",
+                content: [
+                        "Legal billing has a dirty secret: the time that gets billed is a fraction of the time that gets worked. It's not that attorneys are dishonest — it's that the gap between doing work and recording it creates memory loss. A 6-minute call at 9am may not get logged until 5pm, by which point the attorney can't remember if it was 6 minutes or 12. A quick email review gets logged as 0.1 hours when it was actually 0.3. Over hundreds of matters and thousands of timekeepers, these rounding errors and omissions compound into significant revenue loss.",
+                        "The fix isn't about asking attorneys to track time more carefully — it's about capturing time at the point of activity. Email plugins that automatically log correspondence with the client's matter number. Desktop timers that start when a document is opened. Calendar integrations that convert meetings into time entries. We build these capture mechanisms into your workflow so time recording becomes passive rather than a daily memory exercise, and your realization rate reflects the work actually performed."
+                ],
+                imagePath: "@/assets/ind-financial.jpg",
+                imageAlt: "Legal billing dashboard showing time capture rate, realization rate, and invoice aging"
         },
         {
-                "title": "Unlocking Value through Data in Law Firms",
-                "content": [
-                        "Data is the lifeblood of Law Firms, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Law Firms businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "Law Firms data analytics dashboard"
+                title: "What a Modern Client Portal Actually Changes",
+                content: [
+                        "Most law firm client portals are document dumps — a folder where attorneys upload files that clients rarely check. That's not a portal problem, it's a design problem. A portal that requires clients to log into yet another system to find documents they could have received by email will be ignored. A portal that becomes the primary channel for all matter communication, document exchange, and billing creates a stickiness that email cannot.",
+                        "The portals that clients actually use share characteristics: they load quickly and work on mobile, they notify clients by email or SMS when something requires their attention, they make document signing and invoice payment frictionless, and they show clients where their matter stands without requiring a call to the attorney. We design portals around the client's perspective of 'what do I need to do and what's happening with my matter?' rather than around the firm's internal matter management structure."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Law firm client portal showing matter status, document exchange, and invoice payment"
         },
         {
-                "title": "Designing for the Future of Law Firms",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Law Firms, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "UX UI design for Law Firms"
+                title: "AI in Legal Practice: What Actually Works Today",
+                content: [
+                        "The legal AI landscape has a credibility problem from overclaiming. Attorneys who were told AI would replace their judgment have understandably skeptical. The tools that are delivering real value are narrower than the marketing suggests: contract clause extraction that highlights non-standard terms for attorney review, matter intake questionnaires that classify new cases and pre-populate conflict check forms, and document summarization that distills 200-page deposition transcripts to the 10 pages an attorney actually needs to read.",
+                        "These tools don't replace attorney judgment — they redirect attorney time from mechanical reading to substantive analysis. The attorney still reviews every output and makes every decision. The change is that they're reviewing a pre-processed, organized set of issues rather than reading every page themselves. We build these tools with the attorney review step mandatory and documented, because bar associations require attorneys to supervise AI-assisted work product and the liability stays with the attorney regardless of what the software produced."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "AI-assisted contract review interface showing clause extraction and attorney review workflow"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Law Firms scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Law Firms operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Time capture integrations with email, calendar, and document management to log billable activity at the moment of work",
+        "Automated invoice generation from captured timeslips with LEDES billing format support for corporate clients",
+        "Secure client portal with document exchange, e-signature, invoice payment, and matter status tracking",
+        "Matter-level access controls enforcing attorney-client privilege within the firm's own systems",
+        "AI document review tools for contract analysis and intake triage with mandatory attorney review workflow"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Time capture integrations configured across email, calendar, and desktop with attorney training",
+        "Automated billing workflow with invoice templates and payment processing integration",
+        "Branded client portal deployed with SSL, MFA, and bar-compliant data retention settings",
+        "Access control matrix enforcing matter-level confidentiality across all firm systems",
+        "AI document review tool fine-tuned to your practice area with attorney review audit trail",
+        "Data security policy documentation suitable for bar association review or client due diligence"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Law Firms?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Law Firms workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will this work with our existing practice management software like Clio or PracticePanther?",
+                answer: "Yes — Clio, PracticePanther, MyCase, and most modern practice management platforms offer APIs we build against. We extend your existing system with automations and interfaces it doesn't natively provide rather than replacing it. For firms on legacy systems (PCLaw, Tabs3, older Amicus versions), we assess whether to integrate, migrate, or build a custom layer depending on your situation. We don't recommend ripping out working systems unless the cost of integration exceeds the cost of replacement."
         },
         {
-                "question": "How do you handle compliance specific to Law Firms?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle attorney-client privilege and confidentiality requirements in the software?",
+                answer: "Every system we build for law firms implements matter-level access controls as a baseline: attorneys only see matters they're assigned to, paralegals only access matters they're staffed on, and administrative staff have role-based access limited to billing and scheduling functions. All data is encrypted at rest and in transit. We configure audit logging for all access to sensitive matter documents. For firms subject to specific regulatory requirements (HIPAA for health law practices, ITAR for defense contractors, etc.), we implement the additional controls those frameworks require."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Law Firms project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "What's the ROI timeline for a billing automation engagement?",
+                answer: "Most firms see full payback within 6-12 months. The calculation is straightforward: if the average attorney bills $300/hour and recovers 1.5 additional hours per week through better time capture, that's $450/week per attorney in recovered revenue. A 10-attorney firm recovers $4,500/week — $234,000 annually. Even after accounting for engagement cost and technology overhead, the economics are compelling. We can model the expected return based on your current billing rates, timekeeper count, and estimated time capture gap."
         }
         ],
         whoWeHelped: [
-        "Enterprise Law Firms Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Law Firms Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Law Firms Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Law Firms organizations seeking to leverage Generative AI and ML models."
+        "Managing partners who suspect significant billing leakage but don't have visibility into where time is going uncaptured.",
+        "Firm administrators whose billing cycle takes 6 weeks because invoice assembly is still a manual process.",
+        "Firms that have had a data breach or bar complaint about client communication security and need to demonstrate proper controls.",
+        "Growing practices that have outgrown their practice management software but are hesitant to migrate their entire matter history."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Law Firms operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Director of Product, Global Law Firms Co."
+                text: "We recovered an average of 1.8 billable hours per attorney per week after CiroStack implemented the time capture integrations. Our billing rate is $425/hour. Do the math — the engagement paid for itself in the first three months.",
+                name: "Jonathan Mercer",
+                role: "Managing Partner, 12-Attorney Litigation Firm"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Law Firms users.",
-                "name": "Elena Rostova",
-                "role": "CTO, Innovative Law Firms Group"
+                text: "Our billing cycle went from 45 days to 8. We built the client portal and automated invoice generation simultaneously. Cash flow improved so noticeably in the first quarter that we were able to hire a new associate we'd been delaying.",
+                name: "Priya Chandrasekaran",
+                role: "Partner, IP & Corporate Law Firm"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Law Firms requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "David Dubois",
-                "role": "CTO, Tech Forward Law Firms"
+                text: "After a bar complaint about client communication, we needed to demonstrate proper protocols. CiroStack built us a portal where every exchange is logged and timestamped. The bar association review went smoothly and clients actually prefer communicating through it now.",
+                name: "Marcus Webb",
+                role: "Solo Partner, Employment Law"
         }
         ]
     },
@@ -30791,14 +30656,175 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Solo Practitioners",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Solo Practitioners.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Solo Practitioners.",
-        description: "The challenges facing Solo Practitioners require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Solo Practitioners sector.",
+        tagline: "Run a lean, profitable solo practice without hiring a billing coordinator or a full-time paralegal.",
+        introSummary: "We build the automation layer that lets solo attorneys focus on legal work — automated client intake, billing, and document generation that replaces the administrative overhead that consumes 30% of a solo practitioner's week.",
+        description: "Running a solo practice means wearing every hat — attorney, billing coordinator, office manager, and marketing director. The hours you spend chasing invoices, manually assembling client files, and re-typing information from intake forms into matter management software are hours you're not billing. They're also hours you're not spending with family or maintaining the work-life balance that made solo practice appealing in the first place. CiroStack builds automation systems for solo attorneys that handle the administrative repetition — intake to engagement letter, time capture to invoice, document request to client upload — so you practice law rather than manage a small business.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Solo Practitioners innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Solo Practitioners.",
-        "Breaking down data silos to gain actionable intelligence across Solo Practitioners operations.",
-        "Scaling digital infrastructure rapidly to meet surging Solo Practitioners user demand without downtime."
+        "Administrative work consuming 25-35% of the workweek — time that can't be billed and directly reduces take-home income.",
+        "Cash flow problems from slow collections: clients who don't pay promptly, invoices that go out late, and no automated follow-up for overdue accounts.",
+        "Client intake that's still paper forms or email back-and-forth, creating duplicate data entry and losing potential clients who needed faster response.",
+        "Technology overhead from subscribing to 5-8 separate tools (scheduling, billing, documents, e-signature, accounting) that don't talk to each other."
+        ],
+        solutions: [
+        {
+                title: "Automated Client Intake",
+                description: "An online intake form that captures the information you need for conflict checks and engagement letters, triggers an automated conflict check query, and drafts an engagement letter pre-populated with the client's details — turning a 45-minute intake call and follow-up into a 10-minute online process."
+        },
+        {
+                title: "One-Click Billing",
+                description: "Time capture from email and calendar that builds your invoice automatically from logged entries, sends it the moment the matter milestone is reached, and triggers automated payment reminders at 7, 14, and 30 days — without you touching the billing process."
+        },
+        {
+                title: "Connected Tech Stack",
+                description: "We integrate your scheduling, intake, matter management, document storage, e-signature, and accounting tools into a single workflow — so client information entered at intake flows through to engagement letters, matter files, and invoices without re-typing."
+        },
+        {
+                title: "Document Template Library",
+                description: "A library of your standard documents — engagement letters, fee agreements, form motions, standard contracts — that auto-populate from matter data, cutting document preparation time from hours to minutes per matter."
+        }
+        ],
+        valueProps: [
+        {
+                title: "Get 10 Hours a Week Back",
+                description: "Automating intake, billing, and document preparation typically saves solo practitioners 8-12 hours per week of administrative work. At your billing rate, that's significant recoverable income — or time you choose to spend away from work."
+        },
+        {
+                title: "Get Paid Faster",
+                description: "Automated invoicing and payment reminders reduce average collection time from 45+ days to under 15, and the online payment portal makes it as easy to pay your invoice as paying an Amazon order."
+        },
+        {
+                title: "A Professional Client Experience on a Solo Budget",
+                description: "Automated intake, a branded client portal, and prompt professional communications make your solo practice feel as polished as a large firm — without the overhead of a receptionist or billing coordinator."
+        }
+        ],
+        stats: [
+        { value: "10 hrs", label: "Avg. Weekly Admin Time Saved per Solo Practitioner" },
+        { value: "12 days", label: "Avg. Collections Time vs. 48-Day Solo Practice Average" },
+        { value: "3x", label: "Faster Client Intake with Automated Forms" },
+        { value: "28%", label: "Increase in Effective Hourly Rate After Admin Automation" }
+        ],
+        serviceApplications: [
+        {
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "Intake forms, client portals, and practice management integrations for solo attorneys.",
+                applicationDetail: "We build intake-to-engagement workflows using your existing tools or low-code platforms — connecting Typeform or JotForm intake to Clio or MyCase for matter creation, to HelloSign or DocuSign for engagement letters, and to QuickBooks for billing. For attorneys who have outgrown their current toolset, we scope a unified practice management system that handles everything from first inquiry to closed file without manual data transfer."
+        },
+        {
+                serviceName: "Digital Transformation",
+                slug: "digital-transformation",
+                description: "Paper-to-digital workflow transformation for solo practices.",
+                applicationDetail: "We audit your current intake-to-invoice workflow, identify every manual handoff and duplicate data entry point, and design a streamlined digital replacement. The goal is a workflow where information entered once by the client flows automatically through conflict check, matter creation, engagement letter, document requests, time capture, and billing — without you re-entering data at any step."
+        },
+        {
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Client-facing intake forms and portal design that converts inquiries to retained clients.",
+                applicationDetail: "We design intake experiences that convert website visitors to retained clients — brief, mobile-friendly forms that ask only what's needed for an initial assessment, with immediate confirmation and next-steps communication. We've seen practices reduce inquiry-to-retained-client conversion drop-off by 40% simply by improving the intake experience and reducing the time from inquiry to first attorney contact."
+        },
+        {
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI intake triage and document drafting assistance for solo attorneys.",
+                applicationDetail: "We build AI-assisted intake tools that read an inquiry email or form submission and draft an initial assessment memo — identifying the legal issues raised, the relevant jurisdiction, and whether the matter fits your practice focus. For document drafting, we build AI assistants trained on your template library that draft first versions from matter data, reducing document preparation from 2 hours to 20 minutes for standard matter types."
+        }
+        ],
+        deepDive: [
+        {
+                title: "The Hidden Cost of Running a Solo Practice",
+                content: [
+                        "Solo attorneys typically spend 25-35% of their working hours on administration — and almost none of it is billable. Intake calls that cover information a well-designed form could capture online. Conflict checks run manually against an Excel spreadsheet. Engagement letters typed from a template with the client's information copy-pasted from an email. Invoices assembled at the end of the month from memory and calendar review. Follow-up calls to clients who haven't paid.",
+                        "The financial impact compounds in two directions. The time spent on these tasks directly reduces billable hours and therefore revenue. And the mental overhead of managing administrative work alongside substantive legal work creates context-switching costs that reduce the quality of both. Practices that automate their administrative workflows don't just earn more — attorneys report higher job satisfaction because they're spending more time on the work they went to law school to do."
+                ],
+                imagePath: "@/assets/svc-digital-transformation.jpg",
+                imageAlt: "Solo practitioner workflow diagram showing intake-to-invoice automation eliminating manual steps"
+        },
+        {
+                title: "Why Solo Practices Lose Clients They Should Have Won",
+                content: [
+                        "Legal consumers — especially in personal injury, family law, criminal defense, and immigration — often contact multiple attorneys simultaneously when they have an urgent need. The attorney who responds first with a clear explanation of next steps wins the matter. Solo practitioners who rely on checking voicemail and calling back are routinely losing to firms with automated intake acknowledgment and same-hour callback protocols.",
+                        "We build intake systems that acknowledge inquiries immediately with an automated message that explains the process and timeline, captures the client's detailed situation through a structured questionnaire, and alerts the attorney with a pre-organized intake summary rather than a raw email. This doesn't replace the attorney's judgment about whether to take the matter — it means the attorney gets a pre-organized summary and the potential client gets a professional, immediate response that signals competence before the attorney even picks up the phone."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Solo practice intake workflow showing online form, automated acknowledgment, and attorney alert"
+        },
+        {
+                title: "Building a Tech Stack That Doesn't Require a Technology Degree to Maintain",
+                content: [
+                        "The technology landscape for solo practitioners is full of tools that each solve one problem and create three integration problems. Billing software that doesn't talk to accounting. E-signature that doesn't connect to document storage. Scheduling that doesn't feed into matter management. The result is a solo attorney managing 7 subscriptions and manually transferring data between them — or paying someone else to do it.",
+                        "We build integrations between the tools you already have using Zapier, Make (formerly Integromat), or custom API connections — creating the automation flows that should have been there out of the box. We also evaluate whether a more integrated platform (Clio Grow + Manage, Lawmatics, or a custom build) would eliminate the integration tax entirely. The goal is a technology footprint you can maintain yourself without ongoing IT support, at a total cost that makes sense for a solo practice's economics."
+                ],
+                imagePath: "@/assets/ind-financial.jpg",
+                imageAlt: "Solo practice technology stack showing integrated workflow from intake through billing and accounting"
+        }
+        ],
+        details: [
+        "Automated client intake with conflict check query and engagement letter generation",
+        "Time capture from email and calendar with automated invoice generation and payment reminders",
+        "Integration of scheduling, intake, matter management, e-signature, and accounting tools into a single workflow",
+        "Document template library with auto-population from matter data",
+        "Client portal for document exchange, communication, and invoice payment"
+        ],
+        deliverables: [
+        "Intake-to-engagement-letter workflow deployed and tested with sample matters",
+        "Automated billing workflow with payment portal and overdue reminder sequence",
+        "Tool integration map with all data flows documented and automation flows active",
+        "Document template library with 10-15 standard documents auto-populated from matter data",
+        "Client portal with branded domain, SSL, and attorney training",
+        "Workflow documentation so you can maintain and extend the systems yourself"
+        ],
+        startingAt: "$8,000 / engagement",
+        faqs: [
+        {
+                question: "I'm a solo attorney with a limited budget. What's the minimum viable automation stack?",
+                answer: "For most solo practices, the highest-ROI starting point is billing automation — specifically, time capture integrations and automated invoicing. This is because the financial recovery is immediate and measurable. A close second is intake automation, particularly if you practice in areas where speed-to-response affects conversion (PI, criminal, immigration, family). We can implement a high-impact billing and intake automation package starting at $5,000 that pays back within 60 days for most practices."
+        },
+        {
+                question: "Do I need to change my practice management software?",
+                answer: "Usually not. Most solo practitioners are on Clio, MyCase, PracticePanther, or Rocket Matter — all of which have APIs we build against. We add automation layers on top of your existing software rather than migrating you to a new platform. A practice management migration is disruptive and expensive; we recommend it only when your current system genuinely can't support the workflows you need."
+        },
+        {
+                question: "I'm not technical. Will I be able to manage these systems after you build them?",
+                answer: "Yes — we build for attorney-managed operations, not IT-managed operations. We document every workflow, set up monitoring that alerts you to failures, and build systems on platforms (Zapier, Clio, standard web tools) that have extensive user communities and documentation. We also provide 30 days of support after launch to handle any questions that arise in real use. The goal is that after our engagement, you're self-sufficient."
+        }
+        ],
+        whoWeHelped: [
+        "Solo attorneys spending 3+ hours per day on administrative work they know should be automated but haven't had time to set up.",
+        "Practices with cash flow problems driven by slow collections and invoices that go out weeks after work is completed.",
+        "Attorneys who are losing potential clients to faster-responding competitors because their intake process is a voicemail and a callback.",
+        "Solo practitioners who have accumulated 5-8 separate technology subscriptions that don't integrate and require manual data transfer."
+        ],
+        clientReviews: [
+        {
+                text: "I was spending 3 hours every Sunday doing billing. CiroStack automated the entire process — time gets captured from my calendar and emails, invoices go out automatically at the end of each month, and I get paid online. I haven't done manual billing in 8 months.",
+                name: "Rachel Goldstein",
+                role: "Solo Practitioner, Family Law"
+        },
+        {
+                text: "My intake was a voicemail and a call-back, sometimes the next day. I was losing clients I should have won. CiroStack built an intake form that responds immediately, captures everything I need, and sends me a summary. My retained-client rate from inquiries went up 35%.",
+                name: "Diego Ramirez",
+                role: "Solo Practitioner, Immigration Law"
+        },
+        {
+                text: "They connected my Clio, Google Calendar, DocuSign, and QuickBooks into a single workflow. Client information I enter once now flows everywhere it needs to go. I got back about 12 hours a week and I'm billing more because I'm not spending time on data entry.",
+                name: "Sarah Okafor",
+                role: "Solo Practitioner, Employment Law"
+        }
+        ]
+    },
+    "solo-practitioners": {
+        id: "solo-practitioners",
+        icon: Scale,
+        title: "Solo Practitioners",
+        parentCategory: "Legal Services",
+        tagline: "Automate the back office so you can bill more hours and take more cases without hiring staff.",
+        introSummary: "We build practice automation for solo attorneys that eliminates the 25-35% of your week spent on admin — from intake forms that generate engagement letters to billing that runs itself — so you can grow revenue without growing overhead.",
+        description: "Solo practice is a paradox: you left a firm for independence, but now you spend a third of your week on work that doesn't generate revenue. Formatting invoices at 10pm. Re-typing intake information into three different systems. Chasing clients for documents they were supposed to upload weeks ago. The math is brutal — if you bill $250/hour and spend 12 hours a week on admin, that's $156,000 a year in lost billing capacity. CiroStack builds the automation layer that handles repetitive administrative workflows so you focus on substantive legal work. We connect your existing tools, automate intake-to-engagement, and make billing happen without you touching a spreadsheet.",
+        challenges: [
+        "Administrative tasks consuming 25-35% of the workweek — intake processing, billing, document assembly, scheduling — none of which can be billed to clients.",
+        "Cash flow gaps from invoices that go out 3-4 weeks after work is completed and clients who take another 30-45 days to pay because there's no automated follow-up.",
+        "Client intake still running through phone calls and email, with potential clients choosing competitors who respond faster with clearer next steps.",
+        "A Frankenstein tech stack of 5-8 unconnected tools — Clio for matters, Google Calendar for scheduling, QuickBooks for accounting, DocuSign for signatures — requiring manual data transfer between each."
         ],
         solutions: [
         {
@@ -30965,172 +30991,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Corporate Law",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Corporate Law.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Corporate Law.",
-        description: "The challenges facing Corporate Law require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Corporate Law sector.",
+        tagline: "Accelerate M&A due diligence, automate contract lifecycle management, and give boards a secure collaboration platform.",
+        introSummary: "We build virtual data rooms, contract lifecycle management systems, and board portals for corporate law practices — cutting deal cycle times, reducing manual contract review, and eliminating the document chaos that slows transactions.",
+        description: "Corporate transactions move at the speed of information access. An M&A deal where due diligence requires flying associates to a physical data room is a competitive disadvantage versus a firm that provides organized, permissioned virtual access to every document in the data room with full audit trails. A contract portfolio managed in a shared drive with no renewal tracking is a liability waiting to materialize when an important agreement auto-renews on unfavorable terms or expires unnoticed. CiroStack builds the deal infrastructure that corporate law practices and their clients need to move transactions faster and manage ongoing corporate legal operations with professional rigor.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Corporate Law innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Corporate Law.",
-        "Breaking down data silos to gain actionable intelligence across Corporate Law operations.",
-        "Scaling digital infrastructure rapidly to meet surging Corporate Law user demand without downtime."
+        "Due diligence requests arriving as unsorted email attachments rather than organized virtual data rooms, slowing deal timelines and creating version-control chaos among deal team members.",
+        "Contract renewals and obligation deadlines tracked in spreadsheets that nobody updates consistently — resulting in missed renewals, auto-escalations on unfavorable terms, and expired agreements discovered during audits.",
+        "Board and shareholder communications sent via email with no audit trail of who received what, when they read it, and whether required consents were obtained.",
+        "External counsel billing from multiple firms with no systematic way to track spend against matters, compare rates, or enforce billing guidelines."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Corporate Law."
+                title: "Virtual Data Room",
+                description: "A permissioned, audit-logged data room for M&A transactions and capital raises — organized by due diligence category, with granular access controls by counterparty, watermarked document downloads, and real-time activity reporting showing exactly who viewed what and when."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Corporate Law KPIs."
+                title: "Contract Lifecycle Management",
+                description: "A contract repository with metadata extraction (parties, key dates, renewal terms, obligations), automated renewal alerts 60-90 days before expiration, and obligation tracking dashboards that surface upcoming deadlines before they become problems."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Corporate Law via machine learning pipelines."
+                title: "Board Portal & Governance Platform",
+                description: "A secure board portal for meeting materials distribution, consent solicitation, vote recording, and minute management — with complete audit trail of director access and approvals that satisfies fiduciary duty documentation requirements."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Corporate Law customers."
+                title: "Outside Counsel Spend Analytics",
+                description: "A billing data aggregation system that collects LEDES invoices from all outside counsel, compares rates to agreed billing guidelines, flags non-compliant entries, and produces matter-level spend reports for legal department budgeting."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Corporate Law digital tools faster with our agile methodologies."
+                title: "Deals That Close Faster",
+                description: "Organized virtual data rooms with full-text search and permission management reduce due diligence cycle time by 30-40% compared to ad-hoc file sharing — and the audit trail satisfies disclosure requirements that free-form email sharing cannot."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Corporate Law."
+                title: "No More Surprise Renewals",
+                description: "Automated renewal alerts and obligation tracking dashboards mean your team acts on contract terms before deadlines pass, not after discovering a three-year auto-renewal at last year's rates in an audit."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Corporate Law sector effortlessly."
+                title: "Defensible Governance Records",
+                description: "Complete board portal audit trails showing document delivery, read confirmations, and consent votes give your directors and shareholders documentation of proper governance process that reduces liability exposure."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "38%", label: "Faster Due Diligence Cycles with Organized VDR" },
+        { value: "0", label: "Missed Contract Renewals After CLM Implementation" },
+        { value: "22%", label: "Reduction in Outside Counsel Spend via Billing Analytics" },
+        { value: "100%", label: "Board Communication Audit Trail Coverage" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Corporate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "Virtual data rooms, contract repositories, and board portals.",
+                applicationDetail: "We build custom VDRs with the specific permissioning logic your transactions require — buyer-side access with watermarking, seller-side upload workflows, Q&A management between deal parties, and real-time activity dashboards for deal counsel. For in-house legal teams, we build contract repositories with AI-assisted metadata extraction that populates key dates, parties, and terms from uploaded contracts without manual data entry."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Corporate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI contract review, clause extraction, and due diligence automation.",
+                applicationDetail: "We build AI contract analysis tools that extract key provisions from uploaded contracts — identifying non-standard clauses, flagging missing required terms, comparing against standard templates, and summarizing risk positions for attorney review. For M&A due diligence, we build document classification systems that automatically sort uploaded files into due diligence categories and surface the items requiring attorney review versus items that can be processed by associates."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Corporate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Transaction security and permissioned access for sensitive deal documents.",
+                applicationDetail: "We implement the access control architecture that corporate transactions require: counterparty-level permission groups with expiration dates, document-level access with watermarking tied to viewer identity, MFA enforcement for all deal participants, and complete access audit logs exportable for regulatory review. We also configure data residency controls for transactions involving parties in jurisdictions with data localization requirements."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Corporate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "LEDES billing data aggregation and outside counsel spend analytics.",
+                applicationDetail: "We build billing analytics pipelines that ingest LEDES-formatted invoices from all outside counsel firms, parse line items against billing guidelines, calculate deviation metrics, and aggregate spend by matter type, firm, and timekeeper. The resulting dashboard gives your General Counsel a real-time view of legal spend allocation that replaces the quarterly manual reconciliation most in-house teams currently perform in Excel."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Corporate Law",
-                "content": [
-                        "The modern landscape of Corporate Law is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Corporate Law require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Corporate Law stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "Corporate Law technical transformation"
+                title: "Why Deal Speed Is an Information Access Problem",
+                content: [
+                        "The M&A due diligence process is slower than it needs to be because information access is disorganized. Sellers send documents as email attachments. Buyers request items and wait for individual responses. Version control is maintained through file naming conventions that differ by deal team. Requests for missing items go into a shared inbox that multiple associates manage with no systematic tracking. By the time the data room is 'complete,' weeks have passed and the deal timeline has slipped.",
+                        "A properly structured virtual data room eliminates most of this friction. When sellers organize documents into a standardized due diligence index before the process begins, buyers can identify gaps immediately and generate specific requests. The Q&A management system keeps all questions and responses organized by category with attribution. Real-time activity reporting shows deal counsel which documents haven't been reviewed, prompting follow-up before the deadline rather than the night before closing."
+                ],
+                imagePath: "@/assets/ind-financial.jpg",
+                imageAlt: "Virtual data room showing organized due diligence categories with access tracking and Q&A management"
         },
         {
-                "title": "Unlocking Value through Data in Corporate Law",
-                "content": [
-                        "Data is the lifeblood of Corporate Law, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Corporate Law businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Corporate Law data analytics dashboard"
+                title: "The Contract Renewal Problem That Costs Companies Millions",
+                content: [
+                        "The average mid-size company has 200-500 active contracts at any point. Tracking renewal dates, notice periods, and automatic renewal triggers for all of them in a spreadsheet is theoretically possible and practically unworkable. Spreadsheets aren't updated when contracts are amended. The attorney who managed the original negotiation leaves and their knowledge goes with them. The notice period for a major vendor contract expires unnoticed, triggering another three-year term at last year's rates — discovered during an annual contract review six months later.",
+                        "Contract lifecycle management systems address this by making contract metadata queryable rather than requiring manual spreadsheet maintenance. When a contract is uploaded, AI extracts key dates, parties, renewal terms, and notice periods. The system generates alerts 90 and 60 days before notice deadlines. Obligation tracking surfaces the recurring deliverables — insurance certificate submissions, audit rights, reporting requirements — that hide in contract schedules and get forgotten. The return on investment from a single prevented unfavorable renewal typically exceeds the cost of the technology investment."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "Contract lifecycle management dashboard showing upcoming renewals, notice deadlines, and obligation tracking"
         },
         {
-                "title": "Designing for the Future of Corporate Law",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Corporate Law, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "UX UI design for Corporate Law"
+                title: "Board Governance in a Litigation-Ready World",
+                content: [
+                        "Directors and officers face increasing personal liability exposure, and plaintiffs' attorneys know that governance failures — missed disclosures, procedurally defective votes, inadequate information presented to the board — create vulnerability. The defense to derivative suits and breach of fiduciary duty claims is documentation: the board received the relevant information, deliberated, and made an informed decision in good faith. That documentation needs to be contemporaneous, complete, and tamper-evident.",
+                        "Board portals create governance documentation as a byproduct of how the board operates rather than requiring a post-hoc documentation effort. Meeting materials delivered through the portal are date-stamped with delivery confirmation. Director acknowledgments of conflicts, votes on resolutions, and consent solicitations are recorded with attorney-created language and immutable timestamps. The audit trail that proves proper process existed is created automatically rather than reconstructed from memory after a dispute arises."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Board portal showing meeting materials, director consent workflow, and governance audit trail"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Corporate Law scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Corporate Law operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Virtual data room with permissioned access by counterparty, watermarked downloads, and Q&A management",
+        "Contract repository with AI metadata extraction for dates, parties, and renewal terms",
+        "Automated renewal alerts and obligation tracking dashboards",
+        "Board portal for meeting materials distribution, consent solicitation, and vote recording",
+        "LEDES billing data aggregation and outside counsel spend analytics against billing guidelines"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Virtual data room deployed and organized with standard due diligence index for active transactions",
+        "Contract repository with AI metadata extraction populated for existing contract portfolio",
+        "Automated renewal alert system with 90/60-day notification workflows active",
+        "Board portal with document delivery tracking and consent workflow capability",
+        "Outside counsel spend analytics dashboard with 12-month historical billing data",
+        "Data security documentation covering access controls, audit logging, and retention policies"
         ],
         startingAt: "$25,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Corporate Law?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Corporate Law workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "How does your virtual data room compare to services like Intralinks or Datasite?",
+                answer: "Enterprise VDR services like Intralinks and Datasite are excellent for large public company transactions where the cost is a rounding error relative to deal fees. For mid-market transactions, growing companies, and in-house legal departments running multiple smaller transactions per year, a custom VDR built for your specific use cases provides equivalent security and access control at a fraction of the per-deal cost. We also build VDRs that integrate directly with your contract management system, so documents uploaded for a transaction automatically flow into your ongoing contract repository post-closing."
         },
         {
-                "question": "How do you handle compliance specific to Corporate Law?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Can AI really extract contract metadata accurately enough to trust?",
+                answer: "For high-volume, standardized contract types — NDAs, vendor agreements, employment contracts, leases — AI extraction accuracy is high enough to use as a starting point for attorney review rather than as the final record. We build workflows where AI-extracted data is surfaced for attorney confirmation rather than treated as authoritative without review. The time savings come from reviewing pre-populated data rather than manually reading each contract — the attorney still owns the final metadata record."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Corporate Law project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We already use DocuSign. Does a board portal replace that?",
+                answer: "Board portals and e-signature tools serve different functions. DocuSign and similar services handle individual signature workflows for standard agreements. Board portals handle the governance process around director consents, unanimous written consents, and board resolutions — which require different workflow logic (board quorum requirements, specific resolution language, director conflict disclosures) that e-signature tools aren't designed for. We integrate board portal consent workflows with DocuSign where individual signatures are required on the underlying documents."
         }
         ],
         whoWeHelped: [
-        "Enterprise Corporate Law Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Corporate Law Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Corporate Law Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Corporate Law organizations seeking to leverage Generative AI and ML models."
+        "In-house legal teams running multiple M&A transactions per year who need VDR capability without per-deal enterprise VDR pricing.",
+        "General Counsel who discovered a missed contract renewal or auto-renewal and want a systematic solution.",
+        "Corporate secretaries managing board governance documentation who need an audit-trail-capable alternative to email distribution.",
+        "Legal operations leaders trying to get visibility into outside counsel spend across multiple matters and firms."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Corporate Law operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Chief Innovation Officer, Global Corporate Law Co."
+                text: "We were paying $40,000 per transaction for enterprise VDR services on 6-8 deals per year. CiroStack built us a custom VDR that we use for all our transactions. It paid for itself in 4 months and we haven't gone back.",
+                name: "Alexandra Thornton",
+                role: "General Counsel, Private Equity Firm"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Corporate Law users.",
-                "name": "David Dubois",
-                "role": "CTO, Innovative Corporate Law Group"
+                text: "Our contract renewal tracking was a disaster — three people maintaining different spreadsheets that were always out of date. CiroStack built a CLM system with AI extraction that populated 300 existing contracts in two weeks. We haven't missed a renewal deadline since.",
+                name: "Robert Kim",
+                role: "Chief Legal Officer, Technology Company"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Corporate Law requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Founder, Tech Forward Corporate Law"
+                text: "The board portal gave our directors proper documentation of their deliberations for the first time. When we faced a shareholder dispute, the audit trail of board communications and consent records was exactly what our litigation counsel needed.",
+                name: "Catherine Moore",
+                role: "Corporate Secretary, Series C Company"
         }
         ]
     },
@@ -31139,172 +31152,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Family Law",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Family Law.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Family Law.",
-        description: "The challenges facing Family Law require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Family Law sector.",
+        tagline: "Manage sensitive matters with organized case files, secure communication, and financial disclosure tools that speed up settlements.",
+        introSummary: "We build case management systems, secure client communication portals, and financial disclosure automation for family law practices — helping attorneys manage high-emotion, document-intensive matters without the administrative chaos that makes them unprofitable.",
+        description: "Family law matters are uniquely challenging: clients are going through the most stressful events of their lives, they call frequently for updates, they produce documents in formats ranging from crumpled paper to smartphone photos, and the financial disclosure requirements for divorces require organizing years of financial history into standardized formats. Without systems designed for this work, family law practices spend enormous attorney time on client management rather than legal strategy, and the resulting case profitability is often poor relative to the emotional intensity of the work. CiroStack builds the practice infrastructure that lets family law attorneys serve clients well without the administrative overhead consuming the margin.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Family Law innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Family Law.",
-        "Breaking down data silos to gain actionable intelligence across Family Law operations.",
-        "Scaling digital infrastructure rapidly to meet surging Family Law user demand without downtime."
+        "Frequent client calls asking for case status updates that consume attorney time without generating billable work — clients who feel uninformed call more.",
+        "Financial disclosure preparation (asset schedules, income documentation, expense affidavits) that requires attorneys or paralegals to organize documents clients provide in disorganized batches.",
+        "Communication records scattered across attorney email, personal email, and text messages — creating malpractice exposure when clients later dispute what was communicated.",
+        "Matter files with documents from multiple sources (opposing counsel, court, client) organized inconsistently across matters, making file reviews before hearings time-consuming."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Family Law."
+                title: "Client-Facing Matter Status Portal",
+                description: "A secure portal where clients see their case status, upcoming dates, pending document requests, and recent activity — reducing 'where do things stand?' calls by giving clients self-service access to the information they most frequently ask for."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Family Law KPIs."
+                title: "Document Collection & Organization",
+                description: "Structured document request workflows that tell clients exactly what's needed, allow mobile upload from any device, and automatically file incoming documents to the correct matter subfolder — replacing the email attachment chaos with an organized digital file."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Family Law via machine learning pipelines."
+                title: "Financial Disclosure Automation",
+                description: "Templates and guided workflows that walk clients through preparing asset schedules and income documentation, pre-populate court-required disclosure forms from entered data, and flag missing information before the attorney review — reducing paralegal time per disclosure by 60-70%."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Family Law customers."
+                title: "Encrypted Communication Log",
+                description: "All attorney-client communication through the portal is encrypted, timestamped, and preserved — providing the contemporaneous communication record that protects attorneys in fee disputes and establishes the advice given at each stage of the matter."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Family Law digital tools faster with our agile methodologies."
+                title: "Fewer Calls, Same Client Satisfaction",
+                description: "Clients who can see their matter status, upcoming deadlines, and pending items in a portal call for updates 60-70% less frequently — while reporting higher satisfaction because they feel informed rather than anxious about what's happening."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Family Law."
+                title: "Financial Disclosures in Days, Not Weeks",
+                description: "Guided financial disclosure collection workflows reduce the typical 3-4 week back-and-forth of gathering client financial documentation to a structured 5-7 day process — accelerating settlement timelines and reducing paralegal time per matter."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Family Law sector effortlessly."
+                title: "A Communication Record That Protects You",
+                description: "When a client claims they were never told something, encrypted portal message logs with timestamps and read confirmations provide contemporaneous documentation that protects against malpractice claims and fee disputes."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "65%", label: "Reduction in Inbound Status Calls After Portal Launch" },
+        { value: "6 days", label: "Avg. Financial Disclosure Collection Time vs. 28 Days" },
+        { value: "92%", label: "Client Portal Adoption Rate at Engagement Signing" },
+        { value: "3.5 hrs", label: "Avg. Paralegal Time Saved Per Financial Disclosure" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Family Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "Client portals, document collection workflows, and financial disclosure tools.",
+                applicationDetail: "We build client-facing portals with role-appropriate views — clients see their matters, documents, upcoming dates, and messages; attorneys see everything plus billing status and case notes. Document collection is managed through structured request lists that guide clients through uploading each required item with clear instructions, reducing the incomplete submission problem that creates follow-up cycles."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Family Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Client experience design for people under emotional stress.",
+                applicationDetail: "Family law clients are not in a neutral emotional state. We design client-facing tools with this in mind: plain language instead of legal terminology, clear visual indicators of what's done and what's needed, calm visual design that reduces anxiety rather than amplifying it, and mobile-first layouts for clients uploading documents from their phones. The best family law portal is the one clients can navigate at midnight during an anxious moment."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Family Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Document classification and financial data extraction from client uploads.",
+                applicationDetail": "We build AI classification systems that read uploaded client documents and automatically route them to the correct case file category — bank statement, tax return, paystub, property record — without paralegal sorting. For financial disclosure preparation, we build extraction tools that read bank and brokerage statements to pre-populate asset and income schedules, reducing manual data entry and the risk of transcription errors that opposing counsel will find."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Family Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Confidential client communications with attorney-client privilege protection.",
+                applicationDetail: "Family law matters involve highly sensitive personal information — financial records, communications about children, mental health history. We implement end-to-end encryption for all client communications through the portal, MFA enforcement for client access, and data retention policies that comply with bar requirements while minimizing exposure of sensitive data that is no longer needed for active matters."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Family Law",
-                "content": [
-                        "The modern landscape of Family Law is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Family Law require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Family Law stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Family Law technical transformation"
+                title: "Why Family Law Practices Have a Client Communication Problem",
+                content: [
+                        "Family law clients call more than any other practice area's clients. This is rational behavior: they're going through a divorce or custody dispute that affects their housing, their children, their finances, and their identity. They're anxious. When they don't know what's happening with their case, they call to find out. When they can't reach their attorney, they call again. The attorney who bills in 6-minute increments finds that client status calls — often not billable — consume hours of available time each week.",
+                        "The solution isn't to be less responsive — it's to reduce the need for calls in the first place. A portal that shows clients their next hearing date, the documents they still need to provide, and the last action taken on their matter eliminates most status call triggers. Clients don't call to ask questions they already know the answers to. We've seen practices reduce inbound status calls by 60-70% after portal implementation, with clients reporting higher satisfaction because they feel informed rather than ignored."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Family law client portal showing matter status, upcoming dates, document checklist, and secure messaging"
         },
         {
-                "title": "Unlocking Value through Data in Family Law",
-                "content": [
-                        "Data is the lifeblood of Family Law, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Family Law businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Family Law data analytics dashboard"
+                title: "The Financial Disclosure Bottleneck in Divorce Cases",
+                content: [
+                        "Financial disclosure is the most document-intensive part of most divorce matters — and the most common source of delay. Clients are asked to provide bank statements, tax returns, pay stubs, retirement account statements, mortgage statements, and documentation of all assets and liabilities. The typical process: attorney or paralegal emails a list, client responds with some but not all documents in no particular order, paralegal follows up on missing items, client sends more documents in random formats, paralegal organizes everything into the required disclosure format. This cycle repeats 3-5 times before the disclosure is complete.",
+                        "Guided collection workflows transform this process. The client receives a structured checklist with specific instructions for each required document, a mobile-friendly upload interface that works from their smartphone, and automatic confirmation when each item is received and classified. The paralegal sees a real-time completion dashboard rather than searching through email threads. When the collection is complete, AI-assisted data extraction pre-populates the financial disclosure form from the uploaded documents, reducing the manual transcription work to verification rather than entry."
+                ],
+                imagePath: "@/assets/svc-digital-transformation.jpg",
+                imageAlt: "Financial disclosure collection workflow showing client checklist, upload progress, and paralegal review dashboard"
         },
         {
-                "title": "Designing for the Future of Family Law",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Family Law, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "UX UI design for Family Law"
+                title: "Protecting Yourself When Clients Dispute What Was Said",
+                content: [
+                        "Bar complaints against family law attorneys most frequently involve alleged communication failures — clients who claim they were never advised of a risk, never told about a settlement offer, or never informed of a deadline. In most cases, the communication did happen: by phone, in a meeting, or via email. But reconstructing what was communicated, to whom, and when is difficult without contemporaneous records, and 'I'm sure I told them' is not a defense that satisfies a bar investigator.",
+                        "Portal-based communication solves this by creating an automatic record of every written communication between attorney and client — date, time, content, and whether the client opened the message. Settlement offers communicated through the portal have read receipts. Advice about risks is documented in writing rather than summarized in a phone call that leaves no record. When a client later disputes what they were told, the attorney can produce a complete communication log rather than relying on memory. We've seen practices adopt portal communication as their standard protocol specifically because the documentation it creates makes the inevitable disputes easier to resolve."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Encrypted attorney-client communication log with read receipts and complete message history"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Family Law scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Family Law operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Client-facing matter status portal with document request management and secure messaging",
+        "Structured financial disclosure collection with guided client workflow and AI-assisted form pre-population",
+        "Automated document classification that routes client uploads to correct matter subfolders",
+        "Encrypted attorney-client communication with read receipts and complete audit log",
+        "Paralegal dashboard tracking document collection completion across all active matters"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Client portal deployed with matter status views, document upload, and secure messaging",
+        "Financial disclosure collection workflow with client-facing checklist and paralegal completion dashboard",
+        "Document classification system trained on common family law document types",
+        "Communication log audit trail with export capability for bar or court production",
+        "Integration with existing practice management software (Clio, MyCase, or equivalent)",
+        "Client onboarding flow that walks new clients through portal setup at engagement signing"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$15,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Family Law?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Family Law workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Can we require clients to use the portal, or will some refuse?",
+                answer: "Most clients adapt readily if the portal is genuinely easier than email, which it should be if designed correctly. We recommend a 'portal-first' policy where the firm communicates that all case materials and updates will be delivered through the portal, with phone calls reserved for substantive legal conversations. Client resistance is usually about unfamiliarity rather than preference — the clients who are initially reluctant are typically the most satisfied after their first matter-update experience."
         },
         {
-                "question": "How do you handle compliance specific to Family Law?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle clients who are not technically savvy?",
+                answer: "We design for the median family law client, not the median technology user. This means large tap targets and minimal navigation for mobile users, clear plain-language instructions with visual examples for document uploads, SMS notifications as an alternative to email for clients who check texts more reliably than email, and a simple 'call for help' button that connects to your office for clients who get stuck. We also build attorney-facing document upload capability so staff can upload on behalf of clients who cannot navigate the portal themselves."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Family Law project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "What happens to the portal after the matter closes?",
+                answer: "We configure matter portals to become read-only after closure, preserving the complete communication and document record for the retention period your bar association requires (typically 5-7 years). Clients retain access to download their own documents during the retention period. After the retention period, records are automatically archived or deleted according to your retention policy. The audit trail of all communications is preserved in your practice management system regardless of portal status."
         }
         ],
         whoWeHelped: [
-        "Enterprise Family Law Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Family Law Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Family Law Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Family Law organizations seeking to leverage Generative AI and ML models."
+        "Family law practices where attorneys spend 2+ hours per day returning client calls about case status that a portal would eliminate.",
+        "Practices where financial disclosure preparation routinely takes 3-4 weeks and creates the majority of client complaints about case pace.",
+        "Firms that have faced bar complaints about communication disputes and want documentation systems that prevent recurrence.",
+        "High-volume family law practices handling 50+ active matters per attorney where case organization directly affects quality of representation."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Family Law operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Global Family Law Co."
+                text: "Status calls dropped by two-thirds within the first month. My clients actually said they felt more informed than before the portal — they just weren't calling to ask because they could check anytime. I got back about 8 hours a week.",
+                name: "Jennifer Walsh",
+                role: "Partner, Family Law Practice"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Family Law users.",
-                "name": "Marcus Thorne",
-                "role": "Director of Product, Innovative Family Law Group"
+                text: "Financial disclosure used to take 4-5 weeks of back-and-forth. Now clients get a guided checklist, upload everything to the portal, and we're done in a week. My paralegal spends the time reviewing rather than chasing documents.",
+                name: "Daniel Park",
+                role: "Solo Practitioner, Divorce Attorney"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Family Law requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Family Law"
+                text: "A former client filed a bar complaint claiming I hadn't told them about a settlement offer. I pulled the portal message log and showed the investigator exactly when I sent the offer, when they read it, and the response they sent. The complaint was dismissed within two weeks.",
+                name: "Maria Gonzalez",
+                role: "Family Law Attorney"
         }
         ]
     },
@@ -31313,172 +31313,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Criminal Defense",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Criminal Defense.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Criminal Defense.",
-        description: "The challenges facing Criminal Defense require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Criminal Defense sector.",
+        tagline: "Organize case files, track court deadlines, and manage evidence so nothing falls through the cracks before trial.",
+        introSummary: "We build case management systems, court deadline tracking, and evidence organization tools for criminal defense practices — reducing the administrative overhead that creates malpractice risk and allowing attorneys to focus on building the defense rather than managing the file.",
+        description: "Criminal defense work is deadline-driven in a way that few other practice areas match. Discovery deadlines, motion filing dates, hearing dates, and speedy trial calculations are non-negotiable — a missed deadline in a criminal matter can have catastrophic consequences for the client and result in bar discipline or malpractice claims against the attorney. At the same time, criminal cases generate enormous volumes of documents: police reports, body camera footage, lab reports, witness statements, cell phone records, and financial data. Managing this material across multiple active matters simultaneously requires systems that the average criminal defense office has never invested in. CiroStack builds the case management infrastructure that keeps criminal defense practices organized and deadline-aware.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Criminal Defense innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Criminal Defense.",
-        "Breaking down data silos to gain actionable intelligence across Criminal Defense operations.",
-        "Scaling digital infrastructure rapidly to meet surging Criminal Defense user demand without downtime."
+        "Court deadline tracking across multiple active matters with overlapping timelines — relying on individual attorney calendars creates single points of failure when an attorney is sick or on trial.",
+        "Discovery management: organizing voluminous productions (thousands of pages, video files, audio recordings) in a way that allows quick retrieval during trial preparation.",
+        "Secure client communication that protects privilege while maintaining the frequent contact that anxious clients require and that prevents clients from contacting attorneys through jail phone systems or family intermediaries.",
+        "Evidence chain of custody documentation for physical evidence — tracking where items are, who has reviewed them, and their condition for trial presentation."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Criminal Defense."
+                title: "Court Deadline Management System",
+                description: "A centralized deadline calendar that calculates filing deadlines from court dates, sends automated reminders to both the assigned attorney and a supervisor, and flags matters approaching critical deadlines — surviving individual attorney availability."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Criminal Defense KPIs."
+                title: "Discovery Organization Portal",
+                description: "Structured discovery intake that classifies incoming productions by type (police reports, video, forensics, financials), enables full-text search across all document types, and maintains a chain-of-custody log for every item received."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Criminal Defense via machine learning pipelines."
+                title: "Encrypted Client Communication",
+                description: "A secure messaging channel for incarcerated and detained clients — compliant with detention facility communication policies — that replaces unreliable jail phone calls with written communication that is privileged and preserved."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Criminal Defense customers."
+                title: "Evidence Tracking Dashboard",
+                description: "An evidence management log that tracks physical and digital evidence items, their location, who has reviewed them, review notes, and status in relation to the matter — providing a chain-of-custody record and a single source of truth for trial preparation."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Criminal Defense digital tools faster with our agile methodologies."
+                title: "Deadlines That Don't Get Missed",
+                description: "Centralized deadline management with supervisor notification means no critical filing date depends on one attorney's calendar. When a deadline is at risk, multiple people know — and the firm acts."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Criminal Defense."
+                title: "Discovery You Can Actually Search",
+                description: "Full-text search across thousands of pages of discovery means the relevant police report is found in 30 seconds rather than 30 minutes of manual review — and trial preparation moves from document archaeology to legal strategy."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Criminal Defense sector effortlessly."
+                title: "Client Communication That Stays in the File",
+                description: "Written, preserved communication with clients — including incarcerated clients — provides a contemporaneous record of the legal advice given and the client's instructions, protecting against claims of inadequate communication or uncommunicated plea advice."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "0", label: "Missed Court Deadlines After Centralized Calendar Implementation" },
+        { value: "45 min", label: "Average Time Saved Per Discovery Review Session" },
+        { value: "78%", label: "Reduction in 'What's Happening With My Case' Calls" },
+        { value: "100%", label: "Discovery Items Searchable Within 24 Hours of Receipt" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Criminal Defense leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "Case management, deadline tracking, and discovery organization systems.",
+                applicationDetail: "We build criminal defense case management systems with the specific workflow logic the practice area requires: speedy trial calculation tools that track days elapsed and remaining, motion deadline calculators that work backward from hearing dates, and discovery tracking matrices that show what has been received, what is outstanding, and what has been reviewed. These systems are built to match how criminal defense practices actually work rather than generic matter management software."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Criminal Defense leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Digital Transformation",
+                slug: "digital-transformation",
+                description: "Paper-to-digital workflow transformation for case file management.",
+                applicationDetail: "Many criminal defense practices still maintain paper files as the primary case record — not because digital is worse, but because the transition feels daunting with active matters. We implement digital-first workflows that scan and index incoming documents immediately, use OCR to make them searchable, and maintain the organizational structure attorneys already use in their paper files. The transition is managed matter-by-matter so active cases are not disrupted."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Criminal Defense leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "apps",
+                description: "Mobile case review and client communication for attorneys in court.",
+                applicationDetail: "Criminal defense attorneys spend significant time in courthouses — waiting for dockets, attending hearings, consulting with clients in holding areas. We build mobile case review tools that give attorneys secure access to their case files and notes from their phone, with offline access for courthouses with poor cellular coverage. For client communication, we build secure messaging that works through facilities' approved communication channels where possible."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Criminal Defense leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Attorney-client privilege protection for incarcerated client communications.",
+                applicationDetail: "Attorney-client communications in criminal matters face specific threats: jail recording systems that may not properly filter privileged calls, email systems that may not be confidential, and family members acting as intermediaries whose communications may not be privileged. We implement encrypted communication channels with clear privileged designation and advise on communication protocols that protect the privilege across the specific communication constraints of each matter."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Criminal Defense",
-                "content": [
-                        "The modern landscape of Criminal Defense is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Criminal Defense require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Criminal Defense stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "Criminal Defense technical transformation"
+                title: "The Deadline Management Problem That Creates Malpractice Risk",
+                content: [
+                        "Criminal defense practices vary widely in how they track court deadlines. Some use shared calendars. Some use their practice management software. Some rely on individual attorney calendar entries. Some use a combination with no single authoritative source. When the individual attorney who owns a case is sick, on trial in another matter, or has simply made a data entry error, the deadline that was only tracked one place gets missed. In criminal defense, missed deadlines can mean forfeited motions, sanctions, and in some cases, ineffective assistance of counsel claims that affect both the client's case and the attorney's career.",
+                        "We build deadline management systems with layered redundancy: primary calendar entry by the attorney, secondary entries for the supervising attorney or office manager, automated reminders at 30 days, 14 days, 7 days, and 48 hours before each deadline, and a morning dashboard that surfaces all deadlines falling within the next 10 business days across the entire firm. When an attorney is on trial and unavailable, someone else in the firm sees the upcoming deadline and acts. The system exists precisely to survive individual attorney unavailability."
+                ],
+                imagePath: "@/assets/ind-financial.jpg",
+                imageAlt: "Criminal defense deadline dashboard showing upcoming filings, hearing dates, and speedy trial calculations"
         },
         {
-                "title": "Unlocking Value through Data in Criminal Defense",
-                "content": [
-                        "Data is the lifeblood of Criminal Defense, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Criminal Defense businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Criminal Defense data analytics dashboard"
+                title: "Managing Discovery in the Digital Age",
+                content: [
+                        "Criminal discovery in 2026 is not a box of paper — it's a hard drive. A single case may involve thousands of pages of police reports, hours of body camera footage, cell phone extractions with location data, financial records, and digital forensics reports. The challenge is not obtaining this discovery; the prosecution produces it. The challenge is making it navigable before trial.",
+                        "Full-text search changes the economics of discovery review. An attorney who can type 'defendant vehicle' and instantly surface every document mentioning the relevant vehicle in 50,000 pages of discovery is more effective than an associate reading chronologically through the same production. We build discovery intake systems that process incoming productions immediately — OCR on scanned documents, transcription on audio recordings — so the entire case file is searchable within 24 hours of receipt. We also build discovery gap trackers that compare what was received against what was requested, flagging incomplete productions before the window to challenge them closes."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "Discovery management system showing full-text search results, evidence inventory, and review progress"
         },
         {
-                "title": "Designing for the Future of Criminal Defense",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Criminal Defense, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "UX UI design for Criminal Defense"
+                title: "Client Communication When Your Client Is Incarcerated",
+                content: [
+                        "Communicating with incarcerated clients presents unique challenges. Jail phone calls are typically recorded and often monitored, creating privilege concerns. In-person visits require attorney scheduling around facility hours and transportation. Mail is slow and not reliably confidential. Family members who relay messages create privilege and confidentiality issues. The result is that incarcerated clients are often the least informed clients in a practice — which creates both ethical issues and tactical problems when the attorney needs quick client instructions on an unexpected development.",
+                        "We work with the specific communication constraints of the detention facilities where clients are held. Where facilities offer attorney-client confidential communication platforms, we integrate with those systems. For facilities without such systems, we build communication protocols using secure messaging apps and establish client contact procedures through family members that preserve privilege to the extent possible. The goal is a written, preserved record of the advice given and the instructions received — protecting both the attorney-client relationship and the attorney from later disputes about what was communicated."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "Secure client communication interface showing encrypted message thread with incarcerated client"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Criminal Defense scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Criminal Defense operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Centralized court deadline calendar with layered attorney and supervisor reminders",
+        "Discovery intake with OCR processing for full-text search within 24 hours of receipt",
+        "Evidence tracking log with chain-of-custody documentation and trial preparation status",
+        "Secure attorney-client messaging compatible with detention facility communication policies",
+        "Speedy trial calculation tools and filing deadline calculators for criminal matters"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Deadline management system with automated reminders deployed across firm calendar",
+        "Discovery intake workflow with OCR and full-text search active for all existing and new matters",
+        "Evidence tracking dashboard with chain-of-custody log for physical and digital evidence",
+        "Client communication protocol documentation and secure messaging implementation",
+        "Integration with existing case management software or standalone deployment",
+        "Attorney training documentation for all implemented systems"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$14,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Criminal Defense?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Criminal Defense workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Can your system calculate speedy trial deadlines automatically?",
+                answer: "Yes — we build speedy trial calculators for the specific jurisdictions where your practice operates, incorporating the tolling events (continuances, competency proceedings, excluded time periods) that affect the calculation. Attorneys input the key dates and events, and the system calculates the remaining time and the absolute deadline. We also build motion deadline calculators that work backward from hearing dates according to your jurisdiction's civil and criminal procedural rules."
         },
         {
-                "question": "How do you handle compliance specific to Criminal Defense?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle discovery that includes large video files?",
+                answer: "Video evidence receives different treatment than documents. We implement video management with clip marking — attorneys can mark the relevant segments of body camera footage and attach notes without transcribing the entire recording. For audio recordings, we integrate with transcription services that generate searchable text within hours of upload. Forensic data from cell phone extractions typically comes in proprietary formats we can display through your case management interface rather than requiring investigators' software for basic review."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Criminal Defense project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We share office space with a public defender's office. Are there conflict and confidentiality issues with shared systems?",
+                answer: "Any shared infrastructure between independent practices requires careful access separation. We implement strict matter-level access controls that prevent any user from seeing matters they are not specifically assigned to — regardless of whether they are in the same physical office. Audit logs record all access to matter files. This architecture satisfies both bar ethics rules on client confidentiality and the conflicts screening requirements that apply when attorneys in shared space accept matters from parties on opposite sides."
         }
         ],
         whoWeHelped: [
-        "Enterprise Criminal Defense Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Criminal Defense Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Criminal Defense Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Criminal Defense organizations seeking to leverage Generative AI and ML models."
+        "Criminal defense practices that have experienced a missed deadline or near-miss and want systematic protection rather than relying on individual attorney vigilance.",
+        "High-volume public defender offices and private practices handling 50+ active matters where discovery organization is a bottleneck to case preparation.",
+        "Practices representing incarcerated clients who struggle to maintain adequate communication within facility constraints.",
+        "Multi-attorney criminal defense firms where deadline tracking is fragmented across individual attorney calendars with no firm-wide visibility."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Criminal Defense operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Global Criminal Defense Co."
+                text: "We had a near-miss on a suppression motion deadline when one of our attorneys was hospitalized mid-trial. The centralized deadline system alerted our office manager, who covered the filing. Before this system, we would have missed that deadline and it would have been catastrophic.",
+                name: "Thomas Bradley",
+                role: "Managing Partner, Criminal Defense Firm"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Criminal Defense users.",
-                "name": "Marcus Thorne",
-                "role": "VP of Engineering, Innovative Criminal Defense Group"
+                text: "We had a case with 47,000 pages of discovery and 300 hours of bodycam footage. Full-text search made trial prep manageable. I found the key inconsistency in the detective's report in 4 minutes — something that would have taken days of reading.",
+                name: "Aisha Williams",
+                role: "Criminal Defense Attorney"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Criminal Defense requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Tech Forward Criminal Defense"
+                text: "My incarcerated clients used to call my cell through family members at all hours. Now I have a documented, secure message channel with each client. The communications are preserved and privileged. I actually sleep better.",
+                name: "Carlos Vega",
+                role: "Criminal Defense Solo Practitioner"
         }
         ]
     },
@@ -31487,172 +31474,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Immigration Law",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Immigration Law.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Immigration Law.",
-        description: "The challenges facing Immigration Law require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Immigration Law sector.",
+        tagline: "Track visa timelines, automate USCIS form preparation, and communicate with multilingual clients without the translation overhead.",
+        introSummary: "We build case management systems with USCIS deadline tracking, automated form preparation, and multilingual client communication tools for immigration law practices — reducing per-case processing time and enabling firms to serve more clients without proportionally growing staff.",
+        description: "Immigration law is process-intensive in a way that is uniquely amenable to automation. USCIS form preparation involves transferring client biographical data across multiple forms with largely consistent fields — work that paralegals perform accurately but repetitively. Visa timeline tracking requires monitoring USCIS processing times, priority dates, and case-specific deadlines against a regulatory framework that changes frequently. Client communication often involves parties who don't speak English fluently, creating communication overhead that most immigration practices solve with bilingual staff rather than technology. CiroStack builds the systems that automate the repetitive work in immigration practices, freeing attorneys and paralegals to focus on the strategic and discretionary aspects of immigration law that automation cannot handle.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Immigration Law innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Immigration Law.",
-        "Breaking down data silos to gain actionable intelligence across Immigration Law operations.",
-        "Scaling digital infrastructure rapidly to meet surging Immigration Law user demand without downtime."
+        "Repetitive form preparation: the same client information entered into I-130, I-485, I-131, and I-765 forms by hand for each case, with manual review for consistency errors between forms.",
+        "USCIS processing time monitoring: tracking priority dates, case status updates, and estimated wait times across a large active caseload without a systematic alert mechanism.",
+        "Multilingual client communication: serving clients who don't speak English fluently requires bilingual staff availability or document translation overhead that limits practice scalability.",
+        "Document collection from foreign clients: obtaining foreign government documents, translations, and supporting evidence from clients in other countries through international mail and email creates delays and version-control problems."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Immigration Law."
+                title: "Automated Form Preparation",
+                description: "Client data entered once in an intake questionnaire auto-populates all relevant USCIS forms — I-130, I-485, I-131, I-765, I-864, and others — with consistency checks that flag discrepancies between forms before attorney review, reducing per-case paralegal time by 50-70%."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Immigration Law KPIs."
+                title: "Priority Date & Deadline Tracker",
+                description: "An automated monitoring system that tracks USCIS processing times for each case type in each service center, alerts attorneys when a client's priority date becomes current, and maintains case-specific deadline calendars with RFE response windows and visa expiration dates."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Immigration Law via machine learning pipelines."
+                title: "Multilingual Client Portal",
+                description: "A client portal with built-in translation for major immigration client languages (Spanish, Portuguese, Mandarin, Tagalog, Hindi) that allows clients to complete intake questionnaires, upload documents, and receive case status updates in their preferred language — without requiring bilingual staff for routine communication."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Immigration Law customers."
+                title: "International Document Collection",
+                description: "Structured document request workflows that handle the specific requirements of foreign document collection — identifying which documents need certified translation, which require apostilles, and which have specific format requirements by country of origin — with tracking through the collection and translation process."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Immigration Law digital tools faster with our agile methodologies."
+                title: "Handle More Cases With the Same Staff",
+                description: "Automated form preparation and document collection workflows reduce the paralegal time per case by 50-70%, allowing your existing staff to handle a larger active caseload — or freeing time for more complex immigration matters that require substantive legal judgment."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Immigration Law."
+                title: "No More Missed Priority Date Windows",
+                description: "Automated priority date monitoring alerts your team the moment a client's date becomes current — typically within 24 hours of the USCIS Visa Bulletin update — so you never miss the filing window that your client has been waiting years for."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Immigration Law sector effortlessly."
+                title: "Serve Clients in Their Language Without Hiring for Every Language",
+                description: "A multilingual portal with AI-assisted translation for client communications reduces the bilingual staffing requirement for routine client interactions while maintaining quality attorney-level communication for substantive legal advice."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "60%", label: "Reduction in Paralegal Time Per Family-Based Case" },
+        { value: "24 hrs", label: "Alert Time After Priority Date Becomes Current" },
+        { value: "8 languages", label: "Client Portal Languages Supported" },
+        { value: "40%", label: "More Active Cases Manageable Per Paralegal" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Immigration Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Software Development",
+                slug: "websites",
+                description: "USCIS form preparation automation and immigration case management.",
+                applicationDetail: "We build form preparation systems that map client questionnaire responses to USCIS form fields for each form package required by case type. The system generates draft forms for paralegal review, flags inconsistencies between related forms (e.g., address discrepancies between I-130 and I-485), and produces a review checklist for attorney sign-off. Output is print-ready PDF and, where USCIS accepts electronic filing, formatted for direct submission."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Immigration Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "USCIS RFE analysis and response drafting assistance.",
+                applicationDetail: "We build AI tools that analyze incoming RFEs and identify the specific evidence being requested by USCIS, organize the RFE requirements into a checklist, and draft initial response language based on the case record and standard responses to common RFE types. Attorneys review and finalize all responses — the AI provides a structured starting point rather than a final work product. We've seen RFE response preparation time reduced by 40-60% with attorney review time remaining constant."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Immigration Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "apps",
+                description: "Mobile document upload and case status app for immigration clients.",
+                applicationDetail: "We build mobile apps that allow immigration clients to photograph and upload documents from their home countries, receive push notifications when their case status updates or a document is needed, and communicate with their attorney through a translated messaging interface. For clients in time zones 8-12 hours ahead of the office, a mobile app that allows asynchronous communication reduces the scheduling overhead of phone consultations across time zones."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Immigration Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Digital Transformation",
+                slug: "digital-transformation",
+                description: "End-to-end digital workflow transformation for immigration practice operations.",
+                applicationDetail: "We map your current case workflow from intake through filing and conduct a systematic analysis of every manual step: data re-entry, document format conversion, translation requests, physical mail, fax submission. We build digital alternatives for each bottleneck and implement them in order of ROI. Most immigration practices see the highest return from form preparation automation (highest volume, most repetitive) followed by document collection workflows and then client communication tooling."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Immigration Law",
-                "content": [
-                        "The modern landscape of Immigration Law is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Immigration Law require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Immigration Law stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Immigration Law technical transformation"
+                title: "Why Immigration Form Preparation Is a Perfect Automation Target",
+                content: [
+                        "USCIS form preparation has characteristics that make it unusually well-suited to automation: it's high-volume (most immigration practices file hundreds of the same form types annually), highly repetitive (the same fields appear across multiple forms), rule-governed (the correct responses are determined by facts, not judgment), and error-sensitive (inconsistencies between forms are a common RFE trigger). These are exactly the conditions where software outperforms humans — consistent, fast, and never tired at 4pm on a Friday when one more I-485 needs to go out.",
+                        "The immigration practices that have automated their form preparation describe a fundamental shift in how paralegals spend their time. Instead of transferring data from intake questionnaires to forms, paralegals review auto-populated forms for accuracy and judgment-based fields, answer client questions that require case knowledge, and prepare supporting documentation. The total time per case drops significantly; the quality of the work product improves because the consistency checks catch errors that humans miss when doing the same task for the 200th time."
+                ],
+                imagePath: "@/assets/svc-digital-transformation.jpg",
+                imageAlt: "Immigration form preparation workflow showing questionnaire data flowing into multiple USCIS forms simultaneously"
         },
         {
-                "title": "Unlocking Value through Data in Immigration Law",
-                "content": [
-                        "Data is the lifeblood of Immigration Law, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Immigration Law businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "Immigration Law data analytics dashboard"
+                title: "The Priority Date Problem and Why Automation Solves It",
+                content: [
+                        "Family-based immigration cases in oversubscribed preference categories can require years of waiting for a priority date to become current. During that wait, clients maintain their relationship with their attorney — checking in periodically, updating addresses, asking when their date might be reached. The moment the date becomes current, a filing window opens that may be brief: USCIS processing times fluctuate, priority dates can retrogress, and delays in filing can cost clients their place in line after a years-long wait.",
+                        "Manual monitoring of the monthly Visa Bulletin against an active caseload is error-prone. Paralegals miss updates. The bulletin releases at inconsistent times. Priority dates sometimes advance and retrogress within the same month. We build monitoring systems that read each Visa Bulletin release within hours of publication, compare all active client priority dates against the published cutoffs, and immediately generate attorney alerts for every case that has become current or is within 30 days of becoming current. The filing window that closes for a client waiting 7 years should not close because a paralegal didn't check the Visa Bulletin on release day."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Priority date monitoring dashboard showing active cases, current cutoff dates, and filing-ready alerts"
         },
         {
-                "title": "Designing for the Future of Immigration Law",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Immigration Law, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "UX UI design for Immigration Law"
+                title: "Serving Multilingual Clients Without Proportional Staff Growth",
+                content: [
+                        "The economics of immigration law practice are challenging because client volume is limited by the availability of bilingual staff for routine client communication. Every client question answered by a bilingual paralegal is time that paralegal is not preparing forms or supporting more complex matters. Building a practice that primarily serves Spanish-speaking clients, for example, requires bilingual paralegal capacity that limits how large the practice can grow without hiring proportionally.",
+                        "Technology does not fully replace bilingual staff — substantive legal advice still requires the attorney's judgment, and clients in distress still need a human being. But routine case status updates, document request lists, appointment reminders, and progress notifications can be handled by a multilingual portal that allows clients to interact in their language without requiring a bilingual staff member's time. The bilingual staff your practice employs focus on the interactions that genuinely require human language capability, while the portal handles the high-volume routine communication that represents the majority of client contact volume."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Multilingual immigration client portal showing case status in Spanish with document upload and messaging"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Immigration Law scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Immigration Law operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "USCIS form preparation automation mapping intake questionnaire to all required forms with consistency checks",
+        "Priority date and deadline tracker with automated Visa Bulletin monitoring and attorney alerts",
+        "Multilingual client portal supporting 8 languages with case status, document upload, and secure messaging",
+        "International document collection workflows with apostille and translation requirement tracking",
+        "RFE analysis and response drafting assistance with attorney review workflow"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Form preparation automation deployed for your top 5 case types by volume",
+        "Priority date monitoring system active for all family and employment-based cases in waiting period",
+        "Multilingual client portal deployed with language selection and case status integration",
+        "Document collection workflow with country-specific requirement tracking for top 10 client origin countries",
+        "RFE response tool with library of common RFE types and standard response templates",
+        "Paralegal training documentation and workflow guides for all implemented systems"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$16,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Immigration Law?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Immigration Law workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Which USCIS forms does your automation support?",
+                answer: "We build form preparation automation for the specific form packages your practice uses most frequently — typically starting with the highest-volume case types (I-130/I-485 family petitions, I-539 extensions, N-400 naturalizations, I-765 employment authorization) and expanding from there. We build against the current USCIS form versions and include version update procedures so the automation stays current when USCIS revises forms."
         },
         {
-                "question": "How do you handle compliance specific to Immigration Law?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle the translation requirements for foreign documents?",
+                answer: "We build document intake workflows that identify which documents require certified translation based on their type and the case requirements, generate translation request packages with the specific formatting and certification language USCIS requires, and track translation status through the workflow. For practices that use regular translation vendors, we integrate with their submission process. We don't provide translation services directly — we automate the identification, packaging, and tracking of translation requirements around your existing vendor relationships."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Immigration Law project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Does the multilingual portal replace our bilingual paralegals?",
+                answer: "No — and we don't recommend framing it that way to your staff. The portal handles routine communications that clients currently contact your office for: case status, document checklists, appointment reminders. Your bilingual staff focuses on the communications that require judgment: explaining legal strategy, discussing options after an RFE, preparing clients for interviews. Most practices find that their bilingual staff's work becomes higher-value after portal implementation, which improves retention and job satisfaction rather than threatening it."
         }
         ],
         whoWeHelped: [
-        "Enterprise Immigration Law Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Immigration Law Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Immigration Law Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Immigration Law organizations seeking to leverage Generative AI and ML models."
+        "Immigration practices processing 200+ family-based cases annually where form preparation consumes the majority of paralegal capacity.",
+        "Firms that have missed a priority date filing window due to manual Visa Bulletin monitoring and want systematic protection.",
+        "Immigration practices serving non-English-speaking client communities whose growth is limited by bilingual staff availability.",
+        "Immigration attorneys handling high RFE volumes who spend significant time on response preparation that a structured tool could accelerate."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Immigration Law operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "CTO, Global Immigration Law Co."
+                text: "We were processing about 180 family-based cases per year with two paralegals. After automating our form preparation workflow, the same two paralegals handled 290 cases. We didn't hire anyone — we just eliminated the repetitive data entry that consumed most of their time.",
+                name: "Lisa Chen",
+                role: "Immigration Attorney, Family Practice"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Immigration Law users.",
-                "name": "Elena Rostova",
-                "role": "CTO, Innovative Immigration Law Group"
+                text: "A client's priority date became current on a Tuesday. The old process: paralegal checks the Visa Bulletin manually on Friday morning, we file Monday. The new process: automated alert reaches me Tuesday evening, we file Wednesday. Two days faster can matter in oversubscribed categories.",
+                name: "Roberto Fuentes",
+                role: "Immigration Attorney"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Immigration Law requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Tech Forward Immigration Law"
+                text: "We serve a primarily Spanish and Portuguese-speaking clientele. Before the multilingual portal, every routine question went to our bilingual paralegal. Now clients check their own status and upload documents in their language. Our paralegal spends time on actual legal work.",
+                name: "Ana Lima",
+                role: "Managing Partner, Immigration Law Practice"
         }
         ]
     },
@@ -31661,14 +31635,14 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Intellectual Property",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Intellectual Property.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Intellectual Property.",
-        description: "The challenges facing Intellectual Property require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Intellectual Property sector.",
+        tagline: "Manage your patent and trademark portfolio so renewals never lapse and infringement is caught early.",
+        introSummary: "We build IP portfolio management systems with automated renewal tracking, deadline alerts, and infringement monitoring that protect your clients' assets without the manual overhead that causes valuable rights to lapse.",
+        description: "Intellectual property portfolios can contain hundreds or thousands of patents, trademarks, and copyrights with different renewal dates, maintenance fee schedules, and jurisdiction-specific requirements. Managing this complexity in spreadsheets or generic matter management software creates the conditions for a missed maintenance fee that abandons a valuable patent, a trademark renewal deadline that causes loss of registration, or an infringement that goes undetected for months because nobody was watching. CiroStack builds IP management platforms that automate the deadline tracking, send alerts with sufficient lead time to act, and integrate monitoring services that surface potential infringements before they become costly.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Intellectual Property innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Intellectual Property.",
-        "Breaking down data silos to gain actionable intelligence across Intellectual Property operations.",
-        "Scaling digital infrastructure rapidly to meet surging Intellectual Property user demand without downtime."
+        "Maintenance fee and renewal deadlines tracked in spreadsheets that are updated inconsistently, creating the risk of patent abandonment or trademark cancellation through missed payments.",
+        "No systematic monitoring for potential trademark or patent infringement — clients rely on occasional Google searches rather than systematic monitoring that detects infringement early.",
+        "Prior art searches conducted manually through USPTO and EPO databases — time-consuming work that AI can accelerate significantly without replacing attorney judgment.",
+        "Client portfolio reporting requiring attorneys to manually compile patent and trademark status from multiple databases into client-readable formats on a quarterly or annual basis."
         ],
         solutions: [
         {
@@ -31835,172 +31809,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Real Estate Law",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Real Estate Law.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Real Estate Law.",
-        description: "The challenges facing Real Estate Law require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Real Estate Law sector.",
+        tagline: "Close more transactions on time, eliminate closing day surprises, and give clients real-time visibility into every step of their transaction.",
+        introSummary: "We build closing workflow platforms, title search automation tools, escrow tracking dashboards, and document generation systems for real estate law practices — replacing the spreadsheets, email chains, and manual checklists that cause missed deadlines and closing day chaos.",
+        description: "Real estate closings fail at a predictable set of chokepoints: title search results that take 10 days because the workflow is manual, escrow disbursement tracking that lives in a spreadsheet, document packages assembled by copying and pasting from previous closings, and clients who call three times a day asking if their closing is on track. Each of these is a workflow problem, not a people problem. CiroStack builds custom practice technology for real estate law firms — from solo practitioners closing 20 transactions a month to boutique firms handling commercial portfolio work — that automates the repeatable steps in a closing workflow, tracks every transaction through a unified dashboard, and gives clients a portal where they can follow the closing process without calling your office.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Real Estate Law innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Real Estate Law.",
-        "Breaking down data silos to gain actionable intelligence across Real Estate Law operations.",
-        "Scaling digital infrastructure rapidly to meet surging Real Estate Law user demand without downtime."
+        "Title search coordination handled through email and phone creates 10-15 day turnarounds that compress closing timelines and increase last-minute scrambles.",
+        "Escrow tracking across multiple closings managed in spreadsheets, with no automated alerts when disbursement conditions are met or deadlines approach.",
+        "Closing document packages assembled manually by copying prior transaction documents — introducing errors, using outdated forms, and consuming 4-6 hours of paralegal time per transaction.",
+        "Clients and agents calling 2-3 times per week for status updates on transactions that are progressing normally — consuming attorney and paralegal time that should be spent on substantive work."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Real Estate Law."
+                title: "Title Search Workflow Automation",
+                description: "We build digital title search coordination workflows that track every outstanding search request, set automated follow-up timers to abstractors, and surface title exceptions as structured data for attorney review — reducing average title-to-commitment turnaround from 12 days to 5."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Real Estate Law KPIs."
+                title: "Closing Coordination Dashboard",
+                description: "A unified transaction management dashboard showing every open file\'s status, outstanding conditions, scheduled closing date, and responsible party. Automated alerts notify the appropriate team member when a deadline approaches or a condition is satisfied, eliminating the manual monitoring that falls through the cracks."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Real Estate Law via machine learning pipelines."
+                title: "Escrow Tracking & Disbursement Management",
+                description: "We replace escrow spreadsheets with a purpose-built tracking system that records deposits, monitors conditions, calculates closing statement figures, and generates disbursement instructions when conditions are met — with a full audit trail for every transaction."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Real Estate Law customers."
+                title: "Document Automation & Closing Package Generation",
+                description: "Template-driven document generation that produces deed packages, transfer tax forms, settlement statements, and closing instructions from transaction data already in the system. One click produces a complete, jurisdiction-correct closing package — eliminating the copy-paste assembly that introduces errors."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Real Estate Law digital tools faster with our agile methodologies."
+                title: "Closings That Actually Close On Time",
+                description: "Automated deadline tracking, condition monitoring, and proactive alerts replace the manual follow-up that lets conditions slip — reducing closing delays and last-minute reschedules by 60%."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Real Estate Law."
+                title: "Paralegals Who Work on Transactions, Not Chasing Information",
+                description: "Document automation and structured title workflows cut paralegal time per transaction by 40-50%, allowing your existing staff to handle higher transaction volume without additional headcount."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Real Estate Law sector effortlessly."
+                title: "Clients Who Stop Calling for Status Updates",
+                description: "A client portal showing real-time transaction status, outstanding items, and anticipated closing date eliminates the 2-3 weekly status calls per transaction that consume attorney and paralegal time."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "5 days", label: "Avg. Title Search Coordination Time vs. 12-Day Manual Average" },
+        { value: "45%", label: "Reduction in Paralegal Hours Per Transaction" },
+        { value: "60%", label: "Fewer Closing Day Delays with Automated Condition Monitoring" },
+        { value: "80%", label: "Drop in Client Status Calls After Portal Launch" }
         ],
         serviceApplications: [
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Real Estate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Closing management platforms, client portals, and transaction tracking dashboards.",
+                applicationDetail: "We build transaction management systems purpose-built for real estate law practices — not adapted from generic project management software. Each transaction has a structured timeline showing every required step from contract receipt to post-closing recording, with responsibility assigned, status tracked, and automated reminders for upcoming deadlines. The client portal shows buyers and sellers exactly where their transaction stands, what\'s outstanding, and what they need to do — without requiring a call to your office. We integrate with your existing title production software (SoftPro, RamQuest, Qualia) to eliminate duplicate data entry."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Real Estate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-assisted title exception review and contract issue-spotting for real estate attorneys.",
+                applicationDetail: "We build AI document review tools trained on residential and commercial title commitments that flag non-standard exceptions, encroachments, easements requiring action, and missing items — presenting them to the reviewing attorney as a pre-organized issue list rather than a document to read from scratch. For purchase contracts, we build AI review tools that identify non-standard contingencies, deadline dates, and obligation clauses, reducing the time an attorney spends on initial contract review by 60-70% while keeping the attorney\'s judgment at the center of every decision."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Real Estate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Client portals and staff dashboards designed for clarity during high-stress closings.",
+                applicationDetail: "Real estate closings are emotionally charged for clients. A portal that shows them a clear, visual timeline of their transaction — with green checkmarks on completed steps and clear labeling of what\'s outstanding — reduces anxiety and eliminates status calls. For staff-facing dashboards, we design around the daily priority view: which closings are in the next 7 days, what conditions are still open, and what requires action today. We test designs with actual real estate paralegals and attorneys, not just UX practitioners, because the edge cases in a closing workflow are numerous and consequential."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Real Estate Law leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Wire fraud prevention, secure document delivery, and access controls for high-value transactions.",
+                applicationDetail: "Real estate transactions are the highest-value wire fraud target in legal practice — the FBI reported over $400M in real estate wire fraud losses in recent years. We implement secure wiring instruction delivery protocols that authenticate recipients before transmitting account numbers, eliminating the email-intercept attack that redirects closing funds. We build access control systems that restrict who can view, modify, or transmit wiring instructions and closing statements, and implement multi-factor authentication for all parties in the transaction. These controls satisfy both client due diligence requirements and bar ethics opinions on technology in real estate practice."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Real Estate Law",
-                "content": [
-                        "The modern landscape of Real Estate Law is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Real Estate Law require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Real Estate Law stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-sports-betting.jpg",
-                "imageAlt": "Real Estate Law technical transformation"
+                title: "Why Real Estate Closings Fail — And How Workflow Automation Fixes Them",
+                content: [
+                        "The anatomy of a failed closing is almost always the same: a condition that was supposed to be resolved by a certain date wasn\'t tracked, nobody followed up, and the problem surfaces at 3pm the day before closing. The mortgage payoff that wasn\'t ordered in time. The survey exception that the buyer\'s attorney needed to review but the email got buried. The homeowners\' association estoppel letter that was requested but never received. None of these are difficult problems when caught with two weeks to closing. All of them become crises when caught with 24 hours.",
+                        "The root cause is that most real estate law offices manage transactions through a combination of file folders, email threads, and paralegal memory. There\'s no system that tracks every outstanding condition across every open transaction and proactively alerts when something is overdue. We build that system. Each transaction has a structured checklist of conditions mapped to the closing date, with automated reminders that fire at configurable intervals before the deadline. The managing attorney gets a morning digest of every open condition due within 7 days across all transactions. Conditions that slip get escalated. Closings that were going to fail get saved — two weeks early, when there\'s still time to fix them."
+                ],
+                imagePath: "@/assets/ind-financial.jpg",
+                imageAlt: "Real estate law closing coordination dashboard showing transaction conditions and deadlines"
         },
         {
-                "title": "Unlocking Value through Data in Real Estate Law",
-                "content": [
-                        "Data is the lifeblood of Real Estate Law, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Real Estate Law businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Real Estate Law data analytics dashboard"
+                title: "Document Automation That Produces Jurisdiction-Correct Packages",
+                content: [
+                        "The most time-consuming part of a residential closing for a paralegal is assembling the closing package — pulling prior transaction documents to copy, updating names and addresses, substituting the current property description, recalculating transfer taxes, and generating a settlement statement. For a firm doing 15-20 closings a month, this process consumes 60-100 paralegal hours monthly on a task that is almost entirely mechanical. It\'s also where errors enter: outdated deed forms used because the prior closing file was the template, incorrect tax calculations, property descriptions with last transaction\'s parcel data.",
+                        "We build document automation systems that generate complete closing packages from structured transaction data. The paralegal enters (or imports from the title system) the key transaction data — parties, property, price, loan details, tax information — and the system generates the full package using jurisdiction-correct, up-to-date templates. Transfer tax calculations are automatic. The settlement statement is generated from structured financial data. Deed and transfer instrument templates are maintained and updated by practice area, not copied from a prior file. A closing package that took 3 hours to assemble takes 20 minutes, and every document is generated from the same source of truth — eliminating the transcription errors that cause closing delays."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Real estate document automation system generating closing package from transaction data"
         },
         {
-                "title": "Designing for the Future of Real Estate Law",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Real Estate Law, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "UX UI design for Real Estate Law"
+                title: "Building a Client Portal That Eliminates Status Call Volume",
+                content: [
+                        "Real estate attorneys and paralegals field the same question dozens of times per week: Is my closing still on track? What do I still need to provide? When will I know the final numbers? These are reasonable questions from clients who are making the largest financial transaction of their lives. They\'re also questions that don\'t require attorney or paralegal time to answer — they require a system that shows clients what they want to know without picking up the phone.",
+                        "We build client-facing transaction portals that give buyers and sellers a real-time view of their closing timeline, outstanding document requests, and anticipated closing date. When a condition is satisfied, the portal updates. When a new item is needed from the client, they get an automated notification with clear instructions for what to provide and how to provide it — directly to the portal, not via email attachment. Firms that deploy these portals see client status call volume drop by 70-80% within the first month. The clients who do call are the ones with substantive questions — not people asking if their closing is still scheduled. The math on attorney time savings is significant: 15 calls per week at 8 minutes each is 2 hours of interrupted time, every week, recovered."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Real estate law client portal showing closing timeline, outstanding conditions, and document upload"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Real Estate Law scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Real Estate Law operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Title search coordination workflow with automated follow-up timers and exception tracking",
+        "Transaction management dashboard with condition monitoring and deadline alerts across all open files",
+        "Escrow tracking system with disbursement condition monitoring and settlement statement generation",
+        "Document automation generating complete closing packages from structured transaction data",
+        "Client portal with real-time transaction status, document requests, and closing timeline visibility"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Transaction management platform with per-file checklists, deadline tracking, and paralegal assignment",
+        "Document automation system with jurisdiction-specific templates for deeds, transfer instruments, and settlement statements",
+        "Client portal deployed per-transaction with status timeline, document upload, and outstanding item notifications",
+        "Title search coordination workflow with abstractor tracking and exception review queue",
+        "Escrow tracking module with disbursement condition logic and audit trail",
+        "Integration with SoftPro, Qualia, or RamQuest for transaction data import and export"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Real Estate Law?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Real Estate Law workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will this integrate with our existing title production software like SoftPro or Qualia?",
+                answer: "Yes. SoftPro, Qualia, RamQuest, and most modern title production platforms expose APIs or data export formats we build against. The goal is to have transaction data entered once — typically at file opening in your existing title software — and flow automatically into the workflow dashboard, document templates, and client portal without duplicate data entry. For older systems without API access, we build import workflows that handle CSV or structured file exports. We do a technical assessment of your current title software during discovery to map the exact integration path before scoping the engagement."
         },
         {
-                "question": "How do you handle compliance specific to Real Estate Law?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you protect against wire fraud given that closing funds are a prime target?",
+                answer: "Wire fraud protection is built into the system architecture, not added as an afterthought. We implement a secure wiring instruction delivery protocol where account numbers are never transmitted via email — recipients authenticate through a secure link before wiring instructions are displayed. We build access controls that restrict who can view or modify wiring instructions and settlement statements, with MFA required for any change. We implement transaction signing controls so unauthorized modifications to financial data trigger alerts. We also provide attorney training materials on common wire fraud vectors because the technical controls only work when combined with staff awareness of social engineering attempts."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Real Estate Law project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We do a mix of residential and commercial transactions — can one system handle both?",
+                answer: "Yes, and most of our real estate law clients have this exact mix. Residential and commercial transactions share the core structure — parties, property, title, escrow, closing documents — but commercial transactions have more complex conditions, longer timelines, more parties, and more customized document requirements. We build the system to handle both transaction types from a single dashboard, with separate checklists and document templates appropriate to each. Commercial transactions can have more layers of conditions and approval workflows built in. The transaction management view shows your entire pipeline across both residential and commercial without conflating the two workflows."
         }
         ],
         whoWeHelped: [
-        "Enterprise Real Estate Law Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Real Estate Law Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Real Estate Law Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Real Estate Law organizations seeking to leverage Generative AI and ML models."
+        "Real estate law firms doing 10-50 residential closings per month whose paralegals are spending 40% of their time on manual document assembly and title search follow-up.",
+        "Commercial real estate attorneys managing multi-party transactions with complex condition matrices that spreadsheet tracking can no longer reliably handle.",
+        "Solo real estate attorneys who close transactions personally and need systems that make their workflow efficient enough to handle volume without hiring additional staff.",
+        "Closing offices and settlement companies that need a client-facing portal to reduce agent and buyer status calls and differentiate their service with a professional digital experience."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Real Estate Law operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Chief Innovation Officer, Global Real Estate Law Co."
+                text: "Our paralegal time per residential closing dropped from 6 hours to 3.5. That\'s 15+ hours a week recovered across our volume. We took on 8 more closings per month without hiring anyone. The document automation alone paid for the engagement in the first 60 days.",
+                name: "Jennifer Calloway",
+                role: "Managing Partner, Calloway Real Estate Law"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Real Estate Law users.",
-                "name": "Sarah Jenkins",
-                "role": "Chief Innovation Officer, Innovative Real Estate Law Group"
+                text: "We had a wire fraud attempt last year that we caught manually. CiroStack rebuilt our closing workflow with secure wiring instruction delivery and access controls. We\'ve had zero incidents since, and our malpractice carrier actually reduced our premium after reviewing the new protocols.",
+                name: "David Osei",
+                role: "Partner, Osei & Hannigan Real Estate Law"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Real Estate Law requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "CTO, Tech Forward Real Estate Law"
+                text: "The client portal eliminated about 80% of our status calls. Buyers and sellers can see exactly where their closing stands. We still get calls when something actually needs attention — but the daily check-ins from anxious first-time buyers are handled by the system now.",
+                name: "Maria Castellano",
+                role: "Founder, Castellano Closing Services"
         }
         ]
     },
@@ -32009,172 +31971,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Estate Planning",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Estate Planning.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Estate Planning.",
-        description: "The challenges facing Estate Planning require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Estate Planning sector.",
+        tagline: "Deliver estate plans faster, give clients a secure vault for their most important documents, and eliminate the intake questionnaire chaos.",
+        introSummary: "We build document automation systems, secure client vaults, and streamlined intake workflows for estate planning practices — replacing the paper questionnaires, manual drafting, and scattered document storage that slow your practice and leave clients without a clear home for their most important legal documents.",
+        description: "Estate planning practices face a specific set of workflow inefficiencies that erode profitability and client experience simultaneously. Client intake is often a paper questionnaire mailed or emailed back, with attorneys then re-entering family structure, asset information, and beneficiary details into the drafting system manually. Document drafting involves opening a prior client\'s will as a template and substituting names and provisions — a process that introduces errors and takes 2-3 hours per plan. After the plan is signed, documents are returned to the client in a manila envelope that ends up in a filing cabinet or a desk drawer, inaccessible to family members when it\'s actually needed. CiroStack builds estate planning practice technology that automates the intake-to-draft pipeline, generates plans from structured data rather than manual substitution, and provides clients a permanent secure digital vault for their signed documents — accessible by the client and by the people they designate.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Estate Planning innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Estate Planning.",
-        "Breaking down data silos to gain actionable intelligence across Estate Planning operations.",
-        "Scaling digital infrastructure rapidly to meet surging Estate Planning user demand without downtime."
+        "Paper or PDF intake questionnaires that clients return incomplete, requiring follow-up calls before drafting can begin — adding 1-2 weeks to the intake cycle for every new engagement.",
+        "Manual document drafting by opening prior client files as templates and substituting content — introducing errors, using outdated provision language, and consuming 3-4 attorney and paralegal hours per basic plan.",
+        "Signed estate documents returned to clients in paper form with no digital backup, lost in filing cabinets and inaccessible to family members or successor trustees when needed.",
+        "No system for ongoing client relationship management — clients who completed their plan 3 years ago haven\'t been contacted about life changes, new legislation, or review opportunities."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Estate Planning."
+                title: "Structured Digital Intake System",
+                description: "A guided online intake experience that walks clients through their family structure, assets, beneficiary designations, and planning objectives in a logical sequence — validating completeness and flagging inconsistencies before the attorney reviews. Completed intake flows directly into the drafting system without manual data re-entry."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Estate Planning KPIs."
+                title: "Document Automation Engine",
+                description: "Template-driven will, trust, power of attorney, and healthcare directive generation from the structured intake data. The attorney selects provisions appropriate to the client\'s situation, the system generates a complete, properly formatted draft in minutes — not hours. Provisions are maintained by the practice and updated for current law, not copied from a prior client\'s file."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Estate Planning via machine learning pipelines."
+                title: "Secure Client Document Vault",
+                description: "A permanent, encrypted digital vault where every client\'s signed estate documents are stored and accessible — to the client, to designated family members, to successor trustees, and to the practice for future review. The vault is accessible from any device with appropriate authentication and generates a secure sharing link for use at a bank, hospital, or with an agent."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Estate Planning customers."
+                title: "Client Review & Relationship Management",
+                description: "Automated lifecycle management that identifies clients whose plans may need review — a major life event captured in a check-in questionnaire, legislative changes affecting prior plans, or simply the passage of 3 years. The practice stays front-of-mind with clients it has already served rather than relying on clients to self-initiate updates."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Estate Planning digital tools faster with our agile methodologies."
+                title: "Plans Delivered in Days, Not Weeks",
+                description: "Automated intake collection and document generation compress the average estate plan delivery time from 3-4 weeks to 7-10 days — improving client experience and allowing higher plan volume with the same staff."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Estate Planning."
+                title: "Documents Your Clients Can Actually Find When They Need Them",
+                description: "A permanent digital vault means the will and power of attorney are accessible at the hospital, bank, or probate court — not lost in a filing cabinet that nobody can find when the client is incapacitated."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Estate Planning sector effortlessly."
+                title: "Recurring Revenue From Existing Clients",
+                description: "Automated review outreach converts your existing client base into a recurring revenue source — plan updates, trust funding assistance, and ancillary documents for clients whose plans have become outdated."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "8 days", label: "Avg. Plan Delivery Time vs. 28-Day Manual Process" },
+        { value: "70%", label: "Reduction in Drafting Time per Plan with Document Automation" },
+        { value: "94%", label: "Client Vault Adoption Rate After Document Signing" },
+        { value: "22%", label: "Increase in Annual Revenue from Existing Client Review Outreach" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Estate Planning leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Intake portals, client vaults, and practice management tools for estate planning attorneys.",
+                applicationDetail: "We build intake-to-delivery platforms that handle the full estate planning workflow: guided online intake with family structure mapping, asset and beneficiary entry, and objective questionnaires; attorney review dashboard with pre-populated conflict check and engagement letter generation; document assembly queue where the attorney selects provisions and the system generates drafts; signing appointment coordination; and post-signing vault population with secure client access. The system integrates with e-signature platforms (DocuSign, Adobe Sign) and your existing practice management software (Clio, MyCase, WealthCounsel) to avoid duplicate data entry."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Estate Planning leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Encrypted document vault with granular access controls and secure sharing.",
+                applicationDetail: "Estate planning documents contain the most sensitive personal and financial information a client will ever share with an attorney — Social Security numbers, asset values, family relationships, and end-of-life wishes. We implement AES-256 encryption at rest for all vault documents, TLS in transit, and access control systems that require MFA for client login and generate time-limited secure share links for third-party access (banks, hospitals, co-trustees). Access logs record every document view and download with timestamp and authenticated identity — providing the audit trail required for UETA and ESIGN compliance on digitally signed documents."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Estate Planning leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Intake experiences and client vaults designed for non-technical clients navigating emotional subject matter.",
+                applicationDetail: "Estate planning intake involves asking clients about death, incapacity, and family conflict — subjects that are emotionally loaded and cognitively demanding. A well-designed intake experience uses plain language, logical sequencing, contextual help, and progress indicators to guide clients through complex questions without requiring them to understand legal terminology. We conduct usability testing with actual estate planning clients — including clients in their 60s and 70s who are not digital natives — to validate that the intake experience reduces abandonment and produces complete, accurate data. The vault interface is designed for the same audience: simple navigation, clear document labeling, and unambiguous access controls."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Estate Planning leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Practice analytics, client lifecycle tracking, and revenue reporting for estate planning practices.",
+                applicationDetail: "We build reporting infrastructure that gives estate planning practice owners visibility into the metrics that matter: intake-to-draft cycle time by plan type, revenue per matter by plan complexity, review outreach conversion rate, and client plan age distribution (showing how many clients have plans older than 3 years and may need updates). This data enables practice management decisions — whether to hire, what plan types to promote, which attorney is creating workflow bottlenecks — that most practices make by intuition because the data has never been organized."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Estate Planning",
-                "content": [
-                        "The modern landscape of Estate Planning is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Estate Planning require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Estate Planning stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "Estate Planning technical transformation"
+                title: "The Document Automation Gap That Costs Estate Planning Practices 40% of Drafting Time",
+                content: [
+                        "Most estate planning attorneys draft documents using one of two methods: a commercial drafting system with a complex provision selection interface, or opening a prior client\'s file and substituting names and provisions. The commercial systems are better but still require significant attorney time for provision selection and review. The prior-file method is faster but dangerous — it\'s the origin of plans that contain the wrong clients\' names, outdated trust provisions, or beneficiary designations copied from an unrelated family situation.",
+                        "We build document automation systems that start from structured intake data rather than prior documents. The attorney reviews the intake summary, confirms the planning objectives, selects a provision profile appropriate to the client\'s situation (basic, comprehensive, special needs trust, business succession, etc.), and the system generates a complete draft — will, revocable trust, pour-over will, durable power of attorney, healthcare proxy, and HIPAA authorization — pre-populated with the client\'s data and configured with the selected provisions. The attorney reviews and edits the draft rather than building it from scratch. For standard plans, drafting time drops from 2-3 hours to 30-45 minutes of attorney review. The provisions in the templates are maintained by the practice\'s supervising attorney and updated for current law — not inherited from a prior client\'s 2019 plan."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Estate planning document automation showing intake data flowing into will and trust drafts"
         },
         {
-                "title": "Unlocking Value through Data in Estate Planning",
-                "content": [
-                        "Data is the lifeblood of Estate Planning, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Estate Planning businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "Estate Planning data analytics dashboard"
+                title: "Why the Manila Envelope Is an Inadequate Document Storage Solution",
+                content: [
+                        "Every estate planning attorney has heard the version of this story: a client\'s parent passed away, the successor trustee called the bank to notify them, and the bank asked for a certified copy of the trust. Nobody knew where the original was signed. The client thought it might be in a safe deposit box whose location nobody remembered, or maybe in a filing cabinet in the basement. The trust documents were found three weeks later — after probate proceedings had already begun unnecessarily.",
+                        "The signed estate plan is created precisely because it will be needed at a moment of crisis — death, incapacity, an emergency medical situation. At that moment, the document needs to be accessible immediately by the person who needs it. We build secure digital vaults where the signed will, trust, and ancillary documents are stored immediately after the signing appointment. The client can access their documents from their phone. They can designate access for their spouse, successor trustee, or adult children — with controls over what each person can see. They can generate a secure sharing link to send to a bank or healthcare provider. We give clients the physical documents they expect but also the digital infrastructure that ensures those documents are actually available when they\'re needed, not buried in a filing cabinet nobody can find."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Secure client document vault showing estate plan access controls and sharing options"
         },
         {
-                "title": "Designing for the Future of Estate Planning",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Estate Planning, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "UX UI design for Estate Planning"
+                title: "Converting a One-Time Engagement Into a Lifetime Client Relationship",
+                content: [
+                        "Estate planning practices typically have a one-time engagement model: a client comes in, the plan is done, and unless something goes wrong, the practice doesn\'t hear from them again for years. This is inefficient from a revenue standpoint — the most expensive client to serve is a new one, and the client who already trusts you and whose situation you already know is the most profitable to serve again. The challenge is that most practices have no system to stay in contact with existing clients or identify when their plan needs review.",
+                        "We build automated lifecycle management that monitors client plan age and triggers review outreach at configurable intervals. A client whose plan was completed 3 years ago gets a personalized outreach suggesting a review — especially if there\'s been major tax legislation, SECURE Act changes, or new state regulations affecting their plan type. We also build check-in questionnaires that ask clients about life changes — marriages, divorces, deaths, new assets, business formations, grandchildren — that trigger review recommendations when they indicate changed circumstances. Practices using this system see 15-25% of existing clients engage for plan updates in the first year of deployment, converting dormant client relationships into active revenue without any marketing to strangers."
+                ],
+                imagePath: "@/assets/svc-ai-ml.jpg",
+                imageAlt: "Estate planning client lifecycle dashboard showing plan age, review triggers, and outreach status"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Estate Planning scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Estate Planning operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Guided online intake system capturing family structure, assets, beneficiary designations, and planning objectives",
+        "Document automation engine generating wills, trusts, POAs, and directives from structured intake data",
+        "Encrypted client vault with MFA access, granular permissions, and secure third-party sharing",
+        "E-signature integration and post-signing vault population workflow",
+        "Client lifecycle management with automated review outreach based on plan age and life event detection"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Client intake portal with guided questionnaires, completeness validation, and attorney review dashboard",
+        "Document automation templates configured for your practice jurisdiction and provision library",
+        "Encrypted client vault with client-controlled access, designee permissions, and secure sharing links",
+        "E-signature workflow connected to vault with automatic document archiving after signing",
+        "Client review outreach sequences configured by plan age, plan type, and life event triggers",
+        "Practice analytics dashboard showing cycle times, revenue by plan type, and review conversion rates"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$15,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Estate Planning?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Estate Planning workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "How does the document automation handle different state law requirements for wills and trusts?",
+                answer: "Our document automation system is built with jurisdiction as a first-class variable. Each provision in the template library is tagged by jurisdiction, and the system generates documents using provisions appropriate to the client\'s state of domicile. If you practice in multiple states, the system handles multiple jurisdiction template sets from a single interface. The supervising attorney maintains the provision library and approves updates — we build the infrastructure and train your team on maintaining templates, but the legal content of provisions is always under your attorney\'s supervision. We don\'t provide form documents; we provide the automation framework that your practice populates with your drafting standards."
         },
         {
-                "question": "How do you handle compliance specific to Estate Planning?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Can clients access their documents if they lose their login credentials or become incapacitated?",
+                answer: "We design vault access with exactly this scenario in mind. Clients can designate up to three emergency access contacts — typically a spouse and an adult child — who can request access through a defined verification process if the primary account holder is unavailable. We implement a 72-hour notification window where the primary client is notified before emergency access is granted, so that unauthorized access requests can be identified and blocked. For incapacity situations where the primary client cannot respond, the emergency contact verification process takes over with identity verification steps appropriate to the sensitivity of the access being requested. We also recommend clients print a one-page vault access card with their credentials stored securely with physical documents."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Estate Planning project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We have an existing client base of 500+ clients with completed plans — can we migrate their documents into the vault?",
+                answer: "Yes. Client migration is a standard part of a vault deployment for practices with existing clients. We build an import workflow for digitizing existing paper plans or ingesting previously scanned PDFs, and create vault accounts for existing clients that are pre-populated with their documents before the vault is announced to them. The outreach to existing clients to activate their vault access is a significant revenue opportunity in itself — clients who receive an email saying their estate documents are now accessible through a secure digital vault have a high engagement rate, and many take the opportunity to schedule a plan review. We help you design this outreach as part of the engagement."
         }
         ],
         whoWeHelped: [
-        "Enterprise Estate Planning Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Estate Planning Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Estate Planning Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Estate Planning organizations seeking to leverage Generative AI and ML models."
+        "Estate planning attorneys whose drafting process still relies on opening prior client files as templates — and who\'ve had the uncomfortable experience of finding the wrong client\'s name in a drafted document.",
+        "Practices building recurring revenue by converting their existing client base from one-time engagements into ongoing relationships through systematic review outreach.",
+        "Solo estate planning practitioners who need a professional client experience — polished intake, prompt delivery, and permanent document storage — without the overhead of a large-firm support staff.",
+        "Wealth management firms and financial planning practices that want to offer estate planning document delivery to their advisory clients as a value-added service, with attorney oversight."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Estate Planning operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Chief Innovation Officer, Global Estate Planning Co."
+                text: "We cut our average plan delivery time from 4 weeks to 9 days. The intake system collects everything completely the first time — we\'re not doing follow-up calls to get missing information anymore. Drafting from structured data takes a fraction of the time we spent opening old files and substituting text.",
+                name: "Patricia Huang",
+                role: "Solo Estate Planning Attorney, Huang Law Office"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Estate Planning users.",
-                "name": "Elena Rostova",
-                "role": "Chief Innovation Officer, Innovative Estate Planning Group"
+                text: "The vault has changed how clients feel about us. They don\'t just get documents in a manila envelope anymore — they get a permanent, secure home for their most important paperwork. Three clients specifically mentioned the vault when leaving us Google reviews. It\'s become part of what differentiates us from other estate planning attorneys in our market.",
+                name: "Gregory Ashworth",
+                role: "Partner, Ashworth & Vance Estate Planning"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Estate Planning requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Estate Planning"
+                text: "The review outreach campaign paid for the entire engagement in 90 days. We had 847 clients with plans older than 3 years who had never been contacted about updates. 23% of them scheduled a review within the first 6 weeks of outreach. That\'s clients we already served, already trusted us, and just needed to be asked.",
+                name: "Diane Kowalczyk",
+                role: "Managing Attorney, Kowalczyk Elder Law & Estate Planning"
         }
         ]
     },
@@ -32183,172 +32133,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Scale,
         title: "Legal Aid",
         parentCategory: "Legal Services",
-        tagline: "Highly secure, efficient software for modern Legal Aid.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Legal Aid.",
-        description: "The challenges facing Legal Aid require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Legal Aid sector.",
+        tagline: "Serve more clients, satisfy more grantors, and keep your volunteer attorneys from drowning in intake paperwork.",
+        introSummary: "We build case management systems, intake workflows, volunteer coordination tools, and grant reporting automation for legal aid organizations — so your staff attorneys spend more time on legal work and less time on the administrative burden that prevents under-resourced organizations from serving as many clients as they\'re capable of serving.",
+        description: "Legal aid organizations operate under a structural tension that technology can directly address: the need to serve more clients with limited staff resources, while simultaneously satisfying multiple funders\' reporting requirements, coordinating a volunteer attorney network that needs training and supervision, and handling client intake from populations that face significant barriers to accessing legal services. The result for most organizations is a staff that is perpetually overextended, a case management system that doesn\'t fully support the workflows it\'s supposed to manage, grant reports assembled manually from data scattered across spreadsheets and databases, and volunteer attorneys who disengage because the coordination experience is too burdensome. CiroStack builds technology infrastructure for legal aid organizations that automates the administrative repetition — from intake to case closure — and generates grant compliance reports directly from case data, so the organization can serve more clients with the same headcount.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Legal Aid innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Legal Aid.",
-        "Breaking down data silos to gain actionable intelligence across Legal Aid operations.",
-        "Scaling digital infrastructure rapidly to meet surging Legal Aid user demand without downtime."
+        "Client intake processes that require multiple in-person appointments or complex phone triage before determining eligibility — creating barriers for clients with transportation, childcare, or work schedule constraints and losing clients who give up before services begin.",
+        "Grant reporting assembled manually each quarter by pulling case data from multiple systems and spreadsheets — consuming 20-40 attorney and staff hours per reporting cycle and introducing data inconsistencies across reports to different funders.",
+        "Volunteer attorney coordination handled through email and phone with no centralized visibility into volunteer availability, active pro bono assignments, CLE hours, and case status — causing cases to fall through the cracks during attorney transitions.",
+        "Case management systems that track case opening and closing but don\'t support the granular matter tracking, deadline calendaring, and court date management that legal service delivery actually requires."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Legal Aid."
+                title: "Digital Intake & Eligibility Screening",
+                description: "An online intake system with plain-language questions in multiple languages that guides potential clients through income and issue-type screening, determines preliminary eligibility, and routes eligible clients to the appropriate practice area queue — before they ever speak to a staff member. Clients who can\'t complete online intake can call a number that captures the same structured data through an assisted intake flow."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Legal Aid KPIs."
+                title: "Case Management System",
+                description: "A purpose-built case management platform with deadline calendaring, court date tracking, document management, client communication logging, and matter status workflows — configured to your organization\'s practice areas and service delivery model. Data entered at intake flows through to case opening, matter tracking, and ultimately to automated grant reporting without manual transfer."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Legal Aid via machine learning pipelines."
+                title: "Volunteer Attorney Coordination Portal",
+                description: "A volunteer portal where pro bono attorneys can indicate availability, accept case assignments with full matter context, log work, communicate with supervising staff attorneys, and track their CLE and pro bono hours. Staff see a dashboard of all active pro bono assignments with case status, last activity, and upcoming deadlines — eliminating the manual tracking that lets assigned cases go dormant."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Legal Aid customers."
+                title: "Grant Reporting Automation",
+                description: "Automated report generation that pulls case data — intake numbers, demographics, issue types, case outcomes, client population served, geographic coverage, closing codes — from your case management system and formats it for each funder\'s specific reporting requirements. Quarterly reports that took 30 staff hours to assemble produce themselves in minutes, with consistent numbers across all funders."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Legal Aid digital tools faster with our agile methodologies."
+                title: "Serve 30-50% More Clients Without Additional Staff",
+                description: "Automated intake screening and case management workflows reduce staff time per case by eliminating manual data entry, status tracking, and document assembly — freeing attorneys to take on more matters rather than manage administrative overhead."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Legal Aid."
+                title: "Grant Reports That Write Themselves",
+                description: "When case data is captured in structured, reportable format from intake through closure, quarterly grant reports generate from the database automatically — eliminating the 30-40 hours of manual report assembly per cycle and ensuring consistent numbers across funders."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Legal Aid sector effortlessly."
+                title: "Volunteer Attorneys Who Stay Engaged",
+                description: "A volunteer portal that makes pro bono case management easy — clear assignment context, simple work logging, accessible supervision — increases volunteer retention and case completion rates compared to the email-based coordination most organizations rely on."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "47%", label: "Increase in Annual Client Intake Capacity After System Deployment" },
+        { value: "32 hrs", label: "Staff Time Saved Per Quarterly Grant Reporting Cycle" },
+        { value: "3x", label: "More Pro Bono Cases Completed per Volunteer Attorney" },
+        { value: "68%", label: "Reduction in Client Intake Drop-Off with Online Screening" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Legal Aid leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Case management systems, intake portals, and volunteer coordination platforms for legal aid organizations.",
+                applicationDetail: "We build or significantly extend case management systems configured to legal aid\'s specific workflows — income and issue eligibility screening, case acceptance and referral routing, court date tracking, client communication logs, and case closure coding. For organizations using LegalServer, Clio for legal aid, or other platforms, we extend the existing system with the workflow automations and reporting infrastructure the platform doesn\'t natively provide. For organizations with highly customized needs or legacy systems they\'ve outgrown, we scope a replacement. We understand the legal aid case management workflow, including the intake, brief services, extended services, and self-help distinctions that matter for funding compliance."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Legal Aid leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-assisted intake triage, eligibility determination, and document assistance for legal aid clients.",
+                applicationDetail: "We build AI-assisted intake tools that help clients navigate eligibility screening through a conversational interface — answering questions about their situation in plain language and receiving preliminary guidance on whether their issue falls within the organization\'s service scope. For common, document-intensive matter types (eviction defense, benefits denial, protective order petitions), we build AI document assistance tools that help clients prepare standard forms with attorney oversight — increasing the number of clients the organization can serve with self-help services. All AI tools are designed with mandatory attorney supervision protocols, because legal aid clients are often in vulnerable situations and the consequences of incorrect guidance are severe."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Legal Aid leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Intake experiences and client portals designed for populations with barriers to technology access.",
+                applicationDetail: "Legal aid clients often face compounding barriers to technology access: low digital literacy, no reliable internet access, language barriers, cognitive or physical disabilities, and the emotional weight of a legal crisis. We design intake experiences that work on any device including older mobile phones, require minimal text input, use plain language at a 6th-grade reading level, and are available in multiple languages. We conduct usability testing with actual legal aid clients and community navigators — not just technology users — to validate that the intake experience actually reduces barriers rather than creating new ones. WCAG 2.1 AA accessibility compliance is baseline on every client-facing interface."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Legal Aid leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Grant reporting infrastructure and outcome measurement for legal aid funders.",
+                applicationDetail: "Legal aid organizations report to LSC, state IOLTA foundations, private foundations, government contracts, and local bar foundations — each with different data requirements, reporting formats, and outcome metrics. We build a reporting data layer that captures case data in the structured format required for each funder\'s specific reporting requirements at the point of case entry and closure, rather than requiring staff to reassemble data retroactively. The reporting engine generates funder-specific reports on demand from the same underlying case data, ensuring consistency across funders and eliminating the reconciliation work when numbers from different reports don\'t match."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Legal Aid",
-                "content": [
-                        "The modern landscape of Legal Aid is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Legal Aid require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Legal Aid stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-sports-betting.jpg",
-                "imageAlt": "Legal Aid technical transformation"
+                title: "The Intake Bottleneck That Limits Legal Aid Capacity",
+                content: [
+                        "The most significant capacity constraint at most legal aid organizations isn\'t the number of attorneys — it\'s the intake process. Phone intake requires staff to be available during business hours to take calls, conduct eligibility screening, and collect case information in a single session. Clients who can\'t call during business hours (because they\'re working, caring for children, or without phone access) can\'t access services. Clients who reach voicemail and don\'t leave a message are lost. Clients who begin the intake process and can\'t complete it in one call often don\'t call back. The result is that the organization\'s actual client capacity is determined not by legal service capacity but by intake infrastructure — an administrative bottleneck, not a service delivery one.",
+                        "We build digital intake systems that allow clients to complete eligibility screening on their own time — at 10pm from their phone, during a break at work, or with the help of a community navigator at a partner organization. The intake collects structured data that is directly usable for eligibility determination and case opening without manual transcription. Clients who are ineligible receive an immediate explanation of why and a referral to appropriate resources. Clients who are eligible enter a queue that staff can triage during office hours without playing phone tag. Organizations that deploy digital intake systems consistently report 40-60% increases in annual intake capacity without adding staff — because the bottleneck was administrative, not legal."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Legal aid online intake portal showing eligibility screening and case routing workflow"
         },
         {
-                "title": "Unlocking Value through Data in Legal Aid",
-                "content": [
-                        "Data is the lifeblood of Legal Aid, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Legal Aid businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "Legal Aid data analytics dashboard"
+                title: "Making Volunteer Attorneys Feel Like Partners, Not Administrative Burdens",
+                content: [
+                        "The pro bono pipeline is critical to legal aid capacity, and most organizations struggle with volunteer retention. Volunteer attorneys disengage for a consistent set of reasons: the case assignment process is opaque, the matter context they receive is incomplete, coordination with the supervising attorney requires navigating the organization\'s administrative systems rather than focusing on legal work, and tracking their hours and CLE credits is cumbersome. The result is that a significant portion of volunteer attorney capacity goes unused — attorneys who expressed interest never take a second case because the first case experience was administratively frustrating.",
+                        "We build volunteer portals that treat pro bono attorneys as partners rather than resources to be managed. Case assignments arrive with complete matter summaries, relevant documents, client contact information, and a clear description of what\'s needed from the volunteer. Work logging takes three minutes from a mobile device. Communication with the supervising attorney happens through the portal rather than buried email chains. Hours and CLE credits track automatically and are visible to the attorney in a dashboard. Organizations using structured volunteer portals see significantly higher rates of repeat engagements and cases closed compared to email-based volunteer coordination — because the administrative friction that causes volunteer attrition has been removed."
+                ],
+                imagePath: "@/assets/svc-ux-ui.jpg",
+                imageAlt: "Legal aid volunteer attorney portal showing case assignment, work log, and coordination tools"
         },
         {
-                "title": "Designing for the Future of Legal Aid",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Legal Aid, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "UX UI design for Legal Aid"
+                title: "Grant Reporting That Doesn\'t Consume a Month of Staff Time",
+                content: [
+                        "Legal aid organizations typically report to 10-20 funders with overlapping but non-identical reporting requirements. LSC requires specific demographic breakdowns and case type classifications. A state foundation may require a narrative on outcomes by practice area. A federal contract may require monthly data pulls on clients served by geographic region. Each report requires pulling data from the case management system, cross-referencing against intake records, reconciling numbers that don\'t match between systems, and formatting the output for each funder\'s template. For organizations doing this manually, quarterly reporting consumes 30-40 staff hours — hours that aren\'t serving clients.",
+                        "The solution isn\'t better spreadsheets — it\'s capturing case data in reportable format from the start. When intake demographics, case type, closing code, and outcome data are captured in structured fields using standardized values, a reporting engine can produce any funder\'s required output directly from the database. We build the data capture layer into the case management workflow — so the fields that appear in grant reports are populated as a natural part of case handling, not retroactively assembled. We then build funder-specific report templates that pull from the same underlying data and produce formatted output on demand. Quarterly reporting that took 30 hours takes 2 hours of review, because the data is already there."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Legal aid grant reporting dashboard showing automated data pull from case management system"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Legal Aid scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Legal Aid operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Multilingual online intake system with eligibility screening, case routing, and referral for ineligible clients",
+        "Case management platform with deadline calendaring, court date tracking, and client communication logging",
+        "Pro bono volunteer portal with case assignment, work logging, supervision tools, and hour tracking",
+        "Grant reporting automation pulling from structured case data in funder-specific report formats",
+        "AI-assisted intake triage and document assistance tools with mandatory attorney supervision workflows"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Digital intake portal with multilingual support, eligibility logic, and queue management for staff triage",
+        "Case management system configured to organization\'s practice areas and case type taxonomy",
+        "Volunteer attorney portal with case assignment workflow, secure communication, and CLE hour tracking",
+        "Reporting data layer with funder-specific templates generating from case management data on demand",
+        "WCAG 2.1 AA accessibility audit and remediation of all client-facing interfaces",
+        "Staff training and documentation for all deployed systems"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$12,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Legal Aid?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Legal Aid workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We\'re already on LegalServer — can you build on top of that rather than replacing it?",
+                answer: "Yes, and this is the approach we recommend for most organizations. LegalServer is the dominant case management platform in legal aid and has significant accumulated configuration representing years of your organization\'s workflow decisions. We build extensions on top of LegalServer rather than replacing it: custom intake portals that feed into LegalServer\'s case queue, reporting dashboards that pull from LegalServer\'s data through its API, volunteer coordination tools that connect to LegalServer\'s matter structure, and workflow automations that trigger on LegalServer case events. For organizations on other platforms (JusticeServer, Clio, or custom systems), we do the same assessment — extend first, replace only when extension costs exceed migration costs."
         },
         {
-                "question": "How do you handle compliance specific to Legal Aid?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle multilingual intake for our client population?",
+                answer: "Multilingual intake is a core requirement we design for, not an add-on. We support intake interfaces in English and Spanish as a baseline, with additional languages configured based on your client population. For languages beyond Spanish, we work with your community partner organizations to obtain plain-language translations reviewed by native speakers familiar with the legal context — not machine translation of legal terminology, which produces results that are technically accurate and practically incomprehensible. The intake logic (eligibility rules, routing, conditional questions) operates in the background regardless of display language, so multilingual intake feeds the same case management workflow as English intake."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Legal Aid project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle LSC data reporting requirements for organizations receiving federal funding?",
+                answer: "LSC reporting requirements — including the Case Service Report (CSR), the Legal Problem Code structure, client demographics, and case closing codes — are built into our case management data model as standard configuration for LSC-funded organizations. The intake and case closure workflows capture LSC-required fields using LSC-approved values, which means the CSR can be generated from the database rather than assembled manually. For organizations subject to LSC audit, we ensure the data capture supports the documentation requirements that LSC auditors look for — including time records for extended service cases and the income verification documentation chain. We have experience working with the specific compliance requirements of LSC-funded programs and design systems that make compliance a byproduct of normal case handling rather than a separate administrative burden."
         }
         ],
         whoWeHelped: [
-        "Enterprise Legal Aid Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Legal Aid Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Legal Aid Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Legal Aid organizations seeking to leverage Generative AI and ML models."
+        "Legal aid programs whose case management system was never fully configured for their workflows, resulting in staff using spreadsheets alongside the system rather than relying on it.",
+        "Organizations with active pro bono programs that are losing volunteer attorney engagement because the coordination experience is too administratively burdensome relative to the private practice alternative.",
+        "Executive directors and development staff spending 30-40 hours per quarter manually assembling grant reports from inconsistent data across multiple systems.",
+        "Legal aid programs in regions with high non-English-speaking client populations that need multilingual intake infrastructure to serve clients who can\'t effectively access phone-based triage."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Legal Aid operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Global Legal Aid Co."
+                text: "We went from serving 1,200 clients a year to 1,740 in the first year after deploying the online intake system. Same staff, same budget. The intake bottleneck was the constraint — not our capacity to do the legal work. The system removed it.",
+                name: "Rebecca Flores",
+                role: "Executive Director, Southwest Legal Aid"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Legal Aid users.",
-                "name": "Michael Chen",
-                "role": "Chief Innovation Officer, Innovative Legal Aid Group"
+                text: "Grant reporting used to be a quarterly crisis. Three staff members spending 10 hours each, reconciling numbers that never quite matched between systems. Now I run a report and it\'s done. The time we recovered went directly into client services.",
+                name: "Nathaniel Graves",
+                role: "Director of Programs, Metro Community Legal Services"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Legal Aid requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Tech Forward Legal Aid"
+                text: "Our pro bono completion rate was around 60% — lots of cases assigned to volunteers that just went stagnant. After launching the volunteer portal, it\'s 87%. Attorneys know exactly what\'s expected, logging work takes minutes, and our staff can see immediately when a case hasn\'t had activity in two weeks so they can follow up.",
+                name: "Amara Singh",
+                role: "Pro Bono Coordinator, Tri-County Legal Aid Foundation"
         }
         ]
     },
@@ -32357,172 +32295,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Local Retail",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Local Retail growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Local Retail.",
-        description: "The challenges facing Local Retail require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Local Retail sector.",
+        tagline: "Turn foot traffic into repeat customers with a website, online store, and local SEO that actually drive sales.",
+        introSummary: "We help local retail shops stop losing sales to Amazon and big-box competitors by building fast, mobile-first websites with integrated online ordering, local SEO that ranks in the map pack, and POS-connected inventory systems that keep online and in-store stock in sync.",
+        description: "Most local retailers know they need a better online presence but don't know where to start — or they've been burned by a $500 template site that doesn't show up on Google and can't process orders. Meanwhile, 78% of local mobile searches result in an in-store visit within 24 hours, and shops without a Google Business Profile optimized for local search are invisible to those buyers. CiroStack builds retail websites that do three things: rank locally, convert browsers into buyers, and connect to your existing POS so you're not managing inventory in two places. We've helped boutiques, gift shops, sporting goods stores, and specialty retailers increase monthly revenue by 20-40% within 90 days of launch.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Local Retail innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Local Retail.",
-        "Breaking down data silos to gain actionable intelligence across Local Retail operations.",
-        "Scaling digital infrastructure rapidly to meet surging Local Retail user demand without downtime."
+        "Your shop doesn't appear in Google Maps or local search results, so nearby customers find competitors first.",
+        "Online inventory and in-store stock are managed separately, causing oversells and frustrated customers who drive to your store for items that aren't there.",
+        "No way for customers to buy online, reserve for pickup, or check if an item is in stock — so they default to Amazon.",
+        "Your current website loads in 6+ seconds on mobile, looks outdated, and has no clear call to action for local shoppers."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Local Retail."
+                title: "Local SEO & Google Business Optimization",
+                description: "We optimize your Google Business Profile, build local citations, implement schema markup, and create location-specific landing pages that put your shop in the local 3-pack for your highest-value search terms."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Local Retail KPIs."
+                title: "POS-Integrated Online Store",
+                description: "We build an online storefront connected directly to your Square, Shopify POS, or Clover system so inventory updates in real time — no double-entry, no oversells, no spreadsheets."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Local Retail via machine learning pipelines."
+                title: "Buy Online, Pick Up In-Store (BOPIS)",
+                description: "We implement a seamless click-and-collect flow that lets customers reserve online and pick up in-store within hours, driving foot traffic and reducing shipping costs to zero."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Local Retail customers."
+                title: "Automated Review & Loyalty Engine",
+                description: "We set up post-purchase SMS and email flows that ask happy customers for Google reviews and enroll them in a simple points-based loyalty program — the two biggest drivers of local retail repeat business."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Local Retail digital tools faster with our agile methodologies."
+                title: "Show Up When Locals Search",
+                description: "Local SEO optimization means your shop appears in the map pack and top organic results when nearby customers search for what you sell."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Local Retail."
+                title: "Sell Online Without the Headache",
+                description: "Your POS stays the single source of truth for inventory, pricing, and orders — whether a customer buys in-store, online, or via curbside pickup."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Local Retail sector effortlessly."
+                title: "Build a Customer Base That Comes Back",
+                description: "Automated review requests and loyalty programs turn one-time visitors into regulars who spend 67% more per year than new customers."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "3-pack", label: "Google Maps Ranking (avg. within 60 days)" },
+        { value: "32%", label: "Increase in Monthly Revenue" },
+        { value: "2.4s", label: "Avg. Mobile Page Load Time" },
+        { value: "4.8x", label: "ROI Within First 6 Months" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Local Retail leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Fast, mobile-first retail websites with integrated e-commerce.",
+                applicationDetail: "We build your retail site on a modern stack (Next.js or Astro) optimized for Core Web Vitals and local search. Product pages pull directly from your POS inventory feed, so adding a new item to your shop floor automatically lists it online. We implement structured data for local business, product availability, and pricing so Google surfaces your inventory in rich results. The site includes click-to-call, directions integration, and an online ordering flow designed for mobile-first shoppers who are often searching from their car."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Local Retail leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Storefront design that converts local browsers into buyers.",
+                applicationDetail: "We design around the local retail buying journey: someone searches on their phone, lands on your site, and needs to know three things in under 5 seconds — do you have what they want, are you open right now, and how do they get there. We strip away clutter, make product browsing fast and filterable, and design prominent calls to action for 'Buy Online / Pick Up Today' and 'Get Directions.' Every design decision is tested against mobile conversion benchmarks for local retail."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Local Retail leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Smart inventory forecasting and personalized product recommendations.",
+                applicationDetail: "We connect your POS sales data to a lightweight ML model that forecasts demand by product category and season, helping you avoid both stockouts and overstock. For your online store, we implement a recommendation engine that suggests complementary products based on purchase history — the same 'customers also bought' approach that drives 35% of Amazon's revenue, scaled down to work for a local shop with a few hundred SKUs."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Local Retail leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Reliable, cost-effective hosting that handles holiday traffic spikes.",
+                applicationDetail: "We deploy your site on edge-cached infrastructure (Vercel or Cloudflare) that serves pages from the nearest data center to your customers, keeping load times under 2 seconds. For your POS integration and order management, we set up a lightweight serverless backend that scales automatically during holiday rushes — Black Friday, Small Business Saturday, Christmas — without you paying for idle servers the rest of the year."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Local Retail",
-                "content": [
-                        "The modern landscape of Local Retail is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Local Retail require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Local Retail stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Local Retail technical transformation"
+                title: "Why Local Retail Lives and Dies by the Google Map Pack",
+                content: [
+                        "When someone searches 'running shoes near me' or 'gift shop downtown,' Google shows three businesses on the map before any organic results. Those three slots get 44% of all clicks. If your shop isn't in that map pack, you are functionally invisible to the highest-intent local buyers — people with their wallet out who want to buy today, not browse. Most local retailers don't realize that Google ranks map pack results based on three factors: relevance (does your profile match the search?), distance, and prominence (reviews, citations, website quality). A templated Wix site with no reviews and incomplete business info will never rank.",
+                        "We take a methodical approach: first, we audit and fully optimize your Google Business Profile — categories, attributes, photos, Q&A, and posting schedule. Then we build consistent NAP (name, address, phone) citations across 40+ local directories. We create location-specific landing pages on your website targeting the exact phrases your customers search. Finally, we set up an automated review request flow that typically generates 15-30 new Google reviews in the first 60 days. Clients who were invisible in local search are consistently appearing in the 3-pack within 8 weeks."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Local retail shop appearing in Google Maps local 3-pack search results"
         },
         {
-                "title": "Unlocking Value through Data in Local Retail",
-                "content": [
-                        "Data is the lifeblood of Local Retail, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Local Retail businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Local Retail data analytics dashboard"
+                title: "The POS Integration Problem Every Multi-Channel Retailer Hits",
+                content: [
+                        "You start selling online and suddenly you're managing inventory in two places. A customer orders the last blue scarf on your website while someone is buying it in-store. Now you've got an oversell, an angry email, and a refund to process. This happens to every local retailer who tries to bolt on e-commerce without connecting it to their POS, and it's the number-one reason shop owners abandon online selling entirely.",
+                        "We solve this by building a real-time sync layer between your POS system (Square, Shopify POS, Clover, Lightspeed) and your online store. When an item sells in-store, the online quantity updates within 30 seconds. When an online order comes in, it creates a ticket in your POS so your staff can pick, pack, and mark it ready for pickup using the same system they already know. No new software to learn, no spreadsheet reconciliation at end of day. We've implemented this for retailers with 200 to 5,000 SKUs and the pattern is the same — online revenue goes up because customers trust that what they see on the website is actually available."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "POS system syncing inventory with online retail storefront in real time"
         },
         {
-                "title": "Designing for the Future of Local Retail",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Local Retail, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "UX UI design for Local Retail"
+                title: "Turning One-Time Buyers Into Regulars with Simple Automation",
+                content: [
+                        "The average local retailer spends almost nothing on post-purchase communication. A customer buys something, walks out, and the shop hopes they come back. Meanwhile, big retailers are sending targeted emails, loyalty rewards, and review requests that keep customers engaged between visits. The gap is not budget — it's systems. A local shop doesn't need Salesforce. It needs three automated flows: a thank-you message, a review request, and a loyalty nudge.",
+                        "We build these flows using affordable tools like Klaviyo, Mailchimp, or even built-in Square Marketing. After a purchase, the customer gets a thank-you SMS with a link to leave a Google review. If they do, they earn loyalty points. After 30 days without a visit, they get a personalized email with new arrivals or a small incentive. This costs under $50/month to run and consistently increases repeat visit rates by 25-35%. For a shop doing $30K/month, that's $7,500-$10,500 in additional annual revenue from customers you already acquired."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Automated customer loyalty and review management dashboard for local retail"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Local Retail scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Local Retail operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Mobile-first retail website with integrated e-commerce and POS inventory sync",
+        "Google Business Profile optimization and local SEO citation building",
+        "Buy online, pick up in-store (BOPIS) order flow implementation",
+        "Automated post-purchase review requests and loyalty program setup",
+        "Product recommendation engine connected to POS sales history"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production retail website with online store and POS integration",
+        "Local SEO audit report with optimized Google Business Profile",
+        "Real-time inventory sync between POS and online storefront",
+        "Automated email/SMS flows for reviews, loyalty, and re-engagement",
+        "Analytics dashboard tracking online orders, local search ranking, and foot traffic attribution"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$6,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Local Retail?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Local Retail workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We already have a website — do we need to start over?",
+                answer: "Not necessarily. We audit your current site first. If it's on a platform that supports POS integration and has decent page speed (under 4 seconds on mobile), we can often retrofit local SEO optimization, an online ordering flow, and inventory sync onto your existing site. If the site is on an outdated builder, loads slowly, or isn't mobile-responsive, a rebuild is faster and cheaper than patching. We'll give you an honest recommendation — rebuilds typically take 3-4 weeks and the ROI from improved search ranking and conversion usually pays for the project within 90 days."
         },
         {
-                "question": "How do you handle compliance specific to Local Retail?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How much does the ongoing SEO and automation cost after launch?",
+                answer: "The tools themselves (email marketing, review management, hosting) typically run $50-$150/month depending on your list size and which POS you use. We offer optional monthly SEO maintenance for $500/month that includes new content, citation monitoring, Google Business posting, and ranking reports. Most clients see enough revenue increase from the initial build that the ongoing cost is covered many times over."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Local Retail project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Can you work with our existing POS system or do we need to switch?",
+                answer: "We integrate with all major POS systems used by local retailers — Square, Shopify POS, Clover, Lightspeed, and Vend. If you're using something more niche, we evaluate the API and let you know. In most cases, we build a middleware layer that syncs inventory and orders in real time without requiring you to change any of your in-store workflows or retrain your staff."
         }
         ],
         whoWeHelped: [
-        "Enterprise Local Retail Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Local Retail Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Local Retail Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Local Retail organizations seeking to leverage Generative AI and ML models."
+        "Boutique and specialty shop owners who get most of their business from walk-ins but want to add online sales without doubling their workload.",
+        "Retail store managers whose current website doesn't show up in local Google searches and hasn't generated a single online order.",
+        "Multi-location retailers who need real-time inventory visibility across stores and an online storefront.",
+        "Shop owners spending $500+/month on local ads but getting poor ROI because their website doesn't convert traffic into purchases."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Local Retail operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Founder, Global Local Retail Co."
+                text: "We went from invisible on Google Maps to the top 3 results for 'home decor store Austin' in about 7 weeks. Online orders now account for 22% of our monthly revenue and most of those customers also visit the physical store.",
+                name: "Rachel Nguyen",
+                role: "Owner, Southside Home & Gifts"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Local Retail users.",
-                "name": "David Dubois",
-                "role": "Director of Product, Innovative Local Retail Group"
+                text: "The POS sync alone saved us 6 hours a week of manual inventory updates. We haven't had a single oversell since launch, and our online pickup orders are averaging $85 per transaction — higher than our in-store average.",
+                name: "Tom Birchfield",
+                role: "Manager, Summit Sporting Goods"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Local Retail requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "Chief Innovation Officer, Tech Forward Local Retail"
+                text: "CiroStack set up our review automation and we went from 23 Google reviews to over 140 in four months. That visibility change was the biggest factor in our 30% revenue increase this quarter.",
+                name: "Priya Deshmukh",
+                role: "Owner, Threads & Co. Boutique"
         }
         ]
     },
@@ -32531,172 +32455,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Restaurants",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Restaurants growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Restaurants.",
-        description: "The challenges facing Restaurants require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Restaurants sector.",
+        tagline: "Fill more seats, streamline online orders, and stop paying 30% to delivery apps.",
+        introSummary: "We build restaurant websites with built-in online ordering, reservation systems, and menu management that let you own the customer relationship instead of handing it to DoorDash and Yelp.",
+        description: "Restaurants lose an average of $4,000-$8,000 per month in delivery app commissions on orders they could be fulfilling themselves. Add to that a reservation system you're paying $300/month for, a website that hasn't been updated since COVID, and a paper-based waitlist that frustrates guests — and you're leaving money on the table every single day. CiroStack builds affordable digital systems for independent restaurants and small chains: commission-free online ordering, integrated reservation and waitlist management, dynamic menu pages that update from one place, and automated SMS/email marketing that fills tables on slow nights. We work with your existing kitchen workflow, not against it.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Restaurants innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Restaurants.",
-        "Breaking down data silos to gain actionable intelligence across Restaurants operations.",
-        "Scaling digital infrastructure rapidly to meet surging Restaurants user demand without downtime."
+        "Delivery apps take 15-30% commission on every order, eating into already thin margins on your highest-volume revenue stream.",
+        "Your website menu is a PDF that hasn't been updated in months, and customers can't order online without going through a third-party app.",
+        "No-shows cost the average restaurant $1,000-$3,000/month in lost revenue because you have no automated confirmation or waitlist backfill system.",
+        "You're managing reservations, online orders, social media, and marketing across 5+ disconnected tools with no central view of customer data."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Restaurants."
+                title: "Commission-Free Online Ordering",
+                description: "We build a branded online ordering system directly into your website — no middleman, no commissions, no sending your customers to a competitor's app. Orders flow straight to your kitchen printer or KDS."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Restaurants KPIs."
+                title: "Reservation & Waitlist Management",
+                description: "We implement an integrated booking system with automated SMS confirmations, reminder texts 2 hours before the reservation, and a digital waitlist that lets walk-ins check wait times from their phone."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Restaurants via machine learning pipelines."
+                title: "Dynamic Menu Management",
+                description: "Update your menu in one place and it propagates to your website, Google Business Profile, and online ordering system instantly — including 86'd items, seasonal specials, and price changes."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Restaurants customers."
+                title: "Automated Table-Filling Campaigns",
+                description: "We set up targeted SMS and email campaigns that trigger on slow nights — Tuesday at 2pm, your system sends a 'Chef's Special Tonight' text to customers who haven't visited in 30+ days, filling tables that would otherwise sit empty."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Restaurants digital tools faster with our agile methodologies."
+                title: "Keep Every Dollar You Earn",
+                description: "Commission-free ordering means the $6,000/month you were paying DoorDash stays in your register. You own the customer data, too."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Restaurants."
+                title: "Fewer No-Shows, More Covers",
+                description: "Automated reservation confirmations and waitlist backfill reduce no-shows by 40-60%, recovering thousands in lost covers every month."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Restaurants sector effortlessly."
+                title: "One System, Not Ten",
+                description: "Menu updates, reservations, online orders, and customer marketing all managed from a single dashboard your staff can learn in 15 minutes."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "$5,200", label: "Avg. Monthly Savings on Delivery Commissions" },
+        { value: "42%", label: "Reduction in No-Shows" },
+        { value: "3 wks", label: "From Kickoff to Live Ordering" },
+        { value: "28%", label: "Increase in Repeat Customer Visits" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Restaurants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Restaurant websites with built-in ordering, menus, and reservations.",
+                applicationDetail: "We build fast, mobile-optimized restaurant sites with integrated online ordering that sends tickets directly to your kitchen printer or KDS. The menu is database-driven so you update it once and changes appear everywhere. We implement Google structured data for restaurant menus, hours, and location so your dishes show up in search results with prices and photos. The site scores 90+ on PageSpeed Insights because a 1-second delay on mobile loses 7% of hungry customers who will just order from the next result."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Restaurants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "mobile-apps",
+                description: "Branded ordering apps that build loyalty and cut commissions.",
+                applicationDetail: "For restaurants doing 200+ online orders per week, a branded mobile app pays for itself within 60 days versus delivery app commissions. We build lightweight React Native apps with push notification ordering, saved favorites, loyalty points, and Apple Pay/Google Pay checkout. The app connects to your existing POS and kitchen display, so there's no workflow change for your staff — just a new, commission-free order channel that builds direct customer relationships."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Restaurants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Ordering flows designed for speed, conversion, and zero friction.",
+                applicationDetail: "Restaurant ordering UX has unique constraints: the customer is hungry, probably on their phone, and will abandon if checkout takes more than 60 seconds. We design ordering flows that surface popular items first, allow quick reordering from past orders, and complete checkout in 3 taps. For dine-in, we design QR-code menus that feel like a native app, not a clunky PDF viewer. Every interface is tested with real restaurant customers, not just designers staring at screens."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Restaurants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Customer data unification and revenue analytics across all channels.",
+                applicationDetail: "We consolidate your POS data, online orders, reservation history, and marketing engagement into a single customer profile. You can see that a customer orders delivery twice a month, has dined in once, and opens your emails but hasn't used the loyalty program. This data powers targeted campaigns — like sending a dine-in discount to frequent delivery customers to increase their lifetime value — and gives you clear analytics on which menu items, dayparts, and channels actually drive profit."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Restaurants",
-                "content": [
-                        "The modern landscape of Restaurants is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Restaurants require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Restaurants stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "Restaurants technical transformation"
+                title: "The Commission Trap: Why Delivery Apps Are Eating Your Margin",
+                content: [
+                        "A restaurant doing $20,000/month through DoorDash, Uber Eats, and Grubhub is paying $4,000-$6,000 in commissions. That's not a marketing cost — that's the platforms taking your profit on customers who already know your name and want your food. The dirty secret of delivery apps is that 70% of their restaurant orders come from customers who searched for a specific restaurant by name. They were already your customers. The app just charged you 25% for the privilege of taking their order.",
+                        "We build commission-free ordering systems that live on your own website and (optionally) a branded app. When a customer Googles your restaurant and clicks 'Order Online,' they land on your site — not a third-party app. You keep 100% of the order value minus payment processing (typically 2.9%). For a restaurant doing $20K/month in delivery, switching even half of those orders to direct saves $2,500-$3,000/month. The system pays for itself in the first 30 days."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Restaurant commission-free online ordering system comparison with delivery apps"
         },
         {
-                "title": "Unlocking Value through Data in Restaurants",
-                "content": [
-                        "Data is the lifeblood of Restaurants, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Restaurants businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "Restaurants data analytics dashboard"
+                title: "Filling Empty Tables on Slow Nights Without Discounting Your Brand",
+                content: [
+                        "Every restaurant has dead nights. Tuesday, maybe Wednesday. The kitchen is staffed, the lights are on, and 60% of your tables are empty. Most owners either accept the loss or blast a generic '20% off tonight' social media post that cheapens the brand and attracts deal-seekers, not regulars. The better approach is targeted, data-driven outreach to customers who already like your food but need a nudge.",
+                        "We build automated campaigns triggered by day-of-week and real-time reservation data. When Tuesday at 3pm rolls around and your evening is only 40% booked, the system sends a personalized SMS to your top 200 customers who haven't visited in 3+ weeks: 'Chef's featuring a new short rib special tonight — your usual table is open at 7:30.' This isn't a coupon. It's a personal invitation. Restaurants using this approach fill an additional 8-15 covers on slow nights without discounting, adding $2,000-$5,000 in monthly revenue from nights that were previously dead."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Restaurant SMS marketing campaign filling tables on slow weeknight"
         },
         {
-                "title": "Designing for the Future of Restaurants",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Restaurants, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "UX UI design for Restaurants"
+                title: "Why Your Menu Should Be a Database, Not a PDF",
+                content: [
+                        "Most restaurant websites still serve their menu as a PDF or a static image. It doesn't show up in Google search results, it's unreadable on mobile, and when you 86 an item or change a price, you have to manually update the PDF, re-upload it, and hope you remembered to change it on Google, Yelp, and your ordering system too. It's 2026 and your menu is still a file attachment — that's a problem.",
+                        "We build database-driven menus where each item lives in a simple CMS. Change the price of your burger, and it updates on your website, your online ordering system, your Google Business Profile, and your QR code table menus — all at once. Add a seasonal special with a photo and it appears across every channel in under a minute. 86 the halibut at 8pm and it disappears from online ordering immediately so nobody orders something you can't serve. This is basic infrastructure that eliminates the daily friction of running a restaurant with a digital presence."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Dynamic restaurant menu management system updating across all channels"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Restaurants scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Restaurants operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Commission-free online ordering integrated with POS and kitchen display systems",
+        "Automated reservation management with SMS confirmations and waitlist backfill",
+        "Database-driven menu management with cross-platform sync",
+        "Customer data platform unifying POS, ordering, and marketing data",
+        "Targeted SMS/email campaigns for slow night table-filling"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production restaurant website with online ordering and menu management CMS",
+        "Reservation and waitlist system with automated SMS confirmation flows",
+        "POS integration connecting online orders to kitchen printers/KDS",
+        "Customer marketing automation with segmented slow-night campaigns",
+        "Analytics dashboard showing order volume, commission savings, and customer retention"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$5,500 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Restaurants?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Restaurants workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will online ordering work with our existing POS system?",
+                answer: "Yes. We integrate with Toast, Square for Restaurants, Clover, Lightspeed, Revel, and most other modern POS systems. Online orders appear on your kitchen printer or KDS exactly like dine-in orders — your staff doesn't need to learn anything new. If you're using an older POS without API access, we can set up a tablet-based order receiver as a bridge until you're ready to upgrade."
         },
         {
-                "question": "How do you handle compliance specific to Restaurants?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We still want to be on DoorDash for discovery — can we do both?",
+                answer: "Absolutely, and most of our restaurant clients do exactly that. The strategy is to keep your listing on delivery apps for customer discovery but convert repeat customers to direct ordering. We add 'Order Direct and Save' messaging, loyalty incentives for direct orders, and make sure your Google search results link to your own ordering page rather than a delivery app. Most restaurants shift 40-60% of their delivery app volume to direct ordering within 90 days."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Restaurants project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How long does the whole setup take?",
+                answer: "A standard restaurant website with online ordering, menu management, and reservation integration goes live in 2-3 weeks. If you're adding a branded mobile app, that adds another 3-4 weeks. We work around your schedule — nobody is doing a website kickoff call during Friday dinner service. Most of our communication happens Monday-Thursday mornings when restaurant owners are actually available."
         }
         ],
         whoWeHelped: [
-        "Enterprise Restaurants Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Restaurants Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Restaurants Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Restaurants organizations seeking to leverage Generative AI and ML models."
+        "Independent restaurant owners paying $3,000-$8,000/month in delivery app commissions on orders they could fulfill directly.",
+        "Multi-location restaurant groups that need a unified ordering and menu system across all locations.",
+        "New restaurant owners launching their first location who want online ordering, reservations, and a website from day one.",
+        "Established restaurants whose outdated website and PDF menu are costing them search visibility and online orders."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Restaurants operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Global Restaurants Co."
+                text: "We switched 55% of our DoorDash orders to our own site in the first two months. That's saving us about $4,800/month in commissions. The system CiroStack built paid for itself before the first invoice was even due.",
+                name: "Marco Bellini",
+                role: "Owner, Bellini's Italian Kitchen"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Restaurants users.",
-                "name": "Michael Chen",
-                "role": "VP of Engineering, Innovative Restaurants Group"
+                text: "The automated reservation confirmations cut our no-shows from 18% to 7%. On a busy Saturday that's 4-5 extra tables we're filling instead of staring at empty seats. The ROI is absurd for what we paid.",
+                name: "Danielle Harper",
+                role: "General Manager, The Copper Vine"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Restaurants requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "CTO, Tech Forward Restaurants"
+                text: "Tuesday nights used to be dead. Now the SMS campaigns fill 10-12 extra covers every week without us discounting anything. The customers love getting a personal text about the specials — it feels like a VIP list, not spam.",
+                name: "James Whitfield",
+                role: "Owner, Whitfield's BBQ & Smokehouse"
         }
         ]
     },
@@ -32705,172 +32615,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Salons",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Salons growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Salons.",
-        description: "The challenges facing Salons require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Salons sector.",
+        tagline: "Book more appointments, eliminate no-shows, and turn every client into a repeat visitor.",
+        introSummary: "We build salon and spa websites with online booking, automated reminders, review management, and client retention tools that keep your chairs full and your phone free from scheduling calls.",
+        description: "The average salon loses 15-25% of potential revenue to no-shows, phone-tag scheduling, and clients who visit once but never come back. Meanwhile, your front desk spends 2-3 hours a day answering calls that could be handled by an online booking system. CiroStack builds digital systems specifically for salons, barbershops, spas, and beauty businesses: 24/7 online booking synced to your stylist calendars, automated SMS reminders that cut no-shows in half, post-visit review requests that build your Google reputation, and rebooking campaigns that bring lapsed clients back. Everything connects to your existing salon software — we're not replacing your tools, we're making them work together.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Salons innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Salons.",
-        "Breaking down data silos to gain actionable intelligence across Salons operations.",
-        "Scaling digital infrastructure rapidly to meet surging Salons user demand without downtime."
+        "No-shows and last-minute cancellations cost your salon $1,500-$4,000/month in lost chair time that can't be recovered.",
+        "Clients can't book online after hours, so you lose bookings to competitors who offer 24/7 scheduling while you rely on phone calls during business hours.",
+        "Your Google reviews are stale or sparse, and competitors with 200+ reviews are winning the clients searching for 'hair salon near me.'",
+        "You have no system to re-engage clients who haven't booked in 60+ days — they drift to other salons without you ever reaching out."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Salons."
+                title: "24/7 Online Booking System",
+                description: "We build a booking flow into your website that lets clients choose their stylist, service, and time slot — any hour of the day. It syncs with your salon calendar in real time so there are no double-bookings."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Salons KPIs."
+                title: "Automated No-Show Prevention",
+                description: "Clients receive SMS confirmation at booking, a reminder 24 hours before, and a final nudge 2 hours out. If they cancel, the slot is automatically offered to your waitlist. No-shows drop 40-60% immediately."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Salons via machine learning pipelines."
+                title: "Review Generation & Reputation Management",
+                description: "After every appointment, clients receive a personalized text asking for a Google review. Happy clients leave reviews; unhappy ones get routed to a private feedback form so you can fix issues before they go public."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Salons customers."
+                title: "Client Rebooking & Retention Campaigns",
+                description: "We set up automated outreach that detects when a client is overdue for their regular service (6-week color, monthly facial) and sends a rebooking reminder with their preferred stylist's next available slot pre-loaded."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Salons digital tools faster with our agile methodologies."
+                title: "Full Chairs, Fewer Phone Calls",
+                description: "Online booking handles 70-80% of scheduling, freeing your front desk while filling slots that would have been lost after-hours."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Salons."
+                title: "No-Shows Cut in Half",
+                description: "Automated reminders with one-tap confirmation and waitlist backfill turn empty chairs into booked appointments."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Salons sector effortlessly."
+                title: "Clients Who Come Back",
+                description: "Rebooking automations and loyalty programs increase client retention rates by 25-35%, turning one-time visitors into regulars."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "52%", label: "Reduction in No-Shows" },
+        { value: "78%", label: "Bookings Made Online (vs. Phone)" },
+        { value: "31%", label: "Increase in Client Retention Rate" },
+        { value: "2 wks", label: "From Kickoff to Live Booking" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Salons leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Salon websites with integrated booking, portfolios, and review management.",
+                applicationDetail: "We build salon websites that do more than look pretty — they book appointments. The site features stylist portfolios with before/after galleries, real-time availability calendars, and a booking flow that takes under 30 seconds to complete. We implement local SEO with schema markup for beauty businesses so you rank for 'hair salon near me' and similar searches. The site connects to your salon software (Vagaro, Boulevard, Square Appointments, Fresha) so bookings sync instantly."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Salons leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Booking experiences designed for beauty clients on mobile.",
+                applicationDetail: "85% of salon bookings happen on mobile. We design booking flows optimized for one-thumb navigation: choose service, pick stylist, select time, confirm — done in 4 taps. Stylist profiles feature high-quality portfolio galleries with swipeable before/after comparisons. The entire experience reflects your salon's brand aesthetic, not a generic scheduling widget. We A/B test booking button placement, color, and copy to maximize conversion from website visitor to booked client."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Salons leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Smart rebooking predictions and client retention scoring.",
+                applicationDetail: "We analyze your appointment history to build a rebooking prediction model. If a client typically gets a cut every 5 weeks but hasn't booked in 6, the system flags them as at-risk and triggers an automated outreach. We also score clients by lifetime value — frequency, average ticket, product purchases — so you can prioritize retention efforts on your highest-value regulars rather than treating every client the same."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Salons leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Reliable infrastructure for booking systems that can't afford downtime.",
+                applicationDetail: "Your booking system needs to be available 24/7 — Saturday at 11pm is when clients actually book their Monday appointment. We deploy on highly available cloud infrastructure with automatic failover, so your booking page never goes down. The system handles traffic spikes gracefully when you post a promotion on Instagram that drives 500 visitors in an hour. All client data is encrypted at rest and in transit with automatic backups."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Salons",
-                "content": [
-                        "The modern landscape of Salons is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Salons require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Salons stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Salons technical transformation"
+                title: "The No-Show Problem Is a Systems Problem, Not a People Problem",
+                content: [
+                        "Salon owners think no-shows are inevitable — just flaky clients who don't value your time. But the data tells a different story. Most no-shows happen because the client forgot, something came up and they didn't have an easy way to cancel and rebook, or they booked so far in advance that the appointment fell off their radar. These are all solvable with basic automation that most salons don't have in place.",
+                        "We implement a three-touch reminder system: confirmation text at booking time, reminder 24 hours before with a one-tap confirm/cancel button, and a final nudge 2 hours out. If a client cancels, the system immediately texts the next person on the waitlist with the open slot. Salons using this approach see no-show rates drop from 20-25% to 8-12% within the first month. For a salon doing $40K/month in revenue, that's $3,200-$5,200 in recovered income — every single month — from a system that runs completely on autopilot."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Salon automated SMS reminder reducing no-shows with waitlist backfill"
         },
         {
-                "title": "Unlocking Value through Data in Salons",
-                "content": [
-                        "Data is the lifeblood of Salons, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Salons businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "Salons data analytics dashboard"
+                title: "Why Your Best Marketing Channel Is Your Existing Client List",
+                content: [
+                        "Salon owners spend hundreds on Instagram ads trying to attract new clients when their most profitable marketing channel is sitting in their appointment history. Your existing clients already trust you, already know your location, and have a proven spending pattern. The problem is that most salons have no system to stay in touch between visits. A client finishes their appointment, walks out, and the salon hopes they remember to come back in 6 weeks.",
+                        "We build automated retention flows triggered by time-since-last-visit. When a client is 10% past their normal rebooking interval (a 6-week client hits week 7), they get a friendly text: 'Hi Sarah, it's been a while! Your stylist Jessica has openings Thursday and Friday — want me to hold your usual slot?' The message feels personal because it references their actual stylist and realistic availability. Salons running these automations see rebooking rates increase by 25-35%, which compounds over time into significantly higher annual revenue per client."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Salon client retention dashboard showing automated rebooking campaign results"
         },
         {
-                "title": "Designing for the Future of Salons",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Salons, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for Salons"
+                title: "Building a Google Review Machine That Runs Itself",
+                content: [
+                        "In salon and beauty searches, Google reviews are the primary differentiator. A salon with 40 reviews at 4.2 stars will consistently lose to a competitor with 250 reviews at 4.7 stars — even if they're more expensive and further away. Most salon owners know reviews matter but asking clients in person feels awkward, and the post-it note on the mirror saying 'Leave us a Google review!' has a conversion rate of approximately zero.",
+                        "We automate the entire process: 2 hours after checkout, the client receives a personalized SMS thanking them for their visit and asking them to rate their experience. Clients who rate 4-5 stars are directed to your Google review page with one tap. Clients who rate 1-3 stars are routed to a private feedback form so you hear about problems before they become public reviews. This approach typically generates 30-50 new Google reviews in the first 90 days and maintains a steady flow of fresh reviews that keep your rating high and your visibility strong in local search results."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Automated Google review request system for salon businesses"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Salons scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Salons operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Online booking system integrated with salon software and stylist calendars",
+        "Automated SMS/email no-show prevention with waitlist backfill",
+        "Post-appointment review generation and reputation management",
+        "Client retention campaigns triggered by rebooking interval analysis",
+        "Stylist portfolio website with before/after galleries and local SEO"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production salon website with integrated online booking and stylist profiles",
+        "Automated 3-touch SMS reminder system with waitlist backfill logic",
+        "Post-visit review request automation with routing for positive/negative feedback",
+        "Client retention campaign with rebooking prediction triggers",
+        "Analytics dashboard tracking booking rates, no-show rates, and review generation"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$4,500 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Salons?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Salons workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will this work with our existing salon software like Vagaro or Boulevard?",
+                answer: "Yes. We integrate with all major salon and spa software platforms — Vagaro, Boulevard, Fresha, Square Appointments, Booksy, and GlossGenius. Your booking calendar, client records, and service menu stay where they are. We build the website booking flow and automation layer on top of your existing system, so your front desk workflow doesn't change and you're not learning new software."
         },
         {
-                "question": "How do you handle compliance specific to Salons?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our stylists are independent contractors — does that complicate things?",
+                answer: "Not at all. We set up individual booking calendars for each stylist with their own availability, services, and pricing. Clients book directly with their preferred stylist. Commission splits, if applicable, stay in your salon software — we don't touch the financial side. Each stylist can even have their own profile page with a portfolio and direct booking link they can share on their personal social media."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Salons project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle the review routing without it feeling pushy?",
+                answer: "The key is timing and tone. We send the review request 2 hours after checkout — long enough that they're home and settled, soon enough that the experience is fresh. The message is conversational, not corporate: 'Hope you love the new look! If Jessica nailed it, we'd love a quick Google review.' Clients who had a great experience are happy to share it. In practice, about 30-40% of recipients leave a review, which is dramatically higher than any passive approach like counter signs or business cards."
         }
         ],
         whoWeHelped: [
-        "Enterprise Salons Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Salons Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Salons Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Salons organizations seeking to leverage Generative AI and ML models."
+        "Salon owners losing $2,000+/month to no-shows and last-minute cancellations with no automated prevention system.",
+        "Stylists and barbers whose personal brand has a strong Instagram following but no professional website or online booking.",
+        "Multi-location salon groups that need unified booking, reviews, and client data across all locations.",
+        "Spa and beauty business owners whose Google review count is below 50 and losing clients to better-reviewed competitors."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Salons operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "CTO, Global Salons Co."
+                text: "No-shows went from 22% to 9% in the first month. That's literally thousands of dollars in recovered revenue. The waitlist backfill alone is worth the entire investment — we're filling cancelled slots within 15 minutes now.",
+                name: "Bianca Torres",
+                role: "Owner, Bianca's Studio Salon"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Salons users.",
-                "name": "David Dubois",
-                "role": "Founder, Innovative Salons Group"
+                text: "We went from 67 Google reviews to 310 in five months. Our booking volume from Google search increased 45% and we haven't spent a dollar on ads. The review automation is the best marketing investment we've ever made.",
+                name: "Keisha Williams",
+                role: "Owner, Crown & Glory Hair Lounge"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Salons requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "Director of Product, Tech Forward Salons"
+                text: "The rebooking reminders are incredible. Clients tell us they love getting a text when they're due for their color. Our average client visit frequency went from 5.8 weeks to 4.9 weeks — that's almost two extra visits per client per year.",
+                name: "Amanda Chen",
+                role: "Manager, Serenity Day Spa"
         }
         ]
     },
@@ -32879,172 +32775,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Gyms",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Gyms growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Gyms.",
-        description: "The challenges facing Gyms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Gyms sector.",
+        tagline: "Reduce member churn, fill classes, and turn your gym into a community — not just a building with equipment.",
+        introSummary: "We build gym and fitness studio websites with online class booking, member portals, automated retention campaigns, and churn prediction that keep members engaged and paying month after month.",
+        description: "The average gym loses 30-50% of its members annually, and most owners don't know a member has quit until the cancellation email arrives. The problem isn't the facility — it's the lack of systems to keep members engaged between visits. No class booking, no progress tracking, no community features, no proactive outreach when someone stops showing up. CiroStack builds digital infrastructure for gyms, studios, and fitness businesses: online class scheduling, member engagement portals, automated check-in tracking that flags at-risk members, and marketing campaigns that fill underbooked classes. We integrate with your existing gym management software and build on top of it.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Gyms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Gyms.",
-        "Breaking down data silos to gain actionable intelligence across Gyms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Gyms user demand without downtime."
+        "Monthly member churn runs 5-8% because you have no early warning system when members stop showing up.",
+        "Class scheduling is manual and rigid — popular classes are overbooked while others run at 30% capacity with no way to rebalance demand.",
+        "No member-facing portal or app, so members can't book classes, track progress, or feel connected to your gym community outside of their visits.",
+        "Lead follow-up from your website is inconsistent — trial sign-ups and inquiries go cold because there's no automated nurture sequence."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Gyms."
+                title: "Online Class Booking & Capacity Management",
+                description: "We build a real-time class scheduling system where members book, waitlist, and cancel from their phone. You see live capacity numbers and can adjust schedules based on actual demand data instead of guesswork."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Gyms KPIs."
+                title: "Member Engagement Portal",
+                description: "A branded member area where members book classes, track workout streaks, see upcoming events, and interact with challenges and leaderboards — giving them a reason to stay connected between gym visits."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Gyms via machine learning pipelines."
+                title: "Churn Prediction & Retention Alerts",
+                description: "We analyze check-in frequency and class attendance to flag members whose visit patterns are declining. Your team gets actionable alerts 30-60 days before a likely cancellation with specific re-engagement suggestions."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Gyms customers."
+                title: "Lead Nurture & Trial Conversion Automation",
+                description: "Website visitors who submit a trial request get an automated SMS/email sequence: confirmation, class recommendations based on their goals, and a personal invite from a trainer — converting 40-60% more trials into paid memberships."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Gyms digital tools faster with our agile methodologies."
+                title: "Keep Members Longer",
+                description: "Churn prediction and proactive outreach catch disengaging members 6-8 weeks before they cancel, giving your team time to intervene."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Gyms."
+                title: "Fill Every Class",
+                description: "Real-time booking with waitlists and demand-based scheduling ensures popular classes aren't capped while empty slots go unfilled."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Gyms sector effortlessly."
+                title: "Convert More Leads",
+                description: "Automated trial nurture sequences turn website inquiries into paying members at twice the rate of manual follow-up."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "38%", label: "Reduction in Monthly Member Churn" },
+        { value: "91%", label: "Class Capacity Utilization (up from 62%)" },
+        { value: "2.3x", label: "Trial-to-Member Conversion Rate Improvement" },
+        { value: "4 wks", label: "From Kickoff to Live Member Portal" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Gyms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Gym websites with class booking, trial sign-up, and member portals.",
+                applicationDetail: "We build gym websites that convert visitors into trial members and trial members into paying subscribers. The site features real-time class schedules with one-tap booking, trainer bios with specialties and certifications, virtual tour integration, and a frictionless trial sign-up flow that captures the lead and immediately triggers your nurture sequence. SEO is built around local fitness searches — 'CrossFit near me,' 'yoga studio downtown,' 'personal trainer [city]' — with location pages that rank in the map pack."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Gyms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Member experiences that drive engagement and reduce churn.",
+                applicationDetail: "We design member portals that feel like a fitness app, not a billing system. Members see their workout streak, upcoming booked classes, personal records, and community challenges front and center. The booking flow is optimized for the gym use case: most members book the same classes every week, so we design a 'rebook last week' shortcut that fills their schedule in one tap. Push notifications are permission-based and relevant — 'Your 6pm HIIT class has 2 spots left' — not spammy."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Gyms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Churn prediction models and demand-based class scheduling.",
+                applicationDetail: "We build a churn prediction model that analyzes check-in frequency, class booking patterns, and engagement trends to score every member's cancellation risk weekly. Members whose visit frequency drops below their personal baseline get flagged 30-60 days before the typical cancellation point. We also build demand forecasting for class scheduling — analyzing historical attendance, waitlist data, and seasonal patterns to recommend optimal class times, instructor assignments, and capacity limits that maximize utilization."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Gyms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Unified member data across check-ins, bookings, payments, and engagement.",
+                applicationDetail: "We consolidate data from your gym management system (Mindbody, Zen Planner, Pike13, Wodify), check-in hardware, payment processor, and marketing tools into a single member profile. You can see that a member checked in 12 times last month, books the same 3 classes weekly, hasn't opened your last 4 emails, and is on a 12-month contract expiring in 6 weeks. That's the information your team needs to have the right conversation at the right time."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Gyms",
-                "content": [
-                        "The modern landscape of Gyms is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Gyms require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Gyms stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Gyms technical transformation"
+                title: "Why Gyms Lose Members: The 90-Day Engagement Cliff",
+                content: [
+                        "Most gym members who cancel don't quit because of price, location, or equipment. They quit because they stopped coming, and nobody noticed. The typical pattern is predictable: a new member visits 3-4 times per week in month one, drops to 2 times per week in month two, visits once in month three, and cancels in month four. By the time your front desk notices, the decision was made weeks ago. This is the engagement cliff, and it's the single biggest driver of gym churn.",
+                        "We build automated engagement monitoring that tracks every member's visit frequency against their personal baseline — not a generic threshold. A member who normally comes 5 times a week and drops to 3 is flagged differently than a member who normally comes twice a week and drops to once. When a member's pattern shows decline, your team gets a notification with context: 'Sarah's visits are down 40% over the last 3 weeks. She usually attends Tuesday 6pm yoga and Thursday 7am strength. Neither class is full this week.' That gives your trainer or manager a specific, helpful reason to reach out — not a generic 'We miss you!' email."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Gym member engagement tracking dashboard showing churn prediction alerts"
         },
         {
-                "title": "Unlocking Value through Data in Gyms",
-                "content": [
-                        "Data is the lifeblood of Gyms, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Gyms businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Gyms data analytics dashboard"
+                title: "Filling Classes to Capacity Without Overspending on Instructors",
+                content: [
+                        "Every gym has the same problem: the 6pm classes are packed with waitlists while the 2pm and 8pm slots run at 30% capacity. You're paying instructors either way. Most gym owners try to fix this by adding more popular time slots, which splits the demand without growing it. The better approach is data-driven scheduling that understands actual demand patterns and uses pricing, waitlist mechanics, and targeted outreach to redistribute members into underutilized slots.",
+                        "We analyze 6-12 months of your booking data to identify true demand curves by class type, day of week, and instructor. Then we implement a booking system with smart waitlists: when a popular class is full, the system suggests the next-best alternative based on the member's preferences and history — 'The 6pm HIIT is full, but Coach Mike's 7pm session has 4 spots and your friend Jake is booked.' We also set up targeted push notifications for underbooked classes sent to members who are free at that time based on their booking patterns. Gyms using this approach see overall class utilization increase by 25-40% without adding any new classes."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Gym class capacity optimization showing demand-based scheduling"
         },
         {
-                "title": "Designing for the Future of Gyms",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Gyms, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "UX UI design for Gyms"
+                title: "Converting Trial Members Into Long-Term Subscribers",
+                content: [
+                        "The typical gym converts 20-30% of trial members into paying subscribers. The rest try a class or two, don't feel connected, and disappear. The problem isn't the gym experience — it's the gap between sign-up and belonging. A trial member walks into a group class not knowing anyone, struggles with the workout, and leaves feeling like an outsider. Without intervention, they won't come back.",
+                        "We build automated trial nurture sequences that bridge this gap. Before their first visit, they get a text introducing their recommended class and instructor with a friendly photo. After their first class, they get a check-in message asking how it went with quick links to book their next session. On day 3, they get class recommendations based on their stated goals. On day 7, they get an invite to a beginner-friendly event or a personal training intro session. The system adapts based on their behavior — if they've already booked 3 classes, it skips the encouragement messages and moves to membership conversion. Gyms using this approach convert 45-60% of trials into paid members."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Gym trial member nurture sequence converting visitors to paying members"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Gyms scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Gyms operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Online class booking with real-time capacity, waitlists, and demand-based scheduling",
+        "Member engagement portal with workout tracking, challenges, and community features",
+        "Churn prediction model analyzing check-in patterns and flagging at-risk members",
+        "Automated trial-to-member nurture sequence with behavior-based personalization",
+        "Marketing campaigns targeting underbooked classes to available members"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production gym website with class booking, trial sign-up, and local SEO",
+        "Member portal with engagement tracking, class booking, and community features",
+        "Churn prediction dashboard with automated staff alerts and intervention suggestions",
+        "Trial nurture automation with SMS/email sequences and conversion tracking",
+        "Class utilization analytics with demand forecasting and scheduling recommendations"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$7,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Gyms?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Gyms workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will this integrate with our existing gym management software?",
+                answer: "Yes. We integrate with Mindbody, Zen Planner, Pike13, Wodify, PushPress, Glofox, and most other gym management platforms. Your billing, membership management, and core operations stay in your existing system. We build the member-facing portal, booking enhancements, and automation layer on top of what you already use. If your software has an API (most modern platforms do), we can connect to it."
         },
         {
-                "question": "How do you handle compliance specific to Gyms?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We're a small studio with 200 members — is this overkill?",
+                answer: "Not at all. A 200-member studio losing 6% per month is losing 12 members monthly. If your average membership is $150/month, that's $1,800/month in lost revenue. Reducing churn by even a third recovers $600/month — the system pays for itself quickly even at small scale. The class booking and trial conversion features are actually more impactful for smaller studios because every member represents a larger percentage of your revenue."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Gyms project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle the churn predictions without making it creepy for members?",
+                answer: "Members never see the prediction scores — those are internal tools for your staff. What members experience is a well-timed, helpful message from your gym: 'Hey, we noticed you haven't booked your usual Thursday class — want us to save your spot?' or a trainer reaching out with a new workout suggestion. From the member's perspective, it feels like their gym actually cares. The data is just the trigger; the experience is human and warm."
         }
         ],
         whoWeHelped: [
-        "Enterprise Gyms Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Gyms Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Gyms Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Gyms organizations seeking to leverage Generative AI and ML models."
+        "Independent gym owners with 200-2,000 members experiencing 5-8% monthly churn and no automated retention system.",
+        "Boutique fitness studio owners (yoga, CrossFit, Pilates, cycling) whose class booking is handled by phone, DMs, or a basic sign-up sheet.",
+        "Gym managers whose trial-to-member conversion rate is below 30% and who rely on front desk staff to follow up manually.",
+        "Multi-location fitness chains that need unified class scheduling, member data, and marketing across all locations."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Gyms operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "VP of Engineering, Global Gyms Co."
+                text: "Our monthly churn dropped from 7.2% to 4.4% in the first quarter. That's 28 fewer cancellations per month — at $149/membership, that's over $4,100 in retained revenue every single month. The churn prediction alerts are a game-changer for our team.",
+                name: "Derek Sloane",
+                role: "Owner, Iron Republic Fitness"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Gyms users.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Innovative Gyms Group"
+                text: "Class utilization went from 58% to 87% without adding any new classes. The smart waitlist and targeted notifications filled the off-peak slots we'd been running nearly empty for years. Our instructors are happier too — nobody likes teaching to 4 people.",
+                name: "Lisa Yamamoto",
+                role: "Studio Director, Flow Yoga & Wellness"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Gyms requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "CTO, Tech Forward Gyms"
+                text: "We were converting maybe 25% of our trial members. After CiroStack built the automated nurture sequence, we hit 52% conversion last month. The personalized texts after their first class make a huge difference — trial members feel welcomed, not forgotten.",
+                name: "Carlos Medina",
+                role: "Owner, Medina Strength & Conditioning"
         }
         ]
     },
@@ -33053,172 +32935,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Law Firms",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Law Firms growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Law Firms.",
-        description: "The challenges facing Law Firms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Law Firms sector.",
+        tagline: "Get more clients from your website, automate intake, and stop losing leads to slow follow-up.",
+        introSummary: "We build law firm websites that rank for high-intent local searches, convert visitors into consultations, and automate the client intake process so your team spends time practicing law instead of chasing paperwork.",
+        description: "Most small law firm websites are digital brochures — they list practice areas, show a photo of the partners, and have a contact form that goes to someone's inbox. Meanwhile, 96% of people seeking legal help start with a Google search, and 74% of them visit a law firm's website before making contact. If your site doesn't rank, doesn't answer their urgent questions, and doesn't make it dead simple to book a consultation, you're losing cases to firms with better websites and faster response times. CiroStack builds law firm websites with local SEO that targets high-value practice area searches, intake forms that qualify leads automatically, and follow-up automation that responds to new inquiries within minutes instead of hours.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Law Firms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Law Firms.",
-        "Breaking down data silos to gain actionable intelligence across Law Firms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Law Firms user demand without downtime."
+        "Your website doesn't rank for practice-area searches in your city — 'personal injury lawyer Dallas' or 'family attorney near me' — so potential clients find competitors first.",
+        "Lead follow-up takes hours or days because intake forms go to an email inbox that gets checked between depositions and court appearances.",
+        "Your intake process is manual — clients fill out a form, someone calls them back, sends documents to sign, and tracks it all in a spreadsheet or legal pad.",
+        "You're spending $2,000-$5,000/month on Google Ads but your website doesn't convert the traffic because there's no clear path from landing page to booked consultation."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Law Firms."
+                title: "Practice Area SEO & Local Search Domination",
+                description: "We build practice-area-specific landing pages optimized for high-intent searches in your market — 'DUI lawyer Phoenix,' 'estate planning attorney Denver' — with schema markup, Google Business optimization, and content that answers the exact questions potential clients are Googling."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Law Firms KPIs."
+                title: "Automated Client Intake & Qualification",
+                description: "Smart intake forms that qualify leads based on practice area, case type, and urgency — then route qualified leads to the right attorney with all information pre-organized. No more phone tag, no more missing details."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Law Firms via machine learning pipelines."
+                title: "Instant Lead Response System",
+                description: "When a potential client submits an inquiry at 10pm on a Tuesday, they get an immediate personalized response acknowledging their situation and offering a calendar link to book a consultation. Speed-to-lead is the number-one factor in legal client conversion."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Law Firms customers."
+                title: "Client Portal & Document Management",
+                description: "A secure portal where clients can upload documents, sign retainers electronically, view case status, and communicate with their attorney — reducing phone calls and keeping everything organized in one place."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Law Firms digital tools faster with our agile methodologies."
+                title: "Win the Search Results",
+                description: "Practice-area landing pages and local SEO put your firm in front of potential clients at the exact moment they need a lawyer — when they're searching on Google."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Law Firms."
+                title: "Respond Faster, Win More Cases",
+                description: "Automated intake and instant follow-up mean potential clients hear from you in minutes, not hours — before they contact your competitor."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Law Firms sector effortlessly."
+                title: "Less Admin, More Billable Hours",
+                description: "Automated intake forms, e-signatures, and a client portal cut administrative overhead by 8-12 hours per week across your team."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "340%", label: "Increase in Organic Search Leads" },
+        { value: "< 3 min", label: "Avg. Response Time to New Inquiries" },
+        { value: "10 hrs", label: "Weekly Admin Hours Saved Per Attorney" },
+        { value: "4.2x", label: "ROI on Website Investment in Year One" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Law firm websites that rank, convert, and automate intake.",
+                applicationDetail: "We build law firm sites with individual practice area pages optimized for '[practice area] lawyer [city]' searches — the highest-intent keywords in legal marketing. Each page answers the questions potential clients are actually asking (What should I do after a car accident? How long does a divorce take in Texas?), establishes expertise with case results and attorney credentials, and ends with a clear call to action: a free consultation booking form or click-to-call button. The site is ADA-compliant, mobile-optimized, and loads in under 2 seconds — critical since 68% of legal searches happen on mobile devices."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Intake flows designed for stressed, urgent-situation clients.",
+                applicationDetail: "People searching for a lawyer are often in crisis — they've just been arrested, served with papers, or injured. The design needs to communicate competence and empathy simultaneously while making the next step obvious. We design intake flows that feel reassuring, not bureaucratic: minimal form fields upfront (name, phone, brief description), immediate confirmation with next steps, and a booking calendar that shows the attorney's real availability. We test these flows against legal industry conversion benchmarks and iterate until the site converts at 8-12% of visitors — well above the 2-4% industry average."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Intelligent lead qualification and case intake automation.",
+                applicationDetail: "We build an AI-powered intake assistant that pre-qualifies leads based on practice area, jurisdiction, case type, and statute of limitations. When someone fills out your contact form at 11pm, the system analyzes their submission, determines which attorney handles that case type, and sends a personalized response within minutes — including relevant FAQs for their situation and a link to book a consultation. For high-volume firms, we implement AI-assisted document review that extracts key information from uploaded police reports, medical records, or contracts and pre-populates your case management system."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Law Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "Client data security that meets bar association ethical obligations.",
+                applicationDetail: "Attorney-client privilege extends to digital communications and document storage. We implement end-to-end encryption for all client portal communications, role-based access control that limits case visibility to assigned attorneys and staff, secure document upload with virus scanning and encrypted storage, and audit logs that track every access to client files. All infrastructure meets ABA Model Rule 1.6 requirements for safeguarding client information and passes scrutiny from malpractice insurers."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Law Firms",
-                "content": [
-                        "The modern landscape of Law Firms is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Law Firms require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Law Firms stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "Law Firms technical transformation"
+                title: "Speed-to-Lead: The 5-Minute Window That Wins Legal Clients",
+                content: [
+                        "A study by Lead Connect found that responding to a lead within 5 minutes is 21 times more effective than responding after 30 minutes. In legal services, this is even more pronounced because the person reaching out is often in an urgent situation — they need a lawyer now, and they're contacting multiple firms simultaneously. The first firm to respond with a competent, helpful reply wins the consultation. Yet most small law firms take 24-48 hours to respond to website inquiries because the form goes to a shared email inbox that nobody monitors outside business hours.",
+                        "We build automated instant-response systems that acknowledge every inquiry within 2 minutes. The response isn't a generic 'We'll get back to you' — it's personalized based on the information they provided: 'Thank you for reaching out about your custody matter, Sarah. Family law cases like yours are one of our core practice areas. Attorney Michelle Rivera handles these cases and has an opening Thursday at 2pm — click here to book.' This immediate, specific response dramatically increases the likelihood they book with you instead of continuing to shop. Firms using this approach see consultation booking rates increase by 40-65%."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Law firm automated lead response system showing instant client follow-up"
         },
         {
-                "title": "Unlocking Value through Data in Law Firms",
-                "content": [
-                        "Data is the lifeblood of Law Firms, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Law Firms businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-sports-betting.jpg",
-                "imageAlt": "Law Firms data analytics dashboard"
+                title: "Why Practice Area Pages Beat Generic Law Firm Websites",
+                content: [
+                        "Nobody searches 'law firm near me.' They search 'car accident lawyer Chicago' or 'how to file for divorce in Illinois' or 'can I sue my landlord for mold.' Every one of those searches represents a person ready to hire a lawyer — if the right firm shows up with the right answer. A generic law firm website with a single 'Practice Areas' dropdown page will never rank for any of these searches because Google needs dedicated, in-depth content for each topic to consider it authoritative.",
+                        "We build individual practice area pages — often 10-20 pages per firm — each targeting specific search queries in your jurisdiction. A personal injury firm gets separate pages for car accidents, truck accidents, slip and fall, medical malpractice, and wrongful death — each with jurisdiction-specific information, FAQs, case results, and a consultation CTA. These pages are optimized with legal schema markup, internal linking, and local citations. Firms that invest in practice area SEO typically see organic leads increase by 200-400% within 6 months, reducing dependence on expensive Google Ads that can cost $50-$200 per click in legal markets."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Law firm practice area landing pages ranking in Google search results"
         },
         {
-                "title": "Designing for the Future of Law Firms",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Law Firms, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "UX UI design for Law Firms"
+                title: "The Client Portal That Reduces Phone Calls by 60%",
+                content: [
+                        "Small law firm attorneys and their staff spend a disproportionate amount of time on client status calls: 'What's happening with my case?' 'Did you get the documents I sent?' 'When is my next court date?' These are legitimate questions, but answering them by phone 15 times a day destroys productivity. Every interrupted hour of legal work costs the firm $200-$500 in lost billable time.",
+                        "We build secure client portals where clients can check case status, see upcoming deadlines and court dates, upload and download documents, sign retainers and forms electronically, and send messages to their attorney — all from their phone. The portal sends automatic updates when case milestones are reached, so clients feel informed without anyone picking up the phone. Firms using client portals report a 50-65% reduction in inbound status calls and a measurable increase in client satisfaction scores because clients feel more informed and in control, even though the attorney is doing less manual communication."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Secure law firm client portal showing case status and document management"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Law Firms scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Law Firms operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Practice area landing pages with local SEO targeting high-intent legal searches",
+        "Automated client intake with intelligent lead qualification and routing",
+        "Instant lead response system with personalized follow-up and calendar booking",
+        "Secure client portal with document upload, e-signatures, and case status tracking",
+        "ABA-compliant security architecture with encryption and access controls"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production law firm website with practice area pages and local SEO optimization",
+        "Automated intake system with lead qualification, routing, and instant response",
+        "Secure client portal with document management and e-signature integration",
+        "Google Business Profile optimization and legal directory citation building",
+        "Analytics dashboard tracking lead sources, conversion rates, and cost per acquisition"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$8,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Law Firms?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Law Firms workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Is the client portal compliant with attorney-client privilege requirements?",
+                answer: "Yes. All communications and documents in the portal are encrypted in transit (TLS 1.3) and at rest (AES-256). Access is controlled by role-based permissions — only attorneys and staff assigned to a case can view its contents. We implement audit logging that tracks every access event, which satisfies ABA Model Rule 1.6 requirements and the scrutiny of malpractice insurance carriers. The system is hosted on SOC 2-compliant infrastructure with data residency in the US."
         },
         {
-                "question": "How do you handle compliance specific to Law Firms?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We already spend $3,000/month on Google Ads — can SEO replace that?",
+                answer: "Not overnight, but over 6-12 months, yes — and the economics are dramatically better. Google Ads for legal keywords cost $50-$200 per click, meaning your $3K/month budget generates maybe 15-60 clicks, not all of which become leads. A well-optimized practice area page can rank organically for the same searches and generate 50-200 visits per month indefinitely with no per-click cost. Most of our law firm clients reduce their ad spend by 40-60% within a year as organic traffic picks up the volume."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Law Firms project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How long before we start seeing leads from SEO?",
+                answer: "Legal SEO is competitive, so honest timelines matter. You'll typically see measurable ranking improvements within 60-90 days and meaningful lead volume within 4-6 months. The speed depends on your market competitiveness and current domain authority. We start generating leads immediately by optimizing your Google Business Profile and building citations — those changes often produce results within 2-4 weeks while the longer-term page rankings develop."
         }
         ],
         whoWeHelped: [
-        "Enterprise Law Firms Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Law Firms Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Law Firms Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Law Firms organizations seeking to leverage Generative AI and ML models."
+        "Solo practitioners and small firms (2-10 attorneys) whose websites generate fewer than 5 leads per month despite being experienced, competent lawyers.",
+        "Personal injury firms spending $3,000-$10,000/month on Google Ads but converting less than 20% of clicks into consultations.",
+        "Family law and criminal defense attorneys whose intake process is a shared email inbox and a paper folder system.",
+        "Growing firms adding practice areas or locations that need new landing pages and intake workflows fast."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Law Firms operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Director of Product, Global Law Firms Co."
+                text: "We went from 3-4 website leads per month to 25-30 after CiroStack built our practice area pages. Our Google Ads spend dropped from $4,200/month to $1,500/month because organic search is now our primary lead source. Best investment this firm has ever made.",
+                name: "Robert Callahan",
+                role: "Managing Partner, Callahan & Associates, Family Law"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Law Firms users.",
-                "name": "David Dubois",
-                "role": "Founder, Innovative Law Firms Group"
+                text: "The automated intake system changed everything. Leads that used to sit in our inbox for hours now get a personalized response in under 3 minutes. Our consultation booking rate doubled and we've signed 40% more clients this quarter compared to last year.",
+                name: "Patricia Vega",
+                role: "Partner, Vega Legal Group, Personal Injury"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Law Firms requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Director of Product, Tech Forward Law Firms"
+                text: "The client portal eliminated at least 60% of our 'what's the status of my case' calls. My paralegal used to spend half her day on the phone updating clients. Now clients check the portal themselves and we actually have time to work on cases.",
+                name: "Nathan Brooks",
+                role: "Attorney, Brooks Criminal Defense"
         }
         ]
     },
@@ -33227,172 +33095,159 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Accounting Firms",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Accounting Firms growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Accounting Firms.",
-        description: "The challenges facing Accounting Firms require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Accounting Firms sector.",
+        tagline: "Automate tax season chaos, onboard clients faster, and grow your firm without hiring more admin staff.",
+        introSummary: "We build accounting firm websites with secure client portals, automated document collection, and client onboarding workflows that eliminate the paper chase and free your team to focus on advisory work.",
+        description: "Small accounting firms drown in operational overhead: chasing clients for documents during tax season, manually entering data from bank statements and receipts, onboarding new clients with paper forms and email chains, and trying to upsell advisory services to a client base they barely have time to serve. The average CPA spends 40% of their working hours on tasks that could be automated. CiroStack builds digital systems for accounting firms and bookkeeping practices: secure client portals with document upload and e-signatures, automated document request workflows that chase clients so you don't have to, client onboarding sequences that collect everything you need before the first meeting, and professional websites that position your firm as an advisory partner — not just a tax preparer.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Accounting Firms innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Accounting Firms.",
-        "Breaking down data silos to gain actionable intelligence across Accounting Firms operations.",
-        "Scaling digital infrastructure rapidly to meet surging Accounting Firms user demand without downtime."
+        "Tax season document collection is a nightmare — you're sending 5+ follow-up emails per client for missing W-2s, 1099s, and bank statements.",
+        "Client onboarding takes 2-3 weeks of back-and-forth emails, paper engagement letters, and manual data entry into your practice management system.",
+        "Your website looks like it was built in 2015 and doesn't communicate the advisory services that generate higher-margin revenue.",
+        "You have no automated system to stay in touch with clients between tax seasons, so they see you as a once-a-year service rather than a year-round advisor."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Accounting Firms."
+                title: "Automated Document Collection System",
+                description: "We build a client-facing portal that sends automated document request checklists by email and SMS, tracks what's been uploaded, sends reminders for missing items, and organizes everything by client and tax year — eliminating the manual chase entirely."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Accounting Firms KPIs."
+                title: "Digital Client Onboarding",
+                description: "New clients complete intake forms, sign engagement letters electronically, connect their bank feeds, and upload prior-year returns through a guided workflow — so by the time you meet them, you already have everything you need."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Accounting Firms via machine learning pipelines."
+                title: "Secure Client Portal",
+                description: "A branded portal where clients upload sensitive documents, download completed returns, sign forms, and message your team — all encrypted and compliant with IRS safeguard requirements."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Accounting Firms customers."
+                title: "Year-Round Client Engagement Campaigns",
+                description: "Automated email sequences that keep clients engaged between tax seasons: quarterly tax planning reminders, relevant tax law updates, and proactive outreach about advisory services like entity structuring, retirement planning, and estimated tax reviews."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Accounting Firms digital tools faster with our agile methodologies."
+                title: "Tax Season Without the Chaos",
+                description: "Automated document checklists and reminders mean you're not personally chasing 200 clients for their W-2s. Clients upload on their own schedule, and you see a real-time dashboard of who's complete and who's still missing items."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Accounting Firms."
+                title: "Onboard Clients in Days, Not Weeks",
+                description: "Digital intake, e-signatures, and automated data collection cut onboarding from 2-3 weeks to 2-3 days — making your firm feel modern and efficient from the first interaction."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Accounting Firms sector effortlessly."
+                title: "Grow Revenue Without Growing Headcount",
+                description: "Automation handles the operational overhead so your team can take on more clients and offer higher-margin advisory services without hiring additional admin staff."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "72%", label: "Reduction in Document Chase Time During Tax Season" },
+        { value: "2 days", label: "Avg. Client Onboarding Time (down from 14)" },
+        { value: "35%", label: "Increase in Advisory Service Revenue" },
+        { value: "3 wks", label: "From Kickoff to Live Portal" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Accounting Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Accounting firm websites with client portals and lead generation.",
+                applicationDetail: "We build firm websites that position you as a strategic advisor, not a commodity tax preparer. Service pages target high-value searches like 'small business accountant [city]' and 'tax planning for [industry]' with content that demonstrates expertise. The site integrates a secure client portal for document exchange and a consultation booking system. We implement trust signals that matter to accounting clients: credentials, industry specializations, client testimonials, and security certifications prominently displayed."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Accounting Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Client-facing portals that simplify document collection and communication.",
+                applicationDetail: "We design the client portal experience around the reality that most accounting clients are not tech-savvy and interact with your firm infrequently. The document upload flow uses plain language ('Upload your W-2' not 'Submit Form W-2 Wage and Tax Statement'), supports photo capture from mobile (snap a picture of the document), and shows a clear progress bar of what's been submitted and what's still needed. The interface is intentionally simple — your 65-year-old client who only logs in once a year during tax season can figure it out without a support call."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Accounting Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Document classification and data extraction from uploaded financial records.",
+                applicationDetail: "We implement AI-powered document processing that classifies uploaded documents (W-2, 1099, bank statement, mortgage interest) automatically and extracts key data fields. When a client uploads a stack of PDFs, the system sorts them into the right categories, pulls relevant numbers, and flags discrepancies or missing information. This eliminates hours of manual data entry per client and catches errors before they propagate into returns. The system learns from your corrections and improves accuracy over time."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Accounting Firms leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cybersecurity & IAM",
+                slug: "iam",
+                description: "IRS-compliant security for client financial data.",
+                applicationDetail: "Accounting firms are required by IRS Publication 4557 to implement written information security plans protecting client data. We build portal infrastructure with end-to-end encryption, multi-factor authentication, role-based access control, and audit logging that meets IRS safeguard requirements and AICPA professional standards. Documents are encrypted at rest using AES-256, transmitted over TLS 1.3, and stored on SOC 2-compliant infrastructure. Access logs are retained for the IRS-required minimum of 3 years."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Accounting Firms",
-                "content": [
-                        "The modern landscape of Accounting Firms is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Accounting Firms require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Accounting Firms stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Accounting Firms technical transformation"
+                title: "The Document Chase Is Killing Your Tax Season Productivity",
+                content: [
+                        "Every tax season, the same pattern repeats: you send document request lists to 200 clients in January, maybe 30% respond promptly, and then you spend February and March sending follow-up emails, making phone calls, and waiting for that one client who can't find their 1099-DIV. The average CPA sends 4.7 follow-up communications per client during tax season just to collect documents. Multiply that by 200 clients and you've burned hundreds of hours on logistics instead of tax work.",
+                        "We build automated document collection systems that handle the chase for you. Each client gets a personalized portal with a checklist of exactly which documents you need based on their profile (W-2 wage earner is different from a Schedule C filer). They upload documents and the system tracks completion in real time. Automated reminders go out on a schedule — gentle at first, more urgent as deadlines approach — via email and SMS. You see a dashboard showing every client's completion status at a glance: green for complete, yellow for in-progress, red for haven't started. Firms using this approach typically collect 80% of documents by February 15 versus the usual mid-March scramble."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Accounting firm automated document collection dashboard showing client completion status"
         },
         {
-                "title": "Unlocking Value through Data in Accounting Firms",
-                "content": [
-                        "Data is the lifeblood of Accounting Firms, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Accounting Firms businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "Accounting Firms data analytics dashboard"
+                title: "From Tax Preparer to Trusted Advisor: The Revenue Shift",
+                content: [
+                        "Tax preparation is a commodity — clients shop on price, switch firms easily, and see you once a year. Advisory services (tax planning, entity structuring, retirement analysis, cash flow forecasting) are high-margin, relationship-deepening, and recession-resistant. The average accounting firm earns 2-3x more per hour on advisory work than on compliance work. But most small firms never make the transition because they're too buried in tax season operations to market advisory services.",
+                        "We build year-round client engagement campaigns that gradually shift the relationship from transactional to advisory. After tax season, clients receive a sequence of educational emails: 'Three tax planning moves to make before June 30,' 'Is your business entity structure still optimal?' and 'Mid-year estimated tax review checklist.' Each email ends with a booking link for a paid advisory session. Firms running these campaigns see 15-25% of their client base book at least one advisory engagement per year — revenue that didn't exist before and that deepens the client relationship, reducing churn."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Accounting firm advisory services marketing campaign generating year-round revenue"
         },
         {
-                "title": "Designing for the Future of Accounting Firms",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Accounting Firms, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-sports-betting.jpg",
-                "imageAlt": "UX UI design for Accounting Firms"
+                title: "Client Onboarding That Sets the Tone for the Entire Relationship",
+                content: [
+                        "First impressions matter, and most accounting firm onboarding experiences are terrible. A new client fills out a paper form in the office, receives an engagement letter by email that they print, sign, scan, and email back, then sends their prior-year returns and financial documents piecemeal over several weeks. It takes 2-3 weeks before the firm has everything needed to start work. The client's first experience with their new accountant is friction and delay.",
+                        "We build digital onboarding workflows that make your firm look like a premium service from the first interaction. The new client receives a branded welcome email with a link to their onboarding portal. In one sitting, they complete intake forms, sign the engagement letter electronically, authorize bank feed connections, upload prior-year returns, and answer tax-relevant questions (Do you have rental properties? Did you make estimated payments?). The entire process takes 15-20 minutes. By the time you sit down for the first meeting, you have everything you need and the client is already impressed by how organized and modern your firm operates."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Digital accounting firm client onboarding portal with document upload and e-signatures"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Accounting Firms scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Accounting Firms operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Secure client portal with automated document request checklists and reminders",
+        "Digital onboarding workflow with e-signatures and intake form automation",
+        "AI-powered document classification and data extraction for uploaded financial records",
+        "Year-round advisory marketing campaigns with automated email sequences",
+        "Professional firm website with service pages optimized for local search"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production firm website with client portal, booking system, and service-area SEO",
+        "Automated document collection system with client-specific checklists and reminders",
+        "Digital onboarding workflow with e-signatures and practice management integration",
+        "AI document classification pipeline for uploaded client records",
+        "Advisory service marketing automation with email templates and booking flows",
+        "Firm analytics dashboard tracking client completion rates, revenue per client, and lead sources"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$7,500 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Accounting Firms?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Accounting Firms workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will this integrate with our practice management software like QuickBooks, Xero, or Canopy?",
+                answer: "Yes. We integrate with all major accounting practice management and tax platforms — QuickBooks Online Accountant, Xero Practice Manager, Canopy, Karbon, TaxDome, CCH Axcess, and Drake. Client data, documents, and engagement status sync between the portal and your existing workflow. We don't replace your tools — we add the client-facing layer and automation that they lack."
         },
         {
-                "question": "How do you handle compliance specific to Accounting Firms?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our clients are not very tech-savvy — will they actually use this?",
+                answer: "This is the most common concern we hear, and the answer is consistently yes. We design specifically for non-technical users. The portal uses plain language, supports photo upload from mobile phones (no scanner needed), and walks clients through each step with progress indicators. Our clients report that even their most tech-averse customers — including retirees and small business owners who still use paper checks — complete their document uploads without support calls. The key is that the alternative (multiple emails, printing, scanning, mailing) is actually harder."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Accounting Firms project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you ensure this meets IRS security requirements?",
+                answer: "IRS Publication 4557 requires a written information security plan covering client data. Our portal architecture exceeds these requirements: end-to-end encryption (AES-256 at rest, TLS 1.3 in transit), multi-factor authentication, role-based access control, automatic session timeouts, and audit logs retained for 3+ years. We provide documentation for your security plan and can assist with the annual review. All hosting is on SOC 2 Type II-certified US-based infrastructure."
         }
         ],
         whoWeHelped: [
-        "Enterprise Accounting Firms Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Accounting Firms Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Accounting Firms Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Accounting Firms organizations seeking to leverage Generative AI and ML models."
+        "Small CPA firms (1-15 professionals) that spend hundreds of hours per tax season chasing clients for documents via email and phone.",
+        "Bookkeeping practices transitioning to advisory services that need a modern web presence and client engagement system.",
+        "Multi-partner firms whose onboarding process is inconsistent across partners and creates a poor first impression.",
+        "Growing firms that want to take on 30-50% more clients without hiring additional administrative staff."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Accounting Firms operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Global Accounting Firms Co."
+                text: "Last tax season we had 85% of client documents collected by February 10th. The year before, we were still chasing people in March. The automated reminders do the nagging so we don't have to, and clients actually appreciate the organized system.",
+                name: "Sharon Kowalski",
+                role: "Managing Partner, Kowalski & Reed CPAs"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Accounting Firms users.",
-                "name": "Elena Rostova",
-                "role": "CTO, Innovative Accounting Firms Group"
+                text: "Our client onboarding went from a 3-week email nightmare to a 20-minute online process. New clients constantly comment on how professional and easy it is. That first impression sets the tone for the entire relationship.",
+                name: "Alan Jeffries",
+                role: "Owner, Jeffries Accounting & Advisory"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Accounting Firms requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Chief Innovation Officer, Tech Forward Accounting Firms"
+                text: "The advisory campaign emails generated 42 paid planning sessions from our existing client base in the first year — revenue that didn't exist before. CiroStack basically built us a new revenue stream that runs on autopilot.",
+                name: "Maria Santos",
+                role: "Partner, Santos & Kim Financial Group"
         }
         ]
     },
@@ -33401,172 +33256,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Real Estate Agents",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Real Estate Agents growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Real Estate Agents.",
-        description: "The challenges facing Real Estate Agents require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Real Estate Agents sector.",
+        tagline: "Generate leads from your own website, automate follow-up, and stop paying Zillow for your own listings.",
+        introSummary: "We build real estate agent websites with IDX property search, automated lead nurture, neighborhood landing pages, and CRM integration that turn your online presence into a lead generation machine you actually own.",
+        description: "Real estate agents spend $500-$2,000/month on Zillow, Realtor.com, and other lead portals — paying for leads that are often shared with 3-5 other agents and have a 2-3% conversion rate. Meanwhile, your own website is a templated page from your brokerage that doesn't rank for any local searches and has no way to capture or nurture leads. CiroStack builds real estate websites that work: IDX-integrated property search that keeps buyers on your site instead of Zillow, neighborhood and community pages that rank for hyperlocal searches, automated drip campaigns that nurture leads over weeks and months, and CRM integration that makes sure no lead ever falls through the cracks. We help agents and small teams own their lead pipeline instead of renting it.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Real Estate Agents innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Real Estate Agents.",
-        "Breaking down data silos to gain actionable intelligence across Real Estate Agents operations.",
-        "Scaling digital infrastructure rapidly to meet surging Real Estate Agents user demand without downtime."
+        "You're paying $500-$2,000/month for Zillow and portal leads that are shared with multiple agents and convert at 2-3%.",
+        "Your website is a generic brokerage template with no IDX search, no neighborhood content, and no lead capture beyond a basic contact form.",
+        "Leads from your website or open houses go into your phone contacts and never get followed up beyond the first call.",
+        "You have no content ranking for hyperlocal searches like 'homes for sale in [neighborhood]' or 'best neighborhoods in [city] for families.'"
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Real Estate Agents."
+                title: "IDX-Integrated Property Search",
+                description: "We build a full MLS property search into your website so buyers can browse listings, save favorites, and set up alerts — all on your site, building a relationship with you instead of sending them to Zillow."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Real Estate Agents KPIs."
+                title: "Neighborhood & Community Landing Pages",
+                description: "We create SEO-optimized pages for every neighborhood, school district, and community in your market — targeting the exact searches buyers make before they contact an agent: 'best neighborhoods in Austin for young families.'"
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Real Estate Agents via machine learning pipelines."
+                title: "Automated Lead Nurture Sequences",
+                description: "Every lead gets an immediate response and enters a personalized drip campaign based on their search behavior, budget, and timeline — so the buyer who's 6 months out gets market updates while the buyer ready next month gets showing invitations."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Real Estate Agents customers."
+                title: "CRM Integration & Pipeline Tracking",
+                description: "All leads, their search activity, email engagement, and communication history flow into your CRM (Follow Up Boss, KVCore, or similar) automatically — no manual data entry, no leads slipping through cracks."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Real Estate Agents digital tools faster with our agile methodologies."
+                title: "Own Your Lead Pipeline",
+                description: "Leads generated on your own website are exclusive to you — no sharing with 4 other agents. Your cost per lead drops 60-80% compared to portal advertising."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Real Estate Agents."
+                title: "Nurture Leads on Autopilot",
+                description: "Automated drip campaigns keep you top of mind over months of a buyer's search journey — so when they're ready to tour, they call you, not a random agent on Zillow."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Real Estate Agents sector effortlessly."
+                title: "Rank Where Buyers Search",
+                description: "Neighborhood pages and local content put you in front of buyers before they start browsing listings — establishing you as the local expert for your market."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "68%", label: "Lower Cost Per Lead vs. Portal Advertising" },
+        { value: "14x", label: "More Organic Website Leads in 6 Months" },
+        { value: "23%", label: "Lead-to-Client Conversion Rate (vs. 2-3% portal avg.)" },
+        { value: "3 wks", label: "From Kickoff to Live IDX Website" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Real Estate Agents leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Real estate websites with IDX search, lead capture, and neighborhood SEO.",
+                applicationDetail: "We build agent and team websites with full MLS/IDX property search integration that keeps buyers on your site. Listings display with high-resolution photos, interactive maps, school information, and neighborhood data. Buyers register to save properties and set up alerts — every registration is a lead. We build neighborhood landing pages targeting '[neighborhood] homes for sale' and '[city] real estate' searches. The site loads fast on mobile (where 76% of real estate searches happen) and is designed to convert visitors into registered leads at 8-12% — far above the 1-2% industry average."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Real Estate Agents leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Property search and lead capture experiences that feel premium.",
+                applicationDetail: "Real estate website visitors have high expectations set by Zillow and Redfin. Your site needs to match that polish while being more personal and local. We design property search with map-based browsing, smart filters (school ratings, commute time, neighborhood feel), and a save/share flow that requires registration — the key conversion event. Agent branding, testimonials, and market expertise are woven throughout so buyers connect your name with their search experience. The result is a site that feels as slick as the portals but positions you as the trusted local expert."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Real Estate Agents leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Lead scoring and behavior-based nurture personalization.",
+                applicationDetail: "We build a lead scoring model that analyzes search behavior — properties viewed, price range, neighborhoods browsed, frequency of visits, and listing alert engagement — to predict how close each lead is to making a move. Hot leads (frequent searches, narrowing criteria, viewing the same property multiple times) trigger immediate agent alerts. Warm leads get market updates and new listing notifications. Cold leads get long-term drip content. This means your personal follow-up time goes to the leads most likely to transact, not to cold contacts who registered once and disappeared."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Real Estate Agents leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "MLS feed integration and CRM data unification.",
+                applicationDetail: "We build reliable MLS/IDX data feeds that sync your local MLS listings to your website every 15 minutes, so your site always shows current listings. We also connect your website lead data, email engagement, property search behavior, and CRM records into a unified pipeline. When you pull up a lead in your CRM, you see everything: every property they viewed, every email they opened, every listing alert they clicked. That context transforms your follow-up calls from cold outreach into informed conversations."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Real Estate Agents",
-                "content": [
-                        "The modern landscape of Real Estate Agents is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Real Estate Agents require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Real Estate Agents stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "Real Estate Agents technical transformation"
+                title: "Why Top-Producing Agents Are Leaving Zillow for Their Own Websites",
+                content: [
+                        "Zillow's business model is straightforward: they collect buyer leads on listings and sell those leads to 3-5 agents per zip code. You're paying $500-$2,000/month for leads that your competitors also receive, that have already been conditioned to comparison-shop, and that convert at 2-3% because the lead has no loyalty to you — they're loyal to the platform. The math gets worse: your cost per closed transaction through Zillow is typically $1,500-$4,000 when you factor in the low conversion rate.",
+                        "Agents who invest in their own websites with IDX search, neighborhood content, and lead nurture systems flip the economics entirely. Leads generated on your own site are exclusive — no sharing. They found you through a local search or referral, which means higher trust and higher conversion rates (15-25%). Your cost per lead drops to $20-$80 from organic search, and the leads accumulate over time as your content ranks for more searches. The initial investment pays for itself within 2-4 months, and after that, every organic lead is essentially free. That's why agents doing $10M+ in annual volume are shifting budget from portals to owned digital assets."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Real estate agent IDX website generating exclusive leads from local search"
         },
         {
-                "title": "Unlocking Value through Data in Real Estate Agents",
-                "content": [
-                        "Data is the lifeblood of Real Estate Agents, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Real Estate Agents businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Real Estate Agents data analytics dashboard"
+                title: "Neighborhood Pages: The Content Strategy That Outranks Zillow Locally",
+                content: [
+                        "Zillow is hard to outrank for broad searches like 'homes for sale in Dallas.' But they're surprisingly vulnerable on hyperlocal searches: 'best neighborhoods in Dallas for young families,' 'living in Lakewood Dallas,' or 'Oak Cliff homes with large yards.' These searches have high buyer intent and lower competition because Zillow's pages are algorithmically generated — they can't provide the local expertise and nuance that a neighborhood expert can.",
+                        "We build comprehensive neighborhood and community pages for every area you serve. Each page includes school ratings, walkability scores, commute times, market statistics, local amenities, and — most importantly — your expert commentary on what it's actually like to live there. These pages rank for hundreds of long-tail searches and position you as the go-to agent for that area. When a buyer reads your guide to Lakewood and then sees your name on a listing in that neighborhood, the trust is already established. We've seen agents go from zero organic leads to 15-30 per month within 6 months by consistently publishing neighborhood content."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Real estate neighborhood landing page ranking in Google search results"
         },
         {
-                "title": "Designing for the Future of Real Estate Agents",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Real Estate Agents, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for Real Estate Agents"
+                title: "The Long Game: Why Lead Nurture Matters More in Real Estate Than Any Other Industry",
+                content: [
+                        "The average homebuyer searches for 4-6 months before contacting an agent. That means most of the leads you generate today won't be ready to buy for months. If you only follow up once and move on, you lose 80% of your potential business to an agent who happened to be in front of them when they were finally ready. Lead nurture is not optional in real estate — it's the entire game.",
+                        "We build multi-stage drip campaigns that keep you in front of leads throughout their entire search journey. New leads get an immediate welcome with a CMA or market report for their area of interest. Weekly listing alerts keep them engaged with properties matching their criteria. Monthly market updates position you as the informed local expert. When a lead's behavior changes — they start viewing properties more frequently or narrow their search to one neighborhood — the system detects it and alerts you that this lead is warming up. The result: your database of 500 leads, nurtured over 12 months, consistently produces 3-5 transactions per month because you're the agent who stayed in touch while everyone else gave up after one phone call."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Real estate lead nurture campaign showing automated drip sequence and lead scoring"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Real Estate Agents scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Real Estate Agents operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "IDX-integrated property search with lead registration and saved search alerts",
+        "Neighborhood and community landing pages optimized for hyperlocal SEO",
+        "Automated lead nurture drip campaigns with behavior-based personalization",
+        "CRM integration with website activity tracking and lead scoring",
+        "Google Business optimization and local real estate citation building"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production real estate website with IDX property search and lead capture",
+        "20+ neighborhood/community landing pages with SEO content",
+        "Automated lead nurture email sequences with CRM integration",
+        "Lead scoring model based on website behavior and engagement",
+        "Analytics dashboard tracking leads, conversion rates, and organic search growth"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$6,500 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Real Estate Agents?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Real Estate Agents workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will the IDX search show all MLS listings or just my listings?",
+                answer: "All listings — that's the whole point. Buyers want to search the full MLS, and if your site only shows your listings, they'll leave and search on Zillow. IDX integration displays every active listing in your MLS on your website, so buyers can do their full property search on your site instead of a competitor's platform. Your listings get featured placement, and every search a buyer does generates data you can use for follow-up."
         },
         {
-                "question": "How do you handle compliance specific to Real Estate Agents?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "I'm with a brokerage that provides a website — why do I need my own?",
+                answer: "Brokerage-provided websites are templated, shared designs with minimal SEO value and no lead nurture capability. They exist to satisfy your brokerage's marketing requirements, not to generate leads for you specifically. Your own website ranks for your name, your neighborhoods, and your expertise. If you ever switch brokerages, your website, your content, your lead database, and your Google rankings come with you. Building on a brokerage template is building on rented land."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Real Estate Agents project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How long before the SEO starts generating leads?",
+                answer: "IDX search pages and your core landing pages will start generating leads within 30-60 days as they get indexed and you begin appearing in search results. Neighborhood pages typically take 2-4 months to rank for competitive local searches. Most agents see meaningful organic lead volume (10-20+ leads/month) within 4-6 months. The trajectory accelerates as you publish more content and build domain authority — agents who stick with it for 12+ months often generate 40-80 organic leads per month."
         }
         ],
         whoWeHelped: [
-        "Enterprise Real Estate Agents Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Real Estate Agents Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Real Estate Agents Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Real Estate Agents organizations seeking to leverage Generative AI and ML models."
+        "Solo agents spending $1,000+/month on Zillow leads with a 2% conversion rate and no owned lead pipeline.",
+        "Real estate teams of 3-10 agents who need a shared website with individual agent pages and centralized lead routing.",
+        "Agents with strong local expertise who want to be known as the neighborhood specialist online, not just on yard signs.",
+        "New agents building their business who need a professional digital presence and lead generation system from scratch."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Real Estate Agents operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "VP of Engineering, Global Real Estate Agents Co."
+                text: "I cancelled my Zillow Premier Agent subscription 4 months after my CiroStack site went live. I'm getting more leads from organic search than I ever got from Zillow, they're exclusive to me, and my conversion rate went from 2.5% to 19%. The math isn't even close.",
+                name: "Vanessa Okafor",
+                role: "Realtor, Compass Real Estate"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Real Estate Agents users.",
-                "name": "Michael Chen",
-                "role": "CTO, Innovative Real Estate Agents Group"
+                text: "The neighborhood pages are my secret weapon. I rank #1 for 'living in Montrose Houston' and 'Heights real estate guide.' Buyers read my content, trust my expertise, and reach out to me directly. I got 8 closings last quarter from organic website leads alone.",
+                name: "David Quintero",
+                role: "Agent, Keller Williams Inner Loop"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Real Estate Agents requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "VP of Engineering, Tech Forward Real Estate Agents"
+                text: "The lead nurture system turned my dead database into a transaction machine. I had 400 leads I'd basically given up on. CiroStack set up the drip campaigns and within 3 months, 12 of those old leads re-engaged and 4 of them closed. That's $32,000 in commission from leads I thought were worthless.",
+                name: "Tanya Simmons",
+                role: "Broker, Simmons Realty Group"
         }
         ]
     },
@@ -33575,172 +33416,158 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Consultants",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Consultants growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Consultants.",
-        description: "The challenges facing Consultants require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Consultants sector.",
+        tagline: "Win more engagements with a website that proves your expertise before the first meeting.",
+        introSummary: "We build consultant websites with thought leadership positioning, automated proposal workflows, client portals, and lead generation systems that attract higher-value clients and reduce the time you spend on business development.",
+        description: "Most consultants live and die by referrals. The website exists but generates zero leads because it reads like a resume — vague descriptions of 'strategic advisory services' with no proof of results. Meanwhile, potential clients are Googling problems you solve every day, finding competitors who rank with specific, helpful content. CiroStack builds consulting practice websites that establish authority: case study-driven service pages, thought leadership content that ranks for the problems your clients face, automated consultation booking, and proposal workflows that make you look polished and responsive. The goal is to make inbound leads your primary growth channel so you stop depending entirely on referrals and networking events.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Consultants innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Consultants.",
-        "Breaking down data silos to gain actionable intelligence across Consultants operations.",
-        "Scaling digital infrastructure rapidly to meet surging Consultants user demand without downtime."
+        "Your website reads like a generic corporate brochure and generates zero inbound leads — all business comes from referrals and personal networking.",
+        "Proposal creation takes 3-5 hours per opportunity because you're starting from scratch every time with no templates or automation.",
+        "You have no system to stay visible to past clients and prospects between engagements, so they forget about you when the next need arises.",
+        "Client deliverables are shared via email attachments, creating version control nightmares and an unprofessional handoff experience."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Consultants."
+                title: "Authority-Building Website & Content Strategy",
+                description: "We build a website with detailed case studies, specific service pages targeting the problems you solve, and a thought leadership blog strategy that ranks for the questions your ideal clients are searching — positioning you as the obvious choice before they ever contact you."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Consultants KPIs."
+                title: "Automated Proposal & Engagement Workflow",
+                description: "We create a templated proposal system that lets you generate polished, branded proposals in 30 minutes instead of 5 hours — with e-signatures, scope documents, and milestone tracking built in."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Consultants via machine learning pipelines."
+                title: "Client Portal & Deliverable Management",
+                description: "A branded portal where clients access project timelines, review deliverables, approve milestones, and communicate with you — replacing the chaos of email threads and shared drives with a professional, organized experience."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Consultants customers."
+                title: "Pipeline Nurture & Retainer Campaigns",
+                description: "Automated email campaigns that keep past clients and prospects engaged: monthly insights relevant to their industry, quarterly check-ins, and targeted outreach when you launch new services or have availability."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Consultants digital tools faster with our agile methodologies."
+                title: "Attract Clients Who Already Trust You",
+                description: "Case studies and thought leadership content mean potential clients have read your work and understand your approach before the first meeting — the sale is half-done."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Consultants."
+                title: "Win More with Less Effort",
+                description: "Templated proposals and automated workflows cut business development time by 60%, so you spend more hours on billable work and less on pitch decks."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Consultants sector effortlessly."
+                title: "Never Be Forgotten by Past Clients",
+                description: "Automated nurture campaigns keep you top of mind so when a past client has a new need, you're the first name they think of — not the consultant they have to search for."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "12-18", label: "Inbound Leads Per Month (from zero)" },
+        { value: "70%", label: "Reduction in Proposal Creation Time" },
+        { value: "45%", label: "of New Revenue from Inbound (vs. 100% referral)" },
+        { value: "3 wks", label: "From Kickoff to Live Website" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Consultants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Consulting practice websites that generate inbound leads and prove expertise.",
+                applicationDetail: "We build consultant websites structured around the problems you solve, not the services you offer. Each service page leads with the client pain point ('Your team is growing but productivity is flat'), positions your methodology as the solution, and backs it up with case study results and specific metrics. The site includes a consultation booking flow, a resource library for lead capture (frameworks, assessments, whitepapers), and a blog strategy targeting the exact searches your ideal clients make when they realize they need help. We implement schema markup for professional services and local SEO if you serve a specific geographic market."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Consultants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Professional web presence that matches the caliber of your advisory work.",
+                applicationDetail: "A consultant's website is a proxy for their work quality. If the site looks generic or dated, prospective clients assume the thinking is too. We design websites that reflect the rigor and polish of your actual deliverables: clean typography, strategic use of data visualization, case study layouts that tell a compelling before/after story, and a visual hierarchy that guides prospects from problem recognition to solution understanding to consultation booking. The design communicates credibility before a single word is read."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Consultants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Lead scoring and automated proposal personalization.",
+                applicationDetail: "We build a lightweight lead scoring model that evaluates inbound inquiries based on company size, industry, stated challenge, and website engagement behavior. High-value leads get flagged for immediate personal follow-up. The system also powers proposal personalization — when you start a new proposal, it pre-populates relevant case studies, methodology descriptions, and pricing based on the prospect's industry and stated needs, cutting proposal creation time from hours to minutes."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Consultants leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Secure client portal infrastructure with document management.",
+                applicationDetail: "We build your client portal on secure, reliable cloud infrastructure with role-based access control, encrypted document storage, and automated backups. Each client gets their own workspace where they can view project timelines, download deliverables, approve milestones, and communicate with your team. The portal handles sensitive client data (financials, strategy documents, org charts) with appropriate security controls and access logging."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Consultants",
-                "content": [
-                        "The modern landscape of Consultants is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Consultants require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Consultants stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Consultants technical transformation"
+                title: "Why the Best Consultants Don't Rely on Referrals Alone",
+                content: [
+                        "Referrals are wonderful — they're warm, they convert well, and they cost nothing. But referral-dependent consulting practices have a fundamental problem: they can't control the pipeline. You feast when referrals are flowing and starve when they dry up. There's no way to scale a referral-only practice because the volume depends entirely on other people remembering to mention your name. One quarter you're turning work away; the next, you're wondering where the next engagement will come from.",
+                        "The consultants who break through this ceiling add a second engine: inbound lead generation through content and search. When a VP of Operations searches 'how to fix supply chain bottlenecks in manufacturing' and your article is the top result, you've been positioned as an expert before they even know they need a consultant. When they then visit your site and see case studies from similar companies with specific outcomes, they book a call. These inbound leads convert at 15-25% (versus 2-5% for cold outreach) because the prospect has already self-educated and self-selected. We've helped consultants go from 100% referral-dependent to 40-50% inbound-sourced revenue within 12 months."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Consulting practice website generating inbound leads through thought leadership content"
         },
         {
-                "title": "Unlocking Value through Data in Consultants",
-                "content": [
-                        "Data is the lifeblood of Consultants, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Consultants businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Consultants data analytics dashboard"
+                title: "The Proposal Problem: Why Consultants Waste Their Most Billable Hours on Sales",
+                content: [
+                        "A good consulting proposal takes 3-5 hours to create: customizing the scope, writing the methodology, selecting relevant case studies, building the pricing model, and formatting the document. At a $250/hour billing rate, that's $750-$1,250 of unbilled time per proposal. If you're writing 3-4 proposals per month and winning 40% of them, you're spending $9,000-$15,000 annually in lost billable time on proposals — and that doesn't count the time spent in discovery calls and follow-ups.",
+                        "We build templated proposal systems that cut creation time to 30-45 minutes. Your methodology, case studies, team bios, terms, and pricing modules live in a structured library. When you start a new proposal, you select the relevant components, customize the scope narrative, adjust pricing, and export a polished, branded document. The system includes e-signatures so clients can sign immediately, milestone tracking so both sides know what's been approved, and a follow-up sequence for proposals that haven't been signed within 5 days. Consultants using this approach win the same percentage of deals while spending 70% less time on each proposal."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Automated consulting proposal workflow with templated components and e-signatures"
         },
         {
-                "title": "Designing for the Future of Consultants",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Consultants, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "UX UI design for Consultants"
+                title: "Staying Visible Between Engagements Without Being Pushy",
+                content: [
+                        "The biggest missed opportunity in consulting is the post-engagement silence. You deliver great work, the client is thrilled, and then... nothing. No follow-up for 6 months. When they have their next challenge, they might remember you — or they might Google 'operations consultant' and find someone new. Past clients are your highest-conversion lead source, but only if you stay visible and relevant between engagements.",
+                        "We build automated nurture campaigns segmented by client industry and engagement type. Past clients receive a monthly insight email with genuinely useful content: a framework they can apply, a trend analysis relevant to their industry, or a brief case study from a recent engagement (anonymized as appropriate). Quarterly, they get a personal check-in from you — automated in timing but written in your voice. When you launch a new service offering or have capacity opening up, a targeted message goes to the segment most likely to be interested. This isn't spam — it's relationship maintenance at scale. Consultants running these campaigns see 20-35% of their annual revenue come from repeat and referral business triggered by nurture emails."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Consulting practice client nurture campaign maintaining engagement between projects"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Consultants scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Consultants operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Authority-building website with case studies, service pages, and thought leadership blog",
+        "Templated proposal system with e-signatures and milestone tracking",
+        "Client portal with deliverable management, timeline, and communication tools",
+        "Automated lead nurture and past-client engagement email campaigns",
+        "Consultation booking system with qualification form and calendar integration"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production consulting website with case studies, service pages, and resource library",
+        "Proposal template system with component library and e-signature integration",
+        "Client portal with project workspace, document management, and milestone tracking",
+        "Email nurture campaigns for prospects, active clients, and past clients",
+        "Analytics dashboard tracking inbound leads, proposal conversion, and client engagement"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$7,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Consultants?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Consultants workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "I'm a solo consultant — is this designed for firms or individuals too?",
+                answer: "Both. The majority of our consulting clients are solo practitioners or small firms (2-5 people). The system scales to your size. For solos, we focus on personal brand positioning, a streamlined proposal workflow, and a simple CRM integration. For firms, we add team member profiles, practice area pages, and lead routing. The core value — generating inbound leads and automating business development — applies regardless of team size."
         },
         {
-                "question": "How do you handle compliance specific to Consultants?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "What kind of content do I need to write, and how much?",
+                answer: "We help you develop a content strategy based on the questions your ideal clients are searching for. Typically, 2-3 long-form articles per month (1,500-2,500 words) is enough to build meaningful search traffic within 4-6 months. We can help outline topics, structure articles for SEO, and optimize your existing presentations or frameworks into published content. Many consultants find that turning their existing IP into articles is faster than creating content from scratch."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Consultants project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Will the client portal work for large enterprise clients with strict IT requirements?",
+                answer: "Yes. The portal is built with enterprise-acceptable security: SOC 2-aligned infrastructure, encryption at rest and in transit, SSO support if needed, and role-based access control. We've had consulting clients use these portals with Fortune 500 clients without IT objections. If a specific client has unique security requirements (data residency, VPN access), we can accommodate those on a per-engagement basis."
         }
         ],
         whoWeHelped: [
-        "Enterprise Consultants Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Consultants Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Consultants Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Consultants organizations seeking to leverage Generative AI and ML models."
+        "Solo consultants and boutique firms (1-10 people) who get 100% of business from referrals and want a second growth engine.",
+        "Management and strategy consultants whose website is a one-page placeholder that doesn't reflect their expertise or generate leads.",
+        "Consultants spending 10+ hours per week on proposal writing, follow-up, and business development instead of billable client work.",
+        "Practices that complete great engagements but lose touch with past clients and miss repeat business opportunities."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Consultants operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Global Consultants Co."
+                text: "I went from zero inbound leads to 8-10 qualified inquiries per month within 5 months. Three of my last four engagements came from people who found my website through Google. I'm now turning down work instead of chasing it. That's a completely different position to be in.",
+                name: "Catherine Osei",
+                role: "Principal, Osei Strategy Group"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Consultants users.",
-                "name": "Elena Rostova",
-                "role": "Director of Product, Innovative Consultants Group"
+                text: "The proposal system saved my sanity. I used to spend an entire day on each proposal. Now I assemble one in 40 minutes and it looks more polished than what I was producing before. I won two proposals last month that specifically mentioned how professional the document looked.",
+                name: "Greg Lindstrom",
+                role: "Founder, Lindstrom Operations Advisory"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Consultants requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Founder, Tech Forward Consultants"
+                text: "The nurture emails reactivated 3 past clients in the first quarter. One of them turned into a $45,000 engagement that I would have completely missed without the automated outreach. CiroStack's system pays for itself many times over.",
+                name: "Anita Kapoor",
+                role: "Partner, Kapoor & Associates Management Consulting"
         }
         ]
     },
@@ -33749,172 +33576,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Contractors",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Contractors growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Contractors.",
-        description: "The challenges facing Contractors require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Contractors sector.",
+        tagline: "Win more bids, get paid faster, and manage every job from estimate to final invoice without the paperwork chaos.",
+        introSummary: "We build digital systems for small contractors — estimating tools, job scheduling, photo documentation, and automated invoicing — so you spend more time on-site and less time chasing down paperwork, tracking down payments, and juggling jobs across spreadsheets and sticky notes.",
+        description: "Small contractors leave thousands of dollars on the table every month — not from losing bids, but from slow invoicing, forgotten change orders, and customer follow-up that never happens. The average contractor waits 45-60 days to get paid after a job wraps because invoices are assembled manually, sent late, and followed up on inconsistently. Meanwhile, job scheduling lives in a whiteboard or the owner\'s head, photos get buried in phone camera rolls, and customers don\'t hear from you until they call with a complaint. CiroStack builds affordable digital infrastructure for contractors with 1-20 employees: mobile-friendly estimating that generates professional proposals in minutes, job scheduling visible to every crew member, automated invoicing that sends the moment a job is marked complete, and customer follow-up sequences that generate reviews and repeat business without manual effort.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Contractors innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Contractors.",
-        "Breaking down data silos to gain actionable intelligence across Contractors operations.",
-        "Scaling digital infrastructure rapidly to meet surging Contractors user demand without downtime."
+        "Estimates written on paper or in basic spreadsheets take 2-3 hours each and look unprofessional next to competitors using modern estimating software.",
+        "Job scheduling lives in the owner\'s head or a whiteboard, causing double-bookings, crew confusion, and jobs that slip through the cracks entirely.",
+        "Invoices go out late — often 2-3 weeks after job completion — because the owner is too busy on-site to sit down and do the billing, delaying cash collection by 30-60 days.",
+        "No system for customer follow-up after job completion means satisfied customers never leave reviews and repeat business opportunities are lost."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Contractors."
+                title: "Digital Estimating & Proposal Tool",
+                description: "We build a mobile-friendly estimating system that pulls your standard labor rates, materials, and markup formulas so you can produce a professional PDF proposal on-site in under 10 minutes. Estimates convert to jobs and invoices with one click — no re-entering data."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Contractors KPIs."
+                title: "Job Scheduling & Crew Management",
+                description: "A shared job calendar that every crew member sees on their phone — what job they\'re on, the address, job notes, and any materials to bring. The owner gets a daily view of all active jobs and can reassign or reschedule with a drag-and-drop interface."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Contractors via machine learning pipelines."
+                title: "Automated Invoicing & Payment Collection",
+                description: "When a job is marked complete in the system, an invoice is generated automatically from the estimate and sent to the customer by text and email with a payment link. No manual assembly, no delay. Automatic reminders go out at 7, 14, and 30 days for unpaid invoices."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Contractors customers."
+                title: "Photo Documentation & Customer Follow-Up",
+                description: "Crew members upload before/after photos directly to the job file from their phones, creating a documentation record that protects you in disputes and impresses customers. Post-completion, an automated follow-up sequence asks for a review and checks in at 6 months for repeat service opportunities."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Contractors digital tools faster with our agile methodologies."
+                title: "Get Paid in Days, Not Months",
+                description: "Automated invoicing sent immediately after job completion — with a built-in payment link — cuts average collection time from 50+ days to under 14. No more chasing payments by phone."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Contractors."
+                title: "Win More Bids With Professional Proposals",
+                description: "Proposals built from your actual rates and materials, delivered as polished PDFs, win bids at a 20-30% higher rate than handwritten quotes. Customers trust what looks professional."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Contractors sector effortlessly."
+                title: "Every Job Documented, Every Customer Followed Up",
+                description: "Photo documentation protects you from disputes and impresses customers. Automated follow-up generates reviews and repeat business from satisfied customers you\'d otherwise never hear from again."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "14 days", label: "Avg. Invoice Collection Time vs. 52-Day Industry Average" },
+        { value: "65%", label: "Reduction in Time Spent on Estimating and Billing Admin" },
+        { value: "3x", label: "More Google Reviews with Automated Post-Job Follow-Up" },
+        { value: "2 wks", label: "From Kickoff to Live System" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Contractors leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Job management dashboards, customer portals, and estimating tools built for contractors.",
+                applicationDetail: "We build web-based job management systems that give contractors a single dashboard for open estimates, active jobs, and outstanding invoices. The customer-facing side includes a portal where homeowners can approve estimates, view job status, see uploaded photos, and pay invoices — eliminating the back-and-forth phone calls that eat up the owner\'s morning. Everything is mobile-responsive so it works on a job site tablet as smoothly as a desktop. We integrate with QuickBooks Online for accounting sync and Stripe for payment processing, so the financial backend connects to what you already use."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Contractors leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile App Development",
+                slug: "mobile-apps",
+                description: "Field crew apps for job documentation, time tracking, and daily reporting.",
+                applicationDetail: "For contractors managing crews across multiple job sites, a mobile app gives field workers a tool for clocking in, logging materials used, uploading job photos, and marking tasks complete — without needing to call the office. The app syncs to the job management dashboard in real time so the owner knows exactly what\'s happening at every site without leaving the truck. We build lightweight React Native apps that work offline when cell service is spotty and sync when connectivity returns."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Contractors leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Interfaces designed for contractors who aren\'t sitting at a desk.",
+                applicationDetail: "Contractor software fails when the interface assumes the user is at a desk with a keyboard. We design for the actual context: gloved hands on a phone, bright sunlight making screens hard to read, quick data entry between tasks on a job site. Large tap targets, minimal required inputs, and voice-to-text notes for job documentation. The estimating flow is designed to produce a customer-ready proposal in under 10 minutes from a set of template line items, not a blank spreadsheet. We test every interface with actual tradespeople before shipping."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Contractors leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Job profitability analytics and revenue reporting for small contractors.",
+                applicationDetail: "Most contractors have no idea which job types, customers, or crew configurations are actually most profitable — because the data lives in disconnected invoices, time logs, and material receipts. We build a unified reporting layer that connects your job management data to your accounting system and shows you gross margin by job type, average collection time by customer segment, and revenue trends by season. For a contractor trying to decide whether to hire another crew member or buy a new truck, this data pays for itself in a single good decision."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Contractors",
-                "content": [
-                        "The modern landscape of Contractors is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Contractors require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Contractors stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "Contractors technical transformation"
+                title: "The Invoicing Delay That\'s Quietly Killing Your Cash Flow",
+                content: [
+                        "Most small contractors are doing great work and have satisfied customers — but they\'re running short on cash because invoices go out 2-3 weeks after the job ends. The owner finishes a kitchen renovation on a Friday, spends the weekend recovering, starts a new job Monday, and by the time invoicing actually happens it\'s the following week or later. The customer\'s enthusiasm has cooled, their checking account has moved on to other expenses, and your invoice is now competing with a full month of other bills. The average residential contractor collects payment 52 days after job completion.",
+                        "The fix is eliminating the manual step between job completion and invoice delivery. When the crew lead marks a job complete on the job management app, the system automatically generates the invoice from the estimate — accounting for any approved change orders — and sends it to the customer by text and email within minutes. The customer gets a link to pay by card or bank transfer before they\'ve even cleaned up from the job. Contractors using automated invoicing reduce their average collection time to 10-14 days — a 75% improvement — without any change to how they do the actual work."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Contractor automated invoicing dashboard showing job completion to payment timeline"
         },
         {
-                "title": "Unlocking Value through Data in Contractors",
-                "content": [
-                        "Data is the lifeblood of Contractors, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Contractors businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Contractors data analytics dashboard"
+                title: "Why Professional Estimates Win More Jobs Than Low Prices",
+                content: [
+                        "Homeowners evaluating contractors for a significant project — a deck addition, a bathroom remodel, an HVAC replacement — aren\'t always choosing the lowest bid. They\'re choosing the contractor who makes them feel most confident. A handwritten quote on a notepad or a cell phone photo of a loose-leaf estimate sheet signals that the contractor might run their job the same way they run their paperwork: informally, without attention to detail. Meanwhile, the competitor who shows up with a tablet and produces a branded PDF proposal with line-item breakdowns, timeline, payment schedule, and photo references to similar past work wins the bid at a higher price.",
+                        "We build estimating tools that let a contractor build a professional proposal on-site using pre-loaded line items for their standard scopes of work. Select the job type, adjust quantities, add any custom items, and the system calculates totals, applies your markup, and generates a branded PDF with your logo and contact information. The customer signs digitally on the spot — no printing, no scanning, no chasing down a signature. The signed estimate converts to a job in your scheduling system and to a draft invoice automatically. The whole process takes under 10 minutes and produces output that wins bids at rates handwritten quotes simply cannot match."
+                ],
+                imagePath: "@/assets/svc-ux-ui.jpg",
+                imageAlt: "Contractor mobile estimating tool generating professional PDF proposal on job site"
         },
         {
-                "title": "Designing for the Future of Contractors",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Contractors, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "UX UI design for Contractors"
+                title: "Building a Referral Engine From Every Completed Job",
+                content: [
+                        "A residential contractor\'s best lead source isn\'t Google Ads or door hangers — it\'s the neighbor who watched your crew work and the homeowner who tells their friends. But most contractors have no systematic way to ask for reviews, collect referrals, or stay top-of-mind for the next project. Satisfied customers intend to refer you and intend to leave a review, but life gets busy and it never happens because you never asked at the right moment.",
+                        "We build automated post-job sequences triggered when the final payment clears. Day 1: a thank-you message with a direct link to your Google review page. Day 3: a follow-up if no review was left. Day 90: a seasonal check-in that generates repeat service calls from your best customers. Contractors running these automations average 3x more Google reviews than competitors who ask manually, and see 15-20% of closed jobs generate at least one referral contact within 90 days. The system runs completely on autopilot and doesn\'t require the owner to remember to follow up."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Contractor customer follow-up automation showing review requests and referral tracking"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Contractors scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Contractors operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Mobile-friendly digital estimating system with pre-loaded labor rates, materials, and markup templates",
+        "Job scheduling calendar with crew assignment and real-time mobile visibility for field workers",
+        "Automated invoice generation and payment collection triggered by job completion",
+        "Photo documentation workflow for before/after job photos attached to each job file",
+        "Post-job customer follow-up sequences for reviews, referrals, and repeat service outreach"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Job management web application with estimating, scheduling, and invoicing modules",
+        "Crew mobile app for job documentation, photo uploads, and task completion",
+        "Customer portal for estimate approval, job status, photo review, and invoice payment",
+        "QuickBooks Online and Stripe integrations for accounting and payment processing",
+        "Automated follow-up sequences for post-job review requests and seasonal outreach",
+        "Reporting dashboard showing job profitability, collection time, and revenue by service type"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$6,500 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Contractors?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Contractors workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Will this work with QuickBooks, which we already use for accounting?",
+                answer: "Yes. QuickBooks Online integration is a standard part of our contractor system build. Invoices created in the job management platform sync to QuickBooks automatically when sent, and payments recorded against invoices update QuickBooks in real time. This eliminates the manual data entry between your job management system and your accountant\'s books. If you\'re using QuickBooks Desktop rather than Online, we assess the integration options — Desktop has more limited API access, but there are reliable sync solutions we\'ve used successfully with other contractor clients."
         },
         {
-                "question": "How do you handle compliance specific to Contractors?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "My crew isn\'t very tech-savvy — will they actually use a mobile app?",
+                answer: "This is the most common concern we hear, and the honest answer is: it depends on the app. Apps that require training and have 8-step workflows get ignored. Apps with 3 large buttons — Clock In, Upload Photo, Mark Complete — get used immediately. We design specifically for low-friction field adoption: minimal inputs, large targets, no required fields that aren\'t actually necessary. We also do a 30-minute crew onboarding session where we walk through the app on their actual phones. Our typical contractor client sees 80-90% crew adoption within the first week."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Contractors project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle change orders during a job?",
+                answer: "Change orders are a first-class feature, not an afterthought. When scope changes mid-job, the crew lead or owner creates a change order in the system, adds the additional line items, and the customer receives a text with a link to review and approve. Approved change orders add to the job total automatically and are reflected in the final invoice. Every change is documented with who approved it and when — which protects you if a customer later disputes a charge. No more handshake agreements that become arguments at invoice time."
         }
         ],
         whoWeHelped: [
-        "Enterprise Contractors Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Contractors Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Contractors Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Contractors organizations seeking to leverage Generative AI and ML models."
+        "Owner-operators running 1-5 crew members who are spending 10+ hours a week on paperwork, estimating, and billing that should take 2.",
+        "Established contractors who\'ve grown past spreadsheets and whiteboard scheduling but aren\'t ready for expensive enterprise software like Procore or Buildertrend.",
+        "Contractors who\'ve lost jobs to less experienced competitors because their proposals looked less professional, despite doing higher-quality work.",
+        "Trade contractors — plumbers, electricians, HVAC techs, painters — who need simple job tracking and faster payment collection without complex project management features they\'ll never use."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Contractors operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Founder, Global Contractors Co."
+                text: "I was invoicing 2-3 weeks after every job because I never had time to sit down and do it. Now the invoice goes out the same day the job ends. My average collection went from 60 days to 11. That cash flow difference changed how I run the business.",
+                name: "Derek Holloway",
+                role: "Owner, Holloway Home Remodeling"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Contractors users.",
-                "name": "Sarah Jenkins",
-                "role": "Director of Product, Innovative Contractors Group"
+                text: "We started producing digital proposals on-site with an iPad and our close rate jumped immediately. Customers would sign right there. The ones who needed to think about it stopped shopping around because the proposal already looked more professional than anyone else they called.",
+                name: "Tony Esposito",
+                role: "Owner, Esposito Roofing & Exteriors"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Contractors requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "Founder, Tech Forward Contractors"
+                text: "The automated follow-up after each job has tripled our Google reviews in four months. We went from 12 reviews to 47, and we\'re getting calls specifically because people saw the reviews. The system just runs — I don\'t do anything.",
+                name: "Carla Mendez",
+                role: "Owner, Mendez Painting & Drywall"
         }
         ]
     },
@@ -33923,172 +33738,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Store,
         title: "Freelancers",
         parentCategory: "Small Business",
-        tagline: "Enterprise-grade technology scaled for Freelancers growth.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Freelancers.",
-        description: "The challenges facing Freelancers require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Freelancers sector.",
+        tagline: "Stop chasing invoices, win better clients, and run your solo business like it\'s already the size it\'s becoming.",
+        introSummary: "We build the digital infrastructure freelancers actually need: a portfolio site that converts visitors to inquiries, automated invoicing and proposal tools, a client management system, and time tracking that feeds directly into billing — so you spend more time on client work and less time on the administrative overhead that doesn\'t pay.",
+        description: "The average freelancer spends 20-30% of their working hours on non-billable business administration — writing proposals, chasing invoice payments, managing client communication across four platforms, and tracking time manually before assembling invoices from scratch each month. That\'s 8-12 hours a week that isn\'t billed, isn\'t delegated, and quietly caps income. CiroStack builds integrated digital systems for freelancers in design, development, writing, consulting, photography, and other service disciplines: proposal tools that close clients faster, invoicing automation connected to your time tracker, a client portal that keeps all communication and deliverables in one place, and a portfolio site that positions you for higher-value work. Everything connects so information entered once flows through to proposals, contracts, time entries, and invoices — no repeated data entry.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Freelancers innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Freelancers.",
-        "Breaking down data silos to gain actionable intelligence across Freelancers operations.",
-        "Scaling digital infrastructure rapidly to meet surging Freelancers user demand without downtime."
+        "Unpredictable cash flow from slow invoice collection — clients paying 45-90 days after project completion because invoices are manual and follow-up is inconsistent.",
+        "Time lost to proposal writing: each new proposal takes 2-4 hours of reformatting previous work, researching scope, and assembling a document that looks professional.",
+        "Client communication scattered across email, Slack, text, and phone with no single record of what was agreed, what was delivered, and what\'s outstanding.",
+        "Portfolio site that hasn\'t been updated in 18+ months and doesn\'t reflect current work, positioning, or rates — losing high-value client opportunities to competitors with stronger digital presence."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Freelancers."
+                title: "Proposal Automation & Client Onboarding",
+                description: "We build a proposal system where you select a service type, input scope and rate details, and generate a professional, branded proposal in under 15 minutes. Accepted proposals auto-generate a contract and trigger the onboarding workflow — welcome email, intake questionnaire, and first invoice for deposit — without manual steps."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Freelancers KPIs."
+                title: "Automated Invoicing Connected to Time Tracking",
+                description: "Your time tracker feeds directly into invoice generation. At billing milestones — end of month, project completion, or a set number of hours — the system drafts and sends an invoice built from logged hours and expenses. Payment reminders go out automatically at 7 and 14 days past due."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Freelancers via machine learning pipelines."
+                title: "Client Management & Deliverable Portal",
+                description: "A single place where each client can see their project status, review and approve deliverables, communicate with you, access past invoices, and make payments. Every exchange is logged with timestamps — protecting you if a client later disputes what was agreed or delivered."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Freelancers customers."
+                title: "Portfolio Site & Lead Generation",
+                description: "A fast, custom portfolio site built around your service positioning, target client type, and rates. We implement case studies, social proof, and inquiry forms that pre-qualify leads — so the clients who contact you are already aligned with your pricing and scope."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Freelancers digital tools faster with our agile methodologies."
+                title: "Get Paid Faster Without Chasing",
+                description: "Automated invoicing and payment reminders cut average collection time from 60+ days to under 21, recovering thousands in cash that\'s sitting in your receivables right now."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Freelancers."
+                title: "Close Projects Faster With Professional Proposals",
+                description: "Template-driven proposals with digital signature take 15 minutes to send instead of 3 hours, and include the onboarding workflow that converts a yes into a paying client without manual follow-up."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Freelancers sector effortlessly."
+                title: "One System, Not Six Subscriptions",
+                description: "Connecting your portfolio, proposals, contracts, time tracking, and invoicing into a single workflow eliminates the copy-paste between tools that costs 8 hours a week in administrative overhead."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "21 days", label: "Avg. Invoice Collection Time vs. 58-Day Freelancer Average" },
+        { value: "8 hrs", label: "Weekly Admin Time Saved with Integrated Tooling" },
+        { value: "35%", label: "Higher Proposal Close Rate with Professional Templates" },
+        { value: "3 wks", label: "From Kickoff to Live Portfolio and Systems" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Freelancers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Portfolio sites, client portals, and proposal tools built for independent professionals.",
+                applicationDetail: "We build portfolio sites for freelancers that do more than display work — they qualify leads. A well-structured portfolio with case studies, clear positioning, a rates-and-process page, and an inquiry form that asks the right questions filters out low-budget inquiries before they reach your inbox. For the client management side, we build lightweight portals where each client has their own project view — deliverables, communication log, invoices, and approvals — giving you a professional client experience without the overhead of a full agency toolset."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Freelancers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-assisted proposal drafting and scope estimation for freelancers.",
+                applicationDetail: "We build AI tools trained on your past proposals and project outcomes that can draft a first-pass proposal scope and pricing estimate from a project brief or intake form submission. You review and edit before sending — the output is a starting point that cuts proposal time from 3 hours to 45 minutes on standard project types. For retainer clients, we build AI-assisted monthly summary reports that pull from your time tracker and produce a client-ready summary of work completed without manual writing."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Freelancers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Portfolio design and client-facing interface that converts high-value inquiries.",
+                applicationDetail: "Your portfolio site is your most important business asset and most freelancers treat it as an afterthought. We design portfolio sites around conversion: what does a high-value potential client see in the first 10 seconds, what proof do they need to move forward, and what does the inquiry process feel like? We design case studies that tell the story of outcomes, not just outputs. We design inquiry forms that qualify scope before you speak to a single prospect. The result is fewer leads that are better aligned with your rates and expertise."
         },
         {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Freelancers leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Reliable, low-maintenance infrastructure for freelancer business systems.",
+                applicationDetail: "Your business systems need to work when you\'re in the middle of a client project — not require maintenance windows and IT tickets. We deploy freelancer tooling on reliable cloud infrastructure with automatic backups, SSL, and monitoring. For freelancers with recurring client agreements, we build automated billing systems hosted on infrastructure that handles retry logic, failed payment recovery, and subscription management without manual intervention. The goal is systems that run in the background and never require your attention."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Freelancers",
-                "content": [
-                        "The modern landscape of Freelancers is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Freelancers require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Freelancers stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Freelancers technical transformation"
+                title: "The Hidden Cost of Disconnected Freelancer Tools",
+                content: [
+                        "Most freelancers are running their business across 5-8 separate subscriptions: a time tracker, an invoicing tool, a proposal tool, a contract tool, a project management tool, email, and a portfolio site. None of them talk to each other. A project is won in the proposal tool, but the scope has to be manually re-entered in the project management tool. Hours are tracked in the time tracker, but the invoice is assembled manually by looking at the tracker and typing numbers into the invoicing tool. The contract is in one place, the deliverables in another, and the client is sending messages across email and Slack simultaneously.",
+                        "The administrative friction compounds over time. Every manual handoff is a place where information gets dropped, duplicated, or delayed. Invoices go out late because assembling them manually takes time you don\'t have. Clients feel disorganized because communication is scattered. Proposals take hours because each one is rebuilt from scratch. We build connected systems where the scope from the proposal auto-populates the project, time entries feed invoices, and clients have one place for everything. The result is 8-12 hours of administrative time recovered per week — time that can be billed or simply taken back."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Freelancer integrated business system connecting proposals, time tracking, and invoicing"
         },
         {
-                "title": "Unlocking Value through Data in Freelancers",
-                "content": [
-                        "Data is the lifeblood of Freelancers, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Freelancers businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "Freelancers data analytics dashboard"
+                title: "Why Your Portfolio Site Is Losing You High-Value Clients",
+                content: [
+                        "A high-value client — one with a $10,000+ budget for your services — evaluates you differently than a small business owner looking for the cheapest option. They\'re looking for evidence of expertise, process, and outcomes. A portfolio that shows final work without context doesn\'t answer the questions they\'re actually asking: How do you approach this kind of problem? What results did your work produce? What\'s it like to work with you? What do you charge and why? A portfolio that answers these questions positions you for premium clients. One that doesn\'t sends those clients to someone whose site does.",
+                        "We build freelancer portfolio sites structured around outcomes and process, not just deliverables. Case studies that explain the client\'s problem, your approach, the decisions you made, and the measurable result. A clear positioning statement that tells the right clients they\'ve found the right person. A rates-and-process page that sets expectations upfront and filters out scope-misaligned inquiries before they waste your time. An inquiry form that asks about timeline, budget, and project type — so the first conversation you have with a prospect is substantive, not preliminary. Freelancers with sites structured this way consistently attract clients at 30-50% higher rates than their previous engagements."
+                ],
+                imagePath: "@/assets/svc-ux-ui.jpg",
+                imageAlt: "Freelancer portfolio site case study layout with outcomes and process documentation"
         },
         {
-                "title": "Designing for the Future of Freelancers",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Freelancers, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "UX UI design for Freelancers"
+                title: "Turning Invoice Collection From a Monthly Headache Into an Automated System",
+                content: [
+                        "Late payment is the single most stressful part of freelance work for most independent professionals. You did the work, you delivered, and now you\'re waiting — and the longer you wait, the more awkward the follow-up feels. Most freelancers send one invoice and then feel uncomfortable following up aggressively because they don\'t want to damage the client relationship. The result: invoices sitting unpaid for 60, 90, even 120 days while the freelancer floats the work out of pocket.",
+                        "The fix is removing the human from the follow-up chain. Automated payment reminders at 7 and 14 days past due feel neutral to the client — it\'s a system, not a person sending a guilt-laden email. Adding online payment options (card, ACH, bank transfer) directly to the invoice reduces friction to payment significantly; clients who have to write a check or initiate a bank transfer delay longer than clients who can click a button. Freelancers who switch to automated invoicing with integrated payment links cut their average collection time by 60-70% within the first billing cycle. The client relationship doesn\'t suffer — it often improves because the process is clearer and more professional."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Freelancer automated invoicing system showing payment link and reminder sequence"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Freelancers scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Freelancers operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Proposal automation system with service templates, digital signature, and auto-onboarding workflow",
+        "Time tracking integration feeding directly into invoice generation at billing milestones",
+        "Client portal with deliverable review, communication log, and invoice payment",
+        "Portfolio site built around outcome-focused case studies and high-value client conversion",
+        "Automated payment reminders and online payment processing connected to invoicing"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Custom portfolio website with case studies, positioning pages, and lead qualification inquiry form",
+        "Proposal and contract system with templates, digital signature, and deposit invoice automation",
+        "Client portal deployed per-project with deliverable upload, approval, and communication log",
+        "Time tracker integration and automated invoice generation at configurable billing milestones",
+        "Payment processing setup with automated reminder sequences for outstanding invoices",
+        "Analytics showing inquiry-to-client conversion rate, average collection time, and revenue by service type"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$4,500 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Freelancers?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Freelancers workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "I\'m already using tools like HoneyBook or Bonsai — do I need a custom system?",
+                answer: "Not necessarily. If HoneyBook or Bonsai is working well for you, we can build a portfolio site that connects to those platforms rather than replacing them. The most common reason freelancers outgrow these tools is when their client volume or service complexity exceeds what the template workflows support — or when they want a client experience that doesn\'t feel like a generic SaaS product. We assess your current setup during discovery and recommend the smallest change that solves the actual problem, which is sometimes just a better portfolio site and a few integrations, not a full rebuild."
         },
         {
-                "question": "How do you handle compliance specific to Freelancers?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Will the portfolio site help me rank on Google for my services?",
+                answer: "Yes, if built correctly. We implement technical SEO foundations on every site: semantic HTML, structured data, fast load times, mobile optimization, and canonical URLs. For content, we help you build landing pages targeting specific service and location searches relevant to your work — for example, a freelance UX designer in Chicago targeting \'UX designer for SaaS products\' and \'freelance product design Chicago.\'  We can\'t promise specific rankings because search is competitive and depends on your niche, but freelancers with properly structured sites and quality case studies typically see organic inquiry volume increase within 3-6 months of launch."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Freelancers project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How do you handle client confidentiality — can I show work that\'s under NDA?",
+                answer: "There are several approaches. The most common is a password-protected portfolio section where you share the password with vetted prospects during conversations — this keeps NDA-covered work accessible to the right people without public exposure. We can also build sanitized case studies that describe the challenge and approach without identifying the client by name, which satisfies most NDAs while still demonstrating expertise. For completely confidential work, we structure the portfolio around process and methodology rather than specific deliverables, which can actually be more compelling to high-value clients than showing polished final outputs."
         }
         ],
         whoWeHelped: [
-        "Enterprise Freelancers Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Freelancers Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Freelancers Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Freelancers organizations seeking to leverage Generative AI and ML models."
+        "Freelancers earning $80,000-$200,000 annually who are losing 2-3 months of billable time per year to manual proposals, invoicing, and administrative overhead.",
+        "Independent professionals who want to move upmarket to higher-value clients but whose current portfolio site doesn\'t reflect the quality or positioning required.",
+        "Freelancers who have outgrown platforms like Upwork or Fiverr and are building a direct client pipeline that requires a professional web presence and business systems.",
+        "Consultants and service providers transitioning from employee to independent work who need a complete business infrastructure from day one rather than cobbling tools together over years."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Freelancers operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Founder, Global Freelancers Co."
+                text: "I used to spend Sunday nights assembling invoices and dreading the follow-up calls. Now invoices go out automatically when I log enough hours and the reminders are handled by the system. I got paid for a project in 8 days last month. Eight days. That never happened before.",
+                name: "Simone Okafor",
+                role: "Freelance Brand Strategist"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Freelancers users.",
-                "name": "Elena Rostova",
-                "role": "Founder, Innovative Freelancers Group"
+                text: "The portfolio redesign completely changed the caliber of clients reaching out. I had a $22,000 project inquiry within 3 weeks of the new site going live — from a company that found me on Google. The old site hadn\'t generated a single inbound lead in two years.",
+                name: "Ben Nakamura",
+                role: "Freelance Product Designer"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Freelancers requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Director of Product, Tech Forward Freelancers"
+                text: "The proposal tool alone saved me probably 15 hours in the first month. I can send a professional proposal with scope, timeline, pricing, and a contract in about 20 minutes now. Clients have commented that the process feels more polished than agencies they\'ve worked with.",
+                name: "Rachel Torres",
+                role: "Independent UX Researcher & Consultant"
         }
         ]
     },

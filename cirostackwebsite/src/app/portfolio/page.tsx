@@ -3,8 +3,16 @@ import { Suspense } from "react";
 import Portfolio from "@/pages-src/Portfolio";
 
 export const metadata: Metadata = {
-  title: "Portfolio | CiroStack",
-  description: "Browse our case studies — real projects, real results, across every industry.",
+  title: "Portfolio",
+  description:
+    "Case studies from CiroStack — real projects across fintech, healthcare, e-commerce, SaaS, and more. See what we've built and the results it delivered.",
+  alternates: { canonical: "https://cirostack.com/portfolio" },
+  openGraph: {
+    url: "https://cirostack.com/portfolio",
+    title: "Portfolio | CiroStack",
+    description:
+      "Real projects, real results. Browse case studies across fintech, healthcare, SaaS, e-commerce, and more.",
+  },
 };
 
 export default function PortfolioPage() {

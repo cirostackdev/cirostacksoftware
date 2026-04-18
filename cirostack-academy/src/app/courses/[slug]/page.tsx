@@ -41,7 +41,37 @@ async function getCourse(slug: string): Promise<CourseDetail | null> {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const course = await getCourse(slug);
-  return { title: course ? `${course.title} — CiroStack Academy` : `Course — ${slug.replace(/-/g, ' ')}` };
+
+  if (!course) {
+    return { title: `Course — CiroStack Academy` };
+  }
+
+  const title = `${course.title}`;
+  const description = course.description
+    ? course.description.slice(0, 155) + (course.description.length > 155 ? '…' : '')
+    : `Learn ${course.title} at CiroStack Academy. ${course.totalLessons ?? ''} lessons, hands-on projects, and a certificate upon completion.`;
+  const ogImage = course.thumbnailUrl || 'https://academy.cirostack.com/og-default.jpg';
+  const url = `https://academy.cirostack.com/courses/${slug}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'article',
+      url,
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      siteName: 'CiroStack Academy',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
 }
 
 export default async function CourseDetailPage({ params }: { params: Promise<{ slug: string }> }) {

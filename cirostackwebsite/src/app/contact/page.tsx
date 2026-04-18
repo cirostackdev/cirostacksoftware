@@ -2,8 +2,16 @@ import type { Metadata } from "next";
 import Contact from "@/pages-src/Contact";
 
 export const metadata: Metadata = {
-  title: "Contact Us | CiroStack",
-  description: "Get in touch with CiroStack. We reply within 24 hours.",
+  title: "Contact CiroStack",
+  description:
+    "Tell us about your project. We respond within 24 hours with a scoped proposal — no vague estimates, no bait-and-switch pricing.",
+  alternates: { canonical: "https://cirostack.com/contact" },
+  openGraph: {
+    url: "https://cirostack.com/contact",
+    title: "Contact CiroStack",
+    description:
+      "Tell us about your project. We respond within 24 hours with a scoped proposal — no vague estimates, no bait-and-switch pricing.",
+  },
 };
 
 export default function ContactPage() {
