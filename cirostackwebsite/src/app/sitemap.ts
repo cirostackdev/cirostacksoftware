@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { industriesData } from "@/data/industries-generated";
 
+export const dynamic = 'force-static'
+
 const SITE_URL = "https://cirostack.com";
 
 const STATIC_PAGES = [
