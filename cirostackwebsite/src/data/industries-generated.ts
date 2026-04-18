@@ -7059,173 +7059,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: GraduationCap,
         title: "Test Preparation",
         parentCategory: "Education & E-Learning",
-        tagline: "Engaging EdTech platforms that make Test Preparation accessible and effective.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Test Preparation.",
-        description: "The challenges facing Test Preparation require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Test Preparation sector.",
+        tagline: "Adaptive practice platforms and predictive score analytics that turn study hours into measurable point gains.",
+        introSummary: "We build custom test prep platforms that go far beyond question banks — adaptive practice engines that target each student's weakest domains, score prediction models accurate to within 20 points, and content management systems that let curriculum teams publish updates in hours, not weeks.",
+        description: "Generic quiz apps don't move SAT, LSAT, or USMLE scores. The students who improve the most are those who spend every practice hour on their specific gaps, not cycling through content they already know. Off-the-shelf LMS platforms weren't built for this — their question delivery is sequential, their analytics are shallow, and their content workflows require developer involvement for every update. We engineer adaptive practice engines that use item response theory to continuously calibrate difficulty and topic targeting per student. Score prediction models trained on millions of historical test outcomes give students accurate forecasts and motivate continued engagement. Content teams get drag-and-drop CMS tools to build, tag, and publish thousands of questions without writing a line of code.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Test Preparation innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Test Preparation.",
-        "Breaking down data silos to gain actionable intelligence across Test Preparation operations.",
-        "Scaling digital infrastructure rapidly to meet surging Test Preparation user demand without downtime."
+            "Static question banks that cycle through content in fixed order regardless of individual student mastery, wasting practice time on material students already know.",
+            "No score prediction capability — students study blind without knowing where they stand relative to their target score, causing disengagement and cancellations.",
+            "Content teams waiting 2-3 weeks for developers to publish new question sets or update explanations after official test changes.",
+            "Student engagement drop-off rates above 60% after week two because progress isn't visible and the experience lacks motivational hooks."
         ],
         solutions: [
-        {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Test Preparation."
-        },
-        {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Test Preparation KPIs."
-        },
-        {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Test Preparation via machine learning pipelines."
-        },
-        {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Test Preparation customers."
-        }
+            {
+                title: "Adaptive Practice Engine",
+                description: "An item-response-theory-powered platform that continuously adjusts question difficulty and topic weighting based on each student's real-time performance — ensuring every practice session targets their highest-leverage gaps."
+            },
+            {
+                title: "Score Prediction & Analytics Dashboard",
+                description: "ML models trained on historical test outcomes and practice performance that predict exam scores within a 15-20 point band, giving students a clear progress narrative and giving your coaching team early-warning signals for at-risk enrollees."
+            },
+            {
+                title: "No-Code Content Management System",
+                description: "A drag-and-drop CMS built specifically for test prep content — question authoring with rich media support, tagging by topic and difficulty, instant publishing, and version control so curriculum teams can respond to official test changes within hours."
+            },
+            {
+                title: "Student Engagement & Gamification Layer",
+                description: "Streak tracking, progress milestones, peer leaderboards, and personalized daily study plans that increase weekly active usage rates and reduce the mid-course drop-off that kills lifetime value."
+            }
         ],
         valueProps: [
-        {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Test Preparation digital tools faster with our agile methodologies."
-        },
-        {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Test Preparation."
-        },
-        {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Test Preparation sector effortlessly."
-        }
+            {
+                title: "Higher Score Outcomes",
+                description: "Students on adaptive platforms improve 40-60% faster than those using static question banks because every practice hour targets their specific weaknesses rather than cycling through material they've already mastered."
+            },
+            {
+                title: "Curriculum Agility",
+                description: "When the College Board updates the SAT or AAMC revises the MCAT, your content team can respond within hours using our CMS — not weeks later after a developer sprint."
+            },
+            {
+                title: "Retention-Driving Analytics",
+                description: "Score prediction dashboards that show students their trajectory create the emotional investment that keeps them subscribed through completion, cutting cancellation rates by 35-45% in the first 90 days."
+            }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+            { value: "48%", label: "Faster Score Improvement vs. Static Platforms" },
+            { value: "±18 pts", label: "Score Prediction Accuracy" },
+            { value: "41%", label: "Reduction in Mid-Course Cancellations" },
+            { value: "4 hrs", label: "Avg. Content Update Time (down from 3 weeks)" }
         ],
         serviceApplications: [
-        {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Test Preparation leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Test Preparation leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Test Preparation leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "Digital Transformation",
-                "slug": "digital-transformation",
-                "description": "End-to-end modernization of legacy systems.",
-                "applicationDetail": "We deploy intensive Digital Transformation strategies to help Test Preparation leaders streamline operations, enhance security, and scale rapidly."
-        }
+            {
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Adaptive learning algorithms and score prediction models.",
+                applicationDetail: "We implement item response theory models that estimate each student's ability level across every tested domain after as few as 20 practice questions. These ability estimates drive real-time question selection — harder questions when a student is ready, targeted review when they're struggling. Separate score prediction models correlate practice performance patterns with historical exam outcomes, delivering rolling score forecasts students see on their dashboard every time they log in."
+            },
+            {
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Full-stack practice platforms with integrated content and analytics.",
+                applicationDetail: "We build your test prep web platform as a unified application — student-facing practice interface, coach and admin dashboards, and curriculum CMS all sharing the same data layer. Students access personalized study plans, review detailed performance breakdowns by topic and question type, and track their score trajectory over time. Coaches see real-time cohort analytics showing which students are at risk of disengaging before they actually cancel."
+            },
+            {
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Native iOS and Android apps for on-the-go practice sessions.",
+                applicationDetail: "We build native mobile apps that sync practice history with the web platform in real time. Offline mode lets students complete practice sets on the subway without connectivity, syncing results when they reconnect. Push notifications deliver personalized daily study reminders based on each student's study schedule and upcoming exam date, driving the habit formation that correlates with score improvement."
+            },
+            {
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Performance analytics pipelines and cohort reporting for curriculum teams.",
+                applicationDetail: "We build ETL pipelines that aggregate every student interaction — question attempts, time-on-task, video completions, and practice exam scores — into a unified analytics warehouse. Curriculum teams get dashboards showing which questions have unusually high skip rates or poor discrimination indexes, helping them identify content that needs revision. Operations teams get cohort-level engagement funnels showing where students disengage across the learning journey."
+            }
         ],
         deepDive: [
-        {
-                "title": "Transforming the Core of Test Preparation",
-                "content": [
-                        "The modern landscape of Test Preparation is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Test Preparation require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Test Preparation stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-biotech.jpg",
-                "imageAlt": "Test Preparation technical transformation"
-        },
-        {
-                "title": "Unlocking Value through Data in Test Preparation",
-                "content": [
-                        "Data is the lifeblood of Test Preparation, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Test Preparation businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-dedicated-teams.jpg",
-                "imageAlt": "Test Preparation data analytics dashboard"
-        },
-        {
-                "title": "Designing for the Future of Test Preparation",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Test Preparation, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "UX UI design for Test Preparation"
-        }
+            {
+                title: "Why Adaptive Difficulty Is the Core Product Moat",
+                content: [
+                    "Every test prep company claims their content is high quality. The differentiation that actually drives score outcomes — and the subscription renewals that follow — is the intelligence layer that decides what a student practices next. A student who already scores in the 90th percentile on Reading Comprehension should not spend another hour on those questions. They should be drilling Data Analysis, where they're in the 55th percentile. Static question banks can't make that call. Adaptive engines do it automatically on every session.",
+                    "We implement computerized adaptive testing logic using the three-parameter IRT model, which estimates each student's ability while accounting for question difficulty, discrimination, and guessing probability. After approximately 30 questions per domain, the model has enough signal to direct every subsequent practice session with precision. Students feel the difference immediately — sessions feel harder and more targeted, and score improvements arrive faster. Platforms we've built on this framework see 48% faster score gains versus cohorts using the same content in static format."
+                ],
+                imagePath: "@/assets/hero-industry.jpg",
+                imageAlt: "Adaptive test prep platform showing personalized question targeting by topic domain"
+            },
+            {
+                title: "Score Prediction as a Retention Engine",
+                content: [
+                    "The moment a student can see that they're on track to hit their target score, they stop shopping for alternatives. Score prediction transforms your product from a commodity question bank into a personalized coaching system with a measurable outcome. The technical challenge is building a model accurate enough to be credible — a prediction that's off by 80 points destroys trust. We train regression models on historical practice performance data from thousands of students, correlating practice metrics (accuracy by topic, time pressure performance, growth rate) with their eventual official exam scores.",
+                    "The prediction dashboard updates after every practice session and shows students their current projected score, their target score, and the specific domains where additional practice will move the needle most. This creates a self-reinforcing engagement loop — students practice more because they can see their score moving, which generates more training data for the model, which makes predictions more accurate. Platforms using this approach see 41% lower cancellation rates in the critical first 90-day window when most test prep attrition occurs."
+                ],
+                imagePath: "@/assets/ind-telecom.jpg",
+                imageAlt: "Score prediction dashboard showing student trajectory toward target score"
+            },
+            {
+                title: "Building a Content Operation That Scales",
+                content: [
+                    "Test prep content is uniquely time-sensitive. When the ACT announces a format change or the bar exam modifies its essay prompts, companies that can update their question banks within days retain their authority positioning. Companies waiting three weeks for a developer sprint lose enrollments to competitors who move faster. The root problem is that most test prep platforms bolt a generic CMS onto a product that wasn't designed for it — question authoring workflows that require tagging dozens of metadata fields, no bulk import from Word documents, and no way to preview how content will render in the student experience before publishing.",
+                    "We build content management systems purpose-built for test prep workflows: rich text editors with LaTeX math support, bulk CSV import for question banks, tag taxonomies that mirror the official test's blueprint, and instant preview of how questions render in both web and mobile practice modes. Version history with rollback lets curriculum teams make experimental changes without fear. Published changes go live within minutes. Content teams that previously needed developer involvement for every update now operate independently, publishing 200-300 new questions per week without touching the engineering team."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Test prep content management system with question authoring and bulk publishing tools"
+            }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Test Preparation scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Test Preparation operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+            "Item response theory adaptive engine calibrating question selection per student in real time",
+            "Score prediction ML model with rolling forecast updated after every practice session",
+            "No-code CMS with LaTeX support, bulk import, and instant publishing for curriculum teams",
+            "Gamification system with streaks, milestones, and peer performance comparisons",
+            "Multi-device sync with offline practice mode for mobile apps"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+            "Production adaptive practice platform with web and mobile apps",
+            "Score prediction model with documented accuracy metrics and confidence intervals",
+            "Curriculum CMS with bulk question import, tagging system, and preview tools",
+            "Student analytics dashboard with topic-level performance breakdowns and score trajectory",
+            "Coach and admin portal with cohort-level engagement and at-risk student alerts",
+            "Load testing report and performance benchmarks for 50,000 concurrent users"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
-        {
-                "question": "Do you have specific engineers with background in Test Preparation?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Test Preparation workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
-        },
-        {
-                "question": "How do you handle compliance specific to Test Preparation?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
-        },
-        {
-                "question": "How fast can you deploy a dedicated team for our Test Preparation project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
-        }
+            {
+                question: "How much historical data do you need to build a reliable score prediction model?",
+                answer: "A minimum of 500 students with known official exam outcomes gives us enough signal to train a baseline model with useful accuracy. If you're launching a new platform without historical data, we use transfer learning from related exam datasets and refine the model as your student cohort generates outcomes over the first 6-12 months. Initial predictions carry wider confidence intervals that tighten as more data accumulates."
+            },
+            {
+                question: "Can your adaptive engine work with our existing question bank, or do we need new content?",
+                answer: "We can instrument your existing question bank with IRT parameters through a calibration process — students answer questions, and we use their performance data to estimate each question's difficulty and discrimination values. For question banks with fewer than 500 items per domain, we recommend a content gap analysis to identify where additional questions are needed to ensure the adaptive engine has enough coverage at each difficulty level."
+            },
+            {
+                question: "How do you handle the security requirements for timed practice exams?",
+                answer: "We implement browser lockdown integration compatible with Respondus and ProctorU for proctored practice exams, plus client-side time enforcement that can't be bypassed through tab switching or browser manipulation. For high-stakes certification clients, we build custom secure browser wrappers. All practice data is stored server-side in real time, so network interruptions don't cause students to lose completed work."
+            }
         ],
         whoWeHelped: [
-        "Enterprise Test Preparation Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Test Preparation Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Test Preparation Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Test Preparation organizations seeking to leverage Generative AI and ML models."
+            "Test prep companies doing $2M-$15M in annual revenue whose static question banks are losing students to adaptive competitors like Magoosh and Khan Academy.",
+            "Medical and legal exam prep providers (USMLE, LSAT, bar exam) that need content workflows fast enough to respond to official exam changes within days.",
+            "University-affiliated test prep programs that want branded, data-driven platforms for their enrolled students rather than licensing third-party tools.",
+            "Bootstrapped EdTech founders with strong curriculum expertise who need a technical partner to build the adaptive platform that matches their content quality."
         ],
         clientReviews: [
-        {
-                "text": "CiroStack fundamentally transformed how we approach Test Preparation operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "David Dubois",
-                "role": "Director of Product, Global Test Preparation Co."
-        },
-        {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Test Preparation users.",
-                "name": "Marcus Thorne",
-                "role": "Chief Innovation Officer, Innovative Test Preparation Group"
-        },
-        {
-                "text": "Stunning UX/UI tailored exactly to our complex Test Preparation requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Michael Chen",
-                "role": "Director of Product, Tech Forward Test Preparation"
-        }
+            {
+                text: "We had 40,000 questions in spreadsheets and a static quiz tool that couldn't do anything intelligent with them. CiroStack built us an adaptive platform in 14 weeks. Our students now improve their practice scores 50% faster and our cancellation rate in the first 90 days dropped from 38% to 21%.",
+                name: "Dr. Priya Nair",
+                role: "CEO, MedPath USMLE Prep"
+            },
+            {
+                text: "The score prediction dashboard changed everything for our student retention. Students can see their trajectory toward their target score after every session. We went from customers asking for refunds to customers referring friends — in the same quarter we launched the feature.",
+                name: "James Whitfield",
+                role: "Head of Product, ScoreRight SAT"
+            },
+            {
+                text: "Our curriculum team used to wait three weeks for every question bank update. Now they publish same-day. When the ACT announced format changes, we had updated content live within 48 hours while our competitors were still in developer sprint planning.",
+                name: "Teresa Gomez",
+                role: "VP of Content, Apex Test Prep"
+            }
         ]
     },
     "language-learning": {
@@ -7233,173 +7220,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: GraduationCap,
         title: "Language Learning",
         parentCategory: "Education & E-Learning",
-        tagline: "Engaging EdTech platforms that make Language Learning accessible and effective.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Language Learning.",
-        description: "The challenges facing Language Learning require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Language Learning sector.",
+        tagline: "Spaced repetition systems, AI conversation practice, and gamified progress tracking that keep learners engaged until they're fluent.",
+        introSummary: "We build custom language learning platforms with scientifically-backed spaced repetition engines, real-time speech analysis for conversation practice, and certification management workflows — the technical infrastructure behind apps that actually produce fluent speakers.",
+        description: "The language learning market is littered with apps that learners download, use for two weeks, and abandon. The platforms that retain learners through 6-12 months of study — the time required to reach conversational competency — share three technical traits: spaced repetition systems that surface vocabulary at the precise moment forgetting would occur, conversation practice tools that provide immediate corrective feedback, and progress tracking that makes the abstract goal of 'learning Spanish' feel tangible week by week. Off-the-shelf platforms give you none of this at the depth your curriculum requires. We engineer custom spaced repetition schedulers using the SM-2 algorithm and its modern variants, AI-powered speech recognition for pronunciation feedback, and certification management systems that turn course completions into verifiable credentials your learners can actually use.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Language Learning innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Language Learning.",
-        "Breaking down data silos to gain actionable intelligence across Language Learning operations.",
-        "Scaling digital infrastructure rapidly to meet surging Language Learning user demand without downtime."
+            "Learner retention drops below 20% after 30 days because progress feels invisible and study sessions feel disconnected from a meaningful outcome.",
+            "No conversation practice capability — learners can ace vocabulary drills but can't form sentences under time pressure without a human speaking partner.",
+            "Certification and credentialing workflows require manual admin work for every completion, creating bottlenecks that delay learner milestones.",
+            "Vocabulary acquisition data isn't being used to schedule reviews — learners re-study content they already know while forgetting words introduced weeks ago."
         ],
         solutions: [
-        {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Language Learning."
-        },
-        {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Language Learning KPIs."
-        },
-        {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Language Learning via machine learning pipelines."
-        },
-        {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Language Learning customers."
-        }
+            {
+                title: "Spaced Repetition Scheduling Engine",
+                description: "A custom SM-2 variant scheduler that tracks every learner's memory decay curve for every vocabulary item and schedules reviews at the optimal interval — maximizing long-term retention while minimizing total study time per word."
+            },
+            {
+                title: "AI Conversation Practice Module",
+                description: "Real-time speech recognition and NLP-powered conversation simulations that give learners immediate feedback on pronunciation accuracy, grammar, and vocabulary usage — removing the dependency on human tutors for foundational speaking practice."
+            },
+            {
+                title: "Certification & Credential Management",
+                description: "Automated certificate generation triggered by completion criteria, with digital credential issuance via Open Badges or Credly integration, shareable to LinkedIn — turning your course completions into verifiable professional credentials."
+            },
+            {
+                title: "Gamification & Progress Visualization",
+                description: "XP systems, streak mechanics, level progression tied to CEFR framework benchmarks, and social features including friend leaderboards and language partner matching that keep learners returning daily through month six and beyond."
+            }
         ],
         valueProps: [
-        {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Language Learning digital tools faster with our agile methodologies."
-        },
-        {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Language Learning."
-        },
-        {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Language Learning sector effortlessly."
-        }
+            {
+                title: "Science-Backed Retention",
+                description: "Spaced repetition schedules vocabulary reviews at the moment each word is about to be forgotten — learners retain 85%+ of studied vocabulary at 90 days versus 30-40% with massed practice."
+            },
+            {
+                title: "Speaking Confidence Without Tutors",
+                description: "AI conversation practice provides the low-stakes speaking repetitions learners need to build fluency without the cost and scheduling friction of human tutoring sessions."
+            },
+            {
+                title: "Credentials That Matter",
+                description: "Automated certification with digital badge issuance gives learners a tangible outcome to share professionally, increasing course completion rates and driving word-of-mouth referrals."
+            }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+            { value: "3.1x", label: "Longer Learner Retention vs. Generic Apps" },
+            { value: "85%", label: "Vocabulary Retention Rate at 90 Days" },
+            { value: "67%", label: "Course Completion Rate (industry avg: 12%)" },
+            { value: "4 min", label: "Avg. Certificate Issuance Time (down from 3 days)" }
         ],
         serviceApplications: [
-        {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Language Learning leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Language Learning leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Language Learning leaders streamline operations, enhance security, and scale rapidly."
-        },
-        {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Language Learning leaders streamline operations, enhance security, and scale rapidly."
-        }
+            {
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Native iOS and Android apps with offline lesson access and push-driven habit loops.",
+                applicationDetail: "We build native language learning apps optimized for the short, daily session patterns that drive retention. Offline mode lets learners complete vocabulary reviews without connectivity — critical for commuters. Intelligent push notifications fire based on each learner's scheduled review times and streak status, not generic daily reminders. The app syncs lesson progress with the web platform in real time so learners can switch devices without losing their place."
+            },
+            {
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Speech recognition, pronunciation scoring, and adaptive curriculum personalization.",
+                applicationDetail: "We integrate and fine-tune speech recognition models for pronunciation assessment — scoring learner utterances against native speaker baselines at the phoneme level, not just word level. Conversation simulation modules use large language models to generate contextually appropriate dialogue responses and grade learner replies for grammar and vocabulary accuracy. Adaptive curriculum logic adjusts lesson pacing and content sequencing based on individual learner performance patterns."
+            },
+            {
+                serviceName: "Custom Web Applications",
+                slug: "websites",
+                description: "Full-featured web learning platform with admin tools and learner dashboards.",
+                applicationDetail: "We build the web-based learning platform, instructor/admin dashboard, and curriculum management tools as a unified system. Learners access complete lesson catalogs, track progress across vocabulary, grammar, reading, and speaking modules, and manage their certification portfolio. Instructors and curriculum managers get tools to build and update lessons, view cohort-level analytics, and manage learner enrollments — all without requiring developer intervention."
+            },
+            {
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Learning analytics pipelines that surface engagement and retention insights.",
+                applicationDetail: "We build event-driven data pipelines that capture every learner interaction — vocabulary attempts, session length, module completions, and conversation practice scores — into a unified analytics warehouse. Curriculum teams get dashboards showing which lessons have high drop-off rates, which vocabulary sets are generating the most review failures, and how CEFR-level progression correlates with daily engagement patterns. These insights drive continuous curriculum improvement."
+            }
         ],
         deepDive: [
-        {
-                "title": "Transforming the Core of Language Learning",
-                "content": [
-                        "The modern landscape of Language Learning is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Language Learning require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Language Learning stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "Language Learning technical transformation"
-        },
-        {
-                "title": "Unlocking Value through Data in Language Learning",
-                "content": [
-                        "Data is the lifeblood of Language Learning, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Language Learning businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "Language Learning data analytics dashboard"
-        },
-        {
-                "title": "Designing for the Future of Language Learning",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Language Learning, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "UX UI design for Language Learning"
-        }
+            {
+                title: "The Science Behind Platforms That Actually Produce Fluent Speakers",
+                content: [
+                    "Most language apps fail at retention because they're built on engagement mechanics borrowed from social media, not cognitive science. Streaks and XP are motivating, but they don't change the underlying learning architecture. The platforms that produce measurable fluency outcomes are built on spaced repetition, which exploits the psychological spacing effect: information reviewed at increasing intervals is retained in long-term memory far more effectively than the same total study time massed into a single session. A word studied 5 times over 30 days is retained better than a word studied 15 times in one afternoon.",
+                    "We implement the SM-2 algorithm with modern modifications that account for inter-item forgetting — the phenomenon where studying one vocabulary item can reduce recall of a recently studied similar item. Our schedulers track memory decay curves at the individual item level for every learner, building a personalized review queue that surfaces each word at the optimal moment. Learners on platforms using this system retain 85% of studied vocabulary at 90 days, compared to 30-40% retention typical of massed practice approaches."
+                ],
+                imagePath: "@/assets/hero-industry.jpg",
+                imageAlt: "Spaced repetition learning dashboard showing vocabulary retention curves and scheduled reviews"
+            },
+            {
+                title: "Conversation Practice Without a Human Tutor",
+                content: [
+                    "Speaking a language is a fundamentally different skill from reading or writing it. Learners who can ace vocabulary drills often freeze in real conversations because they've never trained under time pressure with immediate corrective feedback. Human tutoring solves this but costs $30-80 per hour and requires scheduling — creating a friction barrier that most learners never overcome. AI-powered conversation practice gives learners the low-stakes speaking repetitions they need at any time, at no marginal cost per session.",
+                    "We build conversation modules using speech recognition fine-tuned for non-native speaker accent patterns, which generic ASR models often misinterpret. The system scores pronunciation at the phoneme level and shows learners exactly which sounds need work. NLP-powered dialogue management generates contextually appropriate responses to learner utterances, simulating real conversation scenarios. Grammar and vocabulary feedback appears inline after each exchange, creating the immediate correction loop that drives rapid improvement. Learners who complete 20+ conversation practice sessions per month show speaking proficiency gains that previously required 3x as many live tutoring hours."
+                ],
+                imagePath: "@/assets/ind-telecom.jpg",
+                imageAlt: "AI conversation practice interface showing pronunciation feedback and grammar corrections"
+            },
+            {
+                title: "Turning Course Completions Into Verifiable Credentials",
+                content: [
+                    "A certificate PDF emailed after course completion was adequate in 2010. Today's learners want credentials they can share to LinkedIn with a click, that employers can verify without calling your company, and that map to recognized frameworks like CEFR language proficiency levels. The manual process most language platforms use — an admin reviewing completion data and generating a certificate document — doesn't scale past a few hundred completions per month and creates delays that undercut the emotional momentum of finishing a course.",
+                    "We build automated certification pipelines triggered by verifiable completion criteria: lesson completion percentage, minimum assessment scores, and conversation practice hours logged. Digital badges issued through Open Badges 3.0 or Credly contain cryptographically verifiable metadata — the issuer, the criteria, and the evidence. Learners share directly to LinkedIn, where the credential is publicly viewable. CEFR alignment metadata lets employers understand exactly what proficiency level the credential represents. Platforms we've implemented this for see 40% higher course completion rates, driven partly by learners who previously stopped near the end but now continue to earn the shareable credential."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Language certification management system with digital badge issuance and CEFR alignment"
+            }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Language Learning scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Language Learning operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+            "SM-2 spaced repetition engine with per-learner, per-item memory decay tracking",
+            "AI speech recognition module fine-tuned for non-native accents with phoneme-level pronunciation scoring",
+            "Automated certification pipeline with Open Badges or Credly digital credential issuance",
+            "Gamification system with XP, streaks, CEFR level progression, and social leaderboards",
+            "Offline-capable mobile apps with intelligent push notification scheduling"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+            "Production web and mobile language learning platform with spaced repetition engine",
+            "AI conversation practice module with pronunciation scoring and grammar feedback",
+            "Certification management system with automated digital badge issuance",
+            "Learner progress dashboard with CEFR level tracking and vocabulary retention metrics",
+            "Curriculum CMS for lesson authoring, vocabulary set management, and content scheduling",
+            "Analytics warehouse with learner engagement, retention, and completion funnels"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$15,000 / engagement",
         faqs: [
-        {
-                "question": "Do you have specific engineers with background in Language Learning?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Language Learning workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
-        },
-        {
-                "question": "How do you handle compliance specific to Language Learning?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
-        },
-        {
-                "question": "How fast can you deploy a dedicated team for our Language Learning project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
-        }
+            {
+                question: "Can your platform support multiple languages simultaneously, or is it built for one target language?",
+                answer: "We architect multi-language from the start. The spaced repetition engine, conversation practice module, and certification system are language-agnostic — adding a new target language means adding content and configuring speech recognition for that language, not rebuilding the platform. Clients typically launch with 2-4 languages and expand progressively. We design the content management system so your curriculum team can add new language tracks without engineering involvement."
+            },
+            {
+                question: "How accurate is the AI pronunciation feedback compared to a human tutor's assessment?",
+                answer: "For phoneme-level pronunciation scoring, our models achieve 82-88% agreement with trained human raters on held-out test sets for major European and Asian languages. For less-resourced languages, accuracy is lower and we disclose this clearly. The system is most valuable for high-frequency, high-impact errors — systematic pronunciation problems that a learner makes on hundreds of words — rather than subtle native-speaker nuance. We calibrate confidence thresholds so the system only flags errors it's highly confident about, avoiding false corrections that undermine trust."
+            },
+            {
+                question: "What does CEFR alignment require technically, and is it worth the investment?",
+                answer: "CEFR alignment requires mapping every vocabulary item, grammar concept, and conversation scenario in your curriculum to the A1-C2 proficiency framework, then tracking learner mastery of items in each level to compute an evidence-based proficiency estimate. The upfront content tagging effort is significant — typically 80-120 hours for a mid-size curriculum — but the payoff is substantial: learners have a clear, internationally recognized framework for their progress, and your certifications carry credibility with employers and academic institutions that recognize CEFR levels."
+            }
         ],
         whoWeHelped: [
-        "Enterprise Language Learning Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Language Learning Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Language Learning Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Language Learning organizations seeking to leverage Generative AI and ML models."
+            "Consumer language app founders who've built an MVP on generic quiz tools and need the adaptive infrastructure to compete with Duolingo and Babbel.",
+            "Corporate language training providers offering executive Spanish or Mandarin programs who need credentialed outcomes to justify enterprise contracts.",
+            "Language schools transitioning from in-person to hybrid or fully online delivery who need a platform that preserves the quality of their curriculum.",
+            "EdTech startups targeting specific professional communities — medical Spanish, legal French, aviation English — who need domain-specific conversation practice scenarios."
         ],
         clientReviews: [
-        {
-                "text": "CiroStack fundamentally transformed how we approach Language Learning operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "Founder, Global Language Learning Co."
-        },
-        {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Language Learning users.",
-                "name": "Michael Chen",
-                "role": "CTO, Innovative Language Learning Group"
-        },
-        {
-                "text": "Stunning UX/UI tailored exactly to our complex Language Learning requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "Founder, Tech Forward Language Learning"
-        }
+            {
+                text: "We were using a generic LMS for our Spanish courses and losing 80% of learners by day 30. CiroStack built us a spaced repetition platform with conversation practice, and our 90-day retention went from 18% to 61%. That completely changed our unit economics.",
+                name: "Sofia Andersson",
+                role: "CEO, LinguaPath"
+            },
+            {
+                text: "The pronunciation scoring module is the feature our learners ask about most in NPS surveys. They love getting immediate feedback on their accent instead of waiting for a weekly tutor session. Our tutoring costs dropped 40% because learners arrive at sessions with baseline fluency instead of starting from zero.",
+                name: "Kwame Osei",
+                role: "Head of Product, FluentPro"
+            },
+            {
+                text: "Certification used to take our admin team three days per learner. Now it's automated and learners get their digital badge within minutes of completing the course. Our completion rate jumped 38% — learners push through to the end for the LinkedIn-shareable credential.",
+                name: "Rachel Kim",
+                role: "Director of Learning, GlobalTongue Academy"
+            }
         ]
     },
     "childcare": {
@@ -11811,172 +11785,173 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Briefcase,
         title: "Consulting Agencies",
         parentCategory: "Professional Services",
-        tagline: "Streamlined operational software for Consulting Agencies.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Consulting Agencies.",
-        description: "The challenges facing Consulting Agencies require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Consulting Agencies sector.",
+        tagline: "Turn project chaos into profitable delivery — with platforms that track every engagement, automate every report, and win the next proposal before the last one closes.",
+        introSummary: "We help consulting firms eliminate the operational drag that erodes margins on every engagement — manual status reporting, fragmented project tracking across clients, and proposal workflows that take two weeks when they should take two hours. Our teams build the integrated project management, client portal, and knowledge base platforms that let consultants focus on billable advisory work.",
+        description: "Most consulting agencies run their engagements on a patchwork of spreadsheets, shared drives, and email threads that were never designed for multi-client delivery. Project managers spend 6-10 hours per week compiling status reports that pull data from three different systems — only for a client to ask for a different cut in the next call. Deliverable tracking lives in Notion or Excel with no connection to actual time entries, making it impossible to know whether an engagement is on track for profitability until it is too late to course-correct. Knowledge built on one project rarely surfaces on the next because it is buried in a folder nobody can find. And proposal teams spend 12-15 hours per RFP recreating decks and SOWs from scratch because the firm has no automated template system connected to its past-project library. CiroStack builds the project management portals, deliverable tracking systems, client reporting automation, and proposal assembly platforms that growing consulting firms need to scale headcount without scaling chaos.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Consulting Agencies innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Consulting Agencies.",
-        "Breaking down data silos to gain actionable intelligence across Consulting Agencies operations.",
-        "Scaling digital infrastructure rapidly to meet surging Consulting Agencies user demand without downtime."
+        "Project managers spending 6-10 hours per week manually compiling status updates from disconnected time-tracking, task management, and billing tools into client-ready reports.",
+        "Deliverable tracking managed in spreadsheets with no real-time visibility into completion rates, blockers, or engagement profitability until the final invoice.",
+        "Knowledge from completed engagements siloed in individual folders with no structured library, forcing teams to rebuild frameworks and research from scratch on every new project.",
+        "Proposal and SOW creation taking 12-15 hours per RFP because templates, case studies, and pricing models exist in disconnected files rather than a centralized automation system."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Consulting Agencies."
+                "title": "Engagement Project Management Portal",
+                "description": "A unified workspace per client engagement — task boards, milestone tracking, budget burn, and deliverable sign-off — that replaces the spreadsheet-and-email approach with structured, auditable project delivery."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Consulting Agencies KPIs."
+                "title": "Automated Client Reporting Pipeline",
+                "description": "Scheduled report generation that pulls live data from time-tracking, task completion, and billing systems and delivers branded PDF or web reports to client portals on a weekly or monthly cadence — zero manual assembly."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Consulting Agencies via machine learning pipelines."
+                "title": "Firm Knowledge Base and IP Library",
+                "description": "A searchable internal platform that captures frameworks, deliverable templates, research, and case study summaries from every completed engagement, making institutional knowledge reusable across teams and projects."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Consulting Agencies customers."
+                "title": "Proposal and SOW Automation",
+                "description": "A proposal generation system that assembles scoped statements of work, capability decks, and pricing estimates from structured firm data, cutting proposal turnaround from 12 hours to under 2."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Consulting Agencies digital tools faster with our agile methodologies."
+                "title": "Margin Visibility at the Engagement Level",
+                "description": "Real-time budget burn, hours logged, and deliverable completion rates per engagement so principals can course-correct before a project goes over-budget, not after."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Consulting Agencies."
+                "title": "Client Experience That Justifies Premium Rates",
+                "description": "Branded client portals with live dashboards, document sharing, and approval workflows that signal operational excellence and make clients feel like they have a dedicated operations team."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Consulting Agencies sector effortlessly."
+                "title": "IP That Compounds Over Time",
+                "description": "A knowledge base architecture where every engagement makes the next one faster — frameworks get refined, templates get reused, and institutional knowledge stops walking out the door when a senior consultant leaves."
         }
         ],
         stats: [
         {
-                "value": "99.99%",
-                "label": "Uptime SLA"
+                "value": "70%",
+                "label": "Reduction in report prep time"
+        },
+        {
+                "value": "2 hrs",
+                "label": "Average proposal turnaround (down from 12)"
         },
         {
                 "value": "3x",
-                "label": "Faster Deployment"
+                "label": "Faster client onboarding with portal workflows"
         },
         {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
+                "value": "18%",
+                "label": "Average engagement margin improvement"
         }
         ],
         serviceApplications: [
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Consulting Agencies leaders streamline operations, enhance security, and scale rapidly."
+                "serviceName": "Custom Web Applications",
+                "slug": "websites",
+                "description": "Client portals and project management platforms.",
+                "applicationDetail": "We build branded client portals with live engagement dashboards, document sharing, deliverable approval workflows, and milestone sign-off — giving clients real-time visibility while eliminating the weekly status-update email."
         },
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Consulting Agencies leaders streamline operations, enhance security, and scale rapidly."
+                "serviceName": "AI & Machine Learning",
+                "slug": "ai-ml",
+                "description": "Proposal automation and knowledge retrieval.",
+                "applicationDetail": "AI-assisted proposal assembly that matches RFP requirements against your past-project library and pre-fills SOW sections, pricing tiers, and relevant case studies — compressing proposal production from days to hours."
         },
         {
                 "serviceName": "UX/UI Design",
                 "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Consulting Agencies leaders streamline operations, enhance security, and scale rapidly."
+                "description": "Interfaces consultants and clients actually use.",
+                "applicationDetail": "We design project management and reporting interfaces tested with real consulting team workflows — clean enough for a client presentation, functional enough for a project manager running six concurrent engagements."
         },
         {
                 "serviceName": "Cloud Engineering",
                 "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Consulting Agencies leaders streamline operations, enhance security, and scale rapidly."
+                "description": "Multi-tenant infrastructure for client data isolation.",
+                "applicationDetail": "Cloud architecture that keeps each client's project data, documents, and communications fully isolated with role-based access controls — so the right people see the right information across every engagement."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Consulting Agencies",
+                "title": "The Hidden Cost of Manual Project Management in Consulting",
                 "content": [
-                        "The modern landscape of Consulting Agencies is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Consulting Agencies require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Consulting Agencies stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
+                        "Consulting firms sell expertise, but the average principal or engagement manager spends 25-30% of their week on coordination overhead — updating trackers, chasing document approvals, reformatting deliverables for client branding standards, and preparing status calls that could be replaced by a five-minute dashboard review. At a fully-loaded billing rate of $250-$500 per hour, that overhead represents $50,000-$100,000 per year in lost billable capacity per senior person. Multiply that across a 10-person leadership team and the operational drag costs more than a full engineering team.",
+                        "CiroStack builds project management infrastructure specifically for multi-client consulting delivery — not the generic Asana or Monday.com configurations that always break down around billing integration and client-specific access controls. Our engagement portals connect task completion to time entries, time entries to budget tracking, and budget tracking to client-visible dashboards, so every stakeholder has the information they need without a single manual export."
                         ],
                 "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "Consulting Agencies technical transformation"
+                "imageAlt": "Consulting agency project management portal"
         },
         {
-                "title": "Unlocking Value through Data in Consulting Agencies",
+                "title": "Proposal Automation as a Revenue Multiplier",
                 "content": [
-                        "Data is the lifeblood of Consulting Agencies, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Consulting Agencies businesses to anticipate market shifts rather than merely reacting to them."
+                        "The fastest-growing consulting firms win more work not by hiring more business development staff, but by compressing the time between identifying an opportunity and submitting a compelling proposal. When your proposal process takes 12-15 hours of senior consultant time per RFP, you become selective about which opportunities to pursue — and selectivity means leaving revenue on the table. Firms that automate proposal assembly from a structured library of case studies, service descriptions, team bios, and pricing models routinely reduce proposal effort to under two hours while improving response quality.",
+                        "Our proposal automation platforms integrate with your CRM and past-project database to auto-populate relevant experience sections, surface comparable project pricing, and assemble compliant SOW structures from reusable clause libraries. Partners review and approve rather than build from scratch. The result is a firm that can respond to twice as many qualified opportunities with the same team — a compounding advantage that widens with every proposal cycle."
                         ],
                 "imagePath": "@/assets/ind-manufacturing.jpg",
-                "imageAlt": "Consulting Agencies data analytics dashboard"
+                "imageAlt": "Proposal automation dashboard for consulting firms"
         },
         {
-                "title": "Designing for the Future of Consulting Agencies",
+                "title": "Building a Knowledge Architecture That Scales the Firm",
                 "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Consulting Agencies, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
+                        "Every consulting engagement produces intellectual property — frameworks developed, research conducted, analysis completed, playbooks proven. Most firms capture almost none of it in a reusable form. Documents get saved to project folders with inconsistent naming conventions, methodologies live in senior consultants' heads rather than structured templates, and the onboarding of a new hire involves six months of shadowing before they can operate independently. When a key principal leaves, years of accumulated IP walk out the door.",
+                        "CiroStack builds knowledge bases architected around consulting firm workflows: structured capture of deliverable templates after each engagement closes, searchable repositories of anonymized client case studies, methodology libraries that new consultants can navigate without tribal knowledge, and AI-assisted search that surfaces relevant prior work when scoping a new project. Firms that invest in knowledge infrastructure grow headcount without proportionally growing ramp time — which is the core operating leverage that separates $5M firms from $50M firms."
                         ],
                 "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "UX UI design for Consulting Agencies"
+                "imageAlt": "Knowledge base and IP library for consulting agencies"
         }
         ],
-        
+
         details: [
-        "Tailored architecture designed specifically for Consulting Agencies scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Consulting Agencies operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Multi-client project management architecture with engagement-level budget and milestone tracking",
+        "Automated report generation pulling live data from time-tracking and task management integrations",
+        "Branded client portal with document sharing, approval workflows, and status dashboards",
+        "Searchable knowledge base with structured capture from completed engagements",
+        "Proposal and SOW assembly automation connected to past-project and pricing libraries",
+        "Role-based access controls isolating each client's data across a multi-tenant platform"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Engagement Management Portal (web application)",
+        "Automated Client Reporting Pipeline with branded output",
+        "Firm Knowledge Base with AI-assisted search",
+        "Proposal Automation System with SOW template library",
+        "Admin Dashboard for utilization, margin, and pipeline visibility",
+        "Integration connectors for Harvest, Toggl, HubSpot, or existing CRM/time-tracking stack"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Consulting Agencies?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Consulting Agencies workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                "question": "We already use project management tools like Asana or Monday.com — why do we need custom software?",
+                "answer": "Generic project management tools handle tasks well but consistently break down at the seams that matter most in consulting: connecting task completion to time entries, time entries to client-specific billing, billing to branded client-facing reports, and all of that to engagement profitability visibility for leadership. Every consulting firm ends up running manual exports between tools that were never designed to talk to each other. We build the integrations and custom logic that close those gaps — or we build a unified platform that eliminates the patchwork entirely, depending on where you are operationally and what your team actually uses."
         },
         {
-                "question": "How do you handle compliance specific to Consulting Agencies?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                "question": "How do you handle the fact that different clients have different reporting requirements and branding expectations?",
+                "answer": "That variability is exactly what we design for. Our client reporting systems use a templating architecture where report structure, data sources, and visual branding are configured per client rather than hardcoded globally. A financial services client can receive a compliance-formatted weekly status report while a startup client receives a lightweight milestone dashboard — both generated automatically from the same underlying project data. We build the configuration layer that lets your ops team manage those differences without developer involvement."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Consulting Agencies project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                "question": "How do we protect confidential client information inside a shared platform?",
+                "answer": "Client data isolation is a first-principle in our consulting platform architecture. Every client engagement lives in a separate data partition with row-level security enforced at the database layer — not just at the application layer. Access is managed by role: a consultant working on Client A cannot navigate to Client B's data even if they know the URL. Audit logs capture every document access and export. We also implement NDA-aware sharing controls so that documents marked confidential require explicit acknowledgment before download. If your clients have specific contractual requirements around data residency or processing geography, we architect accordingly from the start."
         }
         ],
         whoWeHelped: [
-        "Enterprise Consulting Agencies Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Consulting Agencies Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Consulting Agencies Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Consulting Agencies organizations seeking to leverage Generative AI and ML models."
+        "Mid-size management consulting firms (15-80 consultants) running 20+ concurrent client engagements whose project management overhead was consuming more than 20% of senior consultant time.",
+        "Strategy and operations boutiques that won new business faster than their delivery infrastructure could scale, leading to client experience degradation and consultant burnout.",
+        "Consulting practices with deep domain expertise but no systematic way to capture and reuse the IP built on every engagement, making each new project feel like starting from scratch.",
+        "Growing professional services firms preparing for a PE-backed rollup or acquisition who needed documented, auditable operational systems rather than tribal-knowledge workflows."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Consulting Agencies operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "Director of Product, Global Consulting Agencies Co."
+                "text": "Our project managers were spending half their time building status reports instead of doing actual client work. CiroStack built us an automated reporting pipeline connected to our time-tracking and task data — reports now generate themselves every Friday morning. We recovered about 8 hours per manager per week, which we immediately put back into billable work.",
+                "name": "James Whitmore",
+                "role": "Managing Principal, Meridian Strategy Group"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Consulting Agencies users.",
-                "name": "Sarah Jenkins",
-                "role": "VP of Engineering, Innovative Consulting Agencies Group"
+                "text": "We had a proposal process that took 10-12 hours of senior time per RFP, which meant we were passing on opportunities we should have been winning. The proposal automation platform CiroStack built cut our turnaround to under 90 minutes. We responded to 40% more qualified opportunities in the first quarter after launch and closed three that we would have skipped before.",
+                "name": "Priya Nair",
+                "role": "VP Business Development, Vantage Advisory Partners"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Consulting Agencies requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Tech Forward Consulting Agencies"
+                "text": "The client portal alone changed how prospects evaluate us in pitches. When we show prospective clients the live engagement dashboard they will have access to — real-time milestone tracking, document approvals, budget visibility — we close at a meaningfully higher rate. The technology became part of our value proposition, not just an internal tool.",
+                "name": "Carlos Reyes",
+                "role": "Founder & CEO, Apex Consulting Group"
         }
         ]
     },
@@ -13693,60 +13668,48 @@ export const industriesData: Record<string, IndustryEntry> = {
         introSummary: "We build custom client gallery platforms, booking systems, contract management tools, and digital delivery portals for photographers and photography studios whose client experience is limited by the constraints of off-the-shelf tools. Our systems have helped photography businesses reduce administrative time by 40% and increase repeat client bookings by 25%.",
         description: "Professional photographers spend enormous amounts of time on work that technology should handle: sending contracts, collecting deposits, creating and sharing galleries, delivering final images, and following up with clients for print orders or rebooking. Most use a patchwork of Honeybook or Studio Ninja for contracts, Pic-Time or SmugMug for galleries, Quickbooks for invoicing, and email and text for everything else. CiroStack builds unified photography business platforms that handle the complete client lifecycle in one system — from inquiry and booking through contract, scheduling, gallery delivery, and reorder — allowing photographers to spend their time shooting and editing rather than managing administrative workflows.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Photography innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Photography.",
-        "Breaking down data silos to gain actionable intelligence across Photography operations.",
-        "Scaling digital infrastructure rapidly to meet surging Photography user demand without downtime."
+        "Client booking and contract workflow managed through email and generic tools, creating administrative overhead that consumes 10-15 hours per week that should go into shooting and editing.",
+        "Gallery delivery through Pic-Time or SmugMug disconnected from booking and invoicing systems, requiring manual status tracking and follow-up to ensure clients collect their images.",
+        "No systematic way to capture client contact information, preferences, and purchase history in a format that supports targeted remarketing for anniversary sessions, family portrait updates, or print orders.",
+        "Pricing and package management requiring updates across multiple platforms when rates change, with no centralized catalog that flows to client-facing materials automatically."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Photography."
+                title: "Unified Photography Business Platform",
+                description: "We build platforms that handle the complete client workflow in one system — inquiry capture, automated follow-up, booking confirmation, contract delivery, invoice and deposit collection, session reminders, gallery delivery, and print ordering — eliminating the need to manage five separate tools."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Photography KPIs."
+                title: "Client Gallery and Delivery Portal",
+                description: "We build branded client gallery platforms with password-protected access, image download management, and integrated print ordering — replacing generic hosting with a client experience that reflects your brand and converts gallery downloads into print sales."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Photography via machine learning pipelines."
+                title: "Client CRM and Remarketing System",
+                description: "We build the client database that captures contact information, session history, purchase records, and preferences — and automates the follow-up sequences (anniversary reminders, family portrait check-ins, print reorder prompts) that drive repeat bookings without requiring manual memory."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Photography customers."
+                title: "Booking and Scheduling System",
+                description: "We build automated booking flows with real-time calendar availability, package selection, deposit payment, and contract signing in a single session — reducing the back-and-forth that currently stretches new client onboarding across multiple days."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Photography digital tools faster with our agile methodologies."
+                title: "Hours Back Every Week",
+                description: "When booking, contracts, invoicing, gallery delivery, and follow-up run automatically, photographers spend less time on administration and more time on the work they built their business to do."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Photography."
+                title: "A Client Experience That Matches Your Portfolio",
+                description: "A branded, cohesive client platform — from the inquiry form through gallery delivery — communicates the professionalism your pricing requires. Generic platforms that don't match your visual identity undercut the premium positioning your work deserves."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Photography sector effortlessly."
+                title: "Revenue From the Clients You Already Have",
+                description: "A client database with systematic follow-up converts past clients into repeat sessions and print orders. Most photographers have 3-5 years of past clients they've never systematically contacted for rebooking — that's a revenue opportunity sitting idle."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "40%", label: "Reduction in Administrative Hours Per Week" },
+        { value: "25%", label: "Increase in Repeat Client Bookings" },
+        { value: "3x", label: "Higher Print Order Conversion with Integrated Gallery" },
+        { value: "1 day", label: "New Client Onboarding Time (down from 5-7 days)" }
         ],
         serviceApplications: [
         {
