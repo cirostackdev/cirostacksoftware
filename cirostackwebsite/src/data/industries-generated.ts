@@ -10826,161 +10826,149 @@ export const industriesData: Record<string, IndustryEntry> = {
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Procurement."
+                title: "Digital PO Approval Workflow",
+                description: "We build configurable approval workflows that route purchase requisitions to the right approvers based on amount, category, and department — with automated escalation when approvers miss SLA deadlines, mobile approval notifications, and a complete audit trail of every decision."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Procurement KPIs."
+                title: "Vendor Management Portal",
+                description: "A central vendor database with qualification status, performance scores, approved category lists, and contract terms — so buyers see which vendors are approved for each category and procurement leadership sees performance trends across the supplier base."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Procurement via machine learning pipelines."
+                title: "Purchase Order Automation",
+                description: "We automate PO generation from approved requisitions, integrate with your ERP to sync vendor master data and cost center codes, and build three-way matching logic that compares PO, goods receipt, and invoice before routing to accounts payable."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Procurement customers."
+                title: "Spend Analytics Dashboard",
+                description: "We build a spend analytics platform that categorizes every PO and invoice transaction, surfaces spend by vendor, category, department, and time period, and flags anomalies — duplicate invoices, out-of-contract pricing, unapproved vendor use — that manual review would miss."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Procurement digital tools faster with our agile methodologies."
+                title: "PO Cycle Times Cut in Half",
+                description: "Automated routing, mobile approvals, and escalation rules eliminate the email-chasing that stretches PO approval from days to weeks. Most clients see approval cycle time drop from 5-7 days to 1-2 days within the first month."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Procurement."
+                title: "Spend Visibility That Enables Real Negotiation",
+                description: "When every PO flows through the system, your total spend with each vendor is a live number, not a quarterly estimate. That visibility turns vendor reviews into negotiations backed by actual volume data."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Procurement sector effortlessly."
+                title: "Audit Trail Without the Audit Prep",
+                description: "Every approval, every change, every exception is logged with timestamp and user identity. When an internal audit asks for documentation of a purchasing decision, it is a query — not a three-week document search."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "62%", label: "Reduction in PO Approval Cycle Time" },
+        { value: "19%", label: "Decrease in Maverick Spend" },
+        { value: "2 days", label: "Monthly Spend Report Time (down from 3 weeks)" },
+        { value: "100%", label: "Purchase Commitments With Digital Audit Trail" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Procurement leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Web-based procurement portals for requisitioners, approvers, and vendors.",
+                applicationDetail: "We build the web application that requisitioners use to create purchase requests, approvers use to review and approve from any device, and vendors use to receive POs, submit invoices, and track payment status. A standard requisition takes under 3 minutes to submit and routes automatically to the correct approver."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Procurement leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Spend analytics pipelines connecting procurement, AP, and ERP data into a unified spend database.",
+                applicationDetail: "We build data pipelines that pull PO data, goods receipt confirmations, and invoice payment records from ERP into a spend analytics warehouse. We apply spend category taxonomy and deduplicate vendor records, so every dollar is attributable to a category and a specific supplier regardless of how they appear in ERP."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Procurement leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Spend anomaly detection and contract compliance monitoring models.",
+                applicationDetail: "We build anomaly detection models that flag unusual procurement patterns: invoices above or below contract pricing, duplicate invoices with minor variations, requisitions split to avoid approval thresholds, and unapproved vendor usage. These models run nightly and surface exceptions in a review queue."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Procurement leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "IAM",
+                slug: "iam",
+                description: "Role-based access control and approval authority matrices for procurement compliance.",
+                applicationDetail: "We implement role-based access with approval authority matrices defining exactly who can approve what amount in what category. Segregation of duties controls prevent the same person from creating and approving a requisition. Every role assignment and permission change is logged for audit purposes."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Procurement",
-                "content": [
-                        "The modern landscape of Procurement is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Procurement require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Procurement stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "Procurement technical transformation"
+                title: "The Hidden Cost of Email-Based PO Approval",
+                content: [
+                        "Email-based PO approval feels free because the infrastructure already exists. The actual cost is invisible: it sits in time buyers spend chasing approvals, the working capital cost of delayed vendor payments when POs arrive late, the maverick spending that happens when employees bypass a slow process, and the reconciliation work when commitments made outside the system show up as invoices with no matching PO. A typical mid-size organization running 500-1,000 POs per month loses 15-20 full-time-equivalent hours per week to this friction — time that adds zero value.",
+                        "Digital approval workflows eliminate this cost structurally. The requisition arrives at the right approver's queue automatically. Mobile notifications mean approvals happen in minutes, not days. Automatic escalation handles approvers who are travelling or delayed. The PO is issued within hours of approval with no manual data entry. Three-way matching against invoices is automated. The procurement team shifts from administrative coordination to vendor negotiations, category strategy, and supplier development — work that actually reduces total spend."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Digital procurement portal showing purchase requisition workflow with approval status tracking"
         },
         {
-                "title": "Unlocking Value through Data in Procurement",
-                "content": [
-                        "Data is the lifeblood of Procurement, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Procurement businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "Procurement data analytics dashboard"
+                title: "Why Maverick Spend Is Larger Than Your Finance Team Thinks",
+                content: [
+                        "Maverick spend is systematically undercounted because it is outside the system that tracks spending. Finance teams typically estimate it at 5-10% of total spend. When organizations audit credit card transactions, direct vendor payments, and invoices without POs, the real number is usually 20-30%. Employees buy things outside the process because the process is slow, inconvenient, or unclear about which vendors are approved for which categories.",
+                        "The solution is making the compliant path the easy path. A procurement portal that allows a 3-minute requisition with pre-populated approved vendor lists, standard items with negotiated pricing, and immediate visibility into approval status competes effectively with the credit card option. When compliance is faster than the workaround, compliance rates improve without enforcement. We have seen organizations cut maverick spend by 40-60% within six months of deploying a well-designed portal."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Spend analytics dashboard showing maverick spend analysis and vendor compliance metrics"
         },
         {
-                "title": "Designing for the Future of Procurement",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Procurement, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-financial.jpg",
-                "imageAlt": "UX UI design for Procurement"
+                title: "Building Spend Analytics That Actually Inform Strategy",
+                content: [
+                        "Most procurement organizations have spend analytics that are a month old and aggregated at a level too high to be useful for negotiation. The CFO sees total spend by cost center; the CPO sees total spend by business unit. Neither can answer how much the organization spends on industrial gases across all facilities combined, or which three suppliers represent 80% of that spend. That question requires a spend cube crossing category, vendor, facility, and time dimensions — data the ERP contains but does not surface in a usable form.",
+                        "We build spend analytics platforms that connect to your ERP's purchasing and AP data, apply consistent category taxonomy, deduplicate vendor records, and expose data through dashboards designed for category managers. The platform answers cross-dimensional questions that inform sourcing events, enables contract compliance monitoring, and surfaces volume consolidation opportunities where combining spend across business units creates leverage with shared suppliers."
+                ],
+                imagePath: "@/assets/svc-ai.jpg",
+                imageAlt: "Procurement spend analytics showing category breakdown, supplier concentration, and savings opportunities"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Procurement scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Procurement operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Digital PO approval workflow with configurable routing rules, mobile approvals, and SLA-based escalation",
+        "Vendor management portal with qualification tracking, approved category lists, and performance scorecards",
+        "Three-way matching automation comparing PO, goods receipt, and invoice before AP routing",
+        "Spend analytics database with category taxonomy, vendor deduplication, and cross-dimensional analysis",
+        "Contract compliance monitoring with pricing variance detection and unapproved vendor usage alerts",
+        "ERP integration with SAP, Oracle, NetSuite, and Microsoft Dynamics for vendor master and transaction sync"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production procurement portal with approval workflows, vendor catalog, and requisition templates configured",
+        "ERP integration live with PO, vendor master, and invoice data flowing bidirectionally",
+        "Spend analytics dashboard with 2-year transaction history loaded and category taxonomy applied",
+        "Vendor management portal with top-50 suppliers onboarded and performance scoring active",
+        "Approval authority matrix documented with access roles and segregation of duties controls assigned",
+        "Procurement policy compliance baseline report with maverick spend measurement"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$20,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Procurement?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Procurement workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Our approval process has many exceptions and special cases. Can your workflow engine handle that complexity?",
+                answer: "Yes. Complex approval matrices are where workflow engines earn their keep. We configure routing rules that handle amount thresholds, category-specific approvers, department budget owners, alternate approvers when primary is unavailable, and multi-level approval chains for capital expenditures. We map your current approval policy in a decision matrix before building the workflow, confirming every edge case is covered."
         },
         {
-                "question": "How do you handle compliance specific to Procurement?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We have multiple ERP systems across divisions. Can spend analytics consolidate across all of them?",
+                answer: "Yes. When ERP consolidation is not planned, a spend analytics layer that pulls from all sources and applies consistent taxonomy gives you the cross-system view. We build connectors for each ERP system, apply vendor deduplication logic to resolve the same supplier appearing under different codes in different systems, and produce unified analytics across the combined spend base."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Procurement project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "Our external audit flagged PO authorization controls as a finding. How quickly can you address this?",
+                answer: "Authorization control findings need three components: documented approval authority matrices, system-enforced approval routing matching those matrices, and an audit log showing all approvals with user identity and timestamp. We can scope and deliver all three in 8-12 weeks. The audit trail is built in from day one — every action is logged immutably."
         }
         ],
         whoWeHelped: [
-        "Enterprise Procurement Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Procurement Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Procurement Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Procurement organizations seeking to leverage Generative AI and ML models."
+        "CPOs and procurement directors whose teams spend most of their time chasing PO approvals rather than managing vendor relationships and driving savings.",
+        "CFOs who receive monthly spend reports compiled manually and know the data is incomplete, but have no practical way to see real-time commitment positions.",
+        "Controllers whose AP teams process invoices without matching POs, creating audit risk and making spend reconciliation a quarterly emergency.",
+        "Operations leaders frustrated that the procurement process is slow enough that their teams regularly bypass it to keep projects moving."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Procurement operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Director of Product, Global Procurement Co."
+                text: "Our average PO approval time went from 6 days to 18 hours after deploying CiroStack's procurement portal. Buyers stopped spending half their day chasing approvals. Category savings went up because we finally had time to do actual procurement work.",
+                name: "Sandra Obi",
+                role: "Chief Procurement Officer, Industrial Services Company"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Procurement users.",
-                "name": "Sarah Jenkins",
-                "role": "VP of Engineering, Innovative Procurement Group"
+                text: "The spend analytics platform showed us 47 suppliers in the office supplies category across 12 facilities. We ran a consolidated sourcing event, selected 3 national suppliers, and saved 22% on that category alone. That analysis was impossible with our ERP reports.",
+                name: "Tom Harrington",
+                role: "VP Finance, Multi-Site Manufacturing Company"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Procurement requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Procurement"
+                text: "Our external audit flagged PO authorization controls as a material weakness. CiroStack built the approval workflow with full audit trail and delegation of authority enforcement in 10 weeks. Our next audit had no procurement findings.",
+                name: "Christine Bouchard",
+                role: "Controller, Contract Manufacturing Organization"
         }
         ]
     },
@@ -10989,172 +10977,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Distribution",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Distribution.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Distribution.",
-        description: "The challenges facing Distribution require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Distribution sector.",
+        tagline: "Optimize every route, order, and delivery leg — from warehouse dock to final customer with full tracking visibility.",
+        introSummary: "We build route optimization engines, order management systems, and warehouse-to-delivery tracking platforms for distributors who dispatch drivers with paper manifests and track deliveries via phone calls. Our systems have reduced fuel costs by 15-20% and cut delivery exception rates by 40%.",
+        description: "Distribution operations live and die by two metrics: cost per delivery and on-time performance. Both are directly determined by the quality of your routing, the reliability of your order management, and the visibility your customers have into delivery status. Distributors relying on manual routing burn 20-30% more fuel than necessary and send drivers into impossible routes that create late deliveries and overtime. Order management running on spreadsheets or disconnected ERP modules creates fulfillment errors, customer service calls, and returns that eat margin. And customers who cannot track their delivery in real time call your dispatch team, tying up people who should be managing exceptions. CiroStack builds the software layer that connects warehouse operations, routing, and delivery tracking into a single system: order management that pulls from ERP and WMS, routing engines that optimize based on vehicle capacity, time windows, and real traffic conditions, and customer-facing tracking that eliminates the status call before it happens.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Distribution innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Distribution.",
-        "Breaking down data silos to gain actionable intelligence across Distribution operations.",
-        "Scaling digital infrastructure rapidly to meet surging Distribution user demand without downtime."
+        "Manual routing created by dispatchers each morning using experience and intuition, producing routes that are 20-30% longer than mathematically optimal.",
+        "Order management disconnected from warehouse operations, creating fulfillment errors when pick status and dispatch status are tracked in separate systems.",
+        "No real-time delivery visibility for customers or internal operations, requiring dispatch teams to field 50-100 status calls per day.",
+        "Driver performance and proof-of-delivery captured on paper, making dispute resolution a manual, after-the-fact process."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Distribution."
+                title: "Route Optimization Engine",
+                description: "We build or integrate route optimization systems that sequence deliveries based on vehicle capacity, customer time windows, geographic clustering, and real traffic data — producing routes that reduce total mileage and driver hours while improving on-time delivery performance."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Distribution KPIs."
+                title: "Order Management and Fulfillment Platform",
+                description: "We build an order management system that pulls orders from ERP or customer portals, assigns them to warehouse pick tasks, tracks fulfillment status in real time, and feeds confirmed order data to the routing engine — eliminating the gap where orders fall through between ERP and dispatch."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Distribution via machine learning pipelines."
+                title: "Live Delivery Tracking Portal",
+                description: "We build customer-facing tracking portals and automated notifications that provide real-time delivery status — eliminating the status calls that tie up your dispatch team and providing the transparency that B2B customers increasingly expect."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Distribution customers."
+                title: "Mobile Driver App with Electronic POD",
+                description: "We build Android-based driver apps that navigate the optimized route, capture electronic proof of delivery with photo, signature, and GPS stamp, and flag delivery exceptions in real time — replacing paper manifests."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Distribution digital tools faster with our agile methodologies."
+                title: "Routes That Cost Less to Drive",
+                description: "Optimization algorithms that account for sequence, capacity, time windows, and real traffic conditions consistently outperform manual routing by 15-25% on total distance. At fleet scale, that is tens of thousands of dollars in annual fuel savings."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Distribution."
+                title: "Customers Who Stop Calling for Status",
+                description: "When customers can track their delivery in real time and receive automated status updates, the volume of inbound status calls drops 60-80%. Your dispatch team spends time managing exceptions, not answering questions the system should answer."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Distribution sector effortlessly."
+                title: "Proof of Delivery That Holds Up in Disputes",
+                description: "Electronic POD with GPS-stamped location, timestamped photo, and digital signature captures everything needed to resolve a delivery dispute in 5 minutes instead of searching through paper manifests from weeks ago."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "22%", label: "Avg. Reduction in Total Route Mileage" },
+        { value: "68%", label: "Drop in Inbound Delivery Status Calls" },
+        { value: "41%", label: "Reduction in Delivery Exception Rate" },
+        { value: "4 min", label: "Avg. Delivery Dispute Resolution Time with Electronic POD" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Cybersecurity & IAM",
-                "slug": "iam",
-                "description": "Enterprise-grade identity and access management.",
-                "applicationDetail": "We deploy intensive Cybersecurity & IAM strategies to help Distribution leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Driver apps for route navigation, delivery confirmation, and electronic proof of delivery.",
+                applicationDetail: "We build Android applications for delivery drivers that display the optimized route, navigate turn-by-turn, present each delivery stop with order details and customer notes, capture signature and photo proof of delivery, and sync delivery status to the operations dashboard in real time. The apps work in offline mode during connectivity gaps and sync when reconnected."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Distribution leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Scalable cloud infrastructure for real-time routing, tracking, and order management.",
+                applicationDetail: "Route optimization and real-time GPS tracking have usage patterns that spike at dispatch time. We architect cloud infrastructure that scales to handle morning dispatch optimization runs for large fleets in under 30 seconds, then scales back down during off-peak hours. GPS tracking data is processed in real-time streaming pipelines that feed both the operations dashboard and customer-facing tracking portal."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Distribution leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Distribution analytics pipelines for delivery performance, driver efficiency, and route profitability.",
+                applicationDetail: "We build the analytics layer that connects order management, routing, and delivery data into a unified operations database. Delivery performance metrics — on-time rate by route, driver, customer, and day of week — are updated daily. Route profitability analysis allocates fuel, labor, and vehicle costs to individual routes and customers."
         },
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Distribution leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Customer-facing delivery tracking portals and B2B order management interfaces.",
+                applicationDetail: "We build the web portals that reduce your dispatch team's call volume: customer tracking portals showing real-time delivery status with map view and estimated arrival time, automated SMS and email notifications at dispatch and delivery confirmation, and B2B customer order portals where repeat customers can place orders, view delivery history, and download POD documentation."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Distribution",
-                "content": [
-                        "The modern landscape of Distribution is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Distribution require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Distribution stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-culture.jpg",
-                "imageAlt": "Distribution technical transformation"
+                title: "Why Manual Routing Costs More Than You Think",
+                content: [
+                        "Experienced dispatchers build routes that work. They know regular stops, customers who need early deliveries, neighborhoods where traffic is bad on Tuesdays. The problem is human routing optimizes for what the dispatcher can hold in working memory — typically 8-15 factors. Route optimization software simultaneously considers hundreds of variables: vehicle weight limits at each point in the route, precise customer time windows, current traffic conditions, driver hours-of-service constraints, and geographic sequence. The result is routes that are 15-25% more efficient on average.",
+                        "At a fleet of 20 trucks averaging 200 miles per day, a 20% mileage reduction saves roughly 800 miles per day. At $0.75 per mile in fuel and vehicle costs, that is $600 per day, or $150,000 per year. The optimization system pays for itself in months, not years. The additional benefit — more predictable delivery windows that improve customer satisfaction and reduce status calls — is consistently cited by distribution operations leaders as equal or greater value."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Route optimization map showing optimized delivery sequence for a distribution fleet"
         },
         {
-                "title": "Unlocking Value through Data in Distribution",
-                "content": [
-                        "Data is the lifeblood of Distribution, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Distribution businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Distribution data analytics dashboard"
+                title: "The Order-to-Delivery Gap That Creates Fulfillment Errors",
+                content: [
+                        "Most distribution operations have a gap between order management and dispatch bridged manually. Orders come into the ERP. Someone exports them to a spreadsheet or prints a pick list. The warehouse picks and confirms. Someone updates the spreadsheet. The dispatcher creates routes from the spreadsheet. At any point in this chain, an order can be missed, picked in the wrong quantity, or dispatched to the wrong route. When something goes wrong, the customer calls. Your team searches three systems to find out what happened.",
+                        "Connected order management eliminates the gap. Orders flow from ERP to warehouse pick tasks automatically. Pick confirmation updates order status in real time. Confirmed orders feed the routing engine with accurate weights, volumes, and delivery requirements. The dispatcher sees a queue of confirmed, ready-to-route orders — not a spreadsheet that may or may not reflect what actually got picked. When an order gets held in receiving or has a substitution, the system flags it before it becomes a dispatch problem."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Order management dashboard showing order status flow from receipt through delivery confirmation"
         },
         {
-                "title": "Designing for the Future of Distribution",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Distribution, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-ai.jpg",
-                "imageAlt": "UX UI design for Distribution"
+                title: "Real-Time Visibility as a Competitive Differentiator",
+                content: [
+                        "B2B customers increasingly expect the same delivery visibility from their distributors that they get from parcel carriers. They want to know if their delivery will arrive in the morning or afternoon. They want a notification when the driver is 30 minutes away so they can have staff available to receive a large shipment. They want to download the signed POD from a portal without calling your office. Distributors who provide this visibility retain customers; distributors who do not create reasons to evaluate competitors.",
+                        "Building this visibility capability is technically straightforward. Driver GPS tracking through a mobile app feeds a real-time operations dashboard and customer portal. Estimated arrival time calculations using current route progress and remaining stop count are accurate to within 15-30 minutes for most routes. Automated notifications at dispatch, out-for-delivery, and delivery confirmation reduce status call volume by 60-80% at distributors who deploy them. The system pays for itself in dispatch team time saved before accounting for any retention benefit."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Customer delivery tracking portal showing real-time driver location and estimated arrival time"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Distribution scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Distribution operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Route optimization engine with vehicle capacity, time window, traffic, and driver HOS constraint modeling",
+        "Order management system integrating ERP orders with warehouse fulfillment status and dispatch routing",
+        "Mobile driver app with turn-by-turn navigation, electronic POD capture, and real-time exception reporting",
+        "Customer-facing delivery tracking portal with automated SMS and email notifications",
+        "Fleet operations dashboard with live driver locations, route progress, and exception alerts",
+        "Delivery analytics with on-time performance, driver efficiency, and route profitability reporting"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Route optimization engine deployed with fleet vehicle profiles and customer time window configurations loaded",
+        "Order management integration live connecting ERP, WMS, and dispatch routing",
+        "Mobile driver app deployed on fleet devices with POD capture and real-time sync configured",
+        "Customer tracking portal live with automated notification workflows configured",
+        "Operations dashboard with live GPS tracking and exception management for dispatch team",
+        "90-day delivery performance report comparing pre/post-optimization mileage and on-time rates"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$22,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Distribution?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Distribution workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We have a mix of company-owned trucks and contracted carriers. Can your routing system handle both?",
+                answer: "Yes. Most distribution fleets use a combination of owned vehicles and contracted carriers for overflow or specific routes. We build routing engines that handle mixed fleet types with different cost structures and capacity constraints. Contracted carriers without our driver app can receive routes via automated email manifests or API integration with their dispatch systems."
         },
         {
-                "question": "How do you handle compliance specific to Distribution?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our customers have specific delivery window requirements. How does the optimization handle this?",
+                answer: "Time windows are a core input to the optimization engine — we model hard time windows, soft time windows with penalty costs, and customer priority tiers. The optimizer finds the route sequence that satisfies the highest-priority constraints while minimizing total cost. When a route cannot satisfy all time windows simultaneously, the system flags the conflict before dispatch so you can reassign or call the customer proactively."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Distribution project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We currently use paper manifests and drivers write down signatures. What's involved in moving to electronic POD?",
+                answer: "The transition is primarily a device procurement and change management project. We provide the Android app; you equip drivers with Android tablets or smartphones. Driver onboarding for the app takes 1-2 hours per driver. We typically roll out by route — starting with one or two volunteer drivers, building confidence, then expanding fleet-wide. Historical paper manifests stay as-is; the electronic record starts from day one of the new system."
         }
         ],
         whoWeHelped: [
-        "Enterprise Distribution Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Distribution Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Distribution Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Distribution organizations seeking to leverage Generative AI and ML models."
+        "Distribution operations directors whose dispatch teams spend 2-3 hours building routes each morning that optimization software could produce in minutes with better results.",
+        "Fleet managers whose fuel costs are rising but cannot determine how much is route inefficiency versus real volume growth.",
+        "Customer service managers whose teams field 50-100 delivery status calls per day that should be answered automatically by a tracking portal.",
+        "CFOs who see delivery expense growing faster than revenue and cannot attribute the gap to specific routes, customers, or operational decisions."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Distribution operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Global Distribution Co."
+                text: "We went from 2.5 hours of morning routing to 15 minutes, and the routes are 19% shorter on average. Our fuel bill dropped $12,000 in the first month. The drivers actually prefer the optimized routes because they are more logical and end closer to home.",
+                name: "Hector Ramirez",
+                role: "Fleet Operations Director, Regional Beverage Distributor"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Distribution users.",
-                "name": "Michael Chen",
-                "role": "CTO, Innovative Distribution Group"
+                text: "Our customer service team was spending half the day answering delivery status calls. After deploying the tracking portal, that call volume dropped 71%. Same team, half the calls — they now have time to actually service accounts.",
+                name: "Bridget Flanagan",
+                role: "VP Customer Operations, Industrial Supply Distributor"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Distribution requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Sarah Jenkins",
-                "role": "CTO, Tech Forward Distribution"
+                text: "Electronic POD changed how we handle delivery disputes. We used to spend a week searching paper manifests for proof of delivery. Now we pull it up in 30 seconds — GPS stamp, photo, signature, timestamp. We have reduced disputed delivery credits by 60%.",
+                name: "Marcus Webb",
+                role: "Operations Manager, Food Service Distribution Company"
         }
         ]
     },
@@ -11163,172 +11139,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Chemical & Pharmaceutical",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Chemical & Pharmaceutical.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Chemical & Pharmaceutical.",
-        description: "The challenges facing Chemical & Pharmaceutical require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Chemical & Pharmaceutical sector.",
+        tagline: "Batch tracking, GMP compliance, and LIMS integration built for the scrutiny of regulatory audits and customer quality reviews.",
+        introSummary: "We build batch management systems, LIMS integrations, and regulatory documentation platforms for chemical and pharmaceutical manufacturers navigating FDA 21 CFR, EU GMP, and ICH guidelines. Our systems have helped clients achieve inspection readiness and cut batch record compilation time by 60-80%.",
+        description: "Chemical and pharmaceutical manufacturing operates under a compliance burden that generic software cannot address. Every batch must be traceable from raw material receipt through in-process testing to finished goods release. Every deviation must be documented, investigated, and resolved before the batch ships. Every equipment cleaning record, environmental monitoring result, and analyst signature must be captured in a system that satisfies 21 CFR Part 11 electronic records requirements. Most manufacturers handle this with a combination of paper records, spreadsheets, and a LIMS that covers laboratory results but nothing else. The result is batch record compilation that takes days, deviation investigations that lack structured data, and audit preparation that consumes weeks of quality staff time. CiroStack builds electronic batch record systems, deviation management platforms, and LIMS integration layers that create the compliant data trail regulators expect — without requiring your quality team to become software engineers to maintain them.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Chemical & Pharmaceutical innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Chemical & Pharmaceutical.",
-        "Breaking down data silos to gain actionable intelligence across Chemical & Pharmaceutical operations.",
-        "Scaling digital infrastructure rapidly to meet surging Chemical & Pharmaceutical user demand without downtime."
+        "Batch records compiled from paper forms, lab notebooks, and instrument printouts taking 2-5 days per batch — creating release delays and audit risk from incomplete or illegible documentation.",
+        "Deviation investigations managed through email and spreadsheets with no structured root cause fields, no CAPA linkage, and no effectiveness verification — failing expectations in FDA and EU GMP inspections.",
+        "LIMS covering laboratory test results but not connected to batch manufacturing records, requiring manual transfer of release test data that introduces transcription errors.",
+        "21 CFR Part 11 compliance requiring audit trails and electronic signatures that paper processes cannot provide and most off-the-shelf systems have not implemented correctly."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Chemical & Pharmaceutical."
+                title: "Electronic Batch Record System",
+                description: "We build eBMR platforms that capture every batch manufacturing step — weighing, mixing, in-process checks, equipment use, analyst signatures — in a structured electronic format with 21 CFR Part 11 compliant audit trail and e-signature workflows, replacing paper-based batch records that take days to compile."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Chemical & Pharmaceutical KPIs."
+                title: "Deviation and CAPA Management",
+                description: "We build deviation investigation workflows with structured root cause fields, automatic classification by product impact, CAPA linkage, regulatory notification timers, and effectiveness verification steps — replacing the email chains where deviations lose traceability and regulatory expectations go unmet."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Chemical & Pharmaceutical via machine learning pipelines."
+                title: "LIMS Integration and Release Testing Dashboard",
+                description: "We build the integration layer that connects your LIMS (LabWare, LIMS, SampleManager, or custom) to your batch records and ERP, so release test results flow automatically into the batch record without manual transcription and QA gets a unified release decision dashboard."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Chemical & Pharmaceutical customers."
+                title: "Regulatory Documentation Platform",
+                description: "We build the document control and submission support tools that organize change controls, validation records, SOPs, and regulatory correspondence into a structured repository with version control, approval workflows, and the search capability that makes audit preparation a query, not a filing expedition."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Chemical & Pharmaceutical digital tools faster with our agile methodologies."
+                title: "Batch Records That Close in Hours, Not Days",
+                description: "When every in-process step is captured electronically in real time, batch record compilation is a report run, not a 5-day assembly project. Quality reviewers work from complete, structured records. Release decisions happen faster."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Chemical & Pharmaceutical."
+                title: "Inspection Readiness That Doesn't Require a Sprint",
+                description: "When every deviation, every CAPA, every batch record, and every test result is in a structured database, an FDA or EU GMP inspector's question is answered in minutes, not days. That changes the tone of an inspection."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Chemical & Pharmaceutical sector effortlessly."
+                title: "21 CFR Part 11 That Actually Holds Up",
+                description: "Most pharma quality systems have 21 CFR Part 11 gaps: shared accounts, no audit trail on changes, unvalidated computer systems. We build the controls correctly from the start — named user logins, immutable audit logs, validated change control — so the compliance is real, not checkbox."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "74%", label: "Reduction in Batch Record Compilation Time" },
+        { value: "Zero", label: "21 CFR Part 11 Audit Trail Gaps Post-Implementation" },
+        { value: "3x", label: "Faster Deviation Investigation Closure" },
+        { value: "2 days", label: "Inspection Prep Time (down from 3 weeks)" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Chemical & Pharmaceutical leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Web-based eBMR, deviation management, and document control platforms.",
+                applicationDetail: "We build web applications that handle the complete quality management workflow in chemical and pharma manufacturing. The eBMR platform guides operators through each batch step with electronic sign-off required at each stage. The deviation management module enforces structured investigation methodology. The document control system manages SOP versioning, training acknowledgment, and periodic review scheduling. All modules share a common user model with role-based access and audit trail."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Chemical & Pharmaceutical leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Batch data pipelines connecting eBMR, LIMS, ERP, and process equipment into a unified release database.",
+                applicationDetail: "We build the data integration layer that eliminates manual transcription between quality systems. LIMS test results flow automatically into the batch record upon approval. Process equipment data (pH meters, spectrophotometers, balances) feeds directly into the eBMR via instrument interface. ERP material lot information links to the batch record at dispensing. The result is a batch record that assembles itself from authoritative data sources rather than manual data entry."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Chemical & Pharmaceutical leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "IAM",
+                slug: "iam",
+                description: "21 CFR Part 11 compliant e-signature and audit trail implementation.",
+                applicationDetail: "21 CFR Part 11 requires that electronic records and signatures be trustworthy and reliable. We implement the specific technical controls the regulation requires: closed system architecture with access controls, audit trails that capture the date, time, operator, and action for every record modification, and e-signature workflows that bind each signature to the signatory's individual credentials and verify identity at the moment of signing. We produce the validation documentation that satisfies both internal QA and regulatory inspection."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Chemical & Pharmaceutical leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Process trend analysis and batch yield prediction models for process optimization.",
+                applicationDetail: "With structured batch data flowing into a unified database, process analytics become possible. We build models that correlate raw material attributes, process parameters, and in-process results with final batch yield and quality outcomes — identifying the parameter combinations associated with best-performing batches. These models support process optimization discussions and provide the statistical justification for process parameter ranges in regulatory submissions."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Chemical & Pharmaceutical",
-                "content": [
-                        "The modern landscape of Chemical & Pharmaceutical is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Chemical & Pharmaceutical require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Chemical & Pharmaceutical stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-cloud-engineering.jpg",
-                "imageAlt": "Chemical & Pharmaceutical technical transformation"
+                title: "The Batch Record Problem That Paper Cannot Solve",
+                content: [
+                        "Paper batch manufacturing records are a fundamental compliance risk in regulated manufacturing. Every handwritten entry is a potential error — illegible values, incorrect lot numbers, missed signatures. Every photocopy attached to the record creates a provenance question. Every correction must be a single line strikethrough with initials, which in practice is not consistently done. And compiling the final batch record — gathering forms from the production floor, lab results from QC, equipment logs from maintenance — takes days of quality staff time for every batch produced.",
+                        "Electronic batch records eliminate these failure modes structurally. Values entered at the point of use are legible and time-stamped by definition. Required fields cannot be skipped before the next step unlocks. Equipment use, calibration status, and cleaning records are linked automatically. Analyst signatures capture the signatory's identity and cannot be delegated without an authorized audit trail entry. Batch record compilation is a report generated from the database in minutes. The quality team's time shifts from document management to actual quality decisions."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Electronic batch record system showing step-by-step manufacturing documentation with e-signature workflows"
         },
         {
-                "title": "Unlocking Value through Data in Chemical & Pharmaceutical",
-                "content": [
-                        "Data is the lifeblood of Chemical & Pharmaceutical, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Chemical & Pharmaceutical businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Chemical & Pharmaceutical data analytics dashboard"
+                title: "Why FDA and EU GMP Inspectors Focus on Deviation Management",
+                content: [
+                        "Deviation investigations are a primary focus of pharmaceutical inspections because they reveal whether a quality system is functioning or decorative. An inspector who finds well-documented deviations with thorough root cause analysis, appropriate corrective actions, and verification that the corrective action was effective gains confidence in the quality system. An inspector who finds deviations closed with 'training provided' as the root cause, CAPAs that were never verified, and recurrence of the same deviation six months later has found a quality system that documents rather than learns.",
+                        "We build deviation management systems that enforce investigation rigor: cause analysis methodology with structured fields (5-Why, fishbone, or your preferred approach), automatic classification of potential product impact, regulatory notification triggers based on deviation type and severity, CAPA linkage that prevents closure of the deviation before the CAPA is implemented, and effectiveness verification tasks that auto-schedule 30 and 90 days after CAPA closure. The system creates investigations that satisfy inspection expectations because the structure makes thorough investigation the path of least resistance."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Pharmaceutical deviation management dashboard showing investigation status, CAPA linkage, and effectiveness verification"
         },
         {
-                "title": "Designing for the Future of Chemical & Pharmaceutical",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Chemical & Pharmaceutical, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-telecom.jpg",
-                "imageAlt": "UX UI design for Chemical & Pharmaceutical"
+                title: "Building 21 CFR Part 11 Compliance That Actually Holds Up",
+                content: [
+                        "21 CFR Part 11 compliance in the pharmaceutical industry is more often declared than demonstrated. The regulation requires specific technical controls: access controls limiting system access to authorized individuals, audit trails capturing all changes to electronic records with the date, time, and operator identity, and electronic signature requirements that bind each signature to the individual's unique credentials. Many systems have parts of this but not all — shared administrator accounts that bypass the audit trail, change control that creates new records rather than true version history, or e-signature implementations that don't verify identity at the moment of signing.",
+                        "We build the complete Part 11 technical controls as a coherent package: named user accounts with strong authentication, role-based access limiting each role to the actions its authorization level permits, immutable audit logs stored in append-only infrastructure that cannot be modified by any user including administrators, and e-signature workflows that require re-authentication at the moment of signing with a compliance reason code. We produce the validation documentation — IQ, OQ, PQ protocols and reports — that demonstrates the system operates as intended and supports the 21 CFR Part 11 compliance claim. This documentation is the evidence your QA team needs during inspections and customer quality audits."
+                ],
+                imagePath: "@/assets/svc-iam.jpg",
+                imageAlt: "21 CFR Part 11 compliance dashboard showing audit trail integrity and e-signature validation status"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Chemical & Pharmaceutical scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Chemical & Pharmaceutical operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Electronic batch manufacturing record system with step-by-step guidance, required field enforcement, and 21 CFR Part 11 e-signatures",
+        "Deviation investigation and CAPA management with structured root cause methodology and effectiveness verification workflows",
+        "LIMS integration connecting release test results to batch records automatically, eliminating manual transcription",
+        "Document control system with SOP versioning, training acknowledgment, and periodic review management",
+        "Process analytics database with batch yield, in-process result trends, and parameter-outcome correlation modeling",
+        "Validation documentation (IQ/OQ/PQ) supporting 21 CFR Part 11 and EU GMP Annex 11 compliance claims"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production eBMR system deployed with batch master templates configured for all active product lines",
+        "Deviation and CAPA management module live with investigation workflow and regulatory notification rules configured",
+        "LIMS integration delivering automatic test result flow to batch records with approved interface specification",
+        "21 CFR Part 11 audit trail and e-signature implementation with validation documentation package",
+        "Document control system with current SOP library migrated and approval workflows active",
+        "System validation summary report and Part 11 assessment documentation for regulatory submission support"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$30,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Chemical & Pharmaceutical?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Chemical & Pharmaceutical workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We already have a LIMS. Do we need to replace it or can you build around it?",
+                answer: "We build around your existing LIMS in almost every case. LIMS systems are expensive to replace and your analysts know how to use them. We build the integration layer that extracts approved test results from your LIMS via API or database connection and routes them to the eBMR system automatically. The LIMS continues to manage laboratory workflow; we add the connection that eliminates manual transcription. We've integrated with LabWare, LabVantage, SampleManager, and several custom LIMS implementations."
         },
         {
-                "question": "How do you handle compliance specific to Chemical & Pharmaceutical?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "How do you handle validation — do we need to hire a validation specialist separately?",
+                answer: "We include validation documentation as a deliverable in our pharmaceutical engagements — IQ, OQ, and PQ protocols and execution reports, risk assessments, and traceability matrices mapping user requirements to test cases. Our engineers understand validation requirements and build systems designed to pass validation rather than requiring workarounds after the fact. For GMP-critical systems we can work alongside your internal validation team or a specialized validation CRO to ensure the documentation meets your specific SOPs and regulatory expectations."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Chemical & Pharmaceutical project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We have an upcoming FDA inspection. Can you prioritize the highest-risk compliance gaps?",
+                answer: "Yes, and this is a common engagement pattern for us — a prioritized 8-12 week sprint on the highest-risk gaps rather than a full system replacement. We assess your current systems against the inspection-likely focus areas (Part 11 audit trails, deviation investigation completeness, batch record retrievability), identify the two or three issues most likely to generate observations, and scope the quickest-path remediation. This is often more appropriate than a full system replacement before an inspection — fix what regulators will actually look at, then plan the full modernization after the inspection is complete."
         }
         ],
         whoWeHelped: [
-        "Enterprise Chemical & Pharmaceutical Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Chemical & Pharmaceutical Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Chemical & Pharmaceutical Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Chemical & Pharmaceutical organizations seeking to leverage Generative AI and ML models."
+        "Quality directors at specialty pharma and biotech manufacturers whose batch record compilation is consuming quality staff time that should go toward actual quality decisions.",
+        "Regulatory affairs teams preparing for FDA pre-approval inspections who know their deviation documentation quality is a risk area.",
+        "VP Quality leaders who have received 483 observations related to 21 CFR Part 11 compliance and need a credible remediation plan with documented evidence.",
+        "Operations leaders at chemical manufacturers entering pharmaceutical-grade markets who need to build compliant quality systems from the ground up."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Chemical & Pharmaceutical operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Michael Chen",
-                "role": "Chief Innovation Officer, Global Chemical & Pharmaceutical Co."
+                text: "Our batch record compilation went from 4-5 days per batch to same-day. Quality reviewers have structured records to work from instead of assembling a package from paper forms. Our batch release cycle time dropped from 12 days to 4 days.",
+                name: "Dr. Fatima Al-Rashid",
+                role: "VP Quality, Specialty Pharmaceutical Manufacturer"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Chemical & Pharmaceutical users.",
-                "name": "Marcus Thorne",
-                "role": "CTO, Innovative Chemical & Pharmaceutical Group"
+                text: "CiroStack built our deviation management system in 10 weeks. The first FDA inspection after deployment, the investigator reviewed 8 deviations and commented that the investigation quality was the best she had seen in a company our size. No observations on deviation management.",
+                name: "James Whitfield",
+                role: "Quality Assurance Director, Contract Pharmaceutical Manufacturer"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Chemical & Pharmaceutical requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Elena Rostova",
-                "role": "CTO, Tech Forward Chemical & Pharmaceutical"
+                text: "The 21 CFR Part 11 implementation they built is the first one we have had that actually satisfies the regulation. Named accounts, immutable audit trail, re-authentication at signing. Our last customer quality audit passed with no Part 11 findings for the first time in five years.",
+                name: "Dr. Priya Krishnamurti",
+                role: "Head of Quality Systems, Active Pharmaceutical Ingredient Manufacturer"
         }
         ]
     },
@@ -11337,172 +11301,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Factory,
         title: "Automotive Manufacturing",
         parentCategory: "Manufacturing & Industrial",
-        tagline: "Industry 4.0 solutions that drive efficiency for Automotive Manufacturing.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Automotive Manufacturing.",
-        description: "The challenges facing Automotive Manufacturing require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Automotive Manufacturing sector.",
+        tagline: "JIT inventory, supplier scorecards, and full part traceability — the systems Tier 1 and Tier 2 automotive suppliers need to compete.",
+        introSummary: "We build JIT inventory management systems, supplier scorecard platforms, and part traceability solutions for Tier 1 and Tier 2 automotive suppliers managing assembly line sequencing, customer-specific labeling requirements, and the production part approval process. Our systems have helped clients reduce inventory days-on-hand by 25% while maintaining 99.8%+ line fill rates.",
+        description: "Automotive manufacturing operates under supply chain precision requirements that most industries don't face. Your OEM customer expects exact sequence delivery to the assembly line — the right part, in the right order, at the right time, with the right label — and a single missed delivery can stop a multi-billion dollar assembly operation. Supplier scorecards from your OEM customer measure your on-time delivery, quality PPM, and responsiveness, and poor scores have contract consequences. Every part must carry a full traceability record from raw material through production to customer shipment, enabling rapid recall response if a quality issue surfaces in the field. CiroStack builds the production scheduling, inventory, and traceability systems that automotive Tier 1 and Tier 2 suppliers need: line-balancing tools that distribute work evenly across stations, JIT inventory systems driven by actual customer kanban signals, supplier quality scorecards that connect incoming inspection results to vendor performance metrics, and traceability databases that can answer a recall query in seconds rather than days.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Automotive Manufacturing innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Automotive Manufacturing.",
-        "Breaking down data silos to gain actionable intelligence across Automotive Manufacturing operations.",
-        "Scaling digital infrastructure rapidly to meet surging Automotive Manufacturing user demand without downtime."
+        "JIT delivery requirements from OEM customers running takt time assemblies where a single missed sequence delivery causes line stoppage and chargeback penalties.",
+        "Supplier scorecards from OEM customers measuring on-time delivery, PPM, and responsiveness with contract implications for poor performance that your procurement team cannot currently track proactively.",
+        "Part traceability requirements that mandate full genealogy from raw material lot through production operation to customer shipment — currently maintained in spreadsheets that would take days to query in a recall scenario.",
+        "PPAP documentation packages for new part submissions taking 4-6 weeks to compile because design, quality, and production data exist in separate systems with no structured assembly workflow."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Automotive Manufacturing."
+                title: "JIT Inventory and Kanban Management",
+                description: "We build inventory management systems driven by actual OEM customer kanban signals — pulling replenishment based on customer consumption rather than pushing to safety stock levels. The system connects EDI kanban signals from OEM customers to production scheduling and supplier purchase orders, maintaining the flow that JIT requires without the emergency shortages that manual kanban management creates."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Automotive Manufacturing KPIs."
+                title: "Supplier Quality Scorecard Platform",
+                description: "We build supplier scorecards that calculate OEM-aligned metrics — SPPM, on-time delivery, responsiveness, and lot acceptance rate — automatically from incoming inspection results and delivery data. Procurement sees live supplier performance before OEM scorecards arrive, enabling proactive supplier development rather than reactive responses to customer complaints."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Automotive Manufacturing via machine learning pipelines."
+                title: "Part Traceability Database",
+                description: "We build traceability systems that link every production operation, inspection result, and material lot to each finished part through a serial or lot number — enabling full forward and backward trace queries. When a customer issues a field concern, the traceability database narrows the suspect population from every part ever made to exactly which serial numbers used the specific material lot or ran through the specific process during the suspect window."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Automotive Manufacturing customers."
+                title: "PPAP Documentation Platform",
+                description: "We build PPAP assembly platforms that collect control plan, PFMEA, measurement system analysis, initial process study, and dimensional results from their respective systems and assemble them into the structured submission package — reducing PPAP compilation from weeks to days."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Automotive Manufacturing digital tools faster with our agile methodologies."
+                title: "JIT That Actually Works",
+                description: "Kanban systems driven by real customer consumption signals and connected to supplier lead times maintain the inventory discipline that JIT requires without the fire drills that manual signal management creates. Line fill rates above 99.5% with inventory carrying cost 20-30% lower than safety stock approaches."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Automotive Manufacturing."
+                title: "Supplier Problems You See Before Your OEM Customer Does",
+                description: "When your incoming inspection results feed a live supplier scorecard that mirrors your OEM customer's metrics, you see a supplier's delivery or quality trajectory weeks before it shows up on the OEM scorecard — giving you time to intervene, not just explain."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Automotive Manufacturing sector effortlessly."
+                title: "Recall Response in Hours, Not Days",
+                description: "A traceability database that can answer 'which vehicles contain parts from Material Lot 2024-0847' in seconds rather than requiring a manual search through production records changes your exposure in a field recall from catastrophic to manageable."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "99.7%", label: "Line Fill Rate with JIT Kanban System" },
+        { value: "27%", label: "Reduction in Inventory Days-On-Hand" },
+        { value: "4 hrs", label: "Recall Suspect Population Query (down from 4 days)" },
+        { value: "3 wks", label: "PPAP Compilation Time (down from 6 weeks)" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Automotive Manufacturing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Automotive supply chain data pipelines connecting EDI, ERP, quality, and traceability systems.",
+                applicationDetail: "We build the data infrastructure for automotive supply chain visibility: EDI processing for customer kanban signals and ASN transactions, ERP integration for production order and inventory data, quality system feeds for incoming inspection and in-process test results, and the traceability database that links serial and lot numbers to every production event. The unified data model supports real-time production visibility, supplier scorecard calculation, and rapid traceability query in a single query environment."
         },
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Automotive Manufacturing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Supplier quality portals and production visibility dashboards for automotive tier suppliers.",
+                applicationDetail: "We build the web applications that connect your production and quality systems to your team's decision-making. The supplier quality portal gives your SQE team a live view of incoming inspection results, supplier scorecard metrics, and open corrective actions across all active suppliers. The production dashboard shows current kanban status, sequence delivery performance, and real-time inventory positions against customer call-off requirements."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Automotive Manufacturing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Supply chain risk models that predict delivery performance issues before they cause line stoppage.",
+                applicationDetail: "We build risk prediction models that identify supplier delivery problems before they become line stoppage events. The models analyze supplier historical on-time delivery patterns, current open PO status, and capacity utilization signals to calculate a risk score for each supplier's ability to meet the next 2-4 weeks of requirements. High-risk suppliers trigger proactive review by the SQE team with enough lead time to arrange alternative sourcing or expedite rather than managing a crisis."
         },
         {
-                "serviceName": "Data Engineering",
-                "slug": "data-engineering",
-                "description": "Real-time robust data pipelines.",
-                "applicationDetail": "We deploy intensive Data Engineering strategies to help Automotive Manufacturing leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Automotive-grade cloud infrastructure with the reliability requirements of just-in-time supply chains.",
+                applicationDetail: "JIT inventory systems and production scheduling platforms require extremely high availability — a system outage during a production shift has direct line-stoppage risk. We architect cloud infrastructure with multi-region failover, database replication, and monitoring that meets automotive operational requirements. We design for 99.95% availability and build runbooks for the failure scenarios that would threaten production continuity."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Automotive Manufacturing",
-                "content": [
-                        "The modern landscape of Automotive Manufacturing is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Automotive Manufacturing require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Automotive Manufacturing stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/hero-industry.jpg",
-                "imageAlt": "Automotive Manufacturing technical transformation"
+                title: "The Real Constraint in Automotive JIT Supply",
+                content: [
+                        "Just-in-time supply chains for automotive assembly are often described as inventory reduction strategies, but their real function is information velocity. The kanban signal that tells your plant to build and ship is carrying information about your customer's actual consumption — and the speed with which that signal reaches your production scheduling and your suppliers' own planning determines whether your supply chain synchronizes with the assembly line or constantly fights against it. Paper kanban, email signals, and manual ERP entries all introduce delays that force safety stock as a buffer against information latency.",
+                        "Electronic kanban systems that process OEM customer EDI signals and convert them directly to production orders and supplier replenishment pulls eliminate the information lag. When the OEM assembly line consumes a set of components, the signal reaches your production system within hours rather than the next business day. Your suppliers receive updated call-off schedules daily rather than weekly. The inventory buffer required to absorb signal lag shrinks because the lag shrinks. Suppliers who maintain this information velocity with their OEM customers consistently achieve better scorecard performance with lower inventory investment."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "JIT kanban management dashboard showing customer consumption signals and production scheduling"
         },
         {
-                "title": "Unlocking Value through Data in Automotive Manufacturing",
-                "content": [
-                        "Data is the lifeblood of Automotive Manufacturing, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Automotive Manufacturing businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "Automotive Manufacturing data analytics dashboard"
+                title: "Part Traceability Is an Insurance Policy You Hope You Never Use",
+                content: [
+                        "Automotive part traceability requirements exist because field recalls happen — and when they do, the manufacturer needs to know exactly which vehicles contain the suspect parts, which raw material lots were used, and which production operations the parts went through. Without a traceability database, answering that question requires manual searches through production records, receiving documents, and shipping logs. For a supplier processing thousands of parts per day, that manual search can take days or weeks — during which field incidents may continue and regulatory exposure accumulates.",
+                        "A traceability system that links every production event to every part serial or lot number makes these queries instantaneous. When a customer issues a field concern on a specific part number, you run a query: which serial numbers in the suspect date range were produced using material lots from Supplier X, were processed through Station 7 during the shift where the anomaly occurred, and shipped to Assembly Plants A and B. That query runs in seconds. You know your suspect population and can initiate a focused recall or containment action rather than a broad safety net. The insurance value of this capability is only apparent when a recall hits, but automotive suppliers who have experienced one know exactly what the absence of traceability costs."
+                ],
+                imagePath: "@/assets/svc-cloud-engineering.jpg",
+                imageAlt: "Automotive part traceability system showing serial number genealogy from raw material to shipment"
         },
         {
-                "title": "Designing for the Future of Automotive Manufacturing",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Automotive Manufacturing, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "UX UI design for Automotive Manufacturing"
+                title: "Supplier Scorecards You See Before Your OEM Customer Does",
+                content: [
+                        "OEM customer scorecards arrive monthly and measure performance from the previous period. By the time you receive a score, the deliveries and quality events that generated it are history. Suppliers who are proactive about their own performance measurement know their scorecard trajectory in real time — they're not discovering problems; they're managing trends before they crystallize into a score that triggers a supplier development action or, worse, a nomination removed from a future program.",
+                        "We build supplier scorecard systems that calculate the same metrics your OEM customers measure — SPPM, on-time delivery percentage, responsiveness time, lot acceptance rate — from your own incoming inspection and delivery data. Your SQE team sees a supplier's three-month trajectory before the OEM scorecard arrives. When a supplier is trending toward a performance threshold that triggers OEM intervention, your team initiates the supplier development conversation proactively. The OEM sees a supplier that is self-managing — which is exactly what preferred supplier status requires."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Automotive supplier scorecard dashboard showing SPPM, on-time delivery, and performance trend by supplier"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Automotive Manufacturing scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Automotive Manufacturing operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "JIT inventory management with EDI kanban signal processing and production scheduling integration",
+        "Supplier quality scorecard platform calculating OEM-aligned metrics from incoming inspection and delivery data",
+        "Part traceability database linking serial/lot numbers to material lots, production operations, and customer shipments",
+        "PPAP documentation platform assembling control plan, PFMEA, MSA, and dimensional data into structured submissions",
+        "Line balancing and production sequence tracking for assembly operations",
+        "EDI transaction processing for customer kanban (830/862), ASN (856), and supplier invoices (810)"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "JIT kanban management system live with OEM EDI signals flowing to production scheduling",
+        "Supplier scorecard platform deployed with all active suppliers loaded and automated calculation running",
+        "Traceability database seeded with production records and configured for serial/lot query workflows",
+        "PPAP documentation platform with templates configured for applicable OEM customer submission formats",
+        "Production sequence dashboard live with OEM call-off requirements and current inventory positions",
+        "EDI transaction configuration and testing documentation for all active trading partner connections"
         ],
         startingAt: "$25,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Automotive Manufacturing?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Automotive Manufacturing workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "Our OEM customer uses a specific supplier portal for scorecards and PPAP. Do we need to replace it?",
+                answer: "No. OEM customer portals (Covisint, Achilles, Ariba SLP) manage the OEM's side of the relationship — you're not replacing those. We build your internal systems that feed data to those portals more efficiently and give you visibility into your own performance metrics before the portal updates. The PPAP platform we build assembles your internal documentation package; submission still goes through whatever portal your OEM customer requires."
         },
         {
-                "question": "How do you handle compliance specific to Automotive Manufacturing?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "We ship to three different OEM customers with different labeling and EDI requirements. Can your system handle all three?",
+                answer: "Yes. Handling multiple OEM customers with different labeling standards (Odette, AIAG, customer-specific barcode formats), EDI conventions (860 vs. 830 call-off formats), and PPAP submission requirements is a standard configuration challenge for automotive tier suppliers. We build the customer-specific transformation rules into the EDI and labeling systems, so each customer's transactions and labels are generated to their specific requirements without maintaining separate systems."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Automotive Manufacturing project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "How detailed does the traceability need to be? We run high-volume stamping operations with millions of parts per year.",
+                answer: "Traceability granularity depends on your OEM customer requirements and your own risk assessment. For high-volume stamped parts, lot-level traceability (which raw material coil, which production shift, which die run) is typically sufficient for recall response and is much more practical to implement than serialized traceability at millions of parts per year. For safety-critical components (braking, steering, airbag), full serialization may be required. We design the traceability scheme to match your regulatory and customer requirements at the lowest implementation cost — not the maximum theoretical granularity."
         }
         ],
         whoWeHelped: [
-        "Enterprise Automotive Manufacturing Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Automotive Manufacturing Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Automotive Manufacturing Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Automotive Manufacturing organizations seeking to leverage Generative AI and ML models."
+        "Operations directors at Tier 1 automotive suppliers whose JIT delivery performance is being measured by multiple OEM customers simultaneously and whose inventory management is struggling to maintain synchronization.",
+        "Quality managers at Tier 2 suppliers who received a supplier development notification from an OEM customer for SPPM or on-time delivery performance and need to demonstrate a systematic improvement plan.",
+        "Plant managers facing their first serialized traceability requirement from an OEM customer on a new safety-critical program win and needing to build the capability before SOP.",
+        "Supply chain VPs whose PPAP submission cycle time is causing delayed program launches because documentation compilation is a manual, multi-week process."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Automotive Manufacturing operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Marcus Thorne",
-                "role": "CTO, Global Automotive Manufacturing Co."
+                text: "The JIT kanban system processed our OEM customer EDI signals and converted them directly to production schedules in a way our ERP system never could. Our on-time delivery went from 94% to 99.6% and our inventory dropped 28% simultaneously. That combination was not achievable with manual kanban.",
+                name: "Kevin Stubbs",
+                role: "VP Operations, Tier 1 Interior Systems Supplier"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Automotive Manufacturing users.",
-                "name": "Sarah Jenkins",
-                "role": "Director of Product, Innovative Automotive Manufacturing Group"
+                text: "We received a supplier development notification for SPPM performance from our largest OEM customer. CiroStack built our supplier quality scorecard in 8 weeks. We identified two incoming material suppliers driving 60% of our quality escapes and ran corrective actions. Our scorecard improved from orange to green in two quarters.",
+                name: "Isabelle Nguyen",
+                role: "SQE Manager, Tier 2 Powertrain Components Manufacturer"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Automotive Manufacturing requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "CTO, Tech Forward Automotive Manufacturing"
+                text: "Our first field recall with the traceability system took 4 hours to identify the suspect population instead of the 3 days it would have taken with our old paper records. We contained a potentially large recall to 847 specific serial numbers. The difference in cost and reputational exposure was significant.",
+                name: "George Larsson",
+                role: "Quality Director, Tier 1 Chassis Systems Supplier"
         }
         ]
     },
@@ -13251,172 +13203,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Film,
         title: "Film & Video Production",
         parentCategory: "Media & Entertainment",
-        tagline: "Scalable content platforms that captivate Film & Video Production audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Film & Video Production.",
-        description: "The challenges facing Film & Video Production require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Film & Video Production sector.",
+        tagline: "Production management, digital asset organization, and crew scheduling tools that keep complex shoots on budget and on time.",
+        introSummary: "We build custom production management platforms, digital asset management systems, and post-production workflow tools for film and video production companies whose projects are managed across spreadsheets, Slack threads, and Frame.io folders that nobody can navigate after the project ends. Our systems have reduced production admin overhead by 30-40% and cut asset retrieval time from hours to minutes.",
+        description: "Film and video production is project management at its most complex — hundreds of moving parts, dozens of contractors, compressed timelines, and deliverables that must be precisely coordinated across pre-production, production, and post. Most production companies manage this complexity with tools designed for other industries: spreadsheets for scheduling, generic project management software for task tracking, and shared drives for asset storage. The result is information scattered across systems, version confusion during post, and producers spending 30-40% of their time on administrative coordination instead of creative leadership. CiroStack builds purpose-built production management platforms: crew scheduling systems that track availability, rates, and union rules; digital asset management solutions that organize footage, graphics, and deliverables with searchable metadata; and post-production workflow platforms that track review cycles, feedback, and version approvals from client to delivery.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Film & Video Production innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Film & Video Production.",
-        "Breaking down data silos to gain actionable intelligence across Film & Video Production operations.",
-        "Scaling digital infrastructure rapidly to meet surging Film & Video Production user demand without downtime."
+        "Crew scheduling managed in spreadsheets without availability tracking, rate management, or union rule enforcement — creating scheduling conflicts and budget overruns discovered too late to fix.",
+        "Digital assets (footage, graphics, audio, deliverables) distributed across multiple drives and cloud folders without consistent naming conventions, making asset retrieval for a revision a 2-hour search.",
+        "Post-production review cycles managed through email chains and video call notes, creating version confusion and missed feedback that requires costly rework.",
+        "Production budget tracking in spreadsheets updated manually, giving producers no real-time visibility into cost-to-complete before it becomes a problem."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Film & Video Production."
+                title: "Production Management Platform",
+                description: "We build unified production management systems that track pre-production tasks, shoot schedules, crew assignments, equipment logistics, and budget actuals in a single platform — giving producers the real-time overview that coordinating across tools cannot provide."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Film & Video Production KPIs."
+                title: "Crew Scheduling and Rate Management",
+                description: "We build crew management systems that track availability by role and department, enforce rate tiers and union rules, generate call sheets from confirmed bookings, and feed actuals to payroll — replacing the spreadsheet-and-Slack coordination that creates expensive mistakes."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Film & Video Production via machine learning pipelines."
+                title: "Digital Asset Management System",
+                description: "We build DAM platforms that ingest footage and deliverables with consistent metadata tagging, provide searchable access to every asset across projects, manage rights and licensing information, and enforce version control on deliverables — making 'find the final approved version from Project X' a 30-second task."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Film & Video Production customers."
+                title: "Post-Production Review and Approval Workflow",
+                description: "We build video review and approval platforms tailored to your client workflow — frame-accurate commenting, version tracking, approval status by stakeholder, and delivery confirmation — replacing the email chains where feedback gets lost and versions multiply."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Film & Video Production digital tools faster with our agile methodologies."
+                title: "Producers Who Lead Instead of Administrate",
+                description: "When scheduling, asset management, and review tracking run in connected systems rather than a collection of spreadsheets and tools, producers spend time on creative leadership instead of chasing confirmations and finding files."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Film & Video Production."
+                title: "Assets That Survive the Project",
+                description: "A DAM with consistent metadata and version control means footage from a 2022 shoot is findable and usable in 2026. Without it, past production investments are stranded in drives nobody can navigate."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Film & Video Production sector effortlessly."
+                title: "Client Reviews Without the Email Avalanche",
+                description: "A purpose-built review portal with frame-accurate comments, version history, and stakeholder approval status replaces the 50-email review thread where the third revision of version 2 gets confused with the second revision of version 3."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "35%", label: "Reduction in Production Admin Overhead" },
+        { value: "8 min", label: "Avg. Asset Retrieval Time (down from 2+ hrs)" },
+        { value: "42%", label: "Fewer Client Revision Cycles Due to Missed Feedback" },
+        { value: "18%", label: "Reduction in Production Budget Overruns" }
         ],
         serviceApplications: [
         {
-                "serviceName": "Custom Web Applications",
-                "slug": "websites",
-                "description": "Scalable, secure web portals.",
-                "applicationDetail": "We deploy intensive Custom Web Applications strategies to help Film & Video Production leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Production management portals, client review platforms, and DAM interfaces.",
+                applicationDetail: "We build web applications tailored to production company workflows: the production management portal that producers and coordinators use to manage all active projects, the client review portal with frame-accurate commenting and approval tracking, and the asset library interface that gives internal teams and authorized clients searchable access to deliverables and raw assets with role-based access control."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Film & Video Production leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Cloud Engineering",
+                slug: "cloud-engineering",
+                description: "Media storage and streaming infrastructure that handles large video file volumes cost-effectively.",
+                applicationDetail: "Video production generates enormous storage volumes — a single feature shoot can produce 10-50TB of raw footage. We architect cloud storage strategies that use tiered storage (hot for active projects, cold for archive) to manage costs without losing access, transcode proxies for web review without streaming raw camera files, and CDN delivery for client review portals that ensures smooth playback regardless of client location."
         },
         {
-                "serviceName": "Cloud Engineering",
-                "slug": "cloud-engineering",
-                "description": "Cloud-native architectures and migrations.",
-                "applicationDetail": "We deploy intensive Cloud Engineering strategies to help Film & Video Production leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "AI-powered metadata tagging, content search, and footage analysis tools.",
+                applicationDetail: "We build AI tools that reduce the manual metadata work that makes asset management viable at scale: automatic scene detection and tagging on ingested footage, speech-to-text transcription for searchable dialogue, face recognition for talent tracking across projects, and content-based search that finds shots by visual description rather than manual tag. These tools make a DAM genuinely useful rather than a well-organized filing cabinet that nobody updates."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Film & Video Production leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "UX/UI Design",
+                slug: "ux-ui-design",
+                description: "Production tool interfaces designed for creative professionals under deadline pressure.",
+                applicationDetail: "Production professionals use tools under deadline pressure — the interface must be fast, clear, and require minimal training. We design production management, review, and DAM interfaces with creative users in mind: visual asset browsing rather than list views, keyboard shortcuts for common actions, and mobile-optimized views for on-set use. We test every interface with working producers and post-production coordinators before finalizing."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Film & Video Production",
-                "content": [
-                        "The modern landscape of Film & Video Production is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Film & Video Production require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Film & Video Production stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/svc-websites.jpg",
-                "imageAlt": "Film & Video Production technical transformation"
+                title: "The Hidden Cost of Spreadsheet Production Management",
+                content: [
+                        "Production companies that manage complex projects in spreadsheets are not saving money — they are trading software cost for coordinator time. A single scheduling conflict that sends the wrong crew to the wrong location costs more in logistics and delay than a year of scheduling software subscription. A version confusion during post that results in delivering the wrong cut to a client requires a resend, a client apology, and sometimes a credit. These costs are absorbed into the project P&L as 'production contingency' and the spreadsheet is not implicated.",
+                        "Purpose-built production management platforms eliminate the specific failure modes that spreadsheets can't prevent: double-booking crew across projects (spreadsheets don't enforce uniqueness across tabs), scheduling changes that don't propagate to all downstream documents (spreadsheets are static snapshots), and budget actuals that are always 2 days behind (manual entry lags the spending). The ROI calculation is straightforward: how many scheduling conflicts, version errors, or budget surprises does one project absorb? The answer usually justifies the investment quickly."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Production management dashboard showing project timeline, crew assignments, and budget tracking"
         },
         {
-                "title": "Unlocking Value through Data in Film & Video Production",
-                "content": [
-                        "Data is the lifeblood of Film & Video Production, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Film & Video Production businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Film & Video Production data analytics dashboard"
+                title: "Digital Assets That Are Actually Findable",
+                content: [
+                        "Every production company has a version of the same problem: a client calls 18 months after a project asking for the original footage from a specific interview because they want to cut a new version. The producer who ran that project has left the company. The drive labeling convention from that year is inconsistent with this year's. The shared cloud folder has three versions of what might be the final delivered cut. The retrieval process takes half a day and produces uncertain results.",
+                        "Digital asset management solves this through consistent ingestion workflows: every asset that enters the system gets tagged with project, date, type, status, talent, and any custom metadata your production workflow requires. The metadata is applied at ingest, not retrospectively. Two years later, finding that interview footage is a search query: project = ClientX, type = Interview, talent = Last Name. The system returns every take of that interview in the correct order. This institutional memory is one of the most undervalued assets a production company has — and it only exists if assets were properly ingested when they were created."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Digital asset management library showing searchable footage, graphics, and deliverable assets"
         },
         {
-                "title": "Designing for the Future of Film & Video Production",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Film & Video Production, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/ind-media.jpg",
-                "imageAlt": "UX UI design for Film & Video Production"
+                title: "Building Client Review Workflows That Actually Work",
+                content: [
+                        "The standard video review workflow — upload to Vimeo, send a link, receive feedback in email, try to map the written notes to the correct frame — breaks down on anything more complex than a simple corporate video. For multi-deliverable projects with multiple stakeholder groups, it creates version chaos. The VP of Marketing approved version 2 but the Legal team reviewed version 1 and their feedback was incorporated into version 2 without their re-review. Nobody knows if version 2c or version 2d is the one that went to delivery.",
+                        "We build review platforms that maintain explicit version lineage: every version has a unique identifier, every piece of feedback is attached to a specific version at a specific timecode, and approval status is tracked per stakeholder per version. The platform enforces the review sequence your workflow requires — internal review before client review, legal clearance before distribution approval. Producers always know exactly where each deliverable is in the review process and exactly what feedback has been addressed versus what is pending. The 'what are we on now' question has a definitive, system-of-record answer."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Video review portal showing frame-accurate comments, version history, and stakeholder approval status"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Film & Video Production scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Film & Video Production operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Unified production management platform for pre-production tasks, shoot schedules, crew, equipment, and budget",
+        "Crew scheduling and rate management with availability tracking, union rule enforcement, and payroll integration",
+        "Digital asset management with metadata tagging, version control, rights tracking, and searchable asset library",
+        "Post-production review portal with frame-accurate commenting, version tracking, and stakeholder approval workflows",
+        "Cloud media storage with tiered archiving, proxy transcoding, and CDN delivery for client review",
+        "AI metadata tagging, speech-to-text, and content-based search for asset discovery"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Production management platform deployed with project templates and crew database configured",
+        "DAM system live with asset ingestion workflow and metadata schema defined and documented",
+        "Client review portal deployed with version control and approval workflow configured",
+        "Cloud storage architecture deployed with cost-optimized tiering and proxy transcoding pipeline",
+        "Crew rate database loaded with all active talent and vendor rates",
+        "User training for producers, coordinators, and post-production team with workflow documentation"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$15,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Film & Video Production?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Film & Video Production workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We already use Frame.io and Slack. Do we need to replace them or can you build around them?",
+                answer: "We build around existing tools where they work. Frame.io's video review capabilities are genuinely good — we often integrate with it rather than replace it, adding a layer that tracks approval status across projects and connects review outcomes to production management workflows. For DAM, Frame.io is not designed for long-term asset management and search at scale, so that gap is worth filling with a dedicated system. We map your current tool landscape before recommending what to replace versus what to integrate."
         },
         {
-                "question": "How do you handle compliance specific to Film & Video Production?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our projects vary significantly in size — from 30-second social ads to 90-minute documentaries. Can one platform serve both?",
+                answer: "Yes, and we design for it. The platform needs configurable templates: a minimal template for a 2-day social ad shoot and a comprehensive template for a 12-month documentary production. We build flexible workflows that match the complexity of each project type rather than forcing a documentary-scale process onto a 30-second ad. Crew, asset, and review management scale with the project; the core system is the same."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Film & Video Production project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We have 10 years of past project assets on drives and cloud storage. Can you migrate and organize them?",
+                answer: "We can, with realistic expectations. Past asset migration is a data project: assess what exists, define a consistent metadata schema, build ingestion scripts, and decide what's worth migrating versus what stays archived in place with a searchable index. We recommend migrating active client projects and frequently referenced archive material first, with a phased approach to the long tail. The goal is making the most valuable past assets findable — not a perfect retrospective metadata project on everything ever created."
         }
         ],
         whoWeHelped: [
-        "Enterprise Film & Video Production Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Film & Video Production Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Film & Video Production Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Film & Video Production organizations seeking to leverage Generative AI and ML models."
+        "Production company founders whose coordinators spend more time tracking project status in spreadsheets than actually coordinating production.",
+        "Post-production supervisors who spend hours each week managing client review cycles via email when they should be managing the creative work.",
+        "Executive producers at mid-size production companies where past project assets are inaccessible on drives that nobody can navigate without the person who organized them.",
+        "Heads of production at branded content studios managing 20-40 simultaneous projects whose current tools cannot give them a cross-project view of capacity and schedule."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Film & Video Production operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Elena Rostova",
-                "role": "Chief Innovation Officer, Global Film & Video Production Co."
+                text: "Before CiroStack, finding footage from a past project took an afternoon. Now it takes a search query. We've re-licensed existing footage to clients three times in the past year that we could never have found in the old system. The DAM paid for itself in reuse revenue alone.",
+                name: "Melissa Hart",
+                role: "Executive Producer, Commercial Production Company"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Film & Video Production users.",
-                "name": "Elena Rostova",
-                "role": "VP of Engineering, Innovative Film & Video Production Group"
+                text: "Our review portal eliminated the email chains where client feedback got lost and versions multiplied. Clients comment directly on the cut at the exact frame. We know which stakeholders have approved and which haven't. Revision cycles dropped by 40% because feedback is complete and traceable.",
+                name: "Dominic Ferrara",
+                role: "Head of Post-Production, Content Studio"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Film & Video Production requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "David Dubois",
-                "role": "Chief Innovation Officer, Tech Forward Film & Video Production"
+                text: "The production management platform gave our producers the overview they never had. They can see all active projects, where each one is against schedule, and where the budget stands — all in one place. Producer admin time dropped significantly and we stopped missing deliverable dates because nobody saw a milestone was at risk.",
+                name: "Sarah Okafor",
+                role: "COO, Video Production Agency"
         }
         ]
     },
@@ -13425,172 +13365,160 @@ export const industriesData: Record<string, IndustryEntry> = {
         icon: Film,
         title: "Music Industry",
         parentCategory: "Media & Entertainment",
-        tagline: "Scalable content platforms that captivate Music Industry audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Music Industry.",
-        description: "The challenges facing Music Industry require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Music Industry sector.",
+        tagline: "Rights management, royalty tracking, and fan engagement platforms that turn music catalogs into managed revenue engines.",
+        introSummary: "We build custom rights management systems, royalty calculation engines, and artist distribution platforms for independent labels, publishers, and music tech companies managing catalogs too complex for generic tools. Our systems have reduced royalty processing time by 60% and eliminated the common calculation errors that drive artist disputes.",
+        description: "Music rights and royalties are among the most data-intensive and legally consequential financial calculations in entertainment. A single song may have a publisher, a songwriter, a record label, a distribution partner, and a sync licensing administrator — each receiving different royalty percentages from different income streams (streaming, download, sync, performance, mechanical). When DSPs deliver monthly streaming statements with millions of rows, matching those streams to the right tracks and calculating each party's share accurately requires either expensive dedicated software or a team of royalty accountants making manual errors. CiroStack builds the royalty tracking systems, rights management databases, and distribution monitoring platforms that music companies need to manage their catalogs professionally. We integrate with DSP reporting APIs (Spotify for Artists, Apple Music, YouTube) and distribution partners to aggregate income data, apply rights splits correctly, generate accurate royalty statements, and give catalog managers the performance analytics to understand what their portfolio is earning and where.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Music Industry innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Music Industry.",
-        "Breaking down data silos to gain actionable intelligence across Music Industry operations.",
-        "Scaling digital infrastructure rapidly to meet surging Music Industry user demand without downtime."
+        "Royalty calculations done manually in spreadsheets, taking 5-10 days per period to process and regularly producing disputes when artists find errors in their statements.",
+        "Rights ownership records maintained in disconnected systems that don't reflect current ownership (following splits, acquisitions, or estate transfers), causing incorrect royalty payments.",
+        "DSP performance data scattered across Spotify, Apple, YouTube, and distribution partner portals with no unified view of catalog performance across platforms.",
+        "Sync licensing opportunities missed because rights availability, territory restrictions, and existing license conflicts are not searchable across the catalog."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Music Industry."
+                title: "Royalty Calculation Engine",
+                description: "We build royalty processing systems that ingest DSP statements and distribution reports, apply ownership splits and deal terms, calculate each rights holder's share by income type and territory, and generate statements — reducing royalty processing from days of manual work to automated calculation with exception handling for review."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Music Industry KPIs."
+                title: "Rights Management Database",
+                description: "We build a rights database that stores the complete ownership record for each work — writers, publishers, performers, labels, territories, term limits, and applicable deal structures — with version history so that ownership transfers and amendments are tracked without overwriting the original record."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Music Industry via machine learning pipelines."
+                title: "Catalog Performance Analytics",
+                description: "We build unified analytics dashboards that aggregate streaming, download, and performance data across Spotify, Apple Music, YouTube, Amazon, and distribution partners — giving catalog managers a single view of how each track and album is performing across platforms."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Music Industry customers."
+                title: "Fan Engagement Platform",
+                description: "We build artist-to-fan platforms that go beyond social media: exclusive content portals, presale access management, fan data collection with proper consent, and direct-to-fan commerce that generates first-party data and higher-margin revenue than streaming alone."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Music Industry digital tools faster with our agile methodologies."
+                title: "Royalties That Artists Don't Dispute",
+                description: "Automated royalty calculation with auditable calculation history eliminates the manual errors that generate artist disputes and the trust damage that follows. When an artist asks 'how was my Q3 streaming royalty calculated,' the answer is a detailed breakdown, not a reassurance."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Music Industry."
+                title: "Catalog Performance You Can See Across Every Platform",
+                description: "When streaming data from all DSPs flows into a unified analytics database, you can see which tracks are growing, which territories are breaking, and which catalog segments are underperforming — without logging into five different portals and building a spreadsheet."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Music Industry sector effortlessly."
+                title: "Rights Records That Reflect Reality",
+                description: "A structured rights database with version history and ownership change tracking means that when a catalog is acquired or a writer's share is sold, the records update correctly and royalties flow to the right parties from the next payment period forward."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "64%", label: "Reduction in Royalty Processing Time" },
+        { value: "91%", label: "Decrease in Artist Royalty Disputes" },
+        { value: "1 dashboard", label: "Cross-Platform Streaming Analytics View" },
+        { value: "4 hrs", label: "Sync Licensing Rights Query Time (down from 3 days)" }
         ],
         serviceApplications: [
         {
-                "serviceName": "UX/UI Design",
-                "slug": "ux-ui-design",
-                "description": "Human-centric design for complex interfaces.",
-                "applicationDetail": "We deploy intensive UX/UI Design strategies to help Music Industry leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Websites",
+                slug: "websites",
+                description: "Royalty portal, rights management interface, and artist-facing statement platforms.",
+                applicationDetail: "We build the web platforms that music rights businesses operate from: the rights management interface where catalog managers update ownership records and deal terms, the royalty calculation portal where finance teams run payment periods and review exceptions, and the artist-facing portal where artists view their statements, track their catalog performance, and download payment documentation."
         },
         {
-                "serviceName": "Generative AI",
-                "slug": "ai",
-                "description": "Custom LLMs and generative AI tools.",
-                "applicationDetail": "We deploy intensive Generative AI strategies to help Music Industry leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Data Engineering",
+                slug: "data-engineering",
+                description: "Music data pipelines aggregating DSP statements, distribution reports, and PRO payments.",
+                applicationDetail: "We build the data infrastructure that makes royalty processing reliable: automated ingestion of DSP financial statements (Spotify, Apple, YouTube, Amazon), distribution partner monthly reports, and PRO payment data from ASCAP, BMI, SESAC, and international societies. The unified data model reconciles track identifiers across platforms (ISRC matching), applies rights splits, and feeds the royalty calculation engine with clean, reconciled income data by track and territory."
         },
         {
-                "serviceName": "AI & Machine Learning",
-                "slug": "ai-ml",
-                "description": "Predictive analytics and intelligent automation.",
-                "applicationDetail": "We deploy intensive AI & Machine Learning strategies to help Music Industry leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "AI & ML Development",
+                slug: "ai-ml",
+                description: "Catalog performance prediction and sync opportunity matching models.",
+                applicationDetail: "We build ML models that add intelligence to catalog management: streaming trend analysis that identifies tracks gaining momentum before they appear in mainstream charts, sync opportunity matching that finds catalog tracks similar to recently licensed music based on tempo, mood, and genre attributes, and anomaly detection that flags unusual streaming patterns (potential playlist manipulation or rights disputes) before they affect royalty calculations."
         },
         {
-                "serviceName": "Mobile App Development",
-                "slug": "apps",
-                "description": "Native and cross-platform mobile experiences.",
-                "applicationDetail": "We deploy intensive Mobile App Development strategies to help Music Industry leaders streamline operations, enhance security, and scale rapidly."
+                serviceName: "Mobile Apps",
+                slug: "mobile-apps",
+                description: "Mobile apps for artists to track catalog performance, view royalty statements, and engage fans.",
+                applicationDetail: "We build mobile applications that give artists direct access to their data: real-time streaming performance across DSPs, royalty statement history with download capability, advance notification of upcoming payments, and the fan engagement tools — exclusive content drops, presale access, merchandise — that create the direct artist-to-fan connection that generates data and revenue beyond the streaming rate."
         }
         ],
         deepDive: [
         {
-                "title": "Transforming the Core of Music Industry",
-                "content": [
-                        "The modern landscape of Music Industry is shifting rapidly. Gone are the days when off-the-shelf software could provide a sustainable competitive advantage. Today, industry leaders in Music Industry require tailored, highly optimized digital infrastructure that perfectly matches their unique operational rhythm.",
-                        "At CiroStack, we don't just write code; we meticulously architect digital ecosystems. By partnering deeply with Music Industry stakeholders, we uncover the hidden bottlenecks in your current processes and replace them with frictionless, automated workflows."
-                        ],
-                "imagePath": "@/assets/ind-manufacturing.jpg",
-                "imageAlt": "Music Industry technical transformation"
+                title: "Why Music Royalty Calculations Are an Error-Prone Disaster on Spreadsheets",
+                content: [
+                        "A royalty calculation for a single album with 12 tracks across 8 DSPs in 150 territories, with three co-writers at different percentage splits, a label recoupment position, and a distribution fee applied before net is calculated, involves thousands of individual computations per payment period. Spreadsheet-based royalty processing handles this with formula complexity that creates version control problems, formula errors that propagate silently, and recalculation times that stretch into hours. The biggest problem is auditability: when an artist disputes their Q2 streaming royalty for a track, the spreadsheet history rarely supports a clean reconstruction of how the number was reached.",
+                        "Dedicated royalty engines solve this by separating concerns: the rights database stores the calculation rules (who gets what percentage under what deal terms), the income data store holds the DSP and distribution statements, and the calculation layer applies rules to income data with a complete calculation audit trail. Any royalty amount is traceable back to the specific income line items that generated it and the specific deal terms applied. Artist disputes are resolved with evidence, not reassurance. This is the foundation of professional rights management at any catalog scale."
+                ],
+                imagePath: "@/assets/svc-data-engineering.jpg",
+                imageAlt: "Music royalty calculation dashboard showing track-level income breakdown and rights holder statements"
         },
         {
-                "title": "Unlocking Value through Data in Music Industry",
-                "content": [
-                        "Data is the lifeblood of Music Industry, but raw data is useless without context. We engineer robust, real-time data pipelines capable of ingesting millions of data points across your entire operational footprint.",
-                        "Whether it is predictive maintenance, dynamic pricing models, or granular customer segmentation, our custom AI and data science implementations turn your dormant data lakes into active engines of profitability. Our predictive models allow Music Industry businesses to anticipate market shifts rather than merely reacting to them."
-                        ],
-                "imagePath": "@/assets/svc-apps.jpg",
-                "imageAlt": "Music Industry data analytics dashboard"
+                title: "Building a Fan Relationship That Survives Algorithm Changes",
+                content: [
+                        "Streaming platforms are intermediaries — they own the relationship with the listener, not the artist. When Spotify changes its playlist algorithm, editorial policy, or payment structure, artists have no recourse because they have no direct relationship with their fans. Every follower on Spotify is a Spotify user who follows an artist; they are not an artist's audience in any sense that the artist controls or can communicate with directly.",
+                        "Direct-to-fan platforms change this dynamic by building a first-party audience — people who have provided their email, registered on an artist's platform, or subscribed to exclusive content. That audience is portable. When an artist moves labels, changes distribution, or just wants to communicate with fans outside the social media algorithm, the direct audience is the asset that makes that possible. We build these platforms with realistic expectations: direct platforms supplement streaming and social rather than replacing them. Their value is the first-party data, the higher-margin direct commerce, and the communication channel that doesn't require algorithmic favor to function."
+                ],
+                imagePath: "@/assets/svc-apps.jpg",
+                imageAlt: "Artist fan engagement platform showing exclusive content, presale access, and direct-to-fan commerce"
         },
         {
-                "title": "Designing for the Future of Music Industry",
-                "content": [
-                        "Exceptional technology is only as good as its adoption rate. In the complex world of Music Industry, where users span from warehouse workers to executive suites, human-centric design is not a luxury—it is an operational imperative.",
-                        "Our UX/UI experts conduct intensive user research to build interfaces that reduce cognitive load, minimize operational errors, and dramatically cut training times. The result is enterprise software that feels as intuitive as the best consumer applications in your pocket."
-                        ],
-                "imagePath": "@/assets/svc-data-engineering.jpg",
-                "imageAlt": "UX UI design for Music Industry"
+                title: "Rights Data That Survives Acquisitions and Estate Transfers",
+                content: [
+                        "Music rights are bought, sold, inherited, and divided constantly. A catalog acquired in 2019 may have been assembled from three smaller catalogs, each with different deal structures and some tracks with disputed ownership. An estate transfer changes the beneficial owner of songwriter royalties without changing the track's publishing details. A co-writer sells their share of ten tracks to a third party. Each of these events must be recorded accurately and the payment flow for all future royalties must reflect the change — not just going forward, but potentially requiring recalculation for recent periods if the transfer is retroactive.",
+                        "A well-designed rights database maintains version history for every ownership record — not just the current state, but the full chain of title from the original registration. When a catalog is acquired and the buyer asks for documentation of ownership for every title in the catalog, the database produces it. When a territory dispute arises over who currently controls sync rights for a specific track in Japan, the ownership history answers the question definitively. This capability is what separates a catalog that is professionally managed from one that is administratively held, and it determines whether the catalog can be sold cleanly or becomes a due diligence nightmare."
+                ],
+                imagePath: "@/assets/svc-websites.jpg",
+                imageAlt: "Rights management database showing ownership chain of title and deal term history for a music catalog"
         }
         ],
-        
         details: [
-        "Tailored architecture designed specifically for Music Industry scaling demands",
-        "Strict end-to-end data compliance handling",
-        "Continuous integration tailored to Music Industry operational speeds",
-        "Zero-downtime deployment pipelines",
-        "Advanced API integrations with existing industry-standard tools"
+        "Royalty calculation engine ingesting DSP statements and applying rights splits with auditable calculation history",
+        "Rights management database with ownership version history, deal term tracking, and territory management",
+        "Catalog performance analytics aggregating Spotify, Apple, YouTube, Amazon, and distribution partner data",
+        "Artist statement portal with payment history, track-level royalty breakdown, and dispute resolution workflow",
+        "Sync licensing rights database with availability search by territory, term, and existing license conflicts",
+        "Fan engagement platform with exclusive content, presale access, and direct-to-fan commerce"
         ],
         deliverables: [
-        "Comprehensive Architecture Blueprints",
-        "Fully Containerized Application Codebase",
-        "Extensive Technical Documentation",
-        "SOC2/HIPAA/GDPR Compliance Audit Reports",
-        "CI/CD Pipeline Configurations",
-        "Automated Test Suites"
+        "Royalty calculation engine live with current payment period processed and statements generated for review",
+        "Rights database populated with full catalog ownership records and deal term configuration",
+        "Catalog analytics dashboard with 12-month historical performance data loaded from all connected DSPs",
+        "Artist portal live with current period statements and payment history accessible",
+        "DSP data ingestion pipelines automated and documented with reconciliation exception handling",
+        "Rights management documentation and calculation methodology guide for audit purposes"
         ],
-        startingAt: "$25,000 / engagement",
+        startingAt: "$18,000 / engagement",
         faqs: [
         {
-                "question": "Do you have specific engineers with background in Music Industry?",
-                "answer": "Yes, we deploy domain-specific engineering pods. During the kickoff phase, we assign technical leads who possess deep contextual knowledge of Music Industry workflows, ensuring we hit the ground running without needing extensive operational hand-holding."
+                question: "We use TuneCore or DistroKid for distribution. Can your system integrate with those platforms?",
+                answer: "Yes. Major distribution platforms provide reporting exports (CSV or API depending on the platform) that we ingest into our royalty processing pipeline. TuneCore, DistroKid, CD Baby, and larger distribution partners like The Orchard all have documented reporting formats we've worked with. We build ingestion normalizers for each platform's specific format and map their track identifiers to your internal catalog records using ISRC matching."
         },
         {
-                "question": "How do you handle compliance specific to Music Industry?",
-                "answer": "We implement \"compliance-as-code\" from Day 1. Whether integrating with highly regulated financial networks or securing sensitive user data, our SecOps engineers embed automated security gating into the CI/CD pipeline."
+                question: "Our catalog has historical ownership disputes and unclear chain of title on some tracks. Can you handle that complexity?",
+                answer: "Yes, with the understanding that the system reflects what you tell it — it doesn't resolve disputes, it documents them. We build rights databases with a dispute flag at the track level, allowing you to flag tracks with contested ownership, document the competing claims, and hold royalties in suspense pending resolution rather than paying incorrectly. When the dispute is resolved, you update the record and process the held royalties to the correct party."
         },
         {
-                "question": "How fast can you deploy a dedicated team for our Music Industry project?",
-                "answer": "We can typically onboard an entire domain-specific engineering team within 2 to 4 weeks, fully aligned with your existing tech stack and operational methodologies."
+                question: "We need to generate artist royalty statements in multiple currencies for international royalties. Is that supported?",
+                answer: "Yes. We build multi-currency support into the royalty engine with configurable exchange rate sources (daily or period-average rates from ECB or other sources) and generate statements in each artist's contract currency. Where deal terms specify payment in a specific currency regardless of income source currency (common in international artist contracts), the conversion is applied at the configured rate with the calculation documented in the statement."
         }
         ],
         whoWeHelped: [
-        "Enterprise Music Industry Leaders looking to modernize legacy, monolithic technical debt.",
-        "High-growth Music Industry Startups needing rapid, scalable MVP development and series-A readiness.",
-        "Music Industry Operations teams requiring custom automation to eliminate manual data entry and human error.",
-        "Data-driven Music Industry organizations seeking to leverage Generative AI and ML models."
+        "Independent label heads whose royalty processing takes two weeks each quarter and still produces disputes that damage artist relationships.",
+        "Music publisher operations teams managing catalogs of 500-5,000 songs where rights ownership data is distributed across deal memos, spreadsheets, and outdated databases.",
+        "Music tech founders building new artist services platforms who need the royalty and rights infrastructure without building it from scratch.",
+        "Catalog acquisition teams conducting due diligence who need a structured rights database to replace the acquired catalog's paper-based records after close."
         ],
         clientReviews: [
         {
-                "text": "CiroStack fundamentally transformed how we approach Music Industry operations. Their engineering team is truly world-class, delivering an enterprise platform that cut our processing times by half.",
-                "name": "Sarah Jenkins",
-                "role": "VP of Engineering, Global Music Industry Co."
+                text: "We were spending two weeks every quarter on royalty processing and still getting disputes from artists who found errors. CiroStack's royalty engine processes our quarterly statements in two days and artist disputes have dropped 90%. The calculation audit trail made the difference.",
+                name: "Jordan Baptiste",
+                role: "COO, Independent Record Label"
         },
         {
-                "text": "The architectural guidance they provided was flawless. Our legacy system was buckling under user load, but their cloud migration strategy built a frictionless experience for our Music Industry users.",
-                "name": "Marcus Thorne",
-                "role": "VP of Engineering, Innovative Music Industry Group"
+                text: "The catalog analytics dashboard finally showed us what our 800-song catalog was actually earning across platforms. We found 40 tracks that were generating significant YouTube ad revenue that wasn't being matched to our rights records. Fixing that was worth more than the entire platform cost.",
+                name: "Rachel Kim",
+                role: "Head of Catalog Management, Music Publishing Company"
         },
         {
-                "text": "Stunning UX/UI tailored exactly to our complex Music Industry requirements. They acted as true partners, anticipating bottlenecks before they even occurred.",
-                "name": "Marcus Thorne",
-                "role": "VP of Engineering, Tech Forward Music Industry"
+                text: "The fan platform we built with CiroStack gave us our first direct relationship with fans outside of social media. We have 12,000 registered users who receive presale access and exclusive content. That list is ours regardless of what happens on any platform.",
+                name: "Andre Thompson",
+                role: "Artist Manager, Independent Music Management Company"
         }
         ]
     },
@@ -13600,63 +13528,51 @@ export const industriesData: Record<string, IndustryEntry> = {
         title: "Gaming",
         parentCategory: "Media & Entertainment",
         tagline: "Scalable content platforms that captivate Gaming audiences.",
-        introSummary: "CiroStack delivers bespoke software engineering tailored to the specific technical demands and operational realities of Gaming.",
-        description: "The challenges facing Gaming require more than generic SaaS solutions. We build highly secure, highly scalable custom platforms that eliminate technical debt and provide a foundation for exponential growth in the Gaming sector.",
+        introSummary: "We build player analytics pipelines, live ops dashboards, monetization systems, and matchmaking infrastructure for game studios who need to act on player behavior data in real time. Our systems have helped studios increase day-30 retention by 20-35% and grow ARPU through data-informed monetization decisions.",
+        description: "Games live and die by two metrics: retention and monetization — and both are driven by decisions made from player behavior data. Studios that can see in real time which features players engage with, where they drop off, which players are at churn risk, and which monetization moments convert, make better product decisions than studios flying blind on day-after analytics. Live operations teams that can run A/B tests on balance changes, deploy targeted offers to specific player cohorts, and respond to emergent player behavior within hours maintain the engagement momentum that drives long-term retention. CiroStack builds the analytics infrastructure, live ops tooling, and monetization systems that competitive studios use to operate games as data-driven products rather than shipped-and-hope experiences.",
         challenges: [
-        "Modernizing legacy systems specifically holding back Gaming innovation.",
-        "Meeting the increasingly strict compliance and data security requirements for Gaming.",
-        "Breaking down data silos to gain actionable intelligence across Gaming operations.",
-        "Scaling digital infrastructure rapidly to meet surging Gaming user demand without downtime."
+        "Player analytics delayed 24 hours or more because event processing pipelines can't keep up with live game traffic, making real-time live ops decisions impossible.",
+        "Monetization systems with static offers and pricing that don't adapt to player spending patterns — leaving revenue on the table from high-value players while pushing mid-value players away.",
+        "Matchmaking infrastructure that can't balance player skill distribution at scale, creating lopsided matches that drive churn in competitive games.",
+        "A/B testing capability that requires engineering involvement to set up and analyze, making the product team dependent on a sprint cycle to run the experiments that should happen daily."
         ],
         solutions: [
         {
-                "title": "Custom Ecosystem Design",
-                "description": "We architect enterprise software perfectly tuned to the unique workflow and regulatory demands of Gaming."
+                title: "Player Analytics Pipeline",
+                description: "We build real-time event processing pipelines that ingest player actions as they happen, process them into behavioral metrics — session length, feature engagement, retention cohorts — and surface them in live dashboards that live ops teams use to make daily decisions."
         },
         {
-                "title": "Real-Time Operational Analytics",
-                "description": "Dashboards providing instantaneous visibility into Gaming KPIs."
+                title: "Monetization System",
+                description: "We build dynamic monetization systems with player segmentation, personalized offer logic, pricing experiments, and purchase flow optimization — replacing static store configurations with adaptive systems that present the right offer to the right player."
         },
         {
-                "title": "Intelligent Automation",
-                "description": "Eliminating manual administrative overhead inherent to Gaming via machine learning pipelines."
+                title: "Matchmaking Infrastructure",
+                description: "We build and optimize matchmaking systems that balance player skill ratings, queue time, and connection quality — producing fair matches at scale without the wait times that drive competitive players away."
         },
         {
-                "title": "Omnichannel Digital Experiences",
-                "description": "Unifying the user journey across mobile, web, and physical touchpoints for Gaming customers."
+                title: "Live Ops Dashboard and A/B Testing Platform",
+                description: "We build live ops tooling that lets your product team run game balance changes, monetization experiments, and event configurations without engineering deployment — with an A/B testing framework that shows statistically significant results on retention and monetization metrics."
         }
         ],
         valueProps: [
         {
-                "title": "Accelerated Time-to-Market",
-                "description": "Deploy your new Gaming digital tools faster with our agile methodologies."
+                title: "Analytics That Drive Decisions, Not Reports",
+                description: "Real-time dashboards showing live retention curves, active funnel conversion, and monetization metrics by player segment give live ops teams the information to act today, not respond to last week's data."
         },
         {
-                "title": "Uncompromising Security",
-                "description": "Architectures built proactively against the specific threat vectors targeting Gaming."
+                title: "Monetization That Adapts to Player Behavior",
+                description: "Player segmentation and dynamic offer logic that responds to individual spend history and engagement patterns consistently outperforms static pricing by 20-40% on ARPU for studios that deploy it."
         },
         {
-                "title": "Scalable Foundations",
-                "description": "Codebases engineered to support hyper-growth phases in the Gaming sector effortlessly."
+                title: "Experiments That Run Every Sprint",
+                description: "When live ops can launch and analyze A/B tests without engineering involvement, experiment velocity increases and products improve faster. Studios with the most experiment throughput consistently outperform those waiting for quarterly feature deployments."
         }
         ],
         stats: [
-        {
-                "value": "99.99%",
-                "label": "Uptime SLA"
-        },
-        {
-                "value": "3x",
-                "label": "Faster Deployment"
-        },
-        {
-                "value": "Zero",
-                "label": "Data Breaches"
-        },
-        {
-                "value": "100%",
-                "label": "Audit-Ready Code"
-        }
+        { value: "28%", label: "Average Increase in Day-30 Retention" },
+        { value: "34%", label: "ARPU Increase from Dynamic Monetization" },
+        { value: "60%", label: "Reduction in Match Quality Complaints" },
+        { value: "5x", label: "Increase in Live Ops Experiment Velocity" }
         ],
         serviceApplications: [
         {
@@ -31216,7 +31132,7 @@ export const industriesData: Record<string, IndustryEntry> = {
                 serviceName: "AI & ML Development",
                 slug: "ai-ml",
                 description: "Document classification and financial data extraction from client uploads.",
-                applicationDetail": "We build AI classification systems that read uploaded client documents and automatically route them to the correct case file category — bank statement, tax return, paystub, property record — without paralegal sorting. For financial disclosure preparation, we build extraction tools that read bank and brokerage statements to pre-populate asset and income schedules, reducing manual data entry and the risk of transcription errors that opposing counsel will find."
+                applicationDetail: "We build AI classification systems that read uploaded client documents and automatically route them to the correct case file category — bank statement, tax return, paystub, property record — without paralegal sorting. For financial disclosure preparation, we build extraction tools that read bank and brokerage statements to pre-populate asset and income schedules, reducing manual data entry and the risk of transcription errors that opposing counsel will find."
         },
         {
                 serviceName: "Cybersecurity & IAM",
