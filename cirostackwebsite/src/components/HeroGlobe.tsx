@@ -1,3 +1,7 @@
+/**
+ * Three.js WebGL component — must be imported with next/dynamic to avoid SSR issues:
+ *   const HeroGlobe = dynamic(() => import("@/components/HeroGlobe"), { ssr: false });
+ */
 "use client";
 
 import { useRef, useMemo } from "react";

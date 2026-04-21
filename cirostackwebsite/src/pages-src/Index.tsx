@@ -172,35 +172,26 @@ const Index = () => {
             description="A selection of work we're proud of."
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {projects.map((project, i) => (
-              <motion.div
-                key={project.title}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeUp}
-                custom={i}
-              >
-                <Link href="/portfolio" className="block group">
-                  <div className="rounded-2xl overflow-hidden surface-glass hover-lift">
-                    <div className="h-48 overflow-hidden">
-                      <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-                    </div>
-                    <div className="p-6">
-                      <p className="text-xs text-primary font-medium mb-1">{project.client}</p>
-                      <h3 className="font-display font-semibold text-foreground text-lg mb-2">{project.title}</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed mb-4">{project.description}</p>
-                      <div className="flex gap-2">
-                        {project.tags.map((tag) => (
-                          <span key={tag} className="text-xs px-2 py-1 rounded-md bg-secondary text-muted-foreground">
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
+            {projects.map((project) => (
+              <Link key={project.title} href="/portfolio" className="block group">
+                <div className="rounded-2xl overflow-hidden surface-glass hover-lift">
+                  <div className="h-48 overflow-hidden">
+                    <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  </div>
+                  <div className="p-6">
+                    <p className="text-xs text-primary font-medium mb-1">{project.client}</p>
+                    <h3 className="font-display font-semibold text-foreground text-lg mb-2">{project.title}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">{project.description}</p>
+                    <div className="flex gap-2">
+                      {project.tags.map((tag) => (
+                        <span key={tag} className="text-xs px-2 py-1 rounded-md bg-secondary text-muted-foreground">
+                          {tag}
+                        </span>
+                      ))}
                     </div>
                   </div>
-                </Link>
-              </motion.div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -216,12 +207,7 @@ const Index = () => {
       {/* CTA */}
       <section className="section-padding">
         <div className="container mx-auto px-4 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-2xl mx-auto text-center"
-          >
+          <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mb-4">
               Ready to build something <span className="text-gradient">great</span>?
             </h2>
@@ -238,11 +224,11 @@ const Index = () => {
             </div>
             <p className="text-sm text-muted-foreground mt-4">
               Or email us at{" "}
-              <a href="mailto:hello@cirostack.com" className="text-primary hover:underline">
-                hello@cirostack.com
+              <a href="mailto:contact@cirostack.com" className="text-primary hover:underline">
+                contact@cirostack.com
               </a>
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
     </Layout>

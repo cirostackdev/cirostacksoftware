@@ -1,3 +1,7 @@
+/**
+ * Three.js WebGL component — must be imported with next/dynamic to avoid SSR issues:
+ *   const ParticleNetwork = dynamic(() => import("@/components/ParticleNetwork"), { ssr: false });
+ */
 "use client";
 
 import { useRef, useMemo } from "react";

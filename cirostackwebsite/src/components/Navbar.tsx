@@ -675,6 +675,7 @@ const Navbar = () => {
   return (
     <>
       <nav
+        aria-label="Main navigation"
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           showBg
@@ -757,6 +758,7 @@ const Navbar = () => {
                     ? "border-border text-foreground hover:bg-muted"
                     : "border-white/30 text-white hover:bg-white/10"
                 )}
+                aria-label="Search"
               >
                 <Search size={18} />
               </button>
