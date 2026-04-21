@@ -92,7 +92,7 @@ const Portfolio = () => {
                       <img src={projectImages[project.id]} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                     </div>
                     <div className="p-6">
-                      <p className="text-xs text-primary font-medium mb-1">{project.client}</p>
+                      <p className="text-xs text-muted-foreground font-medium mb-1">{project.client}</p>
                       <h3 className="font-display font-semibold text-foreground text-lg mb-2">{project.title}</h3>
                       <p className="text-sm text-muted-foreground leading-relaxed mb-4">{project.description}</p>
                       <div className="flex flex-wrap gap-2">

@@ -102,26 +102,26 @@ const Events = () => {
                                     <span className="text-xs px-2 py-1 rounded-full bg-primary text-primary-foreground font-medium">Featured</span>
                                 </div>
                                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-                                    <event.icon className="w-6 h-6 text-primary" />
+                                    <event.icon className="w-6 h-6 text-foreground" />
                                 </div>
-                                <span className="text-xs text-primary font-medium uppercase tracking-wider">{event.type}</span>
+                                <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">{event.type}</span>
                                 <h3 className="font-display font-semibold text-foreground text-xl mt-2 mb-3">{event.title}</h3>
                                 <p className="text-sm text-muted-foreground leading-relaxed mb-6">{event.description}</p>
                                 <div className="space-y-2 mb-6">
                                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                        <Calendar className="w-4 h-4 text-primary shrink-0" />
+                                        <Calendar className="w-4 h-4 text-muted-foreground shrink-0" />
                                         <span>{event.date}</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                        <Clock className="w-4 h-4 text-primary shrink-0" />
+                                        <Clock className="w-4 h-4 text-muted-foreground shrink-0" />
                                         <span>{event.time}</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                        <MapPin className="w-4 h-4 text-primary shrink-0" />
+                                        <MapPin className="w-4 h-4 text-muted-foreground shrink-0" />
                                         <span>{event.location}</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                        <Users className="w-4 h-4 text-primary shrink-0" />
+                                        <Users className="w-4 h-4 text-muted-foreground shrink-0" />
                                         <span>{event.attendees} registered</span>
                                     </div>
                                 </div>
@@ -135,20 +135,20 @@ const Events = () => {
                         {others.map((event, i) => (
                             <motion.div key={event.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-6 rounded-2xl surface-glass hover-lift group flex flex-col md:flex-row md:items-center gap-5">
                                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                                    <event.icon className="w-6 h-6 text-primary" />
+                                    <event.icon className="w-6 h-6 text-foreground" />
                                 </div>
                                 <div className="flex-1">
-                                    <span className="text-xs text-primary font-medium uppercase tracking-wider">{event.type}</span>
+                                    <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">{event.type}</span>
                                     <h3 className="font-display font-semibold text-foreground text-lg mt-1 mb-2">{event.title}</h3>
                                     <p className="text-sm text-muted-foreground leading-relaxed">{event.description}</p>
                                 </div>
                                 <div className="flex flex-col md:items-end gap-2 shrink-0">
                                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                        <Calendar className="w-4 h-4 text-primary" />
+                                        <Calendar className="w-4 h-4 text-muted-foreground" />
                                         <span>{event.date}</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                        <MapPin className="w-4 h-4 text-primary" />
+                                        <MapPin className="w-4 h-4 text-muted-foreground" />
                                         <span>{event.location}</span>
                                     </div>
                                     <Button size="sm" variant="outline" className="mt-2">Register</Button>
@@ -166,16 +166,16 @@ const Events = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {pastHighlights.map((past, i) => (
                             <motion.div key={past.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-8 rounded-2xl surface-glass text-center">
-                                <Globe className="w-8 h-8 text-primary mx-auto mb-4" />
+                                <Globe className="w-8 h-8 text-foreground mx-auto mb-4" />
                                 <p className="text-xs text-muted-foreground mb-2">{past.year}</p>
                                 <h3 className="font-display font-semibold text-foreground text-lg mb-3">{past.title}</h3>
                                 <div className="flex gap-6 justify-center text-center">
                                     <div>
-                                        <p className="text-2xl font-display font-bold text-primary">{past.attendees}</p>
+                                        <p className="text-2xl font-display font-bold text-foreground">{past.attendees}</p>
                                         <p className="text-xs text-muted-foreground">Attendees</p>
                                     </div>
                                     <div>
-                                        <p className="text-2xl font-display font-bold text-primary">{past.talks}</p>
+                                        <p className="text-2xl font-display font-bold text-foreground">{past.talks}</p>
                                         <p className="text-xs text-muted-foreground">Talks</p>
                                     </div>
                                 </div>

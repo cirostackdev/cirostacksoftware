@@ -29,7 +29,7 @@ export function RelatedCaseStudies({ industry }: RelatedCaseStudiesProps) {
             <div className="container mx-auto px-4 md:px-6 relative z-10">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
                     <div className="max-w-2xl">
-                        <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-widest uppercase rounded-full bg-primary/10 text-primary border border-primary/20">
+                        <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-widest uppercase rounded-full bg-muted text-muted-foreground border border-border">
                             Proven Results
                         </span>
                         <h2 className="text-3xl md:text-5xl font-display font-bold mb-6 leading-tight">
@@ -55,7 +55,7 @@ export function RelatedCaseStudies({ industry }: RelatedCaseStudiesProps) {
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                 />
                             </div>
-                            <div className="flex gap-3 text-sm font-semibold tracking-wider uppercase text-primary mb-3">
+                            <div className="flex gap-3 text-sm font-semibold tracking-wider uppercase text-muted-foreground mb-3">
                                 <span>{project.industry}</span>
                                 <span className="text-muted-foreground opacity-50">•</span>
                                 <span className="text-muted-foreground">{project.category}</span>

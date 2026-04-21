@@ -26,7 +26,7 @@ export function IndustryFAQ({ industry }: { industry: IndustryEntry }) {
                 <Accordion type="single" collapsible className="w-full">
                     {industry.faqs.map((faq, idx) => (
                         <AccordionItem key={idx} value={`item-${idx}`} className="border-border">
-                            <AccordionTrigger className="text-left text-lg font-bold hover:text-primary transition-colors py-6 text-foreground">
+                            <AccordionTrigger className="text-left text-lg font-bold hover:text-foreground transition-colors py-6 text-foreground">
                                 {faq.question}
                             </AccordionTrigger>
                             <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-6">

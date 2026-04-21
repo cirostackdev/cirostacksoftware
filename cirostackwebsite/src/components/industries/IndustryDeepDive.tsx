@@ -110,7 +110,7 @@ export function IndustryDeepDive({ industry, industryIndexInCategory = 0 }: Indu
                                 transition={{ duration: 0.7, delay: 0.2 }}
                                 className="w-full lg:w-1/2 space-y-6"
                             >
-                                <span className="text-primary font-semibold tracking-wider text-sm uppercase">Phase 0{index + 1}</span>
+                                <span className="text-muted-foreground font-semibold tracking-wider text-sm uppercase">Phase 0{index + 1}</span>
                                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold leading-tight">
                                     {section.title}
                                 </h2>

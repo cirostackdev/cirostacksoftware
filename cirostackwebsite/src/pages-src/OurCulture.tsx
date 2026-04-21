@@ -78,7 +78,7 @@ const OurCulture = () => {
                                 variants={fadeUp}
                                 custom={i}
                             >
-                                <div className="text-4xl font-display font-bold text-primary mb-2">{stat.value}</div>
+                                <div className="text-4xl font-display font-bold text-foreground mb-2">{stat.value}</div>
                                 <div className="text-sm text-muted-foreground">{stat.label}</div>
                             </motion.div>
                         ))}
@@ -106,7 +106,7 @@ const OurCulture = () => {
                                 className="p-8 rounded-2xl surface-glass hover-lift group"
                             >
                                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-                                    <v.icon className="w-6 h-6 text-primary" />
+                                    <v.icon className="w-6 h-6 text-foreground" />
                                 </div>
                                 <h3 className="font-display font-semibold text-foreground text-lg mb-3">{v.title}</h3>
                                 <p className="text-muted-foreground text-sm leading-relaxed">{v.description}</p>
@@ -136,7 +136,7 @@ const OurCulture = () => {
                                 className="p-6 rounded-2xl surface-glass text-center"
                             >
                                 <div className="w-12 h-12 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                                    <perk.icon className="w-6 h-6 text-primary" />
+                                    <perk.icon className="w-6 h-6 text-foreground" />
                                 </div>
                                 <p className="font-display font-semibold text-foreground text-sm mb-1">{perk.label}</p>
                                 <p className="text-xs text-muted-foreground">{perk.sub}</p>
@@ -156,7 +156,7 @@ const OurCulture = () => {
                     >
                         <div className="flex justify-center gap-1 mb-6">
                             {[...Array(5)].map((_, i) => (
-                                <Star key={i} className="w-5 h-5 fill-primary text-primary" />
+                                <Star key={i} className="w-5 h-5 fill-amber-500 text-amber-500" />
                             ))}
                         </div>
                         <blockquote className="text-2xl md:text-3xl font-display text-foreground leading-relaxed mb-6">

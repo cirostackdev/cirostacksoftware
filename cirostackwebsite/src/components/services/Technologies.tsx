@@ -303,7 +303,7 @@ export function Technologies({ service }: { service: ServiceEntry }) {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-center">
           <div>
-            <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-3">Tech Stack</h2>
+            <h2 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-3">Tech Stack</h2>
             <h3 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
               Engineering with modern power
             </h3>

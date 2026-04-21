@@ -35,7 +35,7 @@ interface PackageCardProps {
 const PackageCard = ({ name, price, bestFor, timeline, support, features, popular, examples }: PackageCardProps) => (
   <div className={`rounded-2xl p-6 md:p-8 flex flex-col h-full ${popular ? "surface-glass glow-border ring-1 ring-primary/30" : "surface-glass"}`}>
     {popular && (
-      <span className="inline-block self-start px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-primary/10 text-primary border border-primary/20">
+      <span className="inline-block self-start px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-muted text-muted-foreground border border-border">
         Most Popular
       </span>
     )}
@@ -49,7 +49,7 @@ const PackageCard = ({ name, price, bestFor, timeline, support, features, popula
     <div className="border-t border-border mt-6 pt-6 space-y-3 flex-1">
       {features.map((f) => (
         <div key={f} className="flex items-start gap-2">
-          <CheckCircle className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+          <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
           <span className="text-sm text-muted-foreground">{f}</span>
         </div>
       ))}
@@ -328,7 +328,7 @@ const Pricing = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center gap-3 mb-10">
             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-              <Globe className="w-5 h-5 text-primary" />
+              <Globe className="w-5 h-5 text-foreground" />
             </div>
             <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground">Websites</h2>
           </div>
@@ -347,7 +347,7 @@ const Pricing = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center gap-3 mb-10">
             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-              <Smartphone className="w-5 h-5 text-primary" />
+              <Smartphone className="w-5 h-5 text-foreground" />
             </div>
             <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground">Web & Mobile Apps</h2>
           </div>
@@ -366,7 +366,7 @@ const Pricing = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center gap-3 mb-10">
             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-              <Bot className="w-5 h-5 text-primary" />
+              <Bot className="w-5 h-5 text-foreground" />
             </div>
             <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground">AI Automation</h2>
           </div>
@@ -387,7 +387,7 @@ const Pricing = () => {
           <Accordion type="single" collapsible className="space-y-3">
             {faqs.map((faq, i) => (
               <AccordionItem key={i} value={`faq-${i}`} className="surface-glass rounded-xl px-6 border-none">
-                <AccordionTrigger className="text-foreground text-left font-medium hover:no-underline">{faq.q}</AccordionTrigger>
+                <AccordionTrigger className="text-foreground text-left font-medium">{faq.q}</AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed">{faq.a}</AccordionContent>
               </AccordionItem>
             ))}

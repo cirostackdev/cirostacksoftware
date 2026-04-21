@@ -29,7 +29,7 @@ export function IndustryExpertise({ service }: { service: ServiceEntry }) {
                             transition={{ delay: idx * 0.05 }}
                             className="px-6 py-4 rounded-full bg-background border border-border shadow-sm flex items-center gap-3 hover:border-primary/50 transition-colors cursor-default"
                         >
-                            <Check className="w-5 h-5 text-primary" />
+                            <Check className="w-5 h-5 text-emerald-600" />
                             <span className="font-medium text-foreground">{industry}</span>
                         </motion.div>
                     ))}

@@ -18,7 +18,7 @@ export function IndustryValueProps({ industry }: IndustryValuePropsProps) {
         <section className="py-24 bg-background">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-widest uppercase rounded-full bg-primary/10 text-primary border border-primary/20">
+                    <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-widest uppercase rounded-full bg-muted text-muted-foreground border border-border">
                         Why Partner With Us
                     </span>
                     <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mb-6 leading-tight">
@@ -40,8 +40,8 @@ export function IndustryValueProps({ industry }: IndustryValuePropsProps) {
                             custom={i}
                             className="p-8 rounded-3xl surface-glass border border-border/50 text-center hover:border-primary/30 transition-colors"
                         >
-                            <div className="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-6">
-                                <Zap className="w-7 h-7 text-primary" />
+                            <div className="w-14 h-14 mx-auto rounded-full bg-accent/10 flex items-center justify-center mb-6">
+                                <Zap className="w-7 h-7 text-accent" />
                             </div>
                             <h3 className="font-display font-bold text-foreground text-xl mb-4">
                                 {vp.title}

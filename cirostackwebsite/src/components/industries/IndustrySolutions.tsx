@@ -37,8 +37,8 @@ export function IndustrySolutions({ industry }: IndustrySolutionsProps) {
                             custom={i}
                             className="p-8 md:p-10 rounded-3xl bg-background border border-border/50 hover:border-primary/50 transition-all hover:shadow-lg group flex gap-6 items-start"
                         >
-                            <div className="w-12 h-12 shrink-0 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
-                                <Check className="w-6 h-6 text-primary group-hover:text-white" />
+                            <div className="w-12 h-12 shrink-0 rounded-2xl bg-emerald-500/10 flex items-center justify-center group-hover:bg-emerald-600 group-hover:scale-110 transition-all duration-300">
+                                <Check className="w-6 h-6 text-emerald-600 group-hover:text-white" />
                             </div>
                             <div>
                                 <h3 className="font-display font-bold text-foreground text-xl md:text-2xl mb-4 group-hover:text-primary transition-colors">

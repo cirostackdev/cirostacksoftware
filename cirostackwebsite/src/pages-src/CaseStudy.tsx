@@ -121,7 +121,7 @@ const CaseStudy = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="surface-glass rounded-2xl p-6 md:p-8">
                   <div className="flex items-center gap-2 mb-5">
-                    <Heart className="w-5 h-5 text-primary" />
+                    <Heart className="w-5 h-5 text-foreground" />
                     <h3 className="font-display font-semibold text-foreground text-lg">What the Client Loved</h3>
                   </div>
                   <ul className="space-y-3">

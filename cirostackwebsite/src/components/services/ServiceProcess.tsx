@@ -8,7 +8,7 @@ export function ServiceProcess({ service }: { service: ServiceEntry }) {
         <section className="py-24 bg-background">
             <div className="container mx-auto px-4 md:px-6 max-w-5xl">
                 <div className="text-center mb-16">
-                    <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-3">How we execute</h2>
+                    <h2 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-3">How we execute</h2>
                     <h3 className="text-3xl md:text-5xl font-display font-bold text-foreground">
                         Our Proven Methodology
                     </h3>
@@ -26,7 +26,7 @@ export function ServiceProcess({ service }: { service: ServiceEntry }) {
                             <div key={idx} className={`relative flex items-center justify-between md:justify-normal group ${idx % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
 
                                 {/* Node */}
-                                <div className="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-background border-4 border-primary shadow-[0_0_0_4px_rgba(var(--background),1)] -translate-x-1/2 z-10 transition-colors group-hover:bg-primary" />
+                                <div className="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-background border-4 border-border shadow-[0_0_0_4px_rgba(var(--background),1)] -translate-x-1/2 z-10 transition-colors group-hover:bg-foreground" />
 
                                 {/* Content Card */}
                                 <motion.div
@@ -35,7 +35,7 @@ export function ServiceProcess({ service }: { service: ServiceEntry }) {
                                     viewport={{ once: true, margin: "-100px" }}
                                     className={`ml-12 md:ml-0 md:w-[calc(50%-3rem)] bg-card border border-border/50 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow`}
                                 >
-                                    <div className="text-primary font-bold text-lg mb-2">Phase 0{idx + 1}</div>
+                                    <div className="text-muted-foreground font-bold text-lg mb-2">Phase 0{idx + 1}</div>
                                     <h4 className="text-2xl font-bold mb-3">{step.title}</h4>
                                     <p className="text-muted-foreground leading-relaxed">{step.description}</p>
                                 </motion.div>

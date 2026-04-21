@@ -24,7 +24,7 @@ const CaseStudyTestimonial = ({ quote, author, role }: TestimonialProps) => (
       <Quote className="w-10 h-10 text-primary/30 mb-4" />
       <div className="flex gap-1 mb-5">
         {[...Array(5)].map((_, i) => (
-          <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+          <Star key={i} className="w-4 h-4 fill-amber-500 text-amber-500" />
         ))}
       </div>
       <blockquote className="text-foreground font-display text-xl md:text-2xl leading-relaxed mb-6">

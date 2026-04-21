@@ -26,7 +26,7 @@ export function ServiceFAQ({ service }: { service: ServiceEntry }) {
                 <Accordion type="single" collapsible className="w-full">
                     {service.faqs.map((faq, idx) => (
                         <AccordionItem key={idx} value={`item-${idx}`} className="border-border">
-                            <AccordionTrigger className="text-left text-lg font-bold hover:text-primary transition-colors py-6">
+                            <AccordionTrigger className="text-left text-lg font-bold hover:text-foreground transition-colors py-6">
                                 {faq.question}
                             </AccordionTrigger>
                             <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-6">

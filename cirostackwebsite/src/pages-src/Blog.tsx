@@ -228,7 +228,7 @@ const Blog = () => {
                       <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                     </div>
                     <div className="p-6">
-                      <span className="text-xs font-medium px-3 py-1 rounded-full bg-primary/20 text-primary">{post.category}</span>
+                      <span className="text-xs font-medium px-3 py-1 rounded-full bg-muted text-muted-foreground">{post.category}</span>
                       <h3 className="font-display font-semibold text-foreground text-lg mb-2 mt-3 group-hover:text-primary transition-colors">{post.title}</h3>
                       <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{post.excerpt}</p>
                       <div className="flex items-center justify-between text-xs text-muted-foreground">

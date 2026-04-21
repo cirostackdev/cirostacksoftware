@@ -20,7 +20,7 @@ export function IndustryStats({ stats }: IndustryStatsProps) {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: i * 0.1 }}
                         >
-                            <div className="text-4xl md:text-5xl font-display font-bold text-primary mb-3">
+                            <div className="text-4xl md:text-5xl font-display font-bold text-foreground mb-3">
                                 {stat.value}
                             </div>
                             <div className="text-sm font-semibold tracking-wider text-muted-foreground uppercase">

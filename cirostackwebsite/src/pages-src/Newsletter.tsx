@@ -86,13 +86,13 @@ const Newsletter = () => {
                     <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0}>
                         {submitted ? (
                             <div className="p-10 rounded-2xl surface-glass">
-                                <CheckCircle className="w-16 h-16 text-primary mx-auto mb-6" />
+                                <CheckCircle className="w-16 h-16 text-emerald-600 mx-auto mb-6" />
                                 <h2 className="text-2xl font-display font-bold text-foreground mb-3">You're in!</h2>
                                 <p className="text-muted-foreground">Welcome to the CiroStack Digest. Check your inbox for a confirmation email and your first welcome issue.</p>
                             </div>
                         ) : (
                             <div className="p-10 rounded-2xl surface-glass">
-                                <Mail className="w-14 h-14 text-primary mx-auto mb-6" />
+                                <Mail className="w-14 h-14 text-foreground mx-auto mb-6" />
                                 <h2 className="text-2xl font-display font-bold text-foreground mb-3">Subscribe to the Digest</h2>
                                 <p className="text-muted-foreground mb-8">Fresh every Tuesday morning. Join 12,000+ readers.</p>
                                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -123,7 +123,7 @@ const Newsletter = () => {
                         {benefits.map((b, i) => (
                             <motion.div key={b.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-8 rounded-2xl surface-glass text-center hover-lift">
                                 <div className="w-12 h-12 mx-auto rounded-xl bg-primary/10 flex items-center justify-center mb-5">
-                                    <b.icon className="w-6 h-6 text-primary" />
+                                    <b.icon className="w-6 h-6 text-foreground" />
                                 </div>
                                 <h3 className="font-display font-semibold text-foreground mb-2">{b.title}</h3>
                                 <p className="text-sm text-muted-foreground leading-relaxed">{b.description}</p>
@@ -140,7 +140,7 @@ const Newsletter = () => {
                     <div className="space-y-4">
                         {pastIssues.map((issue, i) => (
                             <motion.div key={issue.issue} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-6 rounded-2xl surface-glass flex items-center gap-5 hover-lift group cursor-pointer">
-                                <span className="text-primary font-display font-bold text-lg shrink-0 w-10">{issue.issue}</span>
+                                <span className="text-foreground font-display font-bold text-lg shrink-0 w-10">{issue.issue}</span>
                                 <div className="flex-1">
                                     <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">{issue.title}</h3>
                                     <p className="text-xs text-muted-foreground mt-1">{issue.date} · {issue.reads} reads</p>
@@ -159,7 +159,7 @@ const Newsletter = () => {
                         {testimonials.map((t, i) => (
                             <motion.div key={t.name} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-8 rounded-2xl surface-glass">
                                 <div className="flex gap-1 mb-4">
-                                    {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-primary text-primary" />)}
+                                    {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-amber-500 text-amber-500" />)}
                                 </div>
                                 <blockquote className="text-foreground font-display italic mb-4">"{t.quote}"</blockquote>
                                 <p className="font-semibold text-foreground text-sm">{t.name}</p>

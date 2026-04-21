@@ -53,7 +53,7 @@ export function TestimonialsMarquee({
             {/* Header */}
             <div className="container mx-auto px-4 md:px-6 mb-8 md:mb-12">
                 <div className="text-center max-w-2xl mx-auto">
-                    <h2 className="text-xs md:text-sm font-bold uppercase tracking-widest text-primary mb-2 md:mb-3">
+                    <h2 className="text-xs md:text-sm font-bold uppercase tracking-widest text-muted-foreground mb-2 md:mb-3">
                         Testimonials
                     </h2>
                     <h3 className="text-2xl md:text-5xl font-display font-bold text-foreground mb-3 md:mb-4">
@@ -81,7 +81,7 @@ export function TestimonialsMarquee({
                             <Quote className="absolute top-6 right-6 md:top-8 md:right-8 w-8 h-8 md:w-12 md:h-12 text-primary/10" />
                             <div className="flex gap-1 mb-4 md:mb-5">
                                 {[1, 2, 3, 4, 5].map(s => (
-                                    <Star key={s} className="w-4 h-4 md:w-5 md:h-5 text-primary fill-primary" />
+                                    <Star key={s} className="w-4 h-4 md:w-5 md:h-5 text-amber-500 fill-amber-500" />
                                 ))}
                             </div>
                             <p className="text-sm md:text-base leading-relaxed text-muted-foreground italic mb-6 md:mb-8 min-h-[72px] md:min-h-[96px]">
@@ -89,7 +89,7 @@ export function TestimonialsMarquee({
                             </p>
                             <div className="border-t border-border/40 pt-4 md:pt-5">
                                 <p className="font-bold text-foreground text-sm md:text-base">{t.name}</p>
-                                <p className="text-xs md:text-sm text-primary font-medium mt-1">{t.role}</p>
+                                <p className="text-xs md:text-sm text-muted-foreground font-medium mt-1">{t.role}</p>
                             </div>
                         </div>
                     ))}

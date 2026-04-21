@@ -86,7 +86,7 @@ const Sustainability = () => {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0}>
-                            <span className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-primary/10 text-primary border border-primary/20">
+                            <span className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-muted text-muted-foreground border border-border">
                                 Our Approach
                             </span>
                             <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
@@ -122,7 +122,7 @@ const Sustainability = () => {
                                 { value: "1%", label: "Revenue to Environment", icon: Heart },
                             ].map((stat) => (
                                 <div key={stat.label} className="p-6 rounded-2xl surface-glass text-center">
-                                    <stat.icon className="w-8 h-8 text-primary mx-auto mb-3" />
+                                    <stat.icon className="w-8 h-8 text-emerald-600 mx-auto mb-3" />
                                     <div className="text-3xl font-display font-bold text-foreground mb-1">{stat.value}</div>
                                     <div className="text-xs text-muted-foreground">{stat.label}</div>
                                 </div>
@@ -152,8 +152,8 @@ const Sustainability = () => {
                                 className="p-8 rounded-2xl surface-glass"
                             >
                                 <div className="flex items-start gap-4 mb-5">
-                                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-                                        <pillar.icon className="w-6 h-6 text-primary" />
+                                    <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center shrink-0">
+                                        <pillar.icon className="w-6 h-6 text-emerald-600" />
                                     </div>
                                     <div>
                                         <h3 className="font-display font-semibold text-foreground text-lg mb-2">{pillar.title}</h3>
@@ -163,7 +163,7 @@ const Sustainability = () => {
                                 <div className="space-y-2">
                                     <div className="flex justify-between text-xs text-muted-foreground">
                                         <span>Progress</span>
-                                        <span className="font-semibold text-primary">{pillar.progress}%</span>
+                                        <span className={`font-semibold ${pillar.progress >= 90 ? 'text-emerald-600' : pillar.progress >= 60 ? 'text-amber-600' : 'text-amber-600'}`}>{pillar.progress}%</span>
                                     </div>
                                     <div className="h-2 rounded-full bg-secondary overflow-hidden">
                                         <motion.div
@@ -171,7 +171,7 @@ const Sustainability = () => {
                                             whileInView={{ width: `${pillar.progress}%` }}
                                             viewport={{ once: true }}
                                             transition={{ duration: 1, delay: i * 0.1 + 0.3 }}
-                                            className="h-full bg-primary rounded-full"
+                                            className={`h-full rounded-full ${pillar.progress >= 90 ? 'bg-emerald-500' : 'bg-amber-500'}`}
                                         />
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@ const Sustainability = () => {
                                     custom={i}
                                     className="flex items-start gap-3"
                                 >
-                                    <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                                    <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                                     <span className="text-muted-foreground text-sm leading-relaxed">{action}</span>
                                 </motion.div>
                             ))}
@@ -234,7 +234,7 @@ const Sustainability = () => {
             {/* CTA */}
             <section className="section-padding text-center">
                 <div className="container mx-auto px-4 md:px-6">
-                    <Globe className="w-12 h-12 text-primary mx-auto mb-6" />
+                    <Globe className="w-12 h-12 text-emerald-600 mx-auto mb-6" />
                     <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
                         Let's build a better future together
                     </h2>

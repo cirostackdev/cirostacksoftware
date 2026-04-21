@@ -119,7 +119,7 @@ export function ReasonsToChoose({ service }: { service: ServiceEntry }) {
                             </div>
 
                             <div className="w-full md:w-1/2">
-                                <div className="text-primary font-bold text-xl mb-4 font-display">0{idx + 1}</div>
+                                <div className="text-muted-foreground font-bold text-xl mb-4 font-display">0{idx + 1}</div>
                                 <h3 className="text-3xl font-bold mb-4">{reason.title}</h3>
                                 <p className="text-lg text-muted-foreground leading-relaxed">{reason.description}</p>
                             </div>

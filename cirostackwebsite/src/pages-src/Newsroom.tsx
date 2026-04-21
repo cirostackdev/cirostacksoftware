@@ -111,7 +111,7 @@ const Newsroom = () => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                         {stats.map((stat, i) => (
                             <motion.div key={stat.label} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}>
-                                <div className="text-4xl font-display font-bold text-primary mb-2">{stat.value}</div>
+                                <div className="text-4xl font-display font-bold text-foreground mb-2">{stat.value}</div>
                                 <div className="text-sm text-muted-foreground">{stat.label}</div>
                             </motion.div>
                         ))}
@@ -156,7 +156,7 @@ const Newsroom = () => {
                                     <div className="flex items-center gap-2 mb-1">
                                         <span className="text-xs text-muted-foreground">{item.type}</span>
                                         {item.source && (
-                                            <><span className="text-muted-foreground text-xs">·</span><span className="text-xs font-medium text-primary">{item.source}</span></>
+                                            <><span className="text-muted-foreground text-xs">·</span><span className="text-xs font-medium text-muted-foreground">{item.source}</span></>
                                         )}
                                     </div>
                                     <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-1">{item.title}</h3>
@@ -182,7 +182,7 @@ const Newsroom = () => {
             {/* Press Contact */}
             <section className="section-padding section-alt text-center">
                 <div className="container mx-auto px-4 md:px-6 max-w-2xl">
-                    <Tag className="w-12 h-12 text-primary mx-auto mb-6" />
+                    <Tag className="w-12 h-12 text-foreground mx-auto mb-6" />
                     <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">Press & Media Inquiries</h2>
                     <p className="text-muted-foreground text-lg mb-4 max-w-lg mx-auto">Journalists, analysts, and media partners — we'd love to speak with you. Reach out for interviews, quotes, and exclusive briefings.</p>
                     <p className="text-muted-foreground mb-8">

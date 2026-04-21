@@ -18,7 +18,7 @@ const SectionHeading = ({ badge, title, description, center = true }: SectionHea
     className={`mb-12 md:mb-16 ${center ? "text-center" : ""}`}
   >
     {badge && (
-      <span className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-primary/10 text-primary border border-primary/20">
+      <span className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-muted text-muted-foreground border border-border">
         {badge}
       </span>
     )}

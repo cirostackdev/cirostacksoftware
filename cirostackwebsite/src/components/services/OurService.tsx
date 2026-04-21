@@ -16,7 +16,7 @@ export function OurService({ service }: { service: ServiceEntry }) {
                         viewport={{ once: true }}
                         className="flex flex-col justify-center"
                     >
-                        <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-3">Service Overview</h2>
+                        <h2 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-3">Service Overview</h2>
                         <h3 className="text-4xl font-display font-bold mb-6 text-foreground">Our {service.title}</h3>
                         <p className="text-lg text-muted-foreground leading-relaxed">
                             {service.description}
@@ -32,7 +32,7 @@ export function OurService({ service }: { service: ServiceEntry }) {
                         <div className="grid gap-4">
                             {service.details.map((detail, idx) => (
                                 <div key={idx} className="flex items-start gap-4 p-5 rounded-2xl bg-background border border-border/50 hover:border-primary/30 transition-colors shadow-sm">
-                                    <div className="w-2 h-2 rounded-full bg-primary mt-2.5 shrink-0" />
+                                    <div className="w-2 h-2 rounded-full bg-muted-foreground mt-2.5 shrink-0" />
                                     <span className="text-foreground leading-relaxed">{detail}</span>
                                 </div>
                             ))}
@@ -47,10 +47,6 @@ export function OurService({ service }: { service: ServiceEntry }) {
                             <h4 className="text-3xl font-display font-bold">What's Included</h4>
                             <p className="text-muted-foreground mt-2">The concrete deliverables you receive at the end of every engagement.</p>
                         </div>
-                        <div className="px-6 py-3 rounded-full font-bold shadow-sm" style={{ backgroundColor: 'hsl(var(--trust) / 0.1)', color: 'hsl(var(--trust))' }}>
-                            <span className="text-sm opacity-80 font-medium mr-2">Starting at</span>
-                            <span className="text-xl">{service.startingAt}</span>
-                        </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -63,7 +59,7 @@ export function OurService({ service }: { service: ServiceEntry }) {
                                 transition={{ delay: idx * 0.05 }}
                                 className="flex items-start gap-4 p-6 bg-card rounded-2xl border border-border hover:shadow-md transition-shadow"
                             >
-                                <CheckCircle className="w-6 h-6 text-primary shrink-0" />
+                                <CheckCircle className="w-6 h-6 text-emerald-600 shrink-0" />
                                 <span className="font-medium text-card-foreground leading-snug pt-0.5">{item}</span>
                             </motion.div>
                         ))}

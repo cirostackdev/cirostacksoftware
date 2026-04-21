@@ -117,7 +117,7 @@ const Index = () => {
                 <Link href={service.link} className="block h-full">
                   <div className="h-full p-8 rounded-2xl surface-glass hover-lift group">
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                      <service.icon className="w-6 h-6 text-primary" />
+                      <service.icon className="w-6 h-6 text-foreground" />
                     </div>
                     <h3 className="text-xl font-display font-semibold text-foreground mb-3">{service.title}</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed mb-4">{service.description}</p>
@@ -152,9 +152,9 @@ const Index = () => {
                 className="text-center relative"
               >
                 <div className="w-14 h-14 mx-auto rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
-                  <step.icon className="w-6 h-6 text-primary" />
+                  <step.icon className="w-6 h-6 text-foreground" />
                 </div>
-                <span className="text-xs font-bold text-primary mb-1 block">Step {i + 1}</span>
+                <span className="text-xs font-bold text-muted-foreground mb-1 block">Step {i + 1}</span>
                 <h4 className="font-display font-semibold text-foreground text-sm mb-2">{step.title}</h4>
                 <p className="text-xs text-muted-foreground leading-relaxed">{step.description}</p>
               </motion.div>
@@ -179,7 +179,7 @@ const Index = () => {
                     <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   </div>
                   <div className="p-6">
-                    <p className="text-xs text-primary font-medium mb-1">{project.client}</p>
+                    <p className="text-xs text-muted-foreground font-medium mb-1">{project.client}</p>
                     <h3 className="font-display font-semibold text-foreground text-lg mb-2">{project.title}</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed mb-4">{project.description}</p>
                     <div className="flex gap-2">

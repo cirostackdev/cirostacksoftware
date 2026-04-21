@@ -35,7 +35,7 @@ export function IndustryWhoWeHelped({ industry }: { industry: IndustryEntry }) {
                                 transition={{ delay: idx * 0.1 }}
                                 className="p-6 bg-secondary/50 rounded-2xl border border-border/50 shadow-sm"
                             >
-                                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary font-bold">
+                                <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center mb-4 text-foreground font-bold">
                                     {idx + 1}
                                 </div>
                                 <p className="font-medium leading-relaxed">{profile}</p>

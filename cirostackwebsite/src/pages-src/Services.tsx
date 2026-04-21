@@ -78,12 +78,11 @@ const Services = () => {
               >
                 <div className={i % 2 === 1 ? "md:order-2" : ""}>
                   <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6">
-                    <service.icon className="w-7 h-7 text-primary" />
+                    <service.icon className="w-7 h-7 text-foreground" />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-3">{service.title}</h3>
-                  <p className="text-primary font-medium mb-4">{service.tagline}</p>
+                  <p className="text-muted-foreground font-medium mb-4">{service.tagline}</p>
                   <p className="text-muted-foreground leading-relaxed mb-6">{service.description}</p>
-                  <p className="text-sm text-muted-foreground mb-2 font-medium">Starting at <span className="font-bold px-2 py-0.5 rounded" style={{ backgroundColor: 'hsl(var(--trust) / 0.1)', color: 'hsl(var(--trust))' }}>{service.startingAt}</span></p>
                   <Link href="/contact">
                     <Button className="mt-2">
                       Discuss Your Project <ArrowRight className="ml-2 h-4 w-4" />
@@ -95,7 +94,7 @@ const Services = () => {
                   <div className="space-y-3">
                     {service.deliverables.map((item) => (
                       <div key={item} className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
                         <span className="text-sm text-muted-foreground">{item}</span>
                       </div>
                     ))}

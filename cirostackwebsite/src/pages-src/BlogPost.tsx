@@ -893,7 +893,7 @@ const BlogPost = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div className="flex items-center gap-3 mb-8">
-                  <span className="inline-block text-xs font-medium px-3 py-1 rounded-full bg-primary/20 text-primary">{post.category}</span>
+                  <span className="inline-block text-xs font-medium px-3 py-1 rounded-full bg-muted text-muted-foreground">{post.category}</span>
                   {/* Mobile share buttons */}
                   <div className="lg:hidden ml-auto">
                     <ShareButtonsInline title={post.title} />
@@ -930,7 +930,7 @@ const BlogPost = () => {
                       />
                     </div>
                     <div className="p-5">
-                      <span className="text-xs font-medium px-2.5 py-0.5 rounded-full bg-primary/20 text-primary">{rp.category}</span>
+                      <span className="text-xs font-medium px-2.5 py-0.5 rounded-full bg-muted text-muted-foreground">{rp.category}</span>
                       <h3 className="font-display font-semibold text-foreground text-sm mb-2 mt-2 group-hover:text-primary transition-colors leading-snug">{rp.title}</h3>
                       <div className="flex items-center justify-between text-xs text-muted-foreground">
                         <span>{rp.date}</span>

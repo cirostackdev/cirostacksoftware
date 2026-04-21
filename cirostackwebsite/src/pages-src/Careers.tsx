@@ -141,7 +141,7 @@ const Careers = () => {
                             { value: "96%", label: "Team Satisfaction" },
                         ].map((s, i) => (
                             <motion.div key={s.label} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}>
-                                <div className="text-4xl font-display font-bold text-primary mb-2">{s.value}</div>
+                                <div className="text-4xl font-display font-bold text-foreground mb-2">{s.value}</div>
                                 <div className="text-sm text-muted-foreground">{s.label}</div>
                             </motion.div>
                         ))}
@@ -173,7 +173,7 @@ const Careers = () => {
                             return (
                                 <motion.div key={role.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-6 rounded-2xl surface-glass hover-lift group flex flex-col md:flex-row md:items-center gap-4">
                                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                                        <DeptIcon className="w-6 h-6 text-primary" />
+                                        <DeptIcon className="w-6 h-6 text-foreground" />
                                     </div>
                                     <div className="flex-1">
                                         <div className="flex flex-wrap items-center gap-2 mb-1">
@@ -214,7 +214,7 @@ const Careers = () => {
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                         {perks.map((perk, i) => (
                             <motion.div key={perk.label} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-6 rounded-2xl surface-glass text-center">
-                                <perk.icon className="w-8 h-8 text-primary mx-auto mb-3" />
+                                <perk.icon className="w-8 h-8 text-foreground mx-auto mb-3" />
                                 <p className="font-semibold text-foreground text-sm mb-1">{perk.label}</p>
                                 <p className="text-xs text-muted-foreground">{perk.sub}</p>
                             </motion.div>
@@ -244,7 +244,7 @@ const Careers = () => {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                         <div>
-                            <span className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-primary/10 text-primary border border-primary/20">Equal Opportunity</span>
+                            <span className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider uppercase rounded-full bg-muted text-muted-foreground border border-border">Equal Opportunity</span>
                             <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">We hire on merit, period</h2>
                             <p className="text-muted-foreground leading-relaxed mb-4">CiroStack is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all team members regardless of background, identity, or experience.</p>
                             <p className="text-muted-foreground leading-relaxed">We strongly encourage applications from underrepresented groups in tech.</p>
@@ -252,7 +252,7 @@ const Careers = () => {
                         <div className="space-y-3">
                             {["Inclusive hiring panels", "Blind resume screening available", "Accessibility accommodations provided", "Transparent pay ranges shared up-front", "Flexible interview scheduling"].map((item) => (
                                 <div key={item} className="flex items-center gap-3">
-                                    <CheckCircle className="w-5 h-5 text-primary shrink-0" />
+                                    <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
                                     <span className="text-muted-foreground text-sm">{item}</span>
                                 </div>
                             ))}

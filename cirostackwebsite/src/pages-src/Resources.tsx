@@ -111,7 +111,7 @@ const Resources = () => {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {categories.map((cat, i) => (
                             <motion.div key={cat.label} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-6 rounded-2xl surface-glass text-center hover-lift cursor-pointer">
-                                <cat.icon className="w-8 h-8 text-primary mx-auto mb-3" />
+                                <cat.icon className="w-8 h-8 text-foreground mx-auto mb-3" />
                                 <p className="font-display font-semibold text-foreground">{cat.label}</p>
                                 <p className="text-xs text-muted-foreground mt-1">{cat.count} available</p>
                             </motion.div>
@@ -128,7 +128,7 @@ const Resources = () => {
                             <motion.div key={resource.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-8 rounded-2xl surface-glass hover-lift group flex flex-col">
                                 <div className="flex items-start justify-between mb-5">
                                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                                        <resource.icon className="w-6 h-6 text-primary" />
+                                        <resource.icon className="w-6 h-6 text-foreground" />
                                     </div>
                                     <div className="flex items-center gap-2">
                                         {resource.isNew && <span className="text-xs px-2 py-0.5 rounded-full bg-primary text-primary-foreground font-medium">New</span>}
@@ -161,7 +161,7 @@ const Resources = () => {
                         {tools.map((tool, i) => (
                             <motion.div key={tool.title} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i} className="p-8 rounded-2xl surface-glass flex items-start gap-5 hover-lift group">
                                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                                    <tool.icon className="w-6 h-6 text-primary" />
+                                    <tool.icon className="w-6 h-6 text-foreground" />
                                 </div>
                                 <div>
                                     <h3 className="font-display font-semibold text-foreground text-lg mb-2">{tool.title}</h3>
