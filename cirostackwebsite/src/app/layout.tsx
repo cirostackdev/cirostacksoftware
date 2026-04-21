@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Bricolage_Grotesque, Sora } from "next/font/google";
 import "@/styles/globals.css";
 
-const spaceGrotesk = Space_Grotesk({
+const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
+  variable: "--font-bricolage-grotesque",
   display: "swap",
 });
 
-const inter = Inter({
+const sora = Sora({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-sora",
   display: "swap",
 });
 import { Suspense } from "react";
@@ -88,7 +88,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${spaceGrotesk.variable} ${inter.variable}`}
+      className={`${bricolageGrotesque.variable} ${sora.variable}`}
     >
       <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXTP0DF4VH" />
