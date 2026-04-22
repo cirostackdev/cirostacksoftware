@@ -1,21 +1,34 @@
 # CiroStack Design System Audit & Recommendations
 
+> **Last updated**: 2026-04-22
+> **Previous revision**: 2026-04-20 (initial audit)
+
 ## 1. Current Design System Inventory
 
 ### Typography
 
 | Role | Font | Weights | Usage |
 |------|------|---------|-------|
-| Display (headings) | Space Grotesk | 400, 500, 600, 700 | h1-h6, brand name, section titles |
-| Body | Inter | 400, 500, 600 | Paragraphs, UI text, navigation |
+| Display (headings) | Bricolage Grotesque | 400, 500, 600, 700 | h1-h6, brand name, section titles |
+| Body | Sora | 400, 500, 600 | Paragraphs, UI text, navigation |
 
-**Loading**: `next/font/google` (layout.tsx) + `@fontsource` imports (styles/globals.css)
+*(Updated 2026-04-22: Migrated from Space Grotesk + Inter to Bricolage Grotesque + Sora for a warmer, more distinctive brand feel.)*
 
-**Issue: Double font loading.** Fonts are loaded via both `next/font/google` in layout.tsx AND `@fontsource` CSS imports in styles/globals.css. This means the browser downloads each font twice. Pick one method — `next/font/google` is preferred for Next.js (automatic optimization, subsetting, self-hosting).
+**Loading**: `next/font/google` (layout.tsx) with CSS variables `--font-bricolage-grotesque` and `--font-sora`, display mode `swap`.
+
+**Issue: Double font loading still present.** Legacy `@fontsource/inter` and `@fontsource/space-grotesk` packages remain in package.json and may still be imported in styles/globals.css. These are no longer the active fonts and should be removed to eliminate unnecessary downloads.
+
+**Tailwind font config**:
+```typescript
+fontFamily: {
+  display: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+  body: ['Sora', 'system-ui', 'sans-serif'],
+}
+```
 
 **Heading styles**: `font-weight: 600`, `letter-spacing: -0.02em` (set in app/globals.css). This tight tracking works well for large display sizes but becomes slightly cramped at `text-sm`/`text-base` on labels and badges.
 
-**Recommendation**: Keep Space Grotesk + Inter. Remove `@fontsource` imports. Loosen letter-spacing on headings smaller than `text-xl` to `-0.01em` or `0`.
+**Recommendation**: Remove `@fontsource` packages from package.json and all related CSS imports. Loosen letter-spacing on headings smaller than `text-xl` to `-0.01em` or `0`.
 
 ---
 
@@ -25,41 +38,48 @@ The site has **two parallel color systems** that partially conflict:
 
 #### System 1: HSL CSS Variables (styles/globals.css — shadcn/ui tokens)
 ```
---primary:            0 72% 51%    → #D63A3A (warm red)
---accent:             217 91% 60%  → #4A8FF7 (blue)
---background:         40 100% 97%  → #FFF8F0 (warm cream)
---foreground:         20 14% 15%   → #2B2420 (warm charcoal)
+--primary:            1 77% 55%    → #E53935 (toned-down brand red)
+--accent:             263 84% 58%  → #7C3AED (AI purple)
+--background:         33 100% 98%  → #FFFAF5 (warm cream)
+--foreground:         20 14% 15%   → #2A2420 (warm charcoal)
+--secondary:          33 50% 91%   → warm beige
+--muted:              33 40% 93%   → light warm gray
 --muted-foreground:   20 10% 40%   → #706358
---border:             33 30% 85%   → #E1D5C7
+--border:             33 30% 88%   → warm border
 --trust:              152 60% 40%  → #29A36B (green)
+--success:            10 100% 60%  → #10B981
+--warning:            45 96% 56%   → #F59E0B
+--destructive:        0 84% 60%    → #EF4444
 ```
 
-#### System 2: Direct hex values (app/globals.css — @theme block)
+*(Updated 2026-04-22: Primary red changed from `#E82121`/`#D63A3A` to `#E53935` — a more balanced, professional tone. AI purple integrated as `--accent`.)*
+
+#### System 2: Direct hex values (app/globals.css — legacy @theme block)
 ```
---color-brand:        #E82121      (brighter red)
+--color-brand:        #E82121      (legacy brighter red — conflicts with System 1)
 --color-brand-dark:   #C41B1B
 --color-brand-light:  #F04040
---color-ai:           #7C3AED      (purple)
+--color-ai:           #7C3AED      (purple — duplicates --accent)
 --color-bg:           #FFFAF5      (slightly different cream)
 --color-text:         #2A2420
 --color-border:       #EDE5D8
 ```
 
-**Issue: The two reds don't match.** `--primary` resolves to approximately `#D63A3A` while `--color-brand` is `#E82121`. Components using `text-primary` get one red; components using `text-brand` get another. This creates subtle visual inconsistency.
+**Issue (partially addressed): The two reds still conflict.** `--primary` now resolves to `#E53935` while legacy `--color-brand` is still `#E82121`. Components using `text-primary` get one red; components using `text-brand` get another. The gap is smaller than before but still creates inconsistency.
 
 **Issue: Two separate dark mode definitions.** styles/globals.css defines `.dark` with one set of values; app/globals.css defines `.dark` with different values. The cascade means whichever loads last wins — fragile and confusing.
 
 **Recommendation:**
 - **Consolidate to a single file.** Move everything into styles/globals.css (the shadcn/ui canonical location)
-- **Pick one red.** `#E82121` is more vibrant and distinctive — use it as `--primary`
-- **Integrate the AI purple** (`#7C3AED`) into the shadcn token system as `--accent` instead of the current blue
+- **Standardize on `#E53935`** as the single brand red across both systems
 - **Remove app/globals.css entirely** or reduce it to just the `@import "tailwindcss"` directive, with all custom properties in styles/globals.css
+- **Remove legacy `--color-brand` variables** and update any components still referencing them to use `--primary`
 
 ### Proposed Consolidated Palette
 
 | Token | Light Mode | Dark Mode | Usage |
 |-------|-----------|-----------|-------|
-| `--primary` | `#E82121` (CiroStack red) | `#E82121` | CTAs, links, brand accents |
+| `--primary` | `#E53935` (CiroStack red) | `#E53935` | CTAs, links, brand accents |
 | `--accent` | `#7C3AED` (AI purple) | `#A78BFA` | AI features, gradient endpoint, secondary accent |
 | `--background` | `#FFFAF5` (warm cream) | `#0A0E1A` (deep navy) | Page backgrounds |
 | `--foreground` | `#2A2420` (warm charcoal) | `#F1F5F9` (near white) | Body text |
@@ -74,7 +94,7 @@ The site has **two parallel color systems** that partially conflict:
 
 ### The Gradient
 ```css
-background: linear-gradient(135deg, #E82121 0%, #7C3AED 100%);
+background: linear-gradient(135deg, #E53935 0%, #7C3AED 100%);
 ```
 This red-to-purple gradient is the brand's most distinctive visual element. Use it sparingly:
 - Hero headline text (`text-gradient`)
@@ -212,44 +232,48 @@ This maintains visual rhythm without the jarring light-dark-light-dark striping.
 ## 4. Accessibility
 
 ### Current State
-- No skip-navigation link
+- ~~No skip-navigation link~~ **FIXED** — Skip-to-content link added in layout.tsx (`<a href="#main" class="sr-only focus:not-sr-only">Skip to content</a>`)
 - No ARIA labels on many interactive elements (flagged in refine.md)
 - Color contrast concerns with `muted-foreground` on light backgrounds
 - Keyboard navigation incomplete for mega-menus
 
-### Contrast Check (approximate)
+### Contrast Check (approximate, updated for `#E53935` brand red)
 
 | Text | Background | Ratio | WCAG AA |
 |------|-----------|-------|---------|
 | `#2A2420` on `#FFFAF5` | Body text | ~14:1 | Pass |
 | `#6B6560` on `#FFFAF5` | Muted text | ~5.2:1 | Pass |
 | `#94A3B8` on `#FFFAF5` | Subtle text | ~3.1:1 | **Fail** (needs 4.5:1) |
-| `#E82121` on `#FFFAF5` | Brand links | ~4.2:1 | **Borderline** |
-| `#FFFFFF` on `#E82121` | Button text | ~4.0:1 | **Borderline** |
+| `#E53935` on `#FFFAF5` | Brand links | ~4.5:1 | **Borderline-pass** (improved from `#E82121`) |
+| `#FFFFFF` on `#E53935` | Button text | ~4.2:1 | **Borderline** |
 
 ### Recommendations
-- Add skip-nav link: `<a href="#main" class="sr-only focus:not-sr-only">Skip to content</a>`
-- Darken `--text-subtle` from `#94A3B8` to `#6B7B8D` to meet AA
-- Darken `--primary` slightly to `#C41B1B` for better contrast on white, or use `#E82121` only on dark backgrounds
-- Add `aria-label` to all icon-only buttons (search, theme toggle, mobile menu)
-- Implement focus trap in mega-menu and mobile menu
+- ~~Add skip-nav link~~ **DONE** — added in layout.tsx
+- Darken `--text-subtle` from `#94A3B8` to `#6B7B8D` to meet AA — **NOT DONE**
+- `#E53935` improves contrast over the old `#E82121` — now borderline-passing on light backgrounds. For critical text links, consider darkening to `#C41B1B` or ensuring sufficient font size (18px+)
+- Add `aria-label` to all icon-only buttons (search, theme toggle, mobile menu) — **NOT DONE**
+- Implement focus trap in mega-menu and mobile menu — **NOT DONE**
 
 ---
 
 ## 5. Performance Considerations
 
 ### Current Weight Concerns
-- **Three.js** (HeroGlobe, ParticleNetwork): ~500KB+ for a decorative globe. Not used on most pages but bundled if imported
-- **Framer Motion**: ~100KB for animations that could be CSS
-- **@fontsource imports**: Duplicate font loading alongside next/font
+- **Three.js** (HeroGlobe, ParticleNetwork): ~500KB+ for decorative effects. **Both components are currently unused** — no page imports them, but they remain in the bundle if tree-shaking doesn't fully eliminate them
+- **Framer Motion** (v12.34.3): ~100KB for 78 `whileInView` animations that could largely be CSS
+- **GSAP** (v3.14.2): Additional animation library running parallel to Framer Motion — dual animation libraries add unnecessary weight
+- **@fontsource packages**: Legacy `@fontsource/inter` and `@fontsource/space-grotesk` still in package.json — no longer the active fonts
 - **industries-generated.ts**: 34K lines loaded on every industry page
+- **Navbar.tsx**: ~37KB single component handling mega-menu with 200+ industry items
 
 ### Recommendations
-1. **Lazy-load Three.js**: `dynamic(() => import('./HeroGlobe'), { ssr: false })` — only load on homepage
-2. **Replace Framer Motion** with CSS animations for simple fade/slide effects. Keep FM only for complex interactions (accordion, menu transitions)
-3. **Remove @fontsource** — next/font handles everything
-4. **Split industry data** by category so each page loads only its own data (~1.7K lines instead of 34K)
-5. **Add responsive image sources** to hero images — serve WebP at appropriate sizes
+1. **Remove HeroGlobe.tsx and ParticleNetwork.tsx** entirely — they are unused. If needed later, re-add with `dynamic(() => import('./HeroGlobe'), { ssr: false })`
+2. **Pick one animation library**: Either Framer Motion or GSAP, not both. Framer Motion is more idiomatic for React — migrate GSAP usages or vice versa
+3. **Replace Framer Motion** with CSS animations for simple fade/slide effects. Keep FM only for complex interactions (accordion, menu transitions)
+4. **Remove @fontsource packages** — `next/font/google` handles Bricolage Grotesque + Sora
+5. **Split industry data** by category so each page loads only its own data (~1.7K lines instead of 34K)
+6. **Add responsive image sources** to hero images — serve WebP at appropriate sizes
+7. **Extract mega-menu data** from Navbar.tsx to reduce component size and improve maintainability
 
 ---
 
@@ -260,9 +284,9 @@ This maintains visual rhythm without the jarring light-dark-light-dark striping.
 ```
 :root {
   /* Brand */
-  --brand:           #E82121;
-  --brand-dark:      #C41B1B;
-  --brand-light:     #F04040;
+  --brand:           #E53935;
+  --brand-dark:      #C62828;
+  --brand-light:     #EF5350;
   --accent:          #7C3AED;
   --accent-light:    #A78BFA;
 
@@ -311,18 +335,18 @@ This maintains visual rhythm without the jarring light-dark-light-dark striping.
 
 ## 7. Design Debt & Cleanup Priorities
 
-| # | Issue | Severity | Fix |
-|---|-------|----------|-----|
-| 1 | Two CSS files with conflicting color definitions | High | Consolidate into styles/globals.css |
-| 2 | Double font loading (next/font + @fontsource) | Medium | Remove @fontsource imports |
-| 3 | `section-alt` creates jarring light/dark striping | Medium | Soften to warm gray in light mode |
-| 4 | `surface-glass` on content cards causes GPU strain | Medium | Use solid `bg-card` for content cards |
-| 5 | Mixed button radius (rounded-full vs rounded-lg) | Low | Standardize: pill for CTAs, rounded-lg for utility |
-| 6 | No responsive image handling for heroes | Medium | Use next/image or srcSet |
-| 7 | Animation overuse below the fold | Low | Limit Framer Motion to top 3 sections |
-| 8 | `--text-subtle` fails WCAG AA contrast | High | Darken to #6B7B8D |
-| 9 | No skip-nav, incomplete ARIA labels | High | Add skip link, audit interactive elements |
-| 10 | Three.js loaded without dynamic import | Medium | Wrap in `dynamic({ ssr: false })` |
+| # | Issue | Severity | Status (2026-04-22) | Fix |
+|---|-------|----------|---------------------|-----|
+| 1 | Two CSS files with conflicting color definitions | High | **IN PROGRESS** — Primary red aligned to `#E53935` but legacy `--color-brand` (`#E82121`) still exists in app/globals.css | Consolidate into styles/globals.css, remove app/globals.css |
+| 2 | Double font loading (next/font + @fontsource) | Medium | **PARTIAL** — next/font now loads Bricolage Grotesque + Sora, but legacy @fontsource packages still in package.json | Remove @fontsource packages and imports |
+| 3 | `section-alt` creates jarring light/dark striping | Medium | **NOT DONE** | Soften to warm gray in light mode |
+| 4 | `surface-glass` on content cards causes GPU strain | Medium | **NOT DONE** | Use solid `bg-card` for content cards |
+| 5 | Mixed button radius (rounded-full vs rounded-lg) | Low | **NOT DONE** | Standardize: pill for CTAs, rounded-lg for utility |
+| 6 | No responsive image handling for heroes | Medium | **NOT DONE** — Heroes still use plain `<img>` tags | Use next/image with `fill` + `sizes`, or add `srcSet` |
+| 7 | Animation overuse below the fold (78 `whileInView` instances) | Low | **NOT DONE** | Limit Framer Motion to top 3 sections, use CSS below fold |
+| 8 | `--text-subtle` fails WCAG AA contrast | High | **NOT DONE** | Darken from `#94A3B8` to `#6B7B8D` |
+| 9 | Skip-nav + ARIA labels | High | **PARTIAL** — Skip-to-content link added. ARIA labels on icon buttons still missing. | Audit all interactive elements for ARIA |
+| 10 | Three.js loaded without dynamic import | Medium | **NOT DONE** — HeroGlobe.tsx and ParticleNetwork.tsx exist but are unused. ~500KB+ bundle weight. | Remove if unused, or wrap in `dynamic({ ssr: false })` |
 
 ---
 
@@ -330,18 +354,18 @@ This maintains visual rhythm without the jarring light-dark-light-dark striping.
 
 What exists today vs. what a mature brand needs:
 
-| Asset | Status | Action |
-|-------|--------|--------|
+| Asset | Status (2026-04-22) | Action |
+|-------|---------------------|--------|
 | Wordmark (Ciro**Stack**) | Exists (text-only in code) | Formalize as SVG |
 | Logo icon | Exists (logo.png, small) | Redesign as scalable SVG |
 | Favicon | Exists (.ico + .png) | Ensure consistency with new logo |
 | OG image | Generic hero-bg.jpg | Create branded template with logo + gradient |
-| Color palette | Exists but fragmented | Consolidate (see section 6) |
-| Typography scale | Exists via Tailwind | Document heading sizes + line heights |
+| Color palette | **Partially consolidated** — primary red settled at `#E53935`, but legacy hex vars remain | Complete consolidation (see section 6) |
+| Typography scale | **Updated** — Bricolage Grotesque + Sora via Tailwind config | Document heading sizes + line heights |
 | Icon style | Lucide (consistent) | Good — no change needed |
 | Illustration style | None | Consider light line illustrations for empty states and error pages |
 | Photography style | Stock images, generic | Define a photo direction: diverse teams, real workspaces, warm lighting |
-| Motion language | Exists but overused | Define when to animate vs. when to be static |
+| Motion language | Exists but overused (78 `whileInView` animations) | Define when to animate vs. when to be static |
 | Email templates | None visible | Create branded templates for contact form confirmations and newsletter |
 | Social media templates | None visible | Create templates for blog post sharing, case study announcements |
 | Pitch deck template | None visible | Create branded slide deck for sales calls |

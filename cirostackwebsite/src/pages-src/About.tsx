@@ -35,18 +35,20 @@ const stats = [
   { value: 50, suffix: "+", label: "Projects Delivered" },
   { value: 30, suffix: "+", label: "Happy Clients" },
   { value: 5, suffix: "", label: "Countries Served" },
-  { value: 3, suffix: "y", label: "In Business" },
+  { value: 3, suffix: "+", label: "Years in Business" },
+  { value: 4, suffix: "–8 wk", label: "Avg. Delivery Time" },
+  { value: 95, suffix: "%", label: "Client Retention" },
 ];
 
 const whyUs = [
   {
-    title: "Fixed-price. What you see is what you pay.",
+    title: "Fixed price. The quote is the price.",
     description:
-      "Most agencies pad hours and inflate invoices. We don't. Every project starts with a detailed scope and a locked price — you'll know the exact cost before a single line of code is written. No change-order games, no surprise invoices at the finish line. Just a number you can plan around and a deadline you can trust.",
+      "Every project starts with a detailed scope and a locked price. You know the exact cost before we write a single line of code. If we go over, that's on us — not you. No hourly billing, no surprise invoices, no change-order games.",
     points: [
-      "Full scope document delivered before contract signing",
-      "Price guaranteed — overruns are our problem, not yours",
-      "Milestone-based payments, never pay for work you haven't seen",
+      "Full scope document before you sign anything",
+      "Overruns are our problem, not yours",
+      "Milestone-based payments — never pay for work you haven't seen",
     ],
     image: whyFixedPrice,
     imageAlt: "Fixed-price transparent contracts",
@@ -54,10 +56,10 @@ const whyUs = [
   {
     title: "The team you meet is the team that builds.",
     description:
-      "The industry's worst kept secret is the bait-and-switch: senior engineers pitch the project, juniors deliver it. We don't do that. Every engineer who evaluates your project is the engineer who writes your code. You'll have direct access to your builder — not a project manager acting as a telephone.",
+      "Agency bait-and-switch is real: seniors pitch, juniors deliver. We don't do that. The engineer who scopes your project is the engineer who writes your code. You talk directly to your builder — not a project manager playing telephone.",
     points: [
-      "Senior engineers on every engagement, without exception",
-      "Direct async access via Slack throughout the project",
+      "Senior engineers on every project, no exceptions",
+      "Direct Slack access to your engineer throughout",
       "Dedicated on-call window through your launch week",
     ],
     image: whySeniorTalent,
@@ -66,11 +68,11 @@ const whyUs = [
   {
     title: "We win when your metrics move.",
     description:
-      "Shipping code is easy. Shipping code that actually improves your business is hard — and that's the only thing we care about. Before design begins, we align on the KPIs that define success. After launch, we review them together. If something isn't moving the needle, we iterate until it does.",
+      "Writing code is the easy part. Writing code that actually grows your business is hard — and that's the only thing we care about. Before we design anything, we agree on the numbers that define success. After launch, we review them together. If something isn't working, we fix it.",
     points: [
-      "KPIs and success criteria locked in before kickoff",
-      "30-day post-launch performance review included in every plan",
-      "Iterative improvement cycles available on retainer",
+      "Success metrics defined before kickoff",
+      "30-day post-launch performance review included",
+      "Iteration cycles available on retainer",
     ],
     image: whyOutcomeObsessed,
     imageAlt: "Business outcomes and metrics dashboard",
@@ -81,25 +83,25 @@ const values = [
   {
     icon: Heart,
     title: "Quality First",
-    description: "We never cut corners. Every line of code, every design decision, every test case is crafted with care — because shortcuts today become support calls tomorrow.",
+    description: "We don't cut corners. Clean code, thorough testing, proper documentation — because shortcuts today become support tickets tomorrow.",
     num: "01",
   },
   {
     icon: Zap,
     title: "Speed Matters",
-    description: "We ship production-ready software in weeks, not quarters. Fast cycles, tight feedback loops, and zero bureaucracy between idea and delivery.",
+    description: "Most projects ship in 4–8 weeks. Fast cycles, tight feedback loops, zero bureaucracy between your idea and a working product.",
     num: "02",
   },
   {
     icon: Users,
     title: "True Partnership",
-    description: "We embed into your workflow, attend your standups, and care about your roadmap. We're not a vendor — we're the engineering arm you always wanted.",
+    description: "We join your Slack, attend your standups, and care about your roadmap. We're the engineering team you always wanted — without the hiring overhead.",
     num: "03",
   },
   {
     icon: Target,
-    title: "Results-Driven",
-    description: "Every sprint priority, tech choice, and UX decision is filtered through a single lens: does this move the metric that matters to your business?",
+    title: "Results Over Output",
+    description: "Every decision we make is filtered through one question: does this move the number that matters to your business?",
     num: "04",
   },
 ];
@@ -191,8 +193,8 @@ const About = () => {
       {/* Hero */}
       <PageHero
         icon={Building2}
-        title="Our Company"
-        description="CiroStack was founded on a simple belief: every business deserves world-class software without enterprise-level budgets. We're a senior, remote-first team that ships fast and builds to last."
+        title="About CiroStack"
+        description="A small, senior engineering team that builds software for growing businesses. Fixed price, shipped in weeks, built to last."
         image={heroAbout}
         ctaText="Work With Us"
         ctaLink="/contact"
@@ -201,7 +203,7 @@ const About = () => {
       {/* Stats bar */}
       <section className="bg-card border-y border-border/40 py-14">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
             {stats.map((s, i) => (
               <motion.div
                 key={s.label}
@@ -222,7 +224,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Who We Are — two-column story */}
+      {/* Founder Story — two-column */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -230,26 +232,32 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-3">Who We Are</h2>
+            <h2 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-3">The Story</h2>
             <h3 className="text-3xl md:text-5xl font-display font-bold text-foreground mb-6 leading-tight">
-              Built out of frustration, driven by purpose
+              Why I started CiroStack
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                CiroStack was born when our founder noticed a glaring gap: most agencies were either too
-                expensive for growing businesses, too slow to keep up with modern markets, or too impersonal
-                to care about actual outcomes.
+                I'm Jessy Onah. Before CiroStack, I spent years building software for other agencies — and
+                watching the same pattern repeat. Clients got billed by the hour for work that dragged on,
+                junior developers were swapped in after the pitch, and nobody tracked whether the product
+                actually moved the needle for the business.
               </p>
               <p>
-                We set out to change that. With fixed-price projects, radically transparent processes, and an
-                obsessive focus on results, we've helped dozens of businesses ship products that customers love.
+                I kept thinking: what if an agency just did the obvious right things? Quote a fixed price
+                and stick to it. Put senior engineers on every project. Measure success by the client's
+                metrics, not billable hours. So I built that agency.
               </p>
               <p>
-                Today we're a distributed team of designers, engineers, and AI specialists spanning multiple
-                time zones — united by the belief that great software is a competitive advantage, not a luxury.
+                CiroStack is the company I wished existed when I was on the other side of the table. We're
+                a small, senior team — remote-first, distributed across 5 countries — and we treat every
+                client's product like our own. 50+ projects later, that approach hasn't changed.
               </p>
             </div>
-            <Link href="/contact" className="inline-block mt-8">
+            <p className="mt-6 text-foreground font-display font-semibold">
+              — Jessy Onah, Founder
+            </p>
+            <Link href="/contact" className="inline-block mt-6">
               <Button>
                 Start a Conversation <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -266,12 +274,12 @@ const About = () => {
             <h4 className="font-display font-semibold text-foreground mb-5">How we work</h4>
             <div className="space-y-4">
               {[
-                "Fixed-price — no hourly billing surprises",
-                "Remote-first, async-friendly team",
+                "Fixed price — you know the cost before we start",
+                "Senior engineers on every project, no exceptions",
                 "Weekly written progress updates",
-                "Your IP — source code always yours",
-                "Direct access to the engineer building your product",
-                "Post-launch support window included",
+                "Your code, your designs, your IP — always",
+                "Direct Slack access to the engineer building your product",
+                "30–90 day post-launch support included",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
@@ -291,8 +299,8 @@ const About = () => {
               Why partner with CiroStack?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              We're not just another vendor. We act as your elite engineering partner — taking extreme
-              ownership of your most critical technical challenges.
+              We're not a freelance marketplace. We're not an offshore factory. We're a senior
+              engineering team that works as your in-house partner — without the overhead.
             </p>
           </div>
 
@@ -482,12 +490,14 @@ const About = () => {
         </div>
       </section>
 
+      {/* TODO: Uncomment when real testimonials are collected
       <TestimonialsMarquee
         items={allTestimonials}
         heading="What our partners say"
         subheading="Engineering excellence verified across every industry we serve."
         duration="auto"
       />
+      */}
 
       {/* CTA */}
       <section className="py-24 bg-background">

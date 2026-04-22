@@ -1,5 +1,8 @@
 # CiroStack Brand Audit & Strategy
 
+> **Last updated**: 2026-04-22
+> **Previous revision**: 2026-04-20 (initial audit)
+
 ## 1. Current Brand Snapshot
 
 ### Identity
@@ -9,6 +12,7 @@
 - **Domain**: cirostack.com
 - **Email**: contact@cirostack.com
 - **Twitter**: @CiroStack
+- **Founder**: Jessy Onah
 
 ### Positioning Statement (current, implied)
 CiroStack is a remote-first software development agency that delivers custom websites, mobile apps, and AI automation for growing businesses through fixed-price engagements with senior engineers.
@@ -18,6 +22,12 @@ CiroStack is a remote-first software development agency that delivers custom web
 2. Speed — "Delivery in weeks, not months."
 3. Senior talent — "Senior engineers, not junior contractors."
 4. Full lifecycle — Ideate > Build > Improve > Operate > Scale
+
+### Key Stats (as displayed on site)
+- 50+ Projects Delivered
+- 30+ Happy Clients
+- 5 Countries Served
+- 3 Years in Business
 
 ---
 
@@ -30,10 +40,10 @@ The "fixed-price + senior engineers + delivery in weeks" triple is repeated cons
 The Ideate/Build/Improve/Operate/Scale framework is a solid consultative funnel. It communicates maturity and full-stack capability without being generic.
 
 ### Typography pairing is strong
-Space Grotesk (display) + Inter (body) is a modern, tech-forward pairing with excellent readability. Space Grotesk's geometric character gives headlines a distinctive, engineered feel. Keep this.
+Bricolage Grotesque (display) + Sora (body) is a distinctive, modern pairing. Bricolage Grotesque's variable optical sizing and slightly quirky geometry give headlines a warm, crafted feel — differentiating CiroStack from the generic geometric sans-serif look. Sora's clean, geometric body text provides excellent readability and a tech-forward tone. *(Updated from Space Grotesk + Inter — the new pairing is warmer and more distinctive.)*
 
 ### Color has emotional range
-The red-to-purple gradient (brand red `#E82121` to AI purple `#7C3AED`) creates visual drama on hero headings and CTAs. It visually bridges the "business results" (red = urgency, action) with "AI/tech innovation" (purple = intelligence, future).
+The red-to-purple gradient (brand red `#E53935` to AI purple `#7C3AED`) creates visual drama on hero headings and CTAs. It visually bridges the "business results" (red = urgency, action) with "AI/tech innovation" (purple = intelligence, future). *(Note: red was toned down from `#E82121` to `#E53935` for a slightly softer, more professional feel.)*
 
 ### Warm surface palette adds differentiation
 The cream-toned light mode (`#FFFAF5` bg, warm borders) stands out from the sea of cold gray/white SaaS sites. This warmth signals approachability — important for the SMB audience.
@@ -175,15 +185,21 @@ CiroStack is a remote-first software agency for growing businesses. We build cus
 
 ## 7. Priority Actions (Ranked)
 
-| # | Action | Impact | Effort | Timeline |
-|---|--------|--------|--------|----------|
-| 1 | Remove all fabricated content (testimonials, newsroom, fake logos) | Critical | Low | This week |
-| 2 | Write real founder story and About page | High | Medium | 1-2 weeks |
-| 3 | Define and document 3 client personas | High | Low | 1 week |
-| 4 | Rewrite hero and homepage copy with new messaging hierarchy | High | Medium | 1-2 weeks |
-| 5 | Develop proper logo system (wordmark + icon + guidelines) | Medium | Medium | 2-4 weeks |
-| 6 | Replace trust logos with tech stack badges | Medium | Low | 1 day |
-| 7 | Add competitor comparison on pricing page | Medium | Low | 1 week |
-| 8 | Name the methodology ("The Stack Process") | Medium | Low | 1 day |
-| 9 | Collect 3-5 real testimonials | High | High | Ongoing |
-| 10 | Reduce industry pages to 20-30 best-fit verticals | Medium | Medium | 2-4 weeks |
+| # | Action | Impact | Effort | Status (as of 2026-04-22) |
+|---|--------|--------|--------|---------------------------|
+| 1 | Remove all fabricated content (testimonials, newsroom, fake logos) | Critical | Low | **NOT DONE** — Fabricated testimonials, fictional newsroom, fake trust logos all still live. This remains the #1 risk. |
+| 2 | Write real founder story and About page | High | Medium | **PARTIAL** — About page exists with team bios (Jessy Onah as Founder, plus 4 team members). Lacks personal origin narrative and real photos. |
+| 3 | Define and document 3 client personas | High | Low | **NOT DONE** |
+| 4 | Rewrite hero and homepage copy with new messaging hierarchy | High | Medium | **PARTIAL** — Hero copy updated but still uses generic language. Needs persona-targeted rewrite. |
+| 5 | Develop proper logo system (wordmark + icon + guidelines) | Medium | Medium | **NOT DONE** — Logo is still a small PNG import. |
+| 6 | Replace trust logos with tech stack badges | Medium | Low | **NOT DONE** — "TechNova", "GrowthLab", etc. still displayed. |
+| 7 | Add competitor comparison on pricing page | Medium | Low | **NOT DONE** |
+| 8 | Name the methodology ("The Stack Process") | Medium | Low | **NOT DONE** — Mentioned in this doc but not implemented in the codebase. |
+| 9 | Collect 3-5 real testimonials | High | High | **NOT DONE** — All testimonials remain fabricated (e.g., "Michael Chen, CTO, FinTech Systems"). |
+| 10 | Reduce industry pages to 20-30 best-fit verticals | Medium | Medium | **NOT DONE** — Still 200 pages across 20 categories. |
+
+### Recent Progress (since initial audit)
+- **Fonts updated**: Migrated from Space Grotesk + Inter to Bricolage Grotesque + Sora — warmer, more distinctive pairing
+- **Brand red refined**: Toned down from `#E82121` to `#E53935` for softer professional feel
+- **Skip-to-content link added**: Accessibility improvement in layout.tsx
+- **Design system audit completed**: design.md now documents the full token system and debt items
