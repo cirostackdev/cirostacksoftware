@@ -71,7 +71,7 @@ export default function OnboardingPage() {
             key={s}
             className={cn(
               'flex-1 h-1 rounded-full transition-all',
-              s <= step ? 'bg-[#E82121]' : 'bg-[var(--color-border)]'
+              s <= step ? 'bg-[#E53935]' : 'bg-[var(--color-border)]'
             )}
           />
         ))}
@@ -88,7 +88,7 @@ export default function OnboardingPage() {
                 className={cn(
                   'w-full flex items-center gap-3 p-4 rounded-xl border text-left transition-all',
                   answers.skillLevel === opt.value
-                    ? 'border-[#E82121] bg-[#E82121]/5 text-[var(--color-text)]'
+                    ? 'border-[#E53935] bg-[#E53935]/5 text-[var(--color-text)]'
                     : 'border-[var(--color-border)] hover:border-[var(--color-border-2)] text-[var(--color-text-muted)]'
                 )}
               >
@@ -98,7 +98,7 @@ export default function OnboardingPage() {
                   <p className="text-xs">{opt.desc}</p>
                 </div>
                 {answers.skillLevel === opt.value && (
-                  <Check className="h-4 w-4 text-[#E82121] shrink-0" />
+                  <Check className="h-4 w-4 text-[#E53935] shrink-0" />
                 )}
               </button>
             ))}
@@ -120,7 +120,7 @@ export default function OnboardingPage() {
                 className={cn(
                   'w-full flex items-center gap-3 p-4 rounded-xl border text-left transition-all',
                   answers.learningGoal === opt.value
-                    ? 'border-[#E82121] bg-[#E82121]/5 text-[var(--color-text)]'
+                    ? 'border-[#E53935] bg-[#E53935]/5 text-[var(--color-text)]'
                     : 'border-[var(--color-border)] hover:border-[var(--color-border-2)] text-[var(--color-text-muted)]'
                 )}
               >
@@ -130,7 +130,7 @@ export default function OnboardingPage() {
                   <p className="text-xs">{opt.desc}</p>
                 </div>
                 {answers.learningGoal === opt.value && (
-                  <Check className="h-4 w-4 text-[#E82121] shrink-0" />
+                  <Check className="h-4 w-4 text-[#E53935] shrink-0" />
                 )}
               </button>
             ))}
@@ -154,7 +154,7 @@ export default function OnboardingPage() {
                   className={cn(
                     'px-3 py-2.5 rounded-xl border text-sm text-left transition-all',
                     isSelected
-                      ? 'border-[#E82121] bg-[#E82121]/5 text-[#E82121] font-medium'
+                      ? 'border-[#E53935] bg-[#E53935]/5 text-[#E53935] font-medium'
                       : 'border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[var(--color-border-2)]'
                   )}
                 >

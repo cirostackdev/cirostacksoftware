@@ -11,7 +11,7 @@ interface ProgressBarProps {
 }
 
 const colorStyles = {
-  brand: 'bg-[#E82121]',
+  brand: 'bg-[#E53935]',
   success: 'bg-[#10B981]',
   warning: 'bg-[#F59E0B]',
   ai: 'bg-[#7C3AED]',

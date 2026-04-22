@@ -52,8 +52,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((v) => (
               <div key={v.title} className="p-6 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl">
-                <div className="h-10 w-10 rounded-xl bg-[#E82121]/10 flex items-center justify-center mb-4">
-                  <v.icon className="h-5 w-5 text-[#E82121]" />
+                <div className="h-10 w-10 rounded-xl bg-[#E53935]/10 flex items-center justify-center mb-4">
+                  <v.icon className="h-5 w-5 text-[#E53935]" />
                 </div>
                 <h3 className="font-display font-semibold text-[var(--color-text)] mb-2">{v.title}</h3>
                 <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{v.desc}</p>
@@ -133,7 +133,7 @@ export default function AboutPage() {
               { step: '3', label: 'Get referred', desc: 'CiroStack connects top graduates to client project opportunities.' },
             ].map((s) => (
               <div key={s.step} className="p-4 bg-[var(--color-bg)] border border-[var(--color-border)] rounded-xl">
-                <div className="h-7 w-7 rounded-full bg-[#E82121] text-white text-sm font-bold flex items-center justify-center mb-3">
+                <div className="h-7 w-7 rounded-full bg-[#E53935] text-white text-sm font-bold flex items-center justify-center mb-3">
                   {s.step}
                 </div>
                 <p className="font-semibold text-sm text-[var(--color-text)] mb-1">{s.label}</p>

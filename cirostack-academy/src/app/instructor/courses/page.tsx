@@ -62,7 +62,7 @@ export default function InstructorCoursesPage() {
       ) : (
         <div className="space-y-3">
           {courses.map((c) => (
-            <div key={c.id} className="flex items-center gap-4 p-5 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl hover:border-[#E82121]/20 transition-colors">
+            <div key={c.id} className="flex items-center gap-4 p-5 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl hover:border-[#E53935]/20 transition-colors">
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-1.5 flex-wrap">
                   <p className="font-display font-semibold text-[var(--color-text)] truncate">{c.title}</p>

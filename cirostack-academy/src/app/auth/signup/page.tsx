@@ -191,7 +191,7 @@ export default function SignUpPage() {
           <select
             value={form.countryCode}
             onChange={(e) => setForm({ ...form, countryCode: e.target.value })}
-            className="h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm px-3 focus:outline-none focus:ring-2 focus:ring-[#E82121]"
+            className="h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm px-3 focus:outline-none focus:ring-2 focus:ring-[#E53935]"
           >
             <option value="NG">🇳🇬 Nigeria (₦ NGN)</option>
             <option value="US">🇺🇸 United States ($ USD)</option>
@@ -208,13 +208,13 @@ export default function SignUpPage() {
               type="checkbox"
               checked={form.agreedToTerms}
               onChange={(e) => setForm({ ...form, agreedToTerms: e.target.checked })}
-              className="mt-0.5 h-4 w-4 rounded border-[var(--color-border-2)] text-[#E82121] focus:ring-[#E82121]"
+              className="mt-0.5 h-4 w-4 rounded border-[var(--color-border-2)] text-[#E53935] focus:ring-[#E53935]"
             />
             <span className="text-sm text-[var(--color-text-muted)]">
               I agree to the{' '}
-              <Link href="/legal/terms" className="text-[#E82121] hover:underline">Terms of Service</Link>
+              <Link href="/legal/terms" className="text-[#E53935] hover:underline">Terms of Service</Link>
               {' '}and{' '}
-              <Link href="/legal/privacy" className="text-[#E82121] hover:underline">Privacy Policy</Link>
+              <Link href="/legal/privacy" className="text-[#E53935] hover:underline">Privacy Policy</Link>
             </span>
           </label>
           {errors.terms && <p className="text-xs text-[#EF4444] mt-1">{errors.terms}</p>}
@@ -226,7 +226,7 @@ export default function SignUpPage() {
 
         <p className="text-center text-sm text-[var(--color-text-muted)]">
           Already have an account?{' '}
-          <Link href="/auth/login" className="text-[#E82121] font-medium hover:underline">
+          <Link href="/auth/login" className="text-[#E53935] font-medium hover:underline">
             Sign in
           </Link>
         </p>

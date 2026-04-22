@@ -27,7 +27,7 @@ export default function InstructorHomePage() {
     : '—';
 
   const statsCards = [
-    { label: 'Total students', value: totalStudents.toLocaleString(), icon: Users, color: 'text-[#E82121] bg-[#E82121]/10' },
+    { label: 'Total students', value: totalStudents.toLocaleString(), icon: Users, color: 'text-[#E53935] bg-[#E53935]/10' },
     { label: 'Active courses', value: String(activeCourses), icon: BookOpen, color: 'text-[#7C3AED] bg-[#7C3AED]/10' },
     { label: 'Average rating', value: avgRating, icon: Star, color: 'text-[#F59E0B] bg-[#F59E0B]/10' },
     { label: 'Total courses', value: String(courses.length), icon: TrendingUp, color: 'text-[#10B981] bg-[#10B981]/10' },
@@ -62,7 +62,7 @@ export default function InstructorHomePage() {
       <div>
         <div className="flex items-center justify-between mb-4">
           <h2 className="font-display text-lg font-semibold text-[var(--color-text)]">My courses</h2>
-          <Link href="/instructor/courses" className="text-sm text-[#E82121] hover:underline flex items-center gap-1">
+          <Link href="/instructor/courses" className="text-sm text-[#E53935] hover:underline flex items-center gap-1">
             Manage <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </div>
@@ -79,7 +79,7 @@ export default function InstructorHomePage() {
           <div className="space-y-3">
             {courses.slice(0, 5).map((c) => (
               <Link key={c.id} href={`/instructor/courses/${c.id}`}>
-                <div className="flex items-center gap-4 p-4 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl hover:border-[#E82121]/30 transition-colors">
+                <div className="flex items-center gap-4 p-4 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl hover:border-[#E53935]/30 transition-colors">
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <p className="font-medium text-sm text-[var(--color-text)] truncate">{c.title}</p>

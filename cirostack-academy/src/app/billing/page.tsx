@@ -189,7 +189,7 @@ export default function BillingPage() {
                 <div className="space-y-2">
                   {cancelReasons.map((r) => (
                     <label key={r} className="flex items-center gap-3 p-3 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-border-2)] cursor-pointer transition-colors">
-                      <input type="radio" name="reason" value={r} onChange={() => setCancelReason(r)} className="h-4 w-4 text-[#E82121]" />
+                      <input type="radio" name="reason" value={r} onChange={() => setCancelReason(r)} className="h-4 w-4 text-[#E53935]" />
                       <span className="text-sm text-[var(--color-text-muted)]">{r}</span>
                     </label>
                   ))}

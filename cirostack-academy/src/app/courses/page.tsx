@@ -84,7 +84,7 @@ function CatalogContent() {
                     className={cn(
                       'w-full text-left px-3 py-2 rounded-lg text-sm transition-colors',
                       activeCategory === cat
-                        ? 'bg-[#E82121]/10 text-[#E82121] font-medium'
+                        ? 'bg-[#E53935]/10 text-[#E53935] font-medium'
                         : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]'
                     )}
                   >
@@ -104,7 +104,7 @@ function CatalogContent() {
                     className={cn(
                       'w-full text-left px-3 py-2 rounded-lg text-sm capitalize transition-colors',
                       activeLevel === lvl
-                        ? 'bg-[#E82121]/10 text-[#E82121] font-medium'
+                        ? 'bg-[#E53935]/10 text-[#E53935] font-medium'
                         : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]'
                     )}
                   >
@@ -121,7 +121,7 @@ function CatalogContent() {
                 className={cn(
                   'w-full text-left px-3 py-2 rounded-lg text-sm transition-colors',
                   isFreeOnly
-                    ? 'bg-[#E82121]/10 text-[#E82121] font-medium'
+                    ? 'bg-[#E53935]/10 text-[#E53935] font-medium'
                     : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]'
                 )}
               >
@@ -142,7 +142,7 @@ function CatalogContent() {
                 placeholder="Search courses..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm pl-10 pr-3 focus:outline-none focus:ring-2 focus:ring-[#E82121] focus:border-[#E82121] placeholder:text-[var(--color-text-subtle)]"
+                className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm pl-10 pr-3 focus:outline-none focus:ring-2 focus:ring-[#E53935] focus:border-[#E53935] placeholder:text-[var(--color-text-subtle)]"
               />
             </div>
             <Button

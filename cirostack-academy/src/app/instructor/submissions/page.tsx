@@ -131,7 +131,7 @@ export default function SubmissionsPage() {
                   <p className="text-sm font-medium text-[var(--color-text)] truncate">{s.title}</p>
                   <p className="text-xs text-[var(--color-text-muted)]">by {s.user?.fullName ?? 'Unknown'}</p>
                 </div>
-                {s.instructorScore && <span className="font-display font-bold text-[#E82121]">{s.instructorScore}/100</span>}
+                {s.instructorScore && <span className="font-display font-bold text-[#E53935]">{s.instructorScore}/100</span>}
                 {s.isTalentPipelineFlagged && <Badge variant="gold"><Flag className="h-3 w-3" />Pipeline</Badge>}
               </div>
             ))}
@@ -151,7 +151,7 @@ export default function SubmissionsPage() {
               value={score}
               onChange={(e) => setScore(e.target.value)}
               placeholder="85"
-              className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm px-3 text-[var(--color-text)] focus:outline-none focus:ring-2 focus:ring-[#E82121]"
+              className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm px-3 text-[var(--color-text)] focus:outline-none focus:ring-2 focus:ring-[#E53935]"
             />
           </div>
           <div>
@@ -161,7 +161,7 @@ export default function SubmissionsPage() {
               onChange={(e) => setFeedback(e.target.value)}
               rows={4}
               placeholder="Provide constructive feedback..."
-              className="w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm p-3 text-[var(--color-text)] placeholder:text-[var(--color-text-subtle)] focus:outline-none focus:ring-2 focus:ring-[#E82121] resize-none"
+              className="w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm p-3 text-[var(--color-text)] placeholder:text-[var(--color-text-subtle)] focus:outline-none focus:ring-2 focus:ring-[#E53935] resize-none"
             />
           </div>
           <label className="flex items-center gap-3 cursor-pointer p-3 rounded-xl border border-[var(--color-border)] hover:border-[#F59E0B]/50 transition-colors">

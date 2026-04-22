@@ -74,7 +74,7 @@ export default function PricingPage() {
                 className={cn(
                   'px-5 py-2 rounded-lg text-sm font-medium transition-all',
                   currency === c
-                    ? 'bg-[#E82121] text-white'
+                    ? 'bg-[#E53935] text-white'
                     : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)]'
                 )}
               >
@@ -91,7 +91,7 @@ export default function PricingPage() {
                 className={cn(
                   'px-5 py-2 rounded-lg text-sm font-medium capitalize transition-all',
                   plan === pl
-                    ? 'bg-[#E82121] text-white'
+                    ? 'bg-[#E53935] text-white'
                     : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)]'
                 )}
               >
@@ -128,7 +128,7 @@ export default function PricingPage() {
           </div>
 
           {/* Subscription */}
-          <div className="p-8 rounded-2xl border-2 border-[#E82121] bg-[#E82121]/5 flex flex-col relative">
+          <div className="p-8 rounded-2xl border-2 border-[#E53935] bg-[#E53935]/5 flex flex-col relative">
             <Badge variant="blue" className="absolute top-6 right-6">Most popular</Badge>
             <div className="mb-6">
               <h2 className="font-display text-xl font-bold text-[var(--color-text)] mb-1">All-access</h2>
@@ -148,7 +148,7 @@ export default function PricingPage() {
             <ul className="space-y-3 flex-1 mb-8 mt-4">
               {subFeatures.map((f) => (
                 <li key={f} className="flex items-start gap-2.5 text-sm text-[var(--color-text-muted)]">
-                  <Check className="h-4 w-4 text-[#E82121] shrink-0 mt-0.5" />
+                  <Check className="h-4 w-4 text-[#E53935] shrink-0 mt-0.5" />
                   {f}
                 </li>
               ))}
@@ -175,7 +175,7 @@ export default function PricingPage() {
               >
                 <summary className="flex items-center justify-between p-5 cursor-pointer bg-[var(--color-surface)] hover:bg-[var(--color-surface-2)] transition-colors">
                   <span className="font-medium text-sm text-[var(--color-text)]">{item.q}</span>
-                  <Zap className="h-4 w-4 text-[var(--color-text-muted)] shrink-0 group-open:text-[#E82121] transition-colors" />
+                  <Zap className="h-4 w-4 text-[var(--color-text-muted)] shrink-0 group-open:text-[#E53935] transition-colors" />
                 </summary>
                 <div className="px-5 pb-5 pt-2 text-sm text-[var(--color-text-muted)] bg-[var(--color-surface)]">
                   {item.a}

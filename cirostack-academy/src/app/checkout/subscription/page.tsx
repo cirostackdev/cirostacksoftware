@@ -71,14 +71,14 @@ function SubscriptionForm() {
               onClick={() => setPlan(pl)}
               className={cn(
                 'p-4 rounded-xl border-2 text-left transition-all',
-                plan === pl ? 'border-[#E82121] bg-[#E82121]/5' : 'border-[var(--color-border)] hover:border-[var(--color-border-2)]'
+                plan === pl ? 'border-[#E53935] bg-[#E53935]/5' : 'border-[var(--color-border)] hover:border-[var(--color-border-2)]'
               )}
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-sm font-semibold text-[var(--color-text)] capitalize">{pl}</span>
                 {pl === 'annual' && <Badge variant="success" className="text-[10px]">Save 30%</Badge>}
               </div>
-              <p className="font-display font-bold text-[#E82121]">
+              <p className="font-display font-bold text-[#E53935]">
                 {pl === 'annual' ? p.annualMonthly : p.monthly}
               </p>
               {pl === 'annual' && (

@@ -138,7 +138,7 @@ export default function PromoCodesPage() {
           <Input label="Code" placeholder="LAUNCH50" value={newPromo.code} onChange={(e) => setNewPromo({ ...newPromo, code: e.target.value.toUpperCase() })} required />
           <div>
             <label className="text-sm font-medium text-[var(--color-text)] block mb-1.5">Type</label>
-            <select value={newPromo.type} onChange={(e) => setNewPromo({ ...newPromo, type: e.target.value })} className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm px-3 text-[var(--color-text)] focus:outline-none focus:ring-2 focus:ring-[#E82121]">
+            <select value={newPromo.type} onChange={(e) => setNewPromo({ ...newPromo, type: e.target.value })} className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm px-3 text-[var(--color-text)] focus:outline-none focus:ring-2 focus:ring-[#E53935]">
               <option value="percentage">Percentage (%)</option>
               <option value="fixed">Fixed amount</option>
             </select>

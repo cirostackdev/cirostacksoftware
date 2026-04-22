@@ -117,8 +117,8 @@ function VerifyEmailContent() {
       subtitle={`Enter the 6-digit code we sent to ${user?.email ?? 'your email'}`}
     >
       <div className="space-y-6">
-        <div className="h-14 w-14 rounded-full bg-[#E82121]/10 flex items-center justify-center mx-auto">
-          <Mail className="h-7 w-7 text-[#E82121]" />
+        <div className="h-14 w-14 rounded-full bg-[#E53935]/10 flex items-center justify-center mx-auto">
+          <Mail className="h-7 w-7 text-[#E53935]" />
         </div>
 
         {/* OTP input boxes */}
@@ -133,7 +133,7 @@ function VerifyEmailContent() {
               value={digit}
               onChange={(e) => handleChange(idx, e.target.value)}
               onKeyDown={(e) => handleKeyDown(idx, e)}
-              className="w-12 h-14 rounded-xl border-2 text-center text-xl font-bold text-[var(--color-text)] bg-[var(--color-surface)] transition-colors focus:outline-none focus:border-[#E82121] border-[var(--color-border-2)] caret-transparent"
+              className="w-12 h-14 rounded-xl border-2 text-center text-xl font-bold text-[var(--color-text)] bg-[var(--color-surface)] transition-colors focus:outline-none focus:border-[#E53935] border-[var(--color-border-2)] caret-transparent"
             />
           ))}
         </div>

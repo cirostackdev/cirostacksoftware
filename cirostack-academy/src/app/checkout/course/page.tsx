@@ -121,7 +121,7 @@ function CheckoutForm() {
               Payment method
             </label>
             <div className="grid grid-cols-2 gap-3">
-              <div className="p-4 rounded-xl border-2 border-[#E82121] bg-[#E82121]/5 text-center cursor-pointer">
+              <div className="p-4 rounded-xl border-2 border-[#E53935] bg-[#E53935]/5 text-center cursor-pointer">
                 <p className="text-sm font-semibold text-[var(--color-text)]">
                   {currency === 'NGN' ? '🇳🇬 Paystack' : '💳 Stripe'}
                 </p>

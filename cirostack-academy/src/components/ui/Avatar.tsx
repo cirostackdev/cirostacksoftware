@@ -22,7 +22,7 @@ export default function Avatar({ src, name, size = 'md', className }: AvatarProp
   return (
     <div
       className={cn(
-        'rounded-full overflow-hidden shrink-0 bg-[#E82121]/10 flex items-center justify-center',
+        'rounded-full overflow-hidden shrink-0 bg-[#E53935]/10 flex items-center justify-center',
         'border border-[var(--color-border)]',
         container,
         className
@@ -37,7 +37,7 @@ export default function Avatar({ src, name, size = 'md', className }: AvatarProp
           className="w-full h-full object-cover"
         />
       ) : (
-        <span className={cn('font-semibold text-[#E82121]', text)}>
+        <span className={cn('font-semibold text-[#E53935]', text)}>
           {getInitials(name)}
         </span>
       )}

@@ -19,7 +19,7 @@ export default function AuthLayout({ children, title, subtitle }: AuthLayoutProp
               <Image src="/logo.png" alt="CiroStack Academy" width={40} height={40} className="object-contain" />
             </div>
             <span className="font-display font-bold text-xl text-[var(--color-text)]">
-              CiroStack <span className="text-[#E82121]">Academy</span>
+              CiroStack <span className="text-[#E53935]">Academy</span>
             </span>
           </Link>
           <h1 className="font-display text-2xl font-bold text-[var(--color-text)] mb-2">

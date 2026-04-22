@@ -65,7 +65,7 @@ export default function PromptLibraryPage() {
             placeholder="Search your prompts..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm pl-10 pr-3 focus:outline-none focus:ring-2 focus:ring-[#E82121]"
+            className="w-full h-10 rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm pl-10 pr-3 focus:outline-none focus:ring-2 focus:ring-[#E53935]"
           />
         </div>
       </div>

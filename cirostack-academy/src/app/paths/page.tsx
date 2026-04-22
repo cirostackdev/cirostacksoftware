@@ -20,8 +20,8 @@ const paths = [
     outcome: 'Build and deploy 3 full-stack projects. Ship It capstone is a multi-tenant SaaS.',
     level: 'beginner',
     emoji: '🚀',
-    color: 'from-[#E82121]/10 to-[#7C3AED]/10',
-    borderColor: 'border-[#E82121]/30',
+    color: 'from-[#E53935]/10 to-[#7C3AED]/10',
+    borderColor: 'border-[#E53935]/30',
   },
   {
     id: '2',
@@ -44,7 +44,7 @@ const paths = [
     outcome: 'Build 4 AI-powered features. Final project: a deployable AI agent product.',
     level: 'intermediate',
     emoji: '🤖',
-    color: 'from-[#7C3AED]/10 to-[#E82121]/10',
+    color: 'from-[#7C3AED]/10 to-[#E53935]/10',
     borderColor: 'border-[#7C3AED]/30',
   },
   {
@@ -56,7 +56,7 @@ const paths = [
     outcome: 'Ship 2 Flutter apps to the Play Store. Capstone: a mobile AI product.',
     level: 'intermediate',
     emoji: '📱',
-    color: 'from-[#10B981]/10 to-[#E82121]/10',
+    color: 'from-[#10B981]/10 to-[#E53935]/10',
     borderColor: 'border-[#10B981]/30',
   },
 ];

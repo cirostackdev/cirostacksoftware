@@ -76,7 +76,7 @@ export default function TalentPipelinePage() {
                       </Badge>
                     </div>
                     <p className="text-xs text-[var(--color-text-muted)]">
-                      {project?.course?.title} · Score: <span className="font-bold text-[#E82121]">{project?.instructorScore ?? '—'}/100</span>
+                      {project?.course?.title} · Score: <span className="font-bold text-[#E53935]">{project?.instructorScore ?? '—'}/100</span>
                     </p>
                     <p className="text-sm font-medium text-[var(--color-text)] mt-1">{project?.title}</p>
                   </div>

@@ -94,7 +94,7 @@ export default function AiTutorDrawer({ lessonId, onClose }: Props) {
               className={cn(
                 'max-w-[85%] rounded-xl px-3 py-2.5 text-sm leading-relaxed',
                 msg.role === 'user'
-                  ? 'bg-[#E82121] text-white'
+                  ? 'bg-[#E53935] text-white'
                   : 'bg-[var(--color-surface-2)] text-[var(--color-text)]'
               )}
             >

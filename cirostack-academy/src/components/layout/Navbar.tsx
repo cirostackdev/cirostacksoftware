@@ -30,7 +30,7 @@ export default function Navbar() {
             <Image src="/logo.png" alt="CiroStack Academy" width={32} height={32} className="object-contain" />
           </div>
           <span className="font-display font-bold text-[var(--color-text)] text-lg">
-            CiroStack <span className="text-[#E82121]">Academy</span>
+            CiroStack <span className="text-[#E53935]">Academy</span>
           </span>
         </Link>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
               className={cn(
                 'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
                 pathname === item.href || pathname.startsWith(item.href + '/')
-                  ? 'text-[#E82121] bg-[#E82121]/10'
+                  ? 'text-[#E53935] bg-[#E53935]/10'
                   : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]'
               )}
             >

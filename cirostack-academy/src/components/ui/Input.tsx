@@ -47,7 +47,7 @@ export default function Input({
             'w-full h-10 rounded-lg border bg-[var(--color-surface)] text-[var(--color-text)]',
             'px-3 text-sm transition-colors duration-150',
             'placeholder:text-[var(--color-text-subtle)]',
-            'focus:outline-none focus:ring-2 focus:ring-[#E82121] focus:border-[#E82121]',
+            'focus:outline-none focus:ring-2 focus:ring-[#E53935] focus:border-[#E53935]',
             'disabled:opacity-50 disabled:cursor-not-allowed',
             error
               ? 'border-[#EF4444] focus:ring-[#EF4444] focus:border-[#EF4444]'

@@ -38,7 +38,7 @@ export default function AdminOverviewPage() {
           value: data.totalStudents.toLocaleString(),
           sub: `+${data.newSignupsLast30Days} last 30 days`,
           icon: Users,
-          color: 'text-[#E82121] bg-[#E82121]/10',
+          color: 'text-[#E53935] bg-[#E53935]/10',
         },
         {
           label: 'Active subscriptions',

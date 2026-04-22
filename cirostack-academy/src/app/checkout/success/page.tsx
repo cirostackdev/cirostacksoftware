@@ -37,7 +37,7 @@ function SuccessContent() {
           { step: '3', text: 'Set a daily learning goal. Even 20 minutes a day adds up.' },
         ].map((s) => (
           <div key={s.step} className="flex gap-3">
-            <div className="h-6 w-6 rounded-full bg-[#E82121] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+            <div className="h-6 w-6 rounded-full bg-[#E53935] text-white text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
               {s.step}
             </div>
             <p className="text-sm text-[var(--color-text-muted)]">{s.text}</p>

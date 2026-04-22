@@ -52,7 +52,7 @@ export default function DashboardPage() {
   const resumeCourse = inProgress[0];
 
   const statsCards = [
-    { label: 'Courses in progress', value: inProgress.length, icon: BookOpen, color: 'text-[#E82121] bg-[#E82121]/10' },
+    { label: 'Courses in progress', value: inProgress.length, icon: BookOpen, color: 'text-[#E53935] bg-[#E53935]/10' },
     { label: 'Completed', value: completed.length, icon: Award, color: 'text-[#10B981] bg-[#10B981]/10' },
     { label: 'Current streak', value: `${user?.streakCurrent ?? 0}d`, icon: Flame, color: 'text-[#F59E0B] bg-[#F59E0B]/10' },
     { label: 'Level', value: `Lv ${level}`, icon: Zap, color: 'text-[#7C3AED] bg-[#7C3AED]/10' },
@@ -100,7 +100,7 @@ export default function DashboardPage() {
             <h2 className="font-display text-lg font-semibold text-[var(--color-text)]">
               Continue learning
             </h2>
-            <Link href="/dashboard/learning" className="text-sm text-[#E82121] hover:underline">
+            <Link href="/dashboard/learning" className="text-sm text-[#E53935] hover:underline">
               View all
             </Link>
           </div>
@@ -123,9 +123,9 @@ export default function DashboardPage() {
 
           {/* Upcoming live session */}
           {liveSession && (
-            <div className="flex items-start gap-4 p-5 bg-[#E82121]/5 border border-[#E82121]/20 rounded-xl">
-              <div className="h-10 w-10 rounded-xl bg-[#E82121]/10 flex items-center justify-center shrink-0">
-                <Calendar className="h-5 w-5 text-[#E82121]" />
+            <div className="flex items-start gap-4 p-5 bg-[#E53935]/5 border border-[#E53935]/20 rounded-xl">
+              <div className="h-10 w-10 rounded-xl bg-[#E53935]/10 flex items-center justify-center shrink-0">
+                <Calendar className="h-5 w-5 text-[#E53935]" />
               </div>
               <div className="flex-1">
                 <Badge variant="blue" className="mb-1 text-[10px]">Live session</Badge>

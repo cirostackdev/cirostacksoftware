@@ -15,7 +15,7 @@ export default function XpBar({ xpTotal, className }: XpBarProps) {
     <div className={cn('', className)}>
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center gap-2">
-          <div className="h-7 w-7 rounded-full bg-[#E82121] flex items-center justify-center">
+          <div className="h-7 w-7 rounded-full bg-[#E53935] flex items-center justify-center">
             <span className="text-xs font-bold text-white">{level}</span>
           </div>
           <span className="text-sm font-semibold text-[var(--color-text)]">Level {level}</span>
@@ -25,7 +25,7 @@ export default function XpBar({ xpTotal, className }: XpBarProps) {
 
       <div className="h-2 rounded-full bg-[var(--color-border)]">
         <div
-          className="h-full rounded-full bg-[#E82121] transition-all duration-500"
+          className="h-full rounded-full bg-[#E53935] transition-all duration-500"
           style={{ width: `${progress}%` }}
         />
       </div>

@@ -296,7 +296,7 @@ export default function PlayerPage() {
                         className={cn(
                           'flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm transition-colors mb-0.5',
                           isActive
-                            ? 'bg-[#E82121]/10 text-[#E82121]'
+                            ? 'bg-[#E53935]/10 text-[#E53935]'
                             : 'text-[var(--color-text-muted)] hover:bg-[var(--color-surface-2)] hover:text-[var(--color-text)]'
                         )}
                       >
@@ -324,7 +324,7 @@ export default function PlayerPage() {
                 className={cn(
                   'flex items-center gap-1.5 px-4 py-3 text-sm font-medium border-b-2 transition-colors',
                   activeTab === tab.id
-                    ? 'border-[#E82121] text-[#E82121]'
+                    ? 'border-[#E53935] text-[#E53935]'
                     : 'border-transparent text-[var(--color-text-muted)] hover:text-[var(--color-text)]'
                 )}
               >
@@ -349,7 +349,7 @@ export default function PlayerPage() {
                   ) : (
                     <div className="w-full h-full flex items-center justify-center bg-[var(--color-code-bg)]">
                       <div className="text-center">
-                        <div className="h-16 w-16 rounded-full bg-[#E82121] flex items-center justify-center mx-auto mb-3">
+                        <div className="h-16 w-16 rounded-full bg-[#E53935] flex items-center justify-center mx-auto mb-3">
                           <Play className="h-7 w-7 text-white ml-1" />
                         </div>
                         <p className="text-sm text-[var(--color-text-muted)]">{lesson.title}</p>
@@ -385,7 +385,7 @@ export default function PlayerPage() {
                     onBlur={saveNotes}
                     placeholder="Jot down key takeaways..."
                     rows={4}
-                    className="w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm p-3 text-[var(--color-text)] placeholder:text-[var(--color-text-subtle)] focus:outline-none focus:ring-2 focus:ring-[#E82121] resize-none"
+                    className="w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm p-3 text-[var(--color-text)] placeholder:text-[var(--color-text-subtle)] focus:outline-none focus:ring-2 focus:ring-[#E53935] resize-none"
                   />
                 </div>
               </div>
@@ -513,7 +513,7 @@ export default function PlayerPage() {
                                 className={cn(
                                   'flex items-center gap-3 px-3 py-2.5 rounded-lg border cursor-pointer transition-all text-sm',
                                   quizAnswers[q.id] === opt
-                                    ? 'border-[#E82121] bg-[#E82121]/5 text-[var(--color-text)]'
+                                    ? 'border-[#E53935] bg-[#E53935]/5 text-[var(--color-text)]'
                                     : 'border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[var(--color-border-2)]'
                                 )}
                               >
@@ -535,7 +535,7 @@ export default function PlayerPage() {
                             onChange={(e) => setQuizAnswers((prev) => ({ ...prev, [q.id]: e.target.value }))}
                             placeholder="Type your answer…"
                             rows={4}
-                            className="w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm p-3 text-[var(--color-text)] placeholder:text-[var(--color-text-subtle)] focus:outline-none focus:ring-2 focus:ring-[#E82121] resize-none"
+                            className="w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-sm p-3 text-[var(--color-text)] placeholder:text-[var(--color-text-subtle)] focus:outline-none focus:ring-2 focus:ring-[#E53935] resize-none"
                           />
                         )}
                       </div>

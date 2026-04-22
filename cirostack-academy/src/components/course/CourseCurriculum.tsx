@@ -154,7 +154,7 @@ export default function CourseCurriculum({
                         {!isAccessible && (
                           <Lock className="h-3.5 w-3.5 text-[var(--color-text-subtle)] shrink-0" />
                         )}
-                        <span className="text-xs text-[#E82121] font-medium shrink-0">
+                        <span className="text-xs text-[#E53935] font-medium shrink-0">
                           +{lesson.xpReward} XP
                         </span>
                       </div>

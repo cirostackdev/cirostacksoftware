@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
-import { Inter, Space_Grotesk } from 'next/font/google';
+import { Sora, Bricolage_Grotesque } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({
+const sora = Sora({
   subsets: ['latin'],
-  variable: '--font-sans',
+  variable: '--font-sora',
   display: 'swap',
 });
 
-const spaceGrotesk = Space_Grotesk({
+const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ['latin'],
-  variable: '--font-display',
+  variable: '--font-bricolage-grotesque',
   display: 'swap',
 });
 import { Suspense } from 'react';
@@ -75,7 +75,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${sora.variable} ${bricolageGrotesque.variable}`}>
       <head suppressHydrationWarning>
         {/* Prevent FOUC — apply theme before paint */}
         <script

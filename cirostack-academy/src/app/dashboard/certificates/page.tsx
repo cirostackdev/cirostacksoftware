@@ -31,8 +31,8 @@ export default function CertificatesPage() {
   if (certificates.length === 0) {
     return (
       <div className="text-center py-24">
-        <div className="h-16 w-16 rounded-full bg-[#E82121]/10 flex items-center justify-center mx-auto mb-5">
-          <Award className="h-8 w-8 text-[#E82121]" />
+        <div className="h-16 w-16 rounded-full bg-[#E53935]/10 flex items-center justify-center mx-auto mb-5">
+          <Award className="h-8 w-8 text-[#E53935]" />
         </div>
         <h3 className="font-display text-xl font-semibold text-[var(--color-text)] mb-2">
           No certificates yet

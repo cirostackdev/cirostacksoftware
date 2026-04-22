@@ -39,9 +39,9 @@ export default async function VerifyCertificatePage({ params }: { params: Promis
         </div>
 
         {/* Certificate preview */}
-        <div className="bg-gradient-to-br from-[#E82121]/5 via-[var(--color-surface)] to-[#7C3AED]/5 border-2 border-[#E82121]/20 rounded-2xl p-10 text-center mb-8">
-          <div className="h-14 w-14 rounded-full bg-[#E82121]/10 flex items-center justify-center mx-auto mb-5">
-            <Award className="h-7 w-7 text-[#E82121]" />
+        <div className="bg-gradient-to-br from-[#E53935]/5 via-[var(--color-surface)] to-[#7C3AED]/5 border-2 border-[#E53935]/20 rounded-2xl p-10 text-center mb-8">
+          <div className="h-14 w-14 rounded-full bg-[#E53935]/10 flex items-center justify-center mx-auto mb-5">
+            <Award className="h-7 w-7 text-[#E53935]" />
           </div>
           <p className="text-sm text-[var(--color-text-muted)] uppercase tracking-widest mb-2">
             Certificate of Completion
@@ -50,7 +50,7 @@ export default async function VerifyCertificatePage({ params }: { params: Promis
             {cert.studentName}
           </p>
           <p className="text-[var(--color-text-muted)] mb-3">has successfully completed</p>
-          <p className="font-display text-xl font-semibold text-[#E82121] mb-2">
+          <p className="font-display text-xl font-semibold text-[#E53935] mb-2">
             {cert.courseTitle}
           </p>
           <Badge variant="blue" className="mb-4">{cert.level}</Badge>

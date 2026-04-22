@@ -32,9 +32,9 @@ export default function CertificateCard({ certificate, className }: Props) {
       )}
     >
       {/* Certificate preview */}
-      <div className="aspect-[4/3] bg-gradient-to-br from-[#E82121]/5 via-[var(--color-surface-2)] to-[#7C3AED]/5 flex flex-col items-center justify-center gap-3 border-b border-[var(--color-border)]">
-        <div className="h-14 w-14 rounded-full bg-[#E82121]/10 flex items-center justify-center">
-          <Award className="h-7 w-7 text-[#E82121]" />
+      <div className="aspect-[4/3] bg-gradient-to-br from-[#E53935]/5 via-[var(--color-surface-2)] to-[#7C3AED]/5 flex flex-col items-center justify-center gap-3 border-b border-[var(--color-border)]">
+        <div className="h-14 w-14 rounded-full bg-[#E53935]/10 flex items-center justify-center">
+          <Award className="h-7 w-7 text-[#E53935]" />
         </div>
         <div className="text-center px-4">
           <p className="text-xs text-[var(--color-text-muted)] mb-1">Certificate of Completion</p>

@@ -80,9 +80,9 @@ export default function StreakCalendar({
                     isFuture
                       ? 'bg-[var(--color-border)]'
                       : isActive
-                      ? 'bg-[#E82121]'
+                      ? 'bg-[#E53935]'
                       : 'bg-[var(--color-surface-2)]',
-                    isToday && !isActive && 'ring-1 ring-[#E82121]'
+                    isToday && !isActive && 'ring-1 ring-[#E53935]'
                   )}
                 />
               );

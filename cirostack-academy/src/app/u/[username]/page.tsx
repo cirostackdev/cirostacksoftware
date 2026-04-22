@@ -64,7 +64,7 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
             <p className="text-[var(--color-text-muted)] mb-3">@{profile.username}</p>
             <div className="flex flex-wrap gap-3 text-sm">
               <div className="flex items-center gap-1.5 text-[var(--color-text-muted)]">
-                <Zap className="h-4 w-4 text-[#E82121]" />
+                <Zap className="h-4 w-4 text-[#E53935]" />
                 <span>Level {level}</span>
               </div>
               <div className="flex items-center gap-1.5 text-[var(--color-text-muted)]">
@@ -93,7 +93,7 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
             {profile.publicProjects && profile.publicProjects.length > 0 && (
               <div>
                 <h2 className="font-display text-xl font-bold text-[var(--color-text)] mb-4 flex items-center gap-2">
-                  <Code2 className="h-5 w-5 text-[#E82121]" />
+                  <Code2 className="h-5 w-5 text-[#E53935]" />
                   Shipped projects
                 </h2>
                 <div className="space-y-4">
@@ -108,7 +108,7 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
                         </div>
                         {p.instructorScore !== null && (
                           <div className="text-center shrink-0">
-                            <p className="font-display font-bold text-[#E82121]">{p.instructorScore}</p>
+                            <p className="font-display font-bold text-[#E53935]">{p.instructorScore}</p>
                             <p className="text-[9px] text-[var(--color-text-muted)]">Score</p>
                           </div>
                         )}
@@ -170,7 +170,7 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
             <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl p-5">
               <h3 className="font-display font-semibold text-[var(--color-text)] mb-4">XP</h3>
               <div className="flex items-center gap-3 mb-3">
-                <div className="h-10 w-10 rounded-full bg-[#E82121] flex items-center justify-center">
+                <div className="h-10 w-10 rounded-full bg-[#E53935] flex items-center justify-center">
                   <span className="text-sm font-bold text-white">{level}</span>
                 </div>
                 <div>
@@ -180,7 +180,7 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
               </div>
               <div className="h-2 rounded-full bg-[var(--color-border)]">
                 <div
-                  className="h-full rounded-full bg-[#E82121]"
+                  className="h-full rounded-full bg-[#E53935]"
                   style={{ width: `${((profile.xpTotal % 500) / 500) * 100}%` }}
                 />
               </div>

@@ -83,13 +83,13 @@ export default function PrivacyPage() {
             <h2 className="font-display text-lg font-semibold text-[var(--color-text)] mb-3">8. Contact</h2>
             <p className="leading-relaxed">
               Privacy questions or requests:{' '}
-              <a href="mailto:privacy@cirostack.com" className="text-[#E82121] hover:underline">privacy@cirostack.com</a>.
+              <a href="mailto:privacy@cirostack.com" className="text-[#E53935] hover:underline">privacy@cirostack.com</a>.
             </p>
           </section>
         </div>
 
         <div className="mt-12 pt-8 border-t border-[var(--color-border)]">
-          <Link href="/legal/terms" className="text-sm text-[#E82121] hover:underline">
+          <Link href="/legal/terms" className="text-sm text-[#E53935] hover:underline">
             Terms of Service →
           </Link>
         </div>

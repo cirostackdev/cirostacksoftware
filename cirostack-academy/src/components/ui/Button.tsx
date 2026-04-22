@@ -20,9 +20,9 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variantStyles: Record<Variant, string> = {
   primary:
-    'bg-[#E82121] text-white hover:bg-[#C41B1B] active:bg-[#A61515] border border-transparent',
+    'bg-[#E53935] text-white hover:bg-[#D32F2F] active:bg-[#B71C1C] border border-transparent',
   outline:
-    'bg-transparent border border-[var(--color-border-2)] text-[var(--color-text)] hover:border-[#E82121] hover:text-[#E82121]',
+    'bg-transparent border border-[var(--color-border-2)] text-[var(--color-text)] hover:border-[#E53935] hover:text-[#E53935]',
   ghost:
     'bg-transparent border border-transparent text-[var(--color-text-muted)] hover:bg-[var(--color-surface-2)] hover:text-[var(--color-text)]',
   destructive:
@@ -53,7 +53,7 @@ export default function Button({
 
   const buttonClass = cn(
     'inline-flex items-center justify-center font-medium transition-all duration-150 cursor-pointer select-none',
-    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E82121] focus-visible:ring-offset-2',
+    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E53935] focus-visible:ring-offset-2',
     'disabled:opacity-50 disabled:cursor-not-allowed',
     variantStyles[variant],
     sizeStyles[size],

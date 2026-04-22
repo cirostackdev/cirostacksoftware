@@ -98,7 +98,7 @@ export default function CourseAnalyticsPage() {
                       </div>
                       <div className="h-2 rounded-full bg-[var(--color-border)]">
                         <div
-                          className="h-full rounded-full bg-[#E82121] transition-all"
+                          className="h-full rounded-full bg-[#E53935] transition-all"
                           style={{ width: `${(item.studentsReached / maxDropoff) * 100}%` }}
                         />
                       </div>

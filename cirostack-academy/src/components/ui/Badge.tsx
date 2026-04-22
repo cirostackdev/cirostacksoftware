@@ -24,7 +24,7 @@ const variantStyles: Record<BadgeVariant, string> = {
   warning: 'bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/20',
   danger: 'bg-[#EF4444]/10 text-[#EF4444] border border-[#EF4444]/20',
   info: 'bg-[#4FA3FF]/10 text-[#4FA3FF] border border-[#4FA3FF]/20',
-  blue: 'bg-[#E82121]/10 text-[#E82121] border border-[#E82121]/20',
+  blue: 'bg-[#E53935]/10 text-[#E53935] border border-[#E53935]/20',
   purple: 'bg-[#7C3AED]/10 text-[#7C3AED] border border-[#7C3AED]/20',
   outline: 'bg-transparent text-[var(--color-text)] border border-[var(--color-border-2)]',
   gold: 'bg-[#F59E0B]/10 text-[#D97706] border border-[#F59E0B]/20',

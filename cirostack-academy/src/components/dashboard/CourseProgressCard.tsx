@@ -24,7 +24,7 @@ export default function CourseProgressCard({ enrollment, className }: Props) {
       href={`/learn/${course.slug}`}
       className={cn(
         'group flex gap-4 p-4 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl',
-        'hover:border-[#E82121]/40 transition-all duration-200',
+        'hover:border-[#E53935]/40 transition-all duration-200',
         className
       )}
     >
@@ -47,7 +47,7 @@ export default function CourseProgressCard({ enrollment, className }: Props) {
               <span className="text-xs text-[#10B981] font-medium">Completed</span>
             )}
           </div>
-          <h3 className="font-display font-semibold text-[var(--color-text)] text-sm line-clamp-1 group-hover:text-[#E82121] transition-colors">
+          <h3 className="font-display font-semibold text-[var(--color-text)] text-sm line-clamp-1 group-hover:text-[#E53935] transition-colors">
             {course.title}
           </h3>
         </div>
@@ -63,7 +63,7 @@ export default function CourseProgressCard({ enrollment, className }: Props) {
             <div
               className={cn(
                 'h-full rounded-full transition-all',
-                isCompleted ? 'bg-[#10B981]' : 'bg-[#E82121]'
+                isCompleted ? 'bg-[#10B981]' : 'bg-[#E53935]'
               )}
               style={{ width: `${pct}%` }}
             />

@@ -48,7 +48,7 @@ export default function MyLearningPage() {
             className={cn(
               'px-4 py-2 rounded-lg text-sm font-medium transition-colors',
               filter === f.value
-                ? 'bg-[#E82121]/10 text-[#E82121]'
+                ? 'bg-[#E53935]/10 text-[#E53935]'
                 : 'text-[var(--color-text-muted)] hover:bg-[var(--color-surface-2)]'
             )}
           >

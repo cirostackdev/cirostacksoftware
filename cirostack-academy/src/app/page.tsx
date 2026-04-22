@@ -39,7 +39,7 @@ const features = [
   },
   {
     icon: Code2,
-    color: 'text-[#E82121] bg-[#E82121]/10',
+    color: 'text-[#E53935] bg-[#E53935]/10',
     title: 'Steal the Prompt',
     description: 'Every code lesson ships with the exact prompts the instructor used. Copy them to your personal library and adapt them.',
   },
@@ -87,7 +87,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden py-24 md:py-36">
         {/* Background gradient */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#E82121]/5 rounded-full blur-3xl" />
+          <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#E53935]/5 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-[#7C3AED]/5 rounded-full blur-3xl" />
         </div>
 
@@ -138,7 +138,7 @@ export default function HomePage() {
               <Link
                 key={c.label}
                 href={c.href}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] text-sm font-medium text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:border-[#E82121]/40 transition-all"
+                className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] text-sm font-medium text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:border-[#E53935]/40 transition-all"
               >
                 <span>{c.emoji}</span>
                 {c.label}
@@ -165,7 +165,7 @@ export default function HomePage() {
             {features.map((f) => (
               <div
                 key={f.title}
-                className="p-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg)] hover:border-[#E82121]/30 transition-colors"
+                className="p-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg)] hover:border-[#E53935]/30 transition-colors"
               >
                 <div className={`h-10 w-10 rounded-xl flex items-center justify-center mb-4 ${f.color}`}>
                   <f.icon className="h-5 w-5" />
@@ -188,7 +188,7 @@ export default function HomePage() {
               </h2>
               <p className="text-[var(--color-text-muted)] mt-1">Start with what the community loves</p>
             </div>
-            <Link href="/courses" className="text-sm font-medium text-[#E82121] hover:text-[#C41B1B] flex items-center gap-1">
+            <Link href="/courses" className="text-sm font-medium text-[#E53935] hover:text-[#D32F2F] flex items-center gap-1">
               All courses <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
@@ -203,8 +203,8 @@ export default function HomePage() {
             ].map((c) => {
               const catColor = getCategoryColor(c.category);
               return (
-                <Link key={c.title} href="/courses" className="group flex flex-col bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl overflow-hidden hover:border-[#E82121]/40 hover:shadow-lg transition-all duration-200">
-                  <div className="aspect-video bg-gradient-to-br from-[#E82121]/10 to-[#7C3AED]/10 flex items-center justify-center text-4xl">
+                <Link key={c.title} href="/courses" className="group flex flex-col bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl overflow-hidden hover:border-[#E53935]/40 hover:shadow-lg transition-all duration-200">
+                  <div className="aspect-video bg-gradient-to-br from-[#E53935]/10 to-[#7C3AED]/10 flex items-center justify-center text-4xl">
                     {c.emoji}
                   </div>
                   <div className="p-4 flex flex-col gap-2">
@@ -214,7 +214,7 @@ export default function HomePage() {
                     >
                       {c.categoryLabel}
                     </span>
-                    <h3 className="font-display font-semibold text-sm text-[var(--color-text)] group-hover:text-[#E82121] transition-colors">{c.title}</h3>
+                    <h3 className="font-display font-semibold text-sm text-[var(--color-text)] group-hover:text-[#E53935] transition-colors">{c.title}</h3>
                     <div className="flex gap-1 flex-wrap">
                       {c.features.map((f) => (
                         <Badge key={f} variant="purple" className="text-[10px]">{f}</Badge>
@@ -253,7 +253,7 @@ export default function HomePage() {
                 <Link href="/courses">Browse courses</Link>
               </Button>
             </div>
-            <div className="p-8 rounded-2xl border-2 border-[#E82121] bg-[#E82121]/5 text-left relative">
+            <div className="p-8 rounded-2xl border-2 border-[#E53935] bg-[#E53935]/5 text-left relative">
               <Badge variant="blue" className="absolute top-4 right-4">Best value</Badge>
               <h3 className="font-display text-xl font-bold mb-2 text-[var(--color-text)]">All-access</h3>
               <p className="text-[var(--color-text-muted)] text-sm mb-4">Every course, always.</p>

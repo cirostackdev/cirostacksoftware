@@ -74,7 +74,7 @@ export default function DashboardSidebar() {
             className={cn(
               'flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors',
               pathname === href || (href !== '/dashboard' && href !== '/instructor' && href !== '/admin' && pathname.startsWith(href))
-                ? 'bg-[#E82121]/10 text-[#E82121]'
+                ? 'bg-[#E53935]/10 text-[#E53935]'
                 : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]'
             )}
           >

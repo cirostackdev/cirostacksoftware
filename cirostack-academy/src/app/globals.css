@@ -1,21 +1,13 @@
 @import "tailwindcss";
-@import '@fontsource/inter/400.css';
-@import '@fontsource/inter/500.css';
-@import '@fontsource/inter/600.css';
-@import '@fontsource/space-grotesk/400.css';
-@import '@fontsource/space-grotesk/500.css';
-@import '@fontsource/space-grotesk/600.css';
-@import '@fontsource/space-grotesk/700.css';
-
 @theme {
   /* Fonts */
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-sans: var(--font-sora), system-ui, sans-serif;
+  --font-display: var(--font-bricolage-grotesque), var(--font-sora), system-ui, sans-serif;
 
   /* Brand colours — CiroStack red */
-  --color-brand: #E82121;
-  --color-brand-dark: #C41B1B;
-  --color-brand-light: #F04040;
+  --color-brand: #E53935;
+  --color-brand-dark: #D32F2F;
+  --color-brand-light: #EF5350;
 
   /* AI / Prompt Lab purple */
   --color-ai: #7C3AED;
@@ -166,7 +158,7 @@
 
   /* Gradient text for hero headings */
   .text-gradient {
-    background: linear-gradient(135deg, #E82121 0%, #4F86F7 100%);
+    background: linear-gradient(135deg, #E53935 0%, #4F86F7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -174,16 +166,16 @@
 
   /* Brand gradient */
   .gradient-brand {
-    background: linear-gradient(135deg, #E82121 0%, #7C3AED 100%);
+    background: linear-gradient(135deg, #E53935 0%, #7C3AED 100%);
   }
 
   /* Glow effects */
   .glow-border {
-    box-shadow: 0 0 20px -5px rgba(232, 33, 33, 0.3);
+    box-shadow: 0 0 20px -5px rgba(229, 57, 53, 0.3);
   }
 
   .glow-text {
-    text-shadow: 0 0 30px rgba(232, 33, 33, 0.5);
+    text-shadow: 0 0 30px rgba(229, 57, 53, 0.5);
   }
 
   /* AI glow effect */
@@ -211,9 +203,9 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     border-radius: 9999px;
-    background-color: rgba(232, 33, 33, 0.1);
+    background-color: rgba(229, 57, 53, 0.1);
     color: var(--color-brand);
-    border: 1px solid rgba(232, 33, 33, 0.2);
+    border: 1px solid rgba(229, 57, 53, 0.2);
   }
 
   /* Smooth transitions */

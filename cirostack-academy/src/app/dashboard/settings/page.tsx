@@ -71,7 +71,7 @@ export default function SettingsPage() {
             <select
               value={form.languagePreference}
               onChange={(e) => setForm({ ...form, languagePreference: e.target.value as 'en' | 'pcm' })}
-              className="h-10 w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm px-3 focus:outline-none focus:ring-2 focus:ring-[#E82121]"
+              className="h-10 w-full rounded-lg border border-[var(--color-border-2)] bg-[var(--color-surface)] text-[var(--color-text)] text-sm px-3 focus:outline-none focus:ring-2 focus:ring-[#E53935]"
             >
               <option value="en">English</option>
               <option value="pcm">Nigerian Pidgin English</option>
@@ -89,7 +89,7 @@ export default function SettingsPage() {
                   onClick={() => setTheme(t)}
                   className={`px-4 py-2 rounded-lg text-sm capitalize border transition-colors ${
                     theme === t
-                      ? 'border-[#E82121] bg-[#E82121]/10 text-[#E82121]'
+                      ? 'border-[#E53935] bg-[#E53935]/10 text-[#E53935]'
                       : 'border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[var(--color-border-2)]'
                   }`}
                 >

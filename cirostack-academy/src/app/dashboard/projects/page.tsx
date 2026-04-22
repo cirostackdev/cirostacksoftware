@@ -38,8 +38,8 @@ export default function MyProjectsPage() {
   if (projects.length === 0) {
     return (
       <div className="text-center py-24">
-        <div className="h-16 w-16 rounded-full bg-[#E82121]/10 flex items-center justify-center mx-auto mb-5">
-          <Code2 className="h-8 w-8 text-[#E82121]" />
+        <div className="h-16 w-16 rounded-full bg-[#E53935]/10 flex items-center justify-center mx-auto mb-5">
+          <Code2 className="h-8 w-8 text-[#E53935]" />
         </div>
         <h3 className="font-display text-xl font-semibold text-[var(--color-text)] mb-2">No projects yet</h3>
         <p className="text-sm text-[var(--color-text-muted)] mb-6 max-w-xs mx-auto">
@@ -69,7 +69,7 @@ export default function MyProjectsPage() {
               </div>
               {project.instructorScore !== null && (
                 <div className="text-center shrink-0">
-                  <p className="font-display text-2xl font-bold text-[#E82121]">{project.instructorScore}</p>
+                  <p className="font-display text-2xl font-bold text-[#E53935]">{project.instructorScore}</p>
                   <p className="text-[10px] text-[var(--color-text-muted)]">Score</p>
                 </div>
               )}

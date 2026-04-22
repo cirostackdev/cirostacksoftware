@@ -137,7 +137,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
                   </div>
                 )}
                 {course.hasCapstone && (
-                  <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#E82121]/10 text-[#E82121] text-xs font-medium">
+                  <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#E53935]/10 text-[#E53935] text-xs font-medium">
                     <Zap className="h-3.5 w-3.5" /> Ship It
                   </div>
                 )}
@@ -151,7 +151,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
               {/* Instructor */}
               {course.instructor && (
                 <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-full bg-[#E82121]/10 flex items-center justify-center text-[#E82121] font-semibold text-sm">
+                  <div className="h-10 w-10 rounded-full bg-[#E53935]/10 flex items-center justify-center text-[#E53935] font-semibold text-sm">
                     {course.instructor.fullName.charAt(0)}
                   </div>
                   <div>
@@ -167,7 +167,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
               <div className="sticky top-24 rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 shadow-lg">
                 {/* Trailer placeholder */}
                 <div className="aspect-video rounded-xl bg-[var(--color-surface-2)] flex items-center justify-center mb-5 border border-[var(--color-border)] cursor-pointer group">
-                  <div className="h-14 w-14 rounded-full bg-[#E82121] flex items-center justify-center group-hover:bg-[#C41B1B] transition-colors">
+                  <div className="h-14 w-14 rounded-full bg-[#E53935] flex items-center justify-center group-hover:bg-[#D32F2F] transition-colors">
                     <Play className="h-6 w-6 text-white ml-1" />
                   </div>
                 </div>
@@ -262,7 +262,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
               <div>
                 <h2 className="font-display text-2xl font-bold text-[var(--color-text)] mb-6">About the instructor</h2>
                 <div className="flex items-start gap-4">
-                  <div className="h-16 w-16 rounded-full bg-[#E82121]/10 flex items-center justify-center text-[#E82121] font-bold text-xl shrink-0">
+                  <div className="h-16 w-16 rounded-full bg-[#E53935]/10 flex items-center justify-center text-[#E53935] font-bold text-xl shrink-0">
                     {course.instructor.fullName.charAt(0)}
                   </div>
                   <div>

@@ -48,7 +48,7 @@ export default function LeaderboardPage() {
                 key={entry.userId}
                 className={cn(
                   'flex items-center gap-4 px-5 py-4 transition-colors',
-                  isMe ? 'bg-[#E82121]/5 border-l-2 border-[#E82121]' : 'hover:bg-[var(--color-surface-2)]'
+                  isMe ? 'bg-[#E53935]/5 border-l-2 border-[#E53935]' : 'hover:bg-[var(--color-surface-2)]'
                 )}
               >
                 {/* Rank */}

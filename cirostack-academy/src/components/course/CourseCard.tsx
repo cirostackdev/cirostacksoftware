@@ -42,7 +42,7 @@ export default function CourseCard({
     <div
       className={cn(
         'group relative flex flex-col bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl overflow-hidden',
-        'hover:border-[#E82121]/40 hover:shadow-lg transition-all duration-200',
+        'hover:border-[#E53935]/40 hover:shadow-lg transition-all duration-200',
         className
       )}
     >
@@ -77,7 +77,7 @@ export default function CourseCard({
           className={cn(
             'absolute top-3 right-3 h-7 w-7 rounded-full flex items-center justify-center transition-all duration-150',
             'bg-black/30 backdrop-blur-sm hover:bg-black/50',
-            isBookmarked && 'bg-[#E82121]/80 hover:bg-[#E82121]'
+            isBookmarked && 'bg-[#E53935]/80 hover:bg-[#E53935]'
           )}
           aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark course'}
         >
@@ -92,7 +92,7 @@ export default function CourseCard({
         {isEnrolled && typeof progressPercent === 'number' && (
           <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/20">
             <div
-              className="h-full bg-[#E82121] transition-all"
+              className="h-full bg-[#E53935] transition-all"
               style={{ width: `${progressPercent}%` }}
             />
           </div>
@@ -111,7 +111,7 @@ export default function CourseCard({
           >
             {CATEGORY_LABELS[course.category] || course.category}
           </span>
-          <h3 className="font-display font-semibold text-[var(--color-text)] leading-snug group-hover:text-[#E82121] transition-colors line-clamp-2">
+          <h3 className="font-display font-semibold text-[var(--color-text)] leading-snug group-hover:text-[#E53935] transition-colors line-clamp-2">
             {course.title}
           </h3>
           {course.instructor && (
@@ -163,7 +163,7 @@ export default function CourseCard({
               </div>
               <div className="h-1.5 rounded-full bg-[var(--color-border)]">
                 <div
-                  className="h-full rounded-full bg-[#E82121] transition-all"
+                  className="h-full rounded-full bg-[#E53935] transition-all"
                   style={{ width: `${progressPercent ?? 0}%` }}
                 />
               </div>
